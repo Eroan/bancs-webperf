@@ -99,8 +99,9 @@ si les plages ne se recouvrent pas. Proportions en « n/N » avec leur critère.
 
 ## Contrôles
 
-- **Machine au repos** : refus de démarrer si la charge sur 1 min dépasse 1,5 ou si
-  l'indice à ×1 tombe sous 3 500 (`run.sh`) ; charge et processus relevés à chaque étape
+- **Machine au repos** : refus de démarrer si le processeur est inactif à moins de 85 % (`top`)
+  ou si l'indice à ×1 tombe sous 3 500 (`run.sh`) ; la charge moyenne de macOS ne départage pas
+  une machine inactive d'une machine chargée (2 à 3 dans les deux cas, mesuré le 2026-10-20) ; charge et processus relevés à chaque étape
   dans `machine.txt`.
 - **Témoin** de durée connue : traitement du clic entre 95 et 130 ms (pilote : 104 à 108).
 - **Bridage réseau** : LCP 396 ms sans bridage contre 1 872 ms sous Slow 4G (pilote, A).

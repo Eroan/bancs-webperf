@@ -18,7 +18,7 @@ bash vendor/recuperer.sh  # fichiers tiers non redistribués (GA4, Meta Pixel, W
 bash run.sh 10            # ~3 h 30 ; résultats dans brut/serie-<date>/RESULTATS.md
 ```
 
-`run.sh` refuse de démarrer si la machine est chargée (charge > 1,5 ou indice ×1 < 3 500),
+`run.sh` refuse de démarrer si la machine est chargée (processeur inactif à moins de 85 % ou indice ×1 < 3 500),
 recalibre le processeur, joue le témoin, les deux séries, Lighthouse, puis la synthèse.
 Ne pas toucher la fenêtre Chrome pendant la série (les gestes sont synthétisés dedans).
 
