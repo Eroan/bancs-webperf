@@ -1,0 +1,8 @@
+node_modules/
+# Fichiers tiers non redistribuables ou récupérés à leur tag : voir vendor/recuperer.sh
+vendor/tiers/
+vendor/wp-rocket/
+# Mise au point sur machine chargée : chiffres non publiables
+brut/pilote-sous-charge/
+.DS_Store
+__pycache__/

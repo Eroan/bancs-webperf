@@ -1,0 +1,24 @@
+{
+  "name": "banc-report-interaction",
+  "version": "1.0.0",
+  "description": "Banc : report des scripts à la première interaction (5 variantes, parcours mobiles, CPU calibré)",
+  "scripts": {
+    "banc": "bash run.sh"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "jquery": "3.7.1",
+    "jquery-migrate": "3.4.1",
+    "lighthouse": "13.5.0",
+    "magnific-popup": "1.2.0",
+    "playwright": "1.64.1",
+    "slick-carousel": "1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eroan/bancs-webperf.git",
+    "directory": "report-interaction"
+  },
+  "author": "Eroan Boyer (Agence Web Performance)"
+}

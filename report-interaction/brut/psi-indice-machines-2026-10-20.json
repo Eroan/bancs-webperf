@@ -1,0 +1,217 @@
+{
+ "source": "API PageSpeed Insights v5, relevés du 2026-10-20 par psi.py (skill expert-web-performance), pages publiques de agencewebperformance.fr ; extrait des champs utiles. doublon_cache = même fetchTime qu'un relevé antérieur (réponse resservie par le cache de l'API), exclu du calcul.",
+ "releves": [
+  {
+   "fichier": "psi-bi-1.json",
+   "benchmarkIndex": [
+    627
+   ],
+   "fetchTime": [
+    "2026-10-20T15:44:12.758Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "cpuSlowdownMultiplier": [],
+   "throttlingMethod": [],
+   "url": "https://agencewebperformance.fr/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "psi-bi-2.json",
+   "benchmarkIndex": [
+    627
+   ],
+   "fetchTime": [
+    "2026-10-20T15:44:12.758Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "cpuSlowdownMultiplier": [],
+   "throttlingMethod": [],
+   "url": "https://agencewebperformance.fr/",
+   "strategie": "mobile",
+   "doublon_cache": true
+  },
+  {
+   "fichier": "psi-bi-3.json",
+   "benchmarkIndex": [
+    485.5
+   ],
+   "fetchTime": [
+    "2026-10-20T15:44:27.347Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "cpuSlowdownMultiplier": [],
+   "throttlingMethod": [],
+   "url": "https://agencewebperformance.fr/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p1.json",
+   "benchmarkIndex": [
+    711.5
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:00.773Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/woocommerce-gutenberg/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p10.json",
+   "benchmarkIndex": [
+    645.5
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:12.259Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/core-web-vitals-wordpress/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p2.json",
+   "benchmarkIndex": [
+    1066.5
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:00.578Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/web-performance-definition/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p3.json",
+   "benchmarkIndex": [
+    931.5
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:00.726Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/un-site-rapide/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p4.json",
+   "benchmarkIndex": [
+    1156
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:00.332Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/cache-web/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p5.json",
+   "benchmarkIndex": [
+    676
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:01.070Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/optimiser-images-performance/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p6.json",
+   "benchmarkIndex": [
+    1080
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:11.877Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/optimiser-lcp/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p7.json",
+   "benchmarkIndex": [
+    589.5
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:12.207Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/compression-http-gzip-brotli-zstandard/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p8.json",
+   "benchmarkIndex": [
+    812.5
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:11.914Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/metrique-inp-amelioration/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  },
+  {
+   "fichier": "p9.json",
+   "benchmarkIndex": [
+    469.5
+   ],
+   "fetchTime": [
+    "2026-10-20T16:17:12.144Z"
+   ],
+   "lighthouseVersion": [
+    "13.5.0"
+   ],
+   "url": "https://agencewebperformance.fr/core-web-vitals-cls/",
+   "strategie": "mobile",
+   "doublon_cache": false
+  }
+ ],
+ "synthese": {
+  "n_distincts": 12,
+  "mediane": 693.75,
+  "min": 469.5,
+  "max": 1156,
+  "equivalent_mobile_x4": {
+   "mediane": 173,
+   "min": 117,
+   "max": 289
+  }
+ }
+}
