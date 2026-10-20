@@ -5,12 +5,13 @@ Chaque chiffre sort des données brutes ; chaque proportion porte son numérateu
 
 Usage : python3 synthese.py <dossier>  [> RESULTATS.md]
 """
-import glob, json, os, statistics, sys
+import glob, gzip, json, os, statistics, sys
 
 DOSSIER = sys.argv[1] if len(sys.argv) > 1 else 'brut'
 ORDRE = ['A', 'B', 'C', 'E', 'D']
 NOMS = {'A': 'classique', 'B': 'defer', 'C': 'report-tiers (AWP)', 'E': 'report hors mesure (AWP)', 'D': 'tout reporter (WP Rocket)'}
-SEUIL_IMMEDIAT = 200      # ms entre le geste et son effet : au-delà, l'effet est « différé » (seuil « bon » de l'INP)
+SEUIL_IMMEDIAT = 200      # ms entre le relâchement du doigt et l'effet : au-delà, « différé » (seuil « bon » de l'INP)
+TAP_MS = 60               # durée du tap synthétisé (banc.mjs, synthesizeTapGesture) : pointerup et click arrivent 60 ms après pointerdown
 DEPARTS = [3000, 5000, 10000, 20000]
 
 
@@ -37,21 +38,25 @@ def blocage(r, fin=10000):
     return sum(max(0, d - 50) for s, d in r['lt'] if debut <= s < fin)
 
 
-def geste(r, cible, apres):
-    """Premier pointerdown sur la cible après `apres`, son effet, la durée Event Timing de l'interaction."""
+def geste(r, cible, apres, avant=None, etat=None):
+    """Premier pointerdown sur la cible après `apres` ; son effet, compté depuis le relâchement du doigt
+    (pointerdown + TAP_MS) et cherché avant `avant` (geste suivant) ; durée Event Timing de l'interaction
+    (entrées datées entre le pointerdown et 200 ms après). `etat` : pour le menu, état attendu après le geste."""
     p = next(((t, c) for t, c in r['ptr'] if c == cible and t >= apres - 50), None)
     if not p:
         return None
     t = p[0]
+    fin = avant if avant is not None else 10 ** 9
     if cible == 'faq-q1':
         eff = r['effets'].get('faq')
-        eff = eff if eff is not None and eff >= t else None
+        eff = eff if eff is not None and t <= eff < fin else None
     else:
         menu = r.get('menu') or ([[r['effets']['menu'], True]] if r['effets'].get('menu') is not None else [])   # sondes antérieures au suivi des bascules
-        eff = next((x[0] for x in menu if x[1] and x[0] >= t), None)
-    ids = {e[5] for e in r['ev'] if abs(e[1] - t) <= 50}
+        voulu = True if etat is None else etat
+        eff = next((x[0] for x in menu if x[1] == voulu and t <= x[0] < fin), None)
+    ids = {e[5] for e in r['ev'] if t - 10 <= e[1] <= t + 200}
     dur = max((e[2] for e in r['ev'] if e[5] in ids), default=None)
-    return {'t': t, 'effet': eff, 'delai': (eff - t) if eff is not None else None, 'et': dur}
+    return {'t': t, 'effet': eff, 'delai': (eff - t - TAP_MS) if eff is not None else None, 'et': dur}
 
 
 def issue(g):
@@ -102,8 +107,8 @@ def section(cpu, reseau, S):
     P = [r for r in B if r['scenario'] == 'passif']
     if P:
         p("\n### Visiteur sans geste (20 s)\n")
-        p("| Variante | FCP | LCP | Blocage observé de FCP à 10 s | GA4 page_view | Meta PageView | Chat affiché |")
-        p("|---|---|---|---|---|---|---|")
+        p("| Variante | FCP | LCP | Thème prêt (jQuery ready) | Blocage observé de FCP à 10 s | GA4 page_view | Meta PageView | Chat affiché |")
+        p("|---|---|---|---|---|---|---|---|")
         for v in ORDRE:
             R = [r for r in P if r['variante'] == v]
             if not R:
@@ -114,6 +119,7 @@ def section(cpu, reseau, S):
                 return f"{mm(t, ' ms')}, {n}/{len(R)} reçus"
             chat = [r['chat'][0]['t'] if r['chat'] else None for r in R]
             p(f"| {v} {NOMS[v]} | {mm([r['fcp'] for r in R], ' ms')} | {mm([r['lcp'][-1][0] if r['lcp'] else None for r in R], ' ms')} | "
+              f"{mm([next((m[1] for m in r['marks'] if m[0] == 'theme-ready'), None) for r in R], ' ms')} | "
               f"{mm([blocage(r) for r in R], ' ms')} | {pres('ga:page_view')} | {pres('fb:PageView')} | "
               f"{mm(chat, ' ms')}, {sum(1 for x in chat if x is not None)}/{len(R)} |")
         p("\nMesure d'audience reçue si le visiteur part à l'instant t (GA4 page_view arrivé avant t ; passages sans geste) :\n")
@@ -135,7 +141,7 @@ def section(cpu, reseau, S):
         if not R0:
             continue
         p(f"\n### Tap sur la FAQ {titre}, puis sur le menu 1,5 s plus tard\n")
-        p(f"Issue : immédiat = effet visible ≤ {SEUIL_IMMEDIAT} ms après le pointerdown ; différé = plus tard ; perdu = aucun effet en 20 s. "
+        p(f"Issue : immédiat = effet visible ≤ {SEUIL_IMMEDIAT} ms après le relâchement du doigt ; différé = plus tard ; perdu = aucun effet en 20 s. "
           "« Event Timing » = durée de l'interaction telle que l'INP la verrait.\n")
         p("| Variante | Cible | Immédiat | Différé | Perdu | Délai jusqu'à l'effet | Event Timing |")
         p("|---|---|---|---|---|---|---|")
@@ -155,15 +161,21 @@ def section(cpu, reseau, S):
     R0 = [r for r in B if r['scenario'] == 'scrolltap']
     if R0:
         p("\n### Défilement à 1,5 s, menu tapé à 2,5 s puis retapé à 4 s\n")
-        p("Attendu : menu ouvert au premier tap, visible, refermé au second. « Vu ouvert » = resté ouvert au moins 16 ms (une image).\n")
-        p("| Variante | Premier tap : immédiat / différé / perdu | Délai du premier tap | Vu ouvert | Fermé à la fin | Clics rejoués (non fiables) |")
-        p("|---|---|---|---|---|---|")
+        p("Attendu : menu ouvert au premier tap, visible, refermé au second. Effet d'un tap = bascule du menu avant le tap suivant "
+          "(un effet survenu après le second tap n'est pas compté au premier). « Vu ouvert » = resté ouvert au moins 16 ms (une image).\n")
+        p("| Variante | Tap 1 (ouvrir) : immédiat / différé / perdu | Délai du tap 1 | Tap 2 (fermer) : immédiat / différé / perdu | Vu ouvert | Fermé à la fin | Clics rejoués (non fiables) |")
+        p("|---|---|---|---|---|---|---|")
         for v in ORDRE:
             R = [r for r in R0 if r['variante'] == v]
             if not R:
                 continue
-            G = [geste(r, 'burger', 2500) for r in R]
+            G, G2 = [], []
+            for r in R:
+                t2 = next((t for t, c in r['ptr'] if c == 'burger' and t >= 3950), None)
+                G.append(geste(r, 'burger', 2500, avant=t2))
+                G2.append(geste(r, 'burger', 4000, etat=False))
             iss = [issue(g) for g in G]
+            iss2 = [issue(g) for g in G2]
             vu = 0
             for r in R:
                 m = r.get('menu', [])
@@ -172,18 +184,18 @@ def section(cpu, reseau, S):
             ferme = sum(1 for r in R if not r['menuOuvert'])
             rejoues = [sum(1 for c in r.get('clics', []) if not c[1]) for r in R]
             p(f"| {v} {NOMS[v]} | {iss.count('immédiat')} / {iss.count('différé')} / {iss.count('perdu')} sur {len(G)} | {mm([g['delai'] for g in G if g], ' ms')} | "
-              f"{vu}/{len(R)} | {ferme}/{len(R)} | {mm(rejoues)} |")
+              f"{iss2.count('immédiat')} / {iss2.count('différé')} / {iss2.count('perdu')} sur {len(G2)} | {vu}/{len(R)} | {ferme}/{len(R)} | {mm(rejoues)} |")
 
 
 def lighthouse():
-    F = sorted(glob.glob(os.path.join(DOSSIER, 'lh', '*.json')))
+    F = sorted(glob.glob(os.path.join(DOSSIER, 'lh', 'lh-*.json')) + glob.glob(os.path.join(DOSSIER, 'lh', 'lh-*.json.gz')))   # rapports archivés en gzip
     if not F:
         return
     print("\n## Lighthouse 13.5.0, mobile, throttling simulé (aucun geste)\n")
     rows = {}
     for f in F:
-        d = json.load(open(f))
-        n = os.path.basename(f)          # lh-cpu<m>-<V>-<k>.json
+        d = json.load(gzip.open(f, 'rt') if f.endswith('.gz') else open(f))
+        n = os.path.basename(f)          # lh-cpu<m>-<V>-<k>.json[.gz]
         cpu, v = n.split('-')[1], n.split('-')[2]
         a = d['audits']
         rows.setdefault((cpu, v), []).append({
@@ -200,7 +212,7 @@ def lighthouse():
 
 
 S = series()
-if not S and not glob.glob(os.path.join(DOSSIER, 'lh', '*.json')):
+if not S and not glob.glob(os.path.join(DOSSIER, 'lh', 'lh-*.json*')):
     print(f"AUCUNE DONNÉE dans {DOSSIER}", file=sys.stderr)
     sys.exit(1)
 print(f"# Résultats : report des scripts à la première interaction\n\nDossier lu : `{DOSSIER}`.")

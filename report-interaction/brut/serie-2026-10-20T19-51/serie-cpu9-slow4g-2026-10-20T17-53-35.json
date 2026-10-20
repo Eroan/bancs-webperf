@@ -1,0 +1,1653 @@
+{
+ "chrome": "155.0.8059.85",
+ "playwright": "1.64.1",
+ "date": "2026-10-20T17:53:35.838Z",
+ "cpu": 9,
+ "reseau": "slow4g",
+ "passages": 2,
+ "scenarios": [
+  "temoin"
+ ],
+ "variantes": [
+  "A",
+  "B"
+ ],
+ "brut": [
+  {
+   "variante": "A",
+   "nom": "classique",
+   "scenario": "temoin",
+   "passage": 1,
+   "cpu": 9,
+   "reseau": "slow4g",
+   "actions": [
+    {
+     "t": 8500,
+     "a": "scroll",
+     "retardMs": 0,
+     "ok": true
+    },
+    {
+     "t": 9000,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 1,
+     "ok": true
+    },
+    {
+     "t": 10500,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 1,
+     "ok": true
+    }
+   ],
+   "hits": [
+    {
+     "k": "fb-config",
+     "t": 4015,
+     "url": "https://connect.facebook.net/signals/config/100000000000001?v=2.9.425&r=stable&domain=site.localhost&im=1&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C",
+     "type": "script"
+    },
+    {
+     "k": "fb:PageView",
+     "t": 4044,
+     "url": "https://www.facebook.com/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%2Fsite.localhost%3A57853%2FA.html%3Fp%3D1&rl=&if=false&ts=1792518739164&iw=false&sw=412&sh=823&v=2.9.425&r=stable&ec=0&o=28&it=1792518739141&coo=false&chmd=&chpv=11&chfv=155.0.8059.85&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&exp",
+     "type": "image"
+    },
+    {
+     "k": "ga:page_view",
+     "t": 4293,
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-BANC000001za20cxf2&_p=1792518736762&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=2002149645.1792518739&frm=0&pscdl=noapi&rcb=8&sr=412x823&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.85%7CChromium%3B155.0.8059",
+     "type": "fetch"
+    }
+   ],
+   "chat": [
+    {
+     "t": 2861,
+     "ms": 178
+    }
+   ],
+   "erreurs": [],
+   "lcp": [
+    [
+     1704,
+     "H1"
+    ],
+    [
+     1720,
+     "hero"
+    ]
+   ],
+   "lt": [
+    [
+     2207,
+     87
+    ],
+    [
+     2667,
+     192
+    ],
+    [
+     3847,
+     168
+    ],
+    [
+     4073,
+     137
+    ],
+    [
+     4210,
+     81
+    ],
+    [
+     9097,
+     113
+    ],
+    [
+     10579,
+     105
+    ]
+   ],
+   "loaf": [
+    [
+     605,
+     1060,
+     26,
+     [
+      [
+       "/js/jquery.min.js",
+       42,
+       1578
+      ],
+      [
+       "/js/jquery-migrate.min.js",
+       7,
+       1619
+      ]
+     ]
+    ],
+    [
+     2203,
+     93,
+     39,
+     [
+      [
+       "/js/jquery.min.js",
+       85,
+       2207
+      ]
+     ]
+    ],
+    [
+     2663,
+     202,
+     147,
+     [
+      [
+       "/chat/widget.js",
+       193,
+       2667
+      ]
+     ]
+    ],
+    [
+     3847,
+     168,
+     118,
+     [
+      [
+       "/en_US/fbevents.js",
+       168,
+       3847
+      ]
+     ]
+    ],
+    [
+     4073,
+     137,
+     87,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       137,
+       4073
+      ]
+     ]
+    ],
+    [
+     4210,
+     82,
+     32,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       82,
+       4210
+      ]
+     ]
+    ],
+    [
+     9097,
+     113,
+     63,
+     [
+      [
+       "/A.html?p=1",
+       102,
+       9106
+      ]
+     ]
+    ],
+    [
+     10579,
+     106,
+     56,
+     [
+      [
+       "/A.html?p=1",
+       100,
+       10584
+      ]
+     ]
+    ]
+   ],
+   "ev": [
+    [
+     "click",
+     9088,
+     152,
+     13,
+     107,
+     8644,
+     "temoin"
+    ],
+    [
+     "click",
+     10571,
+     152,
+     10,
+     104,
+     8651,
+     "temoin"
+    ]
+   ],
+   "ptr": [
+    [
+     9028,
+     "temoin"
+    ],
+    [
+     10511,
+     "temoin"
+    ]
+   ],
+   "effets": {
+    "temoin": 1673,
+    "slick": 2292,
+    "chat": 2860
+   },
+   "menu": [],
+   "clics": [
+    [
+     9102,
+     true,
+     "temoin"
+    ],
+    [
+     10583,
+     true,
+     "temoin"
+    ]
+   ],
+   "fcp": 1704,
+   "timeOrigin": 1792518735134.7,
+   "nav": {
+    "responseEnd": 584,
+    "dcl": 2205,
+    "load": 4298
+   },
+   "marks": [
+    [
+     "theme-exec",
+     2203
+    ],
+    [
+     "theme-ready",
+     2292
+    ],
+    [
+     "plugin-inline",
+     2300
+    ],
+    [
+     "chat-exec",
+     2846
+    ]
+   ],
+   "menuOuvert": false,
+   "faqOuverte": false,
+   "jq": true,
+   "ga": true,
+   "fb": true,
+   "ressources": [
+    [
+     "/css/style.css",
+     599,
+     1175,
+     883
+    ],
+    [
+     "/css/slick.css",
+     599,
+     1182,
+     869
+    ],
+    [
+     "/css/magnific-popup.css",
+     601,
+     1225,
+     2124
+    ],
+    [
+     "/js/jquery-migrate.min.js",
+     601,
+     1291,
+     5203
+    ],
+    [
+     "/js/jquery.min.js",
+     601,
+     1575,
+     30713
+    ],
+    [
+     "/img/hero.webp",
+     601,
+     1691,
+     50424
+    ],
+    [
+     "/js/slick.min.js",
+     601,
+     1857,
+     10734
+    ],
+    [
+     "/gtag/js?id=G-BANC000001",
+     601,
+     4067,
+     0
+    ],
+    [
+     "/js/jquery.magnific-popup.min.js",
+     601,
+     1841,
+     7735
+    ],
+    [
+     "/js/theme.js",
+     601,
+     2199,
+     765
+    ],
+    [
+     "/chat/widget.js",
+     601,
+     2665,
+     0
+    ],
+    [
+     "/en_US/fbevents.js",
+     1627,
+     3842,
+     0
+    ],
+    [
+     "/img/slide1.webp",
+     1683,
+     2542,
+     7788
+    ],
+    [
+     "/img/slide2.webp",
+     1684,
+     2550,
+     8324
+    ],
+    [
+     "/img/slide3.webp",
+     1684,
+     2609,
+     9432
+    ],
+    [
+     "/img/slide4.webp",
+     1684,
+     2682,
+     9034
+    ],
+    [
+     "/img/slide5.webp",
+     2292,
+     3008,
+     8308
+    ],
+    [
+     "/chat/ready?ms=178",
+     2858,
+     3442,
+     0
+    ],
+    [
+     "/signals/config/100000000000001?v=2.9.425&r=stable",
+     4014,
+     4017,
+     0
+    ],
+    [
+     "/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%",
+     4044,
+     4045,
+     0
+    ],
+    [
+     "/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-",
+     4291,
+     4294,
+     0
+    ]
+   ]
+  },
+  {
+   "variante": "B",
+   "nom": "defer",
+   "scenario": "temoin",
+   "passage": 1,
+   "cpu": 9,
+   "reseau": "slow4g",
+   "actions": [
+    {
+     "t": 8500,
+     "a": "scroll",
+     "retardMs": 1,
+     "ok": true
+    },
+    {
+     "t": 9000,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 1,
+     "ok": true
+    },
+    {
+     "t": 10500,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 2,
+     "ok": true
+    }
+   ],
+   "hits": [
+    {
+     "k": "fb-config",
+     "t": 3912,
+     "url": "https://connect.facebook.net/signals/config/100000000000001?v=2.9.425&r=stable&domain=site.localhost&im=1&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C",
+     "type": "script"
+    },
+    {
+     "k": "fb:PageView",
+     "t": 3938,
+     "url": "https://www.facebook.com/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%2Fsite.localhost%3A57853%2FB.html%3Fp%3D1&rl=&if=false&ts=1792518759251&iw=false&sw=412&sh=823&v=2.9.425&r=stable&ec=0&o=28&it=1792518759227&coo=false&chmd=&chpv=11&chfv=155.0.8059.85&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&exp",
+     "type": "image"
+    },
+    {
+     "k": "ga:page_view",
+     "t": 4198,
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-BANC000001za20cxf2&_p=1792518756534&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=427023443.1792518759&frm=0&pscdl=noapi&rcb=13&sr=412x823&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.85%7CChromium%3B155.0.8059",
+     "type": "fetch"
+    }
+   ],
+   "chat": [
+    {
+     "t": 2530,
+     "ms": 173
+    }
+   ],
+   "erreurs": [],
+   "lcp": [
+    [
+     1280,
+     "H1"
+    ],
+    [
+     1516,
+     "hero"
+    ]
+   ],
+   "lt": [
+    [
+     2343,
+     186
+    ],
+    [
+     2700,
+     63
+    ],
+    [
+     3755,
+     155
+    ],
+    [
+     3979,
+     137
+    ],
+    [
+     4118,
+     80
+    ],
+    [
+     9109,
+     109
+    ],
+    [
+     10590,
+     105
+    ]
+   ],
+   "loaf": [
+    [
+     602,
+     653,
+     0,
+     []
+    ],
+    [
+     2343,
+     210,
+     159,
+     [
+      [
+       "/chat/widget.js",
+       186,
+       2343
+      ]
+     ]
+    ],
+    [
+     2643,
+     54,
+     0,
+     [
+      [
+       "/js/jquery.min.js",
+       41,
+       2643
+      ],
+      [
+       "/js/jquery-migrate.min.js",
+       7,
+       2684
+      ]
+     ]
+    ],
+    [
+     2700,
+     67,
+     16,
+     [
+      [
+       "/js/jquery.min.js",
+       64,
+       2700
+      ]
+     ]
+    ],
+    [
+     3740,
+     172,
+     106,
+     [
+      [
+       "/en_US/fbevents.js",
+       155,
+       3755
+      ]
+     ]
+    ],
+    [
+     3979,
+     138,
+     88,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       136,
+       3981
+      ]
+     ]
+    ],
+    [
+     4118,
+     80,
+     30,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       80,
+       4118
+      ]
+     ]
+    ],
+    [
+     9109,
+     110,
+     60,
+     [
+      [
+       "/B.html?p=1",
+       101,
+       9115
+      ]
+     ]
+    ],
+    [
+     10590,
+     106,
+     56,
+     [
+      [
+       "/B.html?p=1",
+       101,
+       10594
+      ]
+     ]
+    ]
+   ],
+   "ev": [
+    [
+     "click",
+     9099,
+     144,
+     13,
+     104,
+     1117,
+     "temoin"
+    ],
+    [
+     "click",
+     10582,
+     144,
+     9,
+     103,
+     1124,
+     "temoin"
+    ]
+   ],
+   "ptr": [
+    [
+     9039,
+     "temoin"
+    ],
+    [
+     10522,
+     "temoin"
+    ]
+   ],
+   "effets": {
+    "temoin": 1215,
+    "chat": 2529,
+    "slick": 2762
+   },
+   "menu": [],
+   "clics": [
+    [
+     9112,
+     true,
+     "temoin"
+    ],
+    [
+     10591,
+     true,
+     "temoin"
+    ]
+   ],
+   "fcp": 1280,
+   "timeOrigin": 1792518755324.5,
+   "nav": {
+    "responseEnd": 581,
+    "dcl": 2695,
+    "load": 4204
+   },
+   "marks": [
+    [
+     "chat-exec",
+     2515
+    ],
+    [
+     "theme-exec",
+     2695
+    ],
+    [
+     "theme-ready",
+     2762
+    ],
+    [
+     "plugin-inline",
+     2765
+    ]
+   ],
+   "menuOuvert": false,
+   "faqOuverte": false,
+   "jq": true,
+   "ga": true,
+   "fb": true,
+   "ressources": [
+    [
+     "/css/style.css",
+     598,
+     1173,
+     883
+    ],
+    [
+     "/css/slick.css",
+     598,
+     1184,
+     869
+    ],
+    [
+     "/css/magnific-popup.css",
+     598,
+     1207,
+     2124
+    ],
+    [
+     "/js/jquery-migrate.min.js",
+     599,
+     1974,
+     5203
+    ],
+    [
+     "/js/jquery.min.js",
+     599,
+     2641,
+     30713
+    ],
+    [
+     "/img/hero.webp",
+     599,
+     1483,
+     50424
+    ],
+    [
+     "/js/jquery.magnific-popup.min.js",
+     599,
+     2108,
+     7735
+    ],
+    [
+     "/js/slick.min.js",
+     599,
+     2190,
+     10734
+    ],
+    [
+     "/gtag/js?id=G-BANC000001",
+     599,
+     3974,
+     0
+    ],
+    [
+     "/js/theme.js",
+     601,
+     1824,
+     765
+    ],
+    [
+     "/chat/widget.js",
+     601,
+     2340,
+     0
+    ],
+    [
+     "/en_US/fbevents.js",
+     1211,
+     3750,
+     0
+    ],
+    [
+     "/img/slide1.webp",
+     1260,
+     2332,
+     7788
+    ],
+    [
+     "/img/slide2.webp",
+     1260,
+     2590,
+     8324
+    ],
+    [
+     "/img/slide3.webp",
+     1260,
+     2774,
+     9432
+    ],
+    [
+     "/img/slide4.webp",
+     1260,
+     2848,
+     9034
+    ],
+    [
+     "/chat/ready?ms=173",
+     2528,
+     3116,
+     0
+    ],
+    [
+     "/img/slide5.webp",
+     2764,
+     3474,
+     8308
+    ],
+    [
+     "/signals/config/100000000000001?v=2.9.425&r=stable",
+     3911,
+     3913,
+     0
+    ],
+    [
+     "/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%",
+     3935,
+     3938,
+     0
+    ],
+    [
+     "/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-",
+     4196,
+     4199,
+     0
+    ]
+   ]
+  },
+  {
+   "variante": "B",
+   "nom": "defer",
+   "scenario": "temoin",
+   "passage": 2,
+   "cpu": 9,
+   "reseau": "slow4g",
+   "actions": [
+    {
+     "t": 8500,
+     "a": "scroll",
+     "retardMs": 1,
+     "ok": true
+    },
+    {
+     "t": 9000,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 2,
+     "ok": true
+    },
+    {
+     "t": 10500,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 1,
+     "ok": true
+    }
+   ],
+   "hits": [
+    {
+     "k": "fb-config",
+     "t": 3909,
+     "url": "https://connect.facebook.net/signals/config/100000000000001?v=2.9.425&r=stable&domain=site.localhost&im=1&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C",
+     "type": "script"
+    },
+    {
+     "k": "fb:PageView",
+     "t": 3935,
+     "url": "https://www.facebook.com/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%2Fsite.localhost%3A57853%2FB.html%3Fp%3D2&rl=&if=false&ts=1792518779435&iw=false&sw=412&sh=823&v=2.9.425&r=stable&ec=0&o=28&it=1792518779411&coo=false&chmd=&chpv=11&chfv=155.0.8059.85&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&exp",
+     "type": "image"
+    },
+    {
+     "k": "ga:page_view",
+     "t": 4200,
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-BANC000001za20cxf2&_p=1792518776720&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=449026222.1792518780&frm=0&pscdl=noapi&rcb=5&sr=412x823&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.85%7CChromium%3B155.0.8059.",
+     "type": "fetch"
+    }
+   ],
+   "chat": [
+    {
+     "t": 2535,
+     "ms": 175
+    }
+   ],
+   "erreurs": [],
+   "lcp": [
+    [
+     1296,
+     "H1"
+    ],
+    [
+     1512,
+     "hero"
+    ]
+   ],
+   "lt": [
+    [
+     2343,
+     190
+    ],
+    [
+     2704,
+     59
+    ],
+    [
+     3756,
+     151
+    ],
+    [
+     3980,
+     138
+    ],
+    [
+     4121,
+     79
+    ],
+    [
+     9106,
+     109
+    ],
+    [
+     10589,
+     105
+    ]
+   ],
+   "loaf": [
+    [
+     605,
+     649,
+     0,
+     []
+    ],
+    [
+     2343,
+     216,
+     164,
+     [
+      [
+       "/chat/widget.js",
+       190,
+       2343
+      ]
+     ]
+    ],
+    [
+     2643,
+     56,
+     0,
+     [
+      [
+       "/js/jquery.min.js",
+       41,
+       2643
+      ],
+      [
+       "/js/jquery-migrate.min.js",
+       6,
+       2684
+      ]
+     ]
+    ],
+    [
+     2704,
+     63,
+     13,
+     [
+      [
+       "/js/jquery.min.js",
+       59,
+       2704
+      ]
+     ]
+    ],
+    [
+     3756,
+     155,
+     104,
+     [
+      [
+       "/en_US/fbevents.js",
+       152,
+       3756
+      ]
+     ]
+    ],
+    [
+     3980,
+     139,
+     89,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       139,
+       3980
+      ]
+     ]
+    ],
+    [
+     4121,
+     79,
+     29,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       79,
+       4121
+      ]
+     ]
+    ],
+    [
+     9106,
+     110,
+     60,
+     [
+      [
+       "/B.html?p=2",
+       101,
+       9113
+      ]
+     ]
+    ],
+    [
+     10589,
+     106,
+     56,
+     [
+      [
+       "/B.html?p=2",
+       101,
+       10592
+      ]
+     ]
+    ]
+   ],
+   "ev": [
+    [
+     "click",
+     9096,
+     144,
+     14,
+     104,
+     686,
+     "temoin"
+    ],
+    [
+     "click",
+     10580,
+     144,
+     10,
+     103,
+     693,
+     "temoin"
+    ]
+   ],
+   "ptr": [
+    [
+     9036,
+     "temoin"
+    ],
+    [
+     10520,
+     "temoin"
+    ]
+   ],
+   "effets": {
+    "temoin": 1216,
+    "chat": 2533,
+    "slick": 2762
+   },
+   "menu": [],
+   "clics": [
+    [
+     9110,
+     true,
+     "temoin"
+    ],
+    [
+     10590,
+     true,
+     "temoin"
+    ]
+   ],
+   "fcp": 1296,
+   "timeOrigin": 1792518775510.6,
+   "nav": {
+    "responseEnd": 583,
+    "dcl": 2697,
+    "load": 4206
+   },
+   "marks": [
+    [
+     "chat-exec",
+     2520
+    ],
+    [
+     "theme-exec",
+     2695
+    ],
+    [
+     "theme-ready",
+     2761
+    ],
+    [
+     "plugin-inline",
+     2763
+    ]
+   ],
+   "menuOuvert": false,
+   "faqOuverte": false,
+   "jq": true,
+   "ga": true,
+   "fb": true,
+   "ressources": [
+    [
+     "/css/style.css",
+     599,
+     1174,
+     883
+    ],
+    [
+     "/css/slick.css",
+     600,
+     1184,
+     869
+    ],
+    [
+     "/css/magnific-popup.css",
+     600,
+     1207,
+     2124
+    ],
+    [
+     "/js/jquery-migrate.min.js",
+     600,
+     1975,
+     5203
+    ],
+    [
+     "/js/jquery.min.js",
+     600,
+     2642,
+     30713
+    ],
+    [
+     "/img/hero.webp",
+     600,
+     1484,
+     50424
+    ],
+    [
+     "/gtag/js?id=G-BANC000001",
+     600,
+     3975,
+     0
+    ],
+    [
+     "/js/slick.min.js",
+     602,
+     2192,
+     10734
+    ],
+    [
+     "/js/theme.js",
+     602,
+     1833,
+     765
+    ],
+    [
+     "/js/jquery.magnific-popup.min.js",
+     602,
+     2108,
+     7735
+    ],
+    [
+     "/chat/widget.js",
+     602,
+     2340,
+     0
+    ],
+    [
+     "/en_US/fbevents.js",
+     1211,
+     3751,
+     0
+    ],
+    [
+     "/img/slide1.webp",
+     1259,
+     2332,
+     7788
+    ],
+    [
+     "/img/slide2.webp",
+     1260,
+     2600,
+     8324
+    ],
+    [
+     "/img/slide3.webp",
+     1260,
+     2775,
+     9432
+    ],
+    [
+     "/img/slide4.webp",
+     1260,
+     2849,
+     9034
+    ],
+    [
+     "/chat/ready?ms=175",
+     2533,
+     3116,
+     0
+    ],
+    [
+     "/img/slide5.webp",
+     2763,
+     3475,
+     8308
+    ],
+    [
+     "/signals/config/100000000000001?v=2.9.425&r=stable",
+     3908,
+     3910,
+     0
+    ],
+    [
+     "/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%",
+     3935,
+     3936,
+     0
+    ],
+    [
+     "/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-",
+     4199,
+     4201,
+     0
+    ]
+   ]
+  },
+  {
+   "variante": "A",
+   "nom": "classique",
+   "scenario": "temoin",
+   "passage": 2,
+   "cpu": 9,
+   "reseau": "slow4g",
+   "actions": [
+    {
+     "t": 8500,
+     "a": "scroll",
+     "retardMs": -1,
+     "ok": true
+    },
+    {
+     "t": 9000,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 0,
+     "ok": true
+    },
+    {
+     "t": 10500,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 0,
+     "ok": true
+    }
+   ],
+   "hits": [
+    {
+     "k": "fb-config",
+     "t": 3996,
+     "url": "https://connect.facebook.net/signals/config/100000000000001?v=2.9.425&r=stable&domain=site.localhost&im=1&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C",
+     "type": "script"
+    },
+    {
+     "k": "fb:PageView",
+     "t": 4019,
+     "url": "https://www.facebook.com/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%2Fsite.localhost%3A57853%2FA.html%3Fp%3D2&rl=&if=false&ts=1792518799686&iw=false&sw=412&sh=823&v=2.9.425&r=stable&ec=0&o=28&it=1792518799666&coo=false&chmd=&chpv=11&chfv=155.0.8059.85&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&exp",
+     "type": "image"
+    },
+    {
+     "k": "ga:page_view",
+     "t": 4291,
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-BANC000001za20cxf2&_p=1792518797305&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=677485856.1792518800&frm=0&pscdl=noapi&rcb=13&sr=412x823&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.85%7CChromium%3B155.0.8059",
+     "type": "fetch"
+    }
+   ],
+   "chat": [
+    {
+     "t": 2857,
+     "ms": 174
+    }
+   ],
+   "erreurs": [],
+   "lcp": [
+    [
+     1712,
+     "H1"
+    ],
+    [
+     1728,
+     "hero"
+    ]
+   ],
+   "lt": [
+    [
+     2208,
+     82
+    ],
+    [
+     2668,
+     188
+    ],
+    [
+     3846,
+     150
+    ],
+    [
+     4074,
+     137
+    ],
+    [
+     4212,
+     77
+    ],
+    [
+     9106,
+     110
+    ],
+    [
+     10588,
+     106
+    ]
+   ],
+   "loaf": [
+    [
+     603,
+     1031,
+     0,
+     [
+      [
+       "/js/jquery.min.js",
+       41,
+       1576
+      ],
+      [
+       "/js/jquery-migrate.min.js",
+       7,
+       1619
+      ]
+     ]
+    ],
+    [
+     2204,
+     89,
+     34,
+     [
+      [
+       "/js/jquery.min.js",
+       82,
+       2208
+      ]
+     ]
+    ],
+    [
+     2659,
+     203,
+     142,
+     [
+      [
+       "/chat/widget.js",
+       188,
+       2668
+      ]
+     ]
+    ],
+    [
+     3846,
+     150,
+     101,
+     [
+      [
+       "/en_US/fbevents.js",
+       150,
+       3846
+      ]
+     ]
+    ],
+    [
+     4074,
+     137,
+     87,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       137,
+       4074
+      ]
+     ]
+    ],
+    [
+     4212,
+     78,
+     28,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       77,
+       4212
+      ]
+     ]
+    ],
+    [
+     9106,
+     111,
+     60,
+     [
+      [
+       "/A.html?p=2",
+       100,
+       9114
+      ]
+     ]
+    ],
+    [
+     10588,
+     107,
+     57,
+     [
+      [
+       "/A.html?p=2",
+       101,
+       10592
+      ]
+     ]
+    ]
+   ],
+   "ev": [
+    [
+     "click",
+     9098,
+     144,
+     13,
+     104,
+     4656,
+     "temoin"
+    ],
+    [
+     "click",
+     10580,
+     144,
+     10,
+     103,
+     4663,
+     "temoin"
+    ]
+   ],
+   "ptr": [
+    [
+     9038,
+     "temoin"
+    ],
+    [
+     10520,
+     "temoin"
+    ]
+   ],
+   "effets": {
+    "temoin": 1640,
+    "slick": 2287,
+    "chat": 2856
+   },
+   "menu": [],
+   "clics": [
+    [
+     9111,
+     true,
+     "temoin"
+    ],
+    [
+     10591,
+     true,
+     "temoin"
+    ]
+   ],
+   "fcp": 1712,
+   "timeOrigin": 1792518795677,
+   "nav": {
+    "responseEnd": 583,
+    "dcl": 2205,
+    "load": 4295
+   },
+   "marks": [
+    [
+     "theme-exec",
+     2201
+    ],
+    [
+     "theme-ready",
+     2287
+    ],
+    [
+     "plugin-inline",
+     2291
+    ],
+    [
+     "chat-exec",
+     2842
+    ]
+   ],
+   "menuOuvert": false,
+   "faqOuverte": false,
+   "jq": true,
+   "ga": true,
+   "fb": true,
+   "ressources": [
+    [
+     "/css/style.css",
+     599,
+     1174,
+     883
+    ],
+    [
+     "/css/slick.css",
+     599,
+     1182,
+     869
+    ],
+    [
+     "/css/magnific-popup.css",
+     599,
+     1225,
+     2124
+    ],
+    [
+     "/js/jquery-migrate.min.js",
+     599,
+     1290,
+     5203
+    ],
+    [
+     "/js/jquery.min.js",
+     599,
+     1574,
+     30713
+    ],
+    [
+     "/img/hero.webp",
+     599,
+     1691,
+     50424
+    ],
+    [
+     "/js/slick.min.js",
+     599,
+     1849,
+     10734
+    ],
+    [
+     "/gtag/js?id=G-BANC000001",
+     599,
+     4067,
+     0
+    ],
+    [
+     "/js/jquery.magnific-popup.min.js",
+     599,
+     1841,
+     7735
+    ],
+    [
+     "/js/theme.js",
+     601,
+     2199,
+     765
+    ],
+    [
+     "/chat/widget.js",
+     601,
+     2666,
+     0
+    ],
+    [
+     "/en_US/fbevents.js",
+     1630,
+     3841,
+     0
+    ],
+    [
+     "/img/slide1.webp",
+     1679,
+     2542,
+     7788
+    ],
+    [
+     "/img/slide2.webp",
+     1679,
+     2550,
+     8324
+    ],
+    [
+     "/img/slide3.webp",
+     1679,
+     2609,
+     9432
+    ],
+    [
+     "/img/slide4.webp",
+     1679,
+     2683,
+     9034
+    ],
+    [
+     "/img/slide5.webp",
+     2290,
+     2999,
+     8308
+    ],
+    [
+     "/chat/ready?ms=174",
+     2856,
+     3441,
+     0
+    ],
+    [
+     "/signals/config/100000000000001?v=2.9.425&r=stable",
+     3996,
+     3997,
+     0
+    ],
+    [
+     "/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%",
+     4019,
+     4019,
+     0
+    ],
+    [
+     "/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-",
+     4289,
+     4291,
+     0
+    ]
+   ]
+  }
+ ]
+}

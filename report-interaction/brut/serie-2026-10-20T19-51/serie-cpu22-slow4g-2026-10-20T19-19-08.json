@@ -1,0 +1,1791 @@
+{
+ "chrome": "155.0.8059.85",
+ "playwright": "1.64.1",
+ "date": "2026-10-20T19:19:08.917Z",
+ "cpu": 22,
+ "reseau": "slow4g",
+ "passages": 2,
+ "scenarios": [
+  "temoin"
+ ],
+ "variantes": [
+  "A",
+  "B"
+ ],
+ "brut": [
+  {
+   "variante": "A",
+   "nom": "classique",
+   "scenario": "temoin",
+   "passage": 1,
+   "cpu": 22,
+   "reseau": "slow4g",
+   "actions": [
+    {
+     "t": 8500,
+     "a": "scroll",
+     "retardMs": 1,
+     "ok": true
+    },
+    {
+     "t": 9000,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 2,
+     "ok": true
+    },
+    {
+     "t": 10500,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 2,
+     "ok": true
+    }
+   ],
+   "hits": [
+    {
+     "k": "fb-config",
+     "t": 4350,
+     "url": "https://connect.facebook.net/signals/config/100000000000001?v=2.9.425&r=stable&domain=site.localhost&im=1&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C",
+     "type": "script"
+    },
+    {
+     "k": "ga:page_view",
+     "t": 4884,
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-BANC000001za20cxf2&_p=1792523869675&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=1452479381.1792523873&frm=0&pscdl=noapi&rcb=18&sr=412x823&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.85%7CChromium%3B155.0.805",
+     "type": "fetch"
+    },
+    {
+     "k": "fb:PageView",
+     "t": 4947,
+     "url": "https://www.facebook.com/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%2Fsite.localhost%3A63290%2FA.html%3Fp%3D1&rl=&if=false&ts=1792523872845&iw=false&sw=412&sh=823&v=2.9.425&r=stable&ec=0&o=28&it=1792523872254&coo=false&chmd=&chpv=11&chfv=155.0.8059.85&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&exp",
+     "type": "image"
+    }
+   ],
+   "chat": [
+    {
+     "t": 3261,
+     "ms": 429
+    }
+   ],
+   "erreurs": [],
+   "lcp": [
+    [
+     1908,
+     "hero"
+    ]
+   ],
+   "lt": [
+    [
+     1633,
+     97
+    ],
+    [
+     2350,
+     200
+    ],
+    [
+     2795,
+     465
+    ],
+    [
+     3982,
+     365
+    ],
+    [
+     4358,
+     326
+    ],
+    [
+     4692,
+     188
+    ],
+    [
+     9102,
+     116
+    ],
+    [
+     10583,
+     113
+    ]
+   ],
+   "loaf": [
+    [
+     656,
+     1108,
+     58,
+     [
+      [
+       "/js/jquery.min.js",
+       93,
+       1637
+      ],
+      [
+       "/js/jquery-migrate.min.js",
+       13,
+       1735
+      ]
+     ]
+    ],
+    [
+     1769,
+     101,
+     47,
+     [
+      [
+       "MutationCallback",
+       6,
+       1773
+      ]
+     ]
+    ],
+    [
+     2339,
+     223,
+     156,
+     [
+      [
+       "/js/jquery.min.js",
+       201,
+       2350
+      ]
+     ]
+    ],
+    [
+     2793,
+     486,
+     426,
+     [
+      [
+       "/chat/widget.js",
+       465,
+       2796
+      ],
+      [
+       "/js/jquery.min.js",
+       8,
+       3268
+      ]
+     ]
+    ],
+    [
+     3982,
+     366,
+     316,
+     [
+      [
+       "/en_US/fbevents.js",
+       366,
+       3982
+      ]
+     ]
+    ],
+    [
+     4358,
+     327,
+     277,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       327,
+       4358
+      ]
+     ]
+    ],
+    [
+     4692,
+     188,
+     138,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       188,
+       4692
+      ]
+     ]
+    ],
+    [
+     9102,
+     116,
+     66,
+     [
+      [
+       "/js/jquery.min.js",
+       7,
+       9102
+      ],
+      [
+       "/chat/widget.js",
+       6,
+       9110
+      ],
+      [
+       "/A.html?p=1",
+       102,
+       9116
+      ]
+     ]
+    ],
+    [
+     10583,
+     114,
+     64,
+     [
+      [
+       "/chat/widget.js",
+       7,
+       10587
+      ],
+      [
+       "/A.html?p=1",
+       102,
+       10594
+      ]
+     ]
+    ]
+   ],
+   "ev": [
+    [
+     "click",
+     9093,
+     168,
+     17,
+     109,
+     4595,
+     "temoin"
+    ],
+    [
+     "click",
+     10576,
+     152,
+     11,
+     109,
+     4602,
+     "temoin"
+    ]
+   ],
+   "ptr": [
+    [
+     9032,
+     "temoin"
+    ],
+    [
+     10516,
+     "temoin"
+    ]
+   ],
+   "effets": {
+    "temoin": 1778,
+    "slick": 2547,
+    "chat": 3258
+   },
+   "menu": [],
+   "clics": [
+    [
+     9110,
+     true,
+     "temoin"
+    ],
+    [
+     10587,
+     true,
+     "temoin"
+    ]
+   ],
+   "fcp": 1908,
+   "timeOrigin": 1792523867926.9,
+   "nav": {
+    "responseEnd": 591,
+    "dcl": 2345,
+    "load": 4958
+   },
+   "marks": [
+    [
+     "theme-exec",
+     2339
+    ],
+    [
+     "theme-ready",
+     2547
+    ],
+    [
+     "plugin-inline",
+     2572
+    ],
+    [
+     "chat-exec",
+     3228
+    ]
+   ],
+   "menuOuvert": false,
+   "faqOuverte": false,
+   "jq": true,
+   "ga": true,
+   "fb": true,
+   "ressources": [
+    [
+     "/css/style.css",
+     644,
+     1233,
+     883
+    ],
+    [
+     "/css/slick.css",
+     644,
+     1241,
+     869
+    ],
+    [
+     "/css/magnific-popup.css",
+     644,
+     1285,
+     2124
+    ],
+    [
+     "/js/jquery.min.js",
+     644,
+     1633,
+     30713
+    ],
+    [
+     "/js/jquery-migrate.min.js",
+     644,
+     1350,
+     5203
+    ],
+    [
+     "/gtag/js?id=G-BANC000001",
+     644,
+     4199,
+     0
+    ],
+    [
+     "/img/hero.webp",
+     650,
+     1750,
+     50424
+    ],
+    [
+     "/js/slick.min.js",
+     650,
+     1916,
+     10734
+    ],
+    [
+     "/js/jquery.magnific-popup.min.js",
+     650,
+     1901,
+     7735
+    ],
+    [
+     "/js/theme.js",
+     650,
+     2333,
+     765
+    ],
+    [
+     "/chat/widget.js",
+     650,
+     2791,
+     0
+    ],
+    [
+     "/en_US/fbevents.js",
+     1753,
+     3975,
+     0
+    ],
+    [
+     "/img/slide1.webp",
+     1877,
+     2766,
+     7788
+    ],
+    [
+     "/img/slide2.webp",
+     1877,
+     2775,
+     8324
+    ],
+    [
+     "/img/slide4.webp",
+     1881,
+     2808,
+     9034
+    ],
+    [
+     "/img/slide3.webp",
+     1881,
+     2825,
+     9432
+    ],
+    [
+     "/img/slide5.webp",
+     2551,
+     3266,
+     8308
+    ],
+    [
+     "/chat/ready?ms=429",
+     3258,
+     3841,
+     0
+    ],
+    [
+     "/signals/config/100000000000001?v=2.9.425&r=stable",
+     4345,
+     4351,
+     0
+    ],
+    [
+     "/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-",
+     4877,
+     4885,
+     0
+    ],
+    [
+     "/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%",
+     4948,
+     4948,
+     0
+    ]
+   ]
+  },
+  {
+   "variante": "B",
+   "nom": "defer",
+   "scenario": "temoin",
+   "passage": 1,
+   "cpu": 22,
+   "reseau": "slow4g",
+   "actions": [
+    {
+     "t": 8500,
+     "a": "scroll",
+     "retardMs": 1,
+     "ok": true
+    },
+    {
+     "t": 9000,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 2,
+     "ok": true
+    },
+    {
+     "t": 10500,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 1,
+     "ok": true
+    }
+   ],
+   "hits": [
+    {
+     "k": "fb-config",
+     "t": 4196,
+     "url": "https://connect.facebook.net/signals/config/100000000000001?v=2.9.425&r=stable&domain=site.localhost&im=1&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C",
+     "type": "script"
+    },
+    {
+     "k": "ga:page_view",
+     "t": 4916,
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-BANC000001za20cxf2&_p=1792523889424&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=206011286.1792523893&frm=0&pscdl=noapi&rcb=4&sr=412x823&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.85%7CChromium%3B155.0.8059.",
+     "type": "fetch"
+    },
+    {
+     "k": "fb:PageView",
+     "t": 4966,
+     "url": "https://www.facebook.com/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%2Fsite.localhost%3A63290%2FB.html%3Fp%3D1&rl=&if=false&ts=1792523892825&iw=false&sw=412&sh=823&v=2.9.425&r=stable&ec=0&o=28&it=1792523892335&coo=false&chmd=&chpv=11&chfv=155.0.8059.85&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&exp",
+     "type": "image"
+    }
+   ],
+   "chat": [
+    {
+     "t": 2936,
+     "ms": 483
+    }
+   ],
+   "erreurs": [],
+   "lcp": [
+    [
+     1444,
+     "H1"
+    ],
+    [
+     1560,
+     "hero"
+    ]
+   ],
+   "lt": [
+    [
+     2406,
+     524
+    ],
+    [
+     3003,
+     112
+    ],
+    [
+     3161,
+     167
+    ],
+    [
+     3775,
+     420
+    ],
+    [
+     4226,
+     399
+    ],
+    [
+     4678,
+     231
+    ],
+    [
+     9105,
+     131
+    ],
+    [
+     10592,
+     105
+    ]
+   ],
+   "loaf": [
+    [
+     654,
+     735,
+     66,
+     [
+      [
+       "MutationCallback",
+       9,
+       659
+      ],
+      [
+       "/B.html?p=1",
+       6,
+       1261
+      ],
+      [
+       "/B.html?p=1",
+       6,
+       1269
+      ],
+      [
+       "MutationCallback",
+       6,
+       1275
+      ]
+     ]
+    ],
+    [
+     2406,
+     587,
+     526,
+     [
+      [
+       "/chat/widget.js",
+       524,
+       2406
+      ]
+     ]
+    ],
+    [
+     3003,
+     112,
+     62,
+     [
+      [
+       "/js/jquery.min.js",
+       112,
+       3003
+      ]
+     ]
+    ],
+    [
+     3161,
+     171,
+     121,
+     [
+      [
+       "/js/jquery.min.js",
+       167,
+       3161
+      ]
+     ]
+    ],
+    [
+     3775,
+     421,
+     371,
+     [
+      [
+       "/en_US/fbevents.js",
+       421,
+       3775
+      ]
+     ]
+    ],
+    [
+     4226,
+     407,
+     357,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       399,
+       4226
+      ],
+      [
+       "/js/jquery.min.js",
+       7,
+       4626
+      ]
+     ]
+    ],
+    [
+     4639,
+     281,
+     186,
+     [
+      [
+       "/signals/config/100000000000001?v=2.9.425&r=stable&domain=si",
+       39,
+       4639
+      ],
+      [
+       "/gtag/js?id=G-BANC000001",
+       232,
+       4678
+      ]
+     ]
+    ],
+    [
+     9105,
+     132,
+     82,
+     [
+      [
+       "/js/jquery.min.js",
+       5,
+       9111
+      ],
+      [
+       "/chat/widget.js",
+       7,
+       9119
+      ],
+      [
+       "/B.html?p=1",
+       106,
+       9126
+      ]
+     ]
+    ],
+    [
+     10588,
+     109,
+     55,
+     [
+      [
+       "/B.html?p=1",
+       100,
+       10597
+      ]
+     ]
+    ]
+   ],
+   "ev": [
+    [
+     "click",
+     9096,
+     160,
+     23,
+     113,
+     2549,
+     "temoin"
+    ],
+    [
+     "click",
+     10579,
+     160,
+     13,
+     105,
+     2556,
+     "temoin"
+    ]
+   ],
+   "ptr": [
+    [
+     9036,
+     "temoin"
+    ],
+    [
+     10519,
+     "temoin"
+    ]
+   ],
+   "effets": {
+    "temoin": 1281,
+    "chat": 2930,
+    "slick": 3324
+   },
+   "menu": [],
+   "clics": [
+    [
+     9119,
+     true,
+     "temoin"
+    ],
+    [
+     10592,
+     true,
+     "temoin"
+    ]
+   ],
+   "fcp": 1444,
+   "timeOrigin": 1792523888159.2,
+   "nav": {
+    "responseEnd": 584,
+    "dcl": 3146,
+    "load": 4940
+   },
+   "marks": [
+    [
+     "chat-exec",
+     2894
+    ],
+    [
+     "theme-exec",
+     3146
+    ],
+    [
+     "theme-ready",
+     3324
+    ],
+    [
+     "plugin-inline",
+     3338
+    ]
+   ],
+   "menuOuvert": false,
+   "faqOuverte": false,
+   "jq": true,
+   "ga": true,
+   "fb": true,
+   "ressources": [
+    [
+     "/css/style.css",
+     638,
+     1225,
+     883
+    ],
+    [
+     "/css/slick.css",
+     642,
+     1234,
+     869
+    ],
+    [
+     "/css/magnific-popup.css",
+     642,
+     1259,
+     2124
+    ],
+    [
+     "/js/jquery-migrate.min.js",
+     645,
+     2026,
+     5203
+    ],
+    [
+     "/js/jquery.min.js",
+     645,
+     2709,
+     30713
+    ],
+    [
+     "/gtag/js?id=G-BANC000001",
+     645,
+     4034,
+     0
+    ],
+    [
+     "/img/hero.webp",
+     645,
+     1534,
+     50424
+    ],
+    [
+     "/js/slick.min.js",
+     645,
+     2250,
+     10734
+    ],
+    [
+     "/js/theme.js",
+     647,
+     1893,
+     765
+    ],
+    [
+     "/js/jquery.magnific-popup.min.js",
+     647,
+     2176,
+     7735
+    ],
+    [
+     "/chat/widget.js",
+     647,
+     2400,
+     0
+    ],
+    [
+     "/en_US/fbevents.js",
+     1269,
+     3759,
+     0
+    ],
+    [
+     "/img/slide1.webp",
+     1402,
+     2384,
+     7788
+    ],
+    [
+     "/img/slide2.webp",
+     1402,
+     2659,
+     8324
+    ],
+    [
+     "/img/slide3.webp",
+     1402,
+     2826,
+     9432
+    ],
+    [
+     "/img/slide4.webp",
+     1407,
+     2909,
+     9034
+    ],
+    [
+     "/chat/ready?ms=483",
+     2930,
+     3517,
+     0
+    ],
+    [
+     "/img/slide5.webp",
+     3328,
+     3984,
+     8308
+    ],
+    [
+     "/signals/config/100000000000001?v=2.9.425&r=stable",
+     4196,
+     4197,
+     0
+    ],
+    [
+     "/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-",
+     4910,
+     4916,
+     0
+    ],
+    [
+     "/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%",
+     4965,
+     4966,
+     0
+    ]
+   ]
+  },
+  {
+   "variante": "B",
+   "nom": "defer",
+   "scenario": "temoin",
+   "passage": 2,
+   "cpu": 22,
+   "reseau": "slow4g",
+   "actions": [
+    {
+     "t": 8500,
+     "a": "scroll",
+     "retardMs": 2,
+     "ok": true
+    },
+    {
+     "t": 9000,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 2,
+     "ok": true
+    },
+    {
+     "t": 10500,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 1,
+     "ok": true
+    }
+   ],
+   "hits": [
+    {
+     "k": "fb-config",
+     "t": 4127,
+     "url": "https://connect.facebook.net/signals/config/100000000000001?v=2.9.425&r=stable&domain=site.localhost&im=1&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C",
+     "type": "script"
+    },
+    {
+     "k": "ga:page_view",
+     "t": 4733,
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-BANC000001za20cxf2&_p=1792523909681&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=588261847.1792523913&frm=0&pscdl=noapi&rcb=0&sr=412x823&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.85%7CChromium%3B155.0.8059.",
+     "type": "fetch"
+    },
+    {
+     "k": "fb:PageView",
+     "t": 4777,
+     "url": "https://www.facebook.com/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%2Fsite.localhost%3A63290%2FB.html%3Fp%3D2&rl=&if=false&ts=1792523912950&iw=false&sw=412&sh=823&v=2.9.425&r=stable&ec=0&o=28&it=1792523912530&coo=false&chmd=&chpv=11&chfv=155.0.8059.85&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&exp",
+     "type": "image"
+    }
+   ],
+   "chat": [
+    {
+     "t": 2897,
+     "ms": 457
+    }
+   ],
+   "erreurs": [],
+   "lcp": [
+    [
+     1416,
+     "H1"
+    ],
+    [
+     1564,
+     "hero"
+    ]
+   ],
+   "lt": [
+    [
+     2398,
+     497
+    ],
+    [
+     2979,
+     114
+    ],
+    [
+     3134,
+     138
+    ],
+    [
+     3761,
+     365
+    ],
+    [
+     4152,
+     340
+    ],
+    [
+     4541,
+     192
+    ],
+    [
+     9112,
+     121
+    ],
+    [
+     10597,
+     106
+    ]
+   ],
+   "loaf": [
+    [
+     648,
+     712,
+     51,
+     [
+      [
+       "MutationCallback",
+       10,
+       651
+      ],
+      [
+       "MutationCallback",
+       5,
+       1267
+      ]
+     ]
+    ],
+    [
+     2398,
+     572,
+     513,
+     [
+      [
+       "/chat/widget.js",
+       497,
+       2398
+      ]
+     ]
+    ],
+    [
+     2979,
+     119,
+     65,
+     [
+      [
+       "/js/jquery.min.js",
+       112,
+       2981
+      ]
+     ]
+    ],
+    [
+     3122,
+     151,
+     89,
+     [
+      [
+       "/B.html?p=2",
+       6,
+       3122
+      ],
+      [
+       "/js/jquery.min.js",
+       6,
+       3128
+      ],
+      [
+       "/js/jquery.min.js",
+       139,
+       3134
+      ]
+     ]
+    ],
+    [
+     3761,
+     366,
+     316,
+     [
+      [
+       "/en_US/fbevents.js",
+       366,
+       3761
+      ]
+     ]
+    ],
+    [
+     4152,
+     345,
+     295,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       340,
+       4152
+      ],
+      [
+       "/js/jquery.min.js",
+       5,
+       4493
+      ]
+     ]
+    ],
+    [
+     4502,
+     236,
+     148,
+     [
+      [
+       "/signals/config/100000000000001?v=2.9.425&r=stable&domain=si",
+       39,
+       4502
+      ],
+      [
+       "/gtag/js?id=G-BANC000001",
+       192,
+       4541
+      ],
+      [
+       "/js/jquery.min.js",
+       5,
+       4733
+      ]
+     ]
+    ],
+    [
+     9112,
+     122,
+     72,
+     [
+      [
+       "/chat/widget.js",
+       11,
+       9120
+      ],
+      [
+       "/B.html?p=2",
+       101,
+       9131
+      ]
+     ]
+    ],
+    [
+     10592,
+     112,
+     57,
+     [
+      [
+       "/B.html?p=2",
+       101,
+       10602
+      ]
+     ]
+    ]
+   ],
+   "ev": [
+    [
+     "click",
+     9100,
+     160,
+     20,
+     111,
+     1983,
+     "temoin"
+    ],
+    [
+     "click",
+     10583,
+     144,
+     14,
+     106,
+     1990,
+     "temoin"
+    ]
+   ],
+   "ptr": [
+    [
+     9040,
+     "temoin"
+    ],
+    [
+     10523,
+     "temoin"
+    ]
+   ],
+   "effets": {
+    "temoin": 1272,
+    "chat": 2895,
+    "slick": 3267
+   },
+   "menu": [],
+   "clics": [
+    [
+     9120,
+     true,
+     "temoin"
+    ],
+    [
+     10597,
+     true,
+     "temoin"
+    ]
+   ],
+   "fcp": 1416,
+   "timeOrigin": 1792523908422.4,
+   "nav": {
+    "responseEnd": 584,
+    "dcl": 3127,
+    "load": 4758
+   },
+   "marks": [
+    [
+     "chat-exec",
+     2856
+    ],
+    [
+     "theme-exec",
+     3122
+    ],
+    [
+     "theme-ready",
+     3267
+    ],
+    [
+     "plugin-inline",
+     3288
+    ]
+   ],
+   "menuOuvert": false,
+   "faqOuverte": false,
+   "jq": true,
+   "ga": true,
+   "fb": true,
+   "ressources": [
+    [
+     "/css/style.css",
+     636,
+     1217,
+     883
+    ],
+    [
+     "/css/slick.css",
+     636,
+     1225,
+     869
+    ],
+    [
+     "/css/magnific-popup.css",
+     639,
+     1250,
+     2124
+    ],
+    [
+     "/img/hero.webp",
+     639,
+     1525,
+     50424
+    ],
+    [
+     "/js/jquery-migrate.min.js",
+     639,
+     2025,
+     5203
+    ],
+    [
+     "/js/jquery.min.js",
+     639,
+     2692,
+     30713
+    ],
+    [
+     "/gtag/js?id=G-BANC000001",
+     639,
+     4025,
+     0
+    ],
+    [
+     "/js/theme.js",
+     639,
+     1884,
+     765
+    ],
+    [
+     "/js/jquery.magnific-popup.min.js",
+     639,
+     2159,
+     7735
+    ],
+    [
+     "/js/slick.min.js",
+     639,
+     2242,
+     10734
+    ],
+    [
+     "/chat/widget.js",
+     639,
+     2392,
+     0
+    ],
+    [
+     "/en_US/fbevents.js",
+     1265,
+     3750,
+     0
+    ],
+    [
+     "/img/slide1.webp",
+     1372,
+     2375,
+     7788
+    ],
+    [
+     "/img/slide2.webp",
+     1378,
+     2650,
+     8324
+    ],
+    [
+     "/img/slide3.webp",
+     1380,
+     2825,
+     9432
+    ],
+    [
+     "/img/slide4.webp",
+     1380,
+     2899,
+     9034
+    ],
+    [
+     "/chat/ready?ms=457",
+     2895,
+     3484,
+     0
+    ],
+    [
+     "/img/slide5.webp",
+     3272,
+     3934,
+     8308
+    ],
+    [
+     "/signals/config/100000000000001?v=2.9.425&r=stable",
+     4122,
+     4128,
+     0
+    ],
+    [
+     "/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-",
+     4729,
+     4733,
+     0
+    ],
+    [
+     "/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%",
+     4777,
+     4778,
+     0
+    ]
+   ]
+  },
+  {
+   "variante": "A",
+   "nom": "classique",
+   "scenario": "temoin",
+   "passage": 2,
+   "cpu": 22,
+   "reseau": "slow4g",
+   "actions": [
+    {
+     "t": 8500,
+     "a": "scroll",
+     "retardMs": 0,
+     "ok": true
+    },
+    {
+     "t": 9000,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 2,
+     "ok": true
+    },
+    {
+     "t": 10500,
+     "a": "tap",
+     "cible": "#temoin",
+     "retardMs": 0,
+     "ok": true
+    }
+   ],
+   "hits": [
+    {
+     "k": "fb-config",
+     "t": 4336,
+     "url": "https://connect.facebook.net/signals/config/100000000000001?v=2.9.425&r=stable&domain=site.localhost&im=1&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C",
+     "type": "script"
+    },
+    {
+     "k": "ga:page_view",
+     "t": 4878,
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-BANC000001za20cxf2&_p=1792523930391&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=312795975.1792523933&frm=0&pscdl=noapi&rcb=12&sr=412x823&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.85%7CChromium%3B155.0.8059",
+     "type": "fetch"
+    },
+    {
+     "k": "fb:PageView",
+     "t": 4935,
+     "url": "https://www.facebook.com/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%2Fsite.localhost%3A63290%2FA.html%3Fp%3D2&rl=&if=false&ts=1792523933556&iw=false&sw=412&sh=823&v=2.9.425&r=stable&ec=0&o=28&it=1792523932961&coo=false&chmd=&chpv=11&chfv=155.0.8059.85&exp=c1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=",
+     "type": "image"
+    }
+   ],
+   "chat": [
+    {
+     "t": 3251,
+     "ms": 419
+    }
+   ],
+   "erreurs": [],
+   "lcp": [
+    [
+     1904,
+     "hero"
+    ]
+   ],
+   "lt": [
+    [
+     1632,
+     93
+    ],
+    [
+     2352,
+     198
+    ],
+    [
+     2791,
+     452
+    ],
+    [
+     3974,
+     357
+    ],
+    [
+     4344,
+     345
+    ],
+    [
+     4693,
+     183
+    ],
+    [
+     9117,
+     123
+    ],
+    [
+     10586,
+     110
+    ]
+   ],
+   "loaf": [
+    [
+     650,
+     1108,
+     52,
+     [
+      [
+       "MutationCallback",
+       6,
+       657
+      ],
+      [
+       "/js/jquery.min.js",
+       93,
+       1632
+      ],
+      [
+       "/js/jquery-migrate.min.js",
+       18,
+       1725
+      ]
+     ]
+    ],
+    [
+     1762,
+     102,
+     48,
+     []
+    ],
+    [
+     2352,
+     211,
+     155,
+     [
+      [
+       "/js/jquery.min.js",
+       199,
+       2352
+      ]
+     ]
+    ],
+    [
+     2786,
+     477,
+     416,
+     [
+      [
+       "/chat/widget.js",
+       453,
+       2791
+      ],
+      [
+       "/js/jquery.min.js",
+       9,
+       3250
+      ]
+     ]
+    ],
+    [
+     3974,
+     358,
+     308,
+     [
+      [
+       "/en_US/fbevents.js",
+       358,
+       3974
+      ]
+     ]
+    ],
+    [
+     4344,
+     346,
+     296,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       346,
+       4344
+      ]
+     ]
+    ],
+    [
+     4693,
+     183,
+     133,
+     [
+      [
+       "/gtag/js?id=G-BANC000001",
+       183,
+       4693
+      ]
+     ]
+    ],
+    [
+     9117,
+     124,
+     74,
+     [
+      [
+       "/chat/widget.js",
+       9,
+       9128
+      ],
+      [
+       "/A.html?p=2",
+       102,
+       9137
+      ]
+     ]
+    ],
+    [
+     10582,
+     119,
+     61,
+     [
+      [
+       "/chat/widget.js",
+       7,
+       10586
+      ],
+      [
+       "/A.html?p=2",
+       103,
+       10594
+      ]
+     ]
+    ]
+   ],
+   "ev": [
+    [
+     "click",
+     9108,
+     160,
+     20,
+     111,
+     2344,
+     "temoin"
+    ],
+    [
+     "click",
+     10574,
+     160,
+     12,
+     110,
+     2351,
+     "temoin"
+    ]
+   ],
+   "ptr": [
+    [
+     9048,
+     "temoin"
+    ],
+    [
+     10514,
+     "temoin"
+    ]
+   ],
+   "effets": {
+    "temoin": 1773,
+    "slick": 2545,
+    "chat": 3244
+   },
+   "menu": [],
+   "clics": [
+    [
+     9128,
+     true,
+     "temoin"
+    ],
+    [
+     10586,
+     true,
+     "temoin"
+    ]
+   ],
+   "fcp": 1904,
+   "timeOrigin": 1792523928648.2,
+   "nav": {
+    "responseEnd": 585,
+    "dcl": 2341,
+    "load": 4949
+   },
+   "marks": [
+    [
+     "theme-exec",
+     2335
+    ],
+    [
+     "theme-ready",
+     2545
+    ],
+    [
+     "plugin-inline",
+     2571
+    ],
+    [
+     "chat-exec",
+     3210
+    ]
+   ],
+   "menuOuvert": false,
+   "faqOuverte": false,
+   "jq": true,
+   "ga": true,
+   "fb": true,
+   "ressources": [
+    [
+     "/css/style.css",
+     637,
+     1225,
+     883
+    ],
+    [
+     "/css/slick.css",
+     640,
+     1233,
+     869
+    ],
+    [
+     "/css/magnific-popup.css",
+     641,
+     1275,
+     2124
+    ],
+    [
+     "/js/jquery-migrate.min.js",
+     642,
+     1343,
+     5203
+    ],
+    [
+     "/js/jquery.min.js",
+     642,
+     1625,
+     30713
+    ],
+    [
+     "/gtag/js?id=G-BANC000001",
+     642,
+     4193,
+     0
+    ],
+    [
+     "/img/hero.webp",
+     642,
+     1742,
+     50424
+    ],
+    [
+     "/js/slick.min.js",
+     644,
+     1908,
+     10734
+    ],
+    [
+     "/js/jquery.magnific-popup.min.js",
+     644,
+     1892,
+     7735
+    ],
+    [
+     "/js/theme.js",
+     644,
+     2325,
+     765
+    ],
+    [
+     "/chat/widget.js",
+     644,
+     2783,
+     0
+    ],
+    [
+     "/en_US/fbevents.js",
+     1748,
+     3967,
+     0
+    ],
+    [
+     "/img/slide1.webp",
+     1873,
+     2758,
+     7788
+    ],
+    [
+     "/img/slide2.webp",
+     1873,
+     2767,
+     8324
+    ],
+    [
+     "/img/slide4.webp",
+     1873,
+     2800,
+     9034
+    ],
+    [
+     "/img/slide3.webp",
+     1873,
+     2817,
+     9432
+    ],
+    [
+     "/img/slide5.webp",
+     2550,
+     3258,
+     8308
+    ],
+    [
+     "/chat/ready?ms=419",
+     3244,
+     3833,
+     0
+    ],
+    [
+     "/signals/config/100000000000001?v=2.9.425&r=stable",
+     4332,
+     4337,
+     0
+    ],
+    [
+     "/g/collect?v=2&tid=G-BANC000001&gtm=45je6ag1z8d_G-",
+     4869,
+     4879,
+     0
+    ],
+    [
+     "/tr/?id=100000000000001&ev=PageView&dl=http%3A%2F%",
+     4935,
+     4936,
+     0
+    ]
+   ]
+  }
+ ]
+}

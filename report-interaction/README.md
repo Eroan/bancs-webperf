@@ -30,6 +30,7 @@ Ne pas toucher la fenêtre Chrome pendant la série (les gestes sont synthétis�
 | `calibrage.mjs` | indice de Lighthouse dans la page sous chaque taux de bridage, taux retenus pour les cibles |
 | `banc.mjs` | série Playwright : `node banc.mjs <cpu> <passages> [parcours] [variantes] [slow4g\|aucun]` |
 | `lh-banc.sh` | Lighthouse sur les cinq variantes |
+| `alleger-lh.py` | archive les rapports Lighthouse d'une série : captures d'écran retirées, gzip |
 | `synthese.py` | `python3 synthese.py <dossier>` : tableaux Markdown relus dans les JSON bruts |
 | `vendor/recuperer.sh`, `vendor/SHA256SUMS` | récupère gtag.js, fbevents.js et la config Pixel (non redistribuables) et WP Rocket 3.23.5.1 (GPL, tag figé) ; compare à l'empreinte de la série de référence |
 | `vendor/awp-delay-scripts.js` | chargeur AwpDelayScripts de l'agence (MIT), variantes C et E |

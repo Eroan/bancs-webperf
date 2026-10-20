@@ -1,0 +1,15 @@
+identique  tiers/gtag.js
+identique  tiers/fbevents.js
+identique  tiers/fb-config.js
+identique  wp-rocket/lazyload-scripts.min.js
+identique  wp-rocket/HTML.php
+identique  wp-rocket/Subscriber.php
+identique  wp-rocket/dynamic-lists.json
+54ac702f9af8f6b0350ddc21fdb016a04c1de66187e667ca48dc51481672fe80  tiers/fb-config.js
+719d46f5b9fb564fea4a024b6aab225ad1c0e56e196079ddb7aead972dc6afce  tiers/fbevents.js
+aacf75c0981ba6664fda746cb498bdacf310ec4aae4f0886ffc284cddf91bd8c  tiers/gtag.js
+9ad9ccc7f79a3245fb310f4cb0902630fa4cf4e2fe8d2b9b19cc3d80546d2d5e  wp-rocket/HTML.php
+eac5c8a4048a5ec6a156cf71d8a24477d78488c0f2b51c5547f550c1332078ae  wp-rocket/Subscriber.php
+7d7039290d7a12be1fd36ff6d459feb45702a53f59bbd443e00fa9fad387956c  wp-rocket/dynamic-lists.json
+00bd608a083105a0ec3181e439f2975c911aae30c6c2a8e476a10ea9b49bae98  wp-rocket/lazyload-scripts.min.js
+5468fb1bda8db6e8103c7e4e028b0fe2ccd1f1487493dd6aadd66bee8103d1fc  awp-delay-scripts.js

@@ -17,7 +17,7 @@ mkdir -p "$OUT/lh"
 inactif() { top -l 2 -n 0 -s 2 | awk '/CPU usage/ {v=$7} END {print v+0}'; }   # second échantillon : le premier couvre depuis le démarrage
 machine() {
   { echo "# $1 : $(date '+%F %T')"; echo "charge 1/5/15 min : $(sysctl -n vm.loadavg) ; processeur inactif : $(inactif) %";
-    echo "processus les plus gourmands :"; { ps -Ao pcpu,comm -r | head -6; } || true; echo; } >> "$OUT/machine.txt"   # head ferme le tube : SIGPIPE sous pipefail
+    echo "processus les plus gourmands :"; { ps -Ao pcpu,ucomm -r | head -6; } || true; echo; } >> "$OUT/machine.txt"   # head ferme le tube : SIGPIPE sous pipefail
 }
 { sw_vers; sysctl -n machdep.cpu.brand_string hw.ncpu hw.memsize; "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --version; node -v; } > "$OUT/versions.txt" 2>&1
 
@@ -55,6 +55,7 @@ done
 # 3. Lighthouse aux mêmes multiplicateurs
 machine "lighthouse"
 bash lh-banc.sh "$OUT/lh" "$T_MILIEU $T_PSI" 3
+python3 alleger-lh.py "$OUT/lh"   # captures retirées, gzip : rapports archivables dans le dépôt
 
 # 4. Synthèse (chaque chiffre relu dans les JSON bruts)
 machine "fin"

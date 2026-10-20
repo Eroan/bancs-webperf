@@ -1,0 +1,70 @@
+# départ : 2026-10-20 19:51:10
+charge 1/5/15 min : { 2.79 2.71 2.85 } ; processeur inactif : 91.8 %
+processus les plus gourmands :
+ %CPU COMM
+ 24.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 19.0 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 16.5 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 11.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  3.5 /Users/eroan/Library/Application Support/Claude/claude-code/2.1.304/6bbba6adc37f/claude.app/Contents/MacOS/claude
+
+# témoin ×9 : 2026-10-20 19:52:10
+charge 1/5/15 min : { 2.22 2.54 2.78 } ; processeur inactif : 91.8 %
+processus les plus gourmands :
+ %CPU COMM
+ 91.2 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 21.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  9.7 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  1.6 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.80/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+  1.1 /Applications/iTerm.app/Contents/MacOS/iTerm2
+
+# série ×9 : 2026-10-20 19:53:35
+charge 1/5/15 min : { 2.19 2.41 2.70 } ; processeur inactif : 92.45 %
+processus les plus gourmands :
+ %CPU COMM
+ 28.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 17.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 16.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  2.2 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.80/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+  2.0 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+# témoin ×22 : 2026-10-20 21:17:43
+charge 1/5/15 min : { 6.00 3.80 3.25 } ; processeur inactif : 73.4 %
+processus les plus gourmands :
+ %CPU COMM
+168.9 /System/Library/CoreServices/TimeMachine/backupd
+ 78.4 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.80/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+ 33.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 16.7 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+ 16.0 /System/Library/ExtensionKit/Extensions/WallpaperAerialsExtension.appex/Contents/MacOS/WallpaperAerialsExtension
+
+# série ×22 : 2026-10-20 21:19:08
+charge 1/5/15 min : { 3.88 3.71 3.27 } ; processeur inactif : 92.73 %
+processus les plus gourmands :
+ %CPU COMM
+ 23.8 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 18.9 /System/Library/ExtensionKit/Extensions/WallpaperAerialsExtension.appex/Contents/MacOS/WallpaperAerialsExtension
+  6.6 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+  2.5 /Applications/iTerm.app/Contents/MacOS/iTerm2
+  2.2 /Users/eroan/Library/Application Support/Claude/claude-code/2.1.304/6bbba6adc37f/claude.app/Contents/MacOS/claude
+
+# lighthouse : 2026-10-20 22:43:33
+charge 1/5/15 min : { 1.39 1.66 2.27 } ; processeur inactif : 90.5 %
+processus les plus gourmands :
+ %CPU COMM
+ 97.3 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+  2.4 /Applications/iTerm.app/Contents/MacOS/iTerm2
+  1.9 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.80/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+  1.5 /usr/libexec/logd
+  0.9 /Applications/Elgato Control Center.app/Contents/MacOS/Elgato Control Center
+
+# fin : 2026-10-20 22:48:48
+charge 1/5/15 min : { 2.27 1.86 2.15 } ; processeur inactif : 96.42 %
+processus les plus gourmands :
+ %CPU COMM
+ 10.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  8.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  2.3 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.80/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+  1.2 /Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/MacOS/Creative Cloud Content Manager.node
+  1.1 /Applications/Docker.app/Contents/Resources/bin/cagent
+

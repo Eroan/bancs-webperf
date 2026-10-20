@@ -1,0 +1,619 @@
+identique  tiers/gtag.js
+identique  tiers/fbevents.js
+identique  tiers/fb-config.js
+identique  wp-rocket/lazyload-scripts.min.js
+identique  wp-rocket/HTML.php
+identique  wp-rocket/Subscriber.php
+identique  wp-rocket/dynamic-lists.json
+processeur inactif à 91.1 % : départ
+x1  BI 4169.5
+x4  BI 1037
+x6  BI 678
+x7  BI 576
+x8  BI 507
+x9  BI 442
+x10  BI 401
+x12  BI 329.5
+x16  BI 239
+x20  BI 188
+x22  BI 170
+x24  BI 158.5
+x26  BI 145
+x28  BI 132
+x30  BI 120.5
+x1  BI 4259
+x4  BI 1043.5
+x6  BI 687.5
+x7  BI 581
+x8  BI 502.5
+x9  BI 449.5
+x10  BI 398.5
+x12  BI 329
+x16  BI 237.5
+x20  BI 191.5
+x22  BI 173
+x24  BI 151
+x26  BI 144
+x28  BI 131.5
+x30  BI 123
+x1  BI 4152
+x4  BI 1042
+x6  BI 682
+x7  BI 580
+x8  BI 500.5
+x9  BI 451
+x10  BI 397.5
+x12  BI 327
+x16  BI 240.5
+x20  BI 193.5
+x22  BI 171.5
+x24  BI 157
+x26  BI 144.5
+x28  BI 131.5
+x30  BI 120.5
+x1   médiane 4169.5 [4152, 4259]
+x4   médiane 1042 [1037, 1043.5]
+x6   médiane 682 [678, 687.5]
+x7   médiane 580 [576, 581]
+x8   médiane 502.5 [500.5, 507]
+x9   médiane 449.5 [442, 451]
+x10  médiane 398.5 [397.5, 401]
+x12  médiane 329 [327, 329.5]
+x16  médiane 239 [237.5, 240.5]
+x20  médiane 191.5 [188, 193.5]
+x22  médiane 171.5 [170, 173]
+x24  médiane 157 [151, 158.5]
+x26  médiane 144.5 [144, 145]
+x28  médiane 131.5 [131.5, 132]
+x30  médiane 120.5 [120.5, 123]
+BI_X1 4169.5
+TAUX 460 9 (indice 449.5)
+TAUX 173 22 (indice 171.5)
+taux retenus : milieu de gamme ×9, équivalent PSI ×22
+coordonnées {"#faq-q1":{"x":206,"y":424},".burger":{"x":365,"y":28},"scrollTemoin":1952,"#temoin":{"x":56,"y":663}}
+p1 temoin    A classique          LCP 1720 | menu - faq - | GA pv 4293 FB pv 4044 chat 2861 | err 0
+p1 temoin    B defer              LCP 1516 | menu - faq - | GA pv 4198 FB pv 3938 chat 2530 | err 0
+p2 temoin    B defer              LCP 1512 | menu - faq - | GA pv 4200 FB pv 3935 chat 2535 | err 0
+p2 temoin    A classique          LCP 1728 | menu - faq - | GA pv 4291 FB pv 4019 chat 2857 | err 0
+écrit brut/serie-2026-10-20T19-51/serie-cpu9-slow4g-2026-10-20T17-53-35.json
+coordonnées {"#faq-q1":{"x":206,"y":424},".burger":{"x":365,"y":28},"scrollTemoin":1952,"#temoin":{"x":56,"y":663}}
+p1 passif    A classique          LCP 1712 | menu - faq - | GA pv 4288 FB pv 4015 chat 2859 | err 0
+p1 passif    B defer              LCP 1524 | menu - faq - | GA pv 4195 FB pv 3932 chat 2533 | err 0
+p1 passif    C report-tiers       LCP 1524 | menu - faq - | GA pv 9950 FB pv 11598 chat 14418 | err 0
+p1 passif    E report-hors-mesure LCP 1528 | menu - faq - | GA pv 3464 FB pv 11788 chat 14592 | err 0
+p1 passif    D wprocket-tout      LCP 1536 | menu - faq - | GA pv - FB pv - chat - | err 0
+p1 tap2      A classique          LCP 1728 | menu 3597 faq - | GA pv 4289 FB pv 4018 chat 2876 | err 0
+p1 tap2      B defer              LCP 1508 | menu 3597 faq - | GA pv 4206 FB pv 3932 chat 2538 | err 0
+p1 tap2      C report-tiers       LCP 1536 | menu 3588 faq - | GA pv 5058 FB pv 6731 chat 9541 | err 0
+p1 tap2      E report-hors-mesure LCP 1520 | menu 3589 faq - | GA pv 3556 FB pv 6882 chat 9696 | err 0
+p1 tap2      D wprocket-tout      LCP 1544 | menu 4534 faq 4534 | GA pv 4217 FB pv 4746 chat 4417 | err 0
+p1 tap4      A classique          LCP 1736 | menu 5588 faq 4243 | GA pv 4332 FB pv 4035 chat 2878 | err 0
+p1 tap4      B defer              LCP 1520 | menu 5590 faq 4331 | GA pv 4221 FB pv 3956 chat 2554 | err 0
+p1 tap4      C report-tiers       LCP 1524 | menu 5594 faq 4116 | GA pv 6767 FB pv 8442 chat 11255 | err 0
+p1 tap4      E report-hors-mesure LCP 1540 | menu 5592 faq 4114 | GA pv 3479 FB pv 8445 chat 11256 | err 0
+p1 tap4      D wprocket-tout      LCP 1536 | menu 6533 faq 6533 | GA pv 6208 FB pv 6736 chat 6415 | err 0
+p1 tap7      A classique          LCP 1748 | menu 8588 faq 7130 | GA pv 4304 FB pv 4033 chat 2884 | err 0
+p1 tap7      B defer              LCP 1528 | menu 8599 faq 7143 | GA pv 4207 FB pv 3936 chat 2563 | err 0
+p1 tap7      C report-tiers       LCP 1528 | menu 8582 faq 7125 | GA pv 9768 FB pv 11438 chat 14251 | err 0
+p1 tap7      E report-hors-mesure LCP 1520 | menu 8594 faq 7116 | GA pv 3474 FB pv 11431 chat 14254 | err 0
+p1 tap7      D wprocket-tout      LCP 1536 | menu 9547 faq 9547 | GA pv 9231 FB pv 9752 chat 9427 | err 0
+p1 scrolltap A classique          LCP - | menu 2588 faq - | GA pv 4296 FB pv 4024 chat 2865 | err 0
+p1 scrolltap B defer              LCP 1528 | menu 4209 faq - | GA pv 4205 FB pv 3936 chat 2544 | err 0
+p1 scrolltap C report-tiers       LCP 1524 | menu 2597 faq - | GA pv 5059 FB pv 6725 chat 9535 | err 0
+p1 scrolltap E report-hors-mesure LCP 1528 | menu 2589 faq - | GA pv 3562 FB pv 6884 chat 9707 | err 0
+p1 scrolltap D wprocket-tout      LCP 1288 | menu - faq - | GA pv 3791 FB pv 4345 chat 3998 | err 0
+p2 passif    B defer              LCP 1516 | menu - faq - | GA pv 4213 FB pv 3932 chat 2531 | err 0
+p2 passif    C report-tiers       LCP 1524 | menu - faq - | GA pv 9943 FB pv 11617 chat 14426 | err 0
+p2 passif    E report-hors-mesure LCP 1524 | menu - faq - | GA pv 3462 FB pv 11776 chat 14586 | err 0
+p2 passif    D wprocket-tout      LCP 1552 | menu - faq - | GA pv - FB pv - chat - | err 0
+p2 passif    A classique          LCP 1728 | menu - faq - | GA pv 4297 FB pv 4027 chat 2872 | err 0
+p2 tap2      B defer              LCP 1520 | menu 3601 faq - | GA pv 4215 FB pv 3946 chat 2554 | err 0
+p2 tap2      C report-tiers       LCP 1532 | menu 3594 faq - | GA pv 5059 FB pv 6737 chat 9536 | err 0
+p2 tap2      E report-hors-mesure LCP 1528 | menu 3588 faq - | GA pv 3574 FB pv 6900 chat 9714 | err 0
+p2 tap2      D wprocket-tout      LCP 1552 | menu 4519 faq 4519 | GA pv 4202 FB pv 4736 chat 4400 | err 0
+p2 tap2      A classique          LCP 1756 | menu 3606 faq - | GA pv 4318 FB pv 4050 chat 2893 | err 0
+p2 tap4      B defer              LCP 1544 | menu 5591 faq 4247 | GA pv 4223 FB pv 3958 chat 2557 | err 0
+p2 tap4      C report-tiers       LCP 1532 | menu 5593 faq 4098 | GA pv 6764 FB pv 8427 chat 11247 | err 0
+p2 tap4      E report-hors-mesure LCP 1536 | menu 5598 faq 4102 | GA pv 3473 FB pv 8446 chat 11234 | err 0
+p2 tap4      D wprocket-tout      LCP 1544 | menu 6528 faq 6528 | GA pv 6210 FB pv 6740 chat 6410 | err 0
+p2 tap4      A classique          LCP 1732 | menu 5599 faq 4229 | GA pv 4316 FB pv 4032 chat 2872 | err 0
+p2 tap7      B defer              LCP 1528 | menu 8593 faq 7121 | GA pv 4201 FB pv 3931 chat 2537 | err 0
+p2 tap7      C report-tiers       LCP 1520 | menu 8582 faq 7123 | GA pv 9785 FB pv 11447 chat 14268 | err 0
+p2 tap7      E report-hors-mesure LCP 1524 | menu 8589 faq 7112 | GA pv 3475 FB pv 11430 chat 14254 | err 0
+p2 tap7      D wprocket-tout      LCP 1548 | menu 9533 faq 9533 | GA pv 9213 FB pv 9735 chat 9415 | err 0
+p2 tap7      A classique          LCP 1720 | menu 8587 faq 7110 | GA pv 4302 FB pv 4025 chat 2874 | err 0
+p2 scrolltap B defer              LCP 1312 | menu 4216 faq - | GA pv 4210 FB pv 3942 chat 2550 | err 0
+p2 scrolltap C report-tiers       LCP 1528 | menu 2596 faq - | GA pv 5057 FB pv 6721 chat 9544 | err 0
+p2 scrolltap E report-hors-mesure LCP 1532 | menu 2582 faq - | GA pv 3569 FB pv 6891 chat 9710 | err 0
+p2 scrolltap D wprocket-tout      LCP 1304 | menu - faq - | GA pv 3835 FB pv 4344 chat 4039 | err 0
+p2 scrolltap A classique          LCP - | menu 2597 faq - | GA pv 4315 FB pv 4037 chat 2882 | err 0
+p3 passif    C report-tiers       LCP 1540 | menu - faq - | GA pv 9969 FB pv 11638 chat 14455 | err 0
+p3 passif    E report-hors-mesure LCP 1528 | menu - faq - | GA pv 3472 FB pv 11777 chat 14595 | err 0
+p3 passif    D wprocket-tout      LCP 1544 | menu - faq - | GA pv - FB pv - chat - | err 0
+p3 passif    A classique          LCP 1748 | menu - faq - | GA pv 4302 FB pv 4037 chat 2874 | err 0
+p3 passif    B defer              LCP 1520 | menu - faq - | GA pv 4194 FB pv 3932 chat 2530 | err 0
+p3 tap2      C report-tiers       LCP 1520 | menu 3591 faq - | GA pv 5036 FB pv 6719 chat 9523 | err 0
+p3 tap2      E report-hors-mesure LCP 1536 | menu 3589 faq - | GA pv 3557 FB pv 6873 chat 9689 | err 0
+p3 tap2      D wprocket-tout      LCP 1540 | menu 4501 faq 4499 | GA pv 4194 FB pv 4720 chat 4390 | err 0
+p3 tap2      A classique          LCP 1720 | menu 3597 faq - | GA pv 4279 FB pv 4006 chat 2849 | err 0
+p3 tap2      B defer              LCP 1520 | menu 3593 faq - | GA pv 4190 FB pv 3928 chat 2542 | err 0
+p3 tap4      C report-tiers       LCP 1520 | menu 5592 faq 4116 | GA pv 6754 FB pv 8429 chat 11239 | err 0
+p3 tap4      E report-hors-mesure LCP 1520 | menu 5594 faq 4115 | GA pv 3494 FB pv 8456 chat 11259 | err 0
+p3 tap4      D wprocket-tout      LCP 1520 | menu 6509 faq 6509 | GA pv 6212 FB pv 6725 chat 6401 | err 0
+p3 tap4      A classique          LCP 1720 | menu 5595 faq 4237 | GA pv 4329 FB pv 4010 chat 2847 | err 0
+p3 tap4      B defer              LCP 1544 | menu 5586 faq 4149 | GA pv 4227 FB pv 3947 chat 2547 | err 0
+p3 tap7      C report-tiers       LCP 1520 | menu 8591 faq 7133 | GA pv 9774 FB pv 11438 chat 14254 | err 0
+p3 tap7      E report-hors-mesure LCP 1520 | menu 8592 faq 7116 | GA pv 3452 FB pv 11438 chat 14233 | err 0
+p3 tap7      D wprocket-tout      LCP 1536 | menu 9484 faq 9484 | GA pv 9189 FB pv 9699 chat 9372 | err 0
+p3 tap7      A classique          LCP 1736 | menu 8597 faq 7120 | GA pv 4289 FB pv 4026 chat 2891 | err 0
+p3 tap7      B defer              LCP 1528 | menu 8589 faq 7115 | GA pv 4212 FB pv 3946 chat 2557 | err 0
+p3 scrolltap C report-tiers       LCP 1520 | menu 2596 faq - | GA pv 5030 FB pv 6700 chat 9524 | err 0
+p3 scrolltap E report-hors-mesure LCP 1520 | menu 2595 faq - | GA pv 3556 FB pv 6873 chat 9683 | err 0
+p3 scrolltap D wprocket-tout      LCP 1292 | menu 4076 faq - | GA pv 3798 FB pv 4275 chat 3979 | err 0
+p3 scrolltap A classique          LCP 1704 | menu 2598 faq - | GA pv 4294 FB pv 4023 chat 2862 | err 0
+p3 scrolltap B defer              LCP 1520 | menu 4201 faq - | GA pv 4196 FB pv 3930 chat 2537 | err 0
+p4 passif    E report-hors-mesure LCP 1524 | menu - faq - | GA pv 3454 FB pv 11771 chat 14574 | err 0
+p4 passif    D wprocket-tout      LCP 1532 | menu - faq - | GA pv - FB pv - chat - | err 0
+p4 passif    A classique          LCP 1736 | menu - faq - | GA pv 4294 FB pv 4025 chat 2868 | err 0
+p4 passif    B defer              LCP 1524 | menu - faq - | GA pv 4196 FB pv 3936 chat 2542 | err 0
+p4 passif    C report-tiers       LCP 1524 | menu - faq - | GA pv 9917 FB pv 11595 chat 14403 | err 0
+p4 tap2      E report-hors-mesure LCP 1524 | menu 3584 faq - | GA pv 3541 FB pv 6870 chat 9669 | err 0
+p4 tap2      D wprocket-tout      LCP 1540 | menu 4521 faq 4521 | GA pv 4204 FB pv 4723 chat 4408 | err 0
+p4 tap2      A classique          LCP 1728 | menu 3596 faq - | GA pv 4287 FB pv 4018 chat 2867 | err 0
+p4 tap2      B defer              LCP 1520 | menu 3589 faq - | GA pv 4185 FB pv 3924 chat 2522 | err 0
+p4 tap2      C report-tiers       LCP 1536 | menu 3586 faq - | GA pv 5041 FB pv 6712 chat 9530 | err 0
+p4 tap4      E report-hors-mesure LCP 1520 | menu 5586 faq 4108 | GA pv 3456 FB pv 8429 chat 11244 | err 0
+p4 tap4      D wprocket-tout      LCP 1544 | menu 6503 faq 6503 | GA pv 6199 FB pv 6726 chat 6391 | err 0
+p4 tap4      A classique          LCP 1728 | menu 5596 faq 4228 | GA pv 4307 FB pv 4015 chat 2871 | err 0
+p4 tap4      B defer              LCP 1536 | menu 5587 faq 4308 | GA pv 4198 FB pv 3940 chat 2539 | err 0
+p4 tap4      C report-tiers       LCP 1520 | menu 5585 faq 4108 | GA pv 6754 FB pv 8431 chat 11238 | err 0
+p4 tap7      E report-hors-mesure LCP 1512 | menu 8595 faq 7115 | GA pv 3458 FB pv 11431 chat 14243 | err 0
+p4 tap7      D wprocket-tout      LCP 1544 | menu 9515 faq 9515 | GA pv 9213 FB pv 9729 chat 9396 | err 0
+p4 tap7      A classique          LCP 1736 | menu 8586 faq 7128 | GA pv 4281 FB pv 4016 chat 2863 | err 0
+p4 tap7      B defer              LCP 1536 | menu 8591 faq 7133 | GA pv 4205 FB pv 3946 chat 2557 | err 0
+p4 tap7      C report-tiers       LCP 1524 | menu 8589 faq 7115 | GA pv 9756 FB pv 11433 chat 14250 | err 0
+p4 scrolltap E report-hors-mesure LCP 1516 | menu 2584 faq - | GA pv 3541 FB pv 6861 chat 9684 | err 0
+p4 scrolltap D wprocket-tout      LCP 1296 | menu 4072 faq - | GA pv 3779 FB pv 4277 chat 3972 | err 0
+p4 scrolltap A classique          LCP - | menu 2589 faq - | GA pv 4308 FB pv 4031 chat 2872 | err 0
+p4 scrolltap B defer              LCP 1524 | menu 4192 faq - | GA pv 4188 FB pv 3923 chat 2526 | err 0
+p4 scrolltap C report-tiers       LCP 1520 | menu 2593 faq - | GA pv 5044 FB pv 6711 chat 9535 | err 0
+p5 passif    D wprocket-tout      LCP 1536 | menu - faq - | GA pv - FB pv - chat - | err 0
+p5 passif    A classique          LCP 1736 | menu - faq - | GA pv 4296 FB pv 4025 chat 2870 | err 0
+p5 passif    B defer              LCP 1520 | menu - faq - | GA pv 4195 FB pv 3933 chat 2540 | err 0
+p5 passif    C report-tiers       LCP 1520 | menu - faq - | GA pv 9922 FB pv 11597 chat 14410 | err 0
+p5 passif    E report-hors-mesure LCP 1540 | menu - faq - | GA pv 3469 FB pv 11791 chat 14612 | err 0
+p5 tap2      D wprocket-tout      LCP 1556 | menu 4519 faq 4519 | GA pv 4208 FB pv 4725 chat 4400 | err 0
+p5 tap2      A classique          LCP 1728 | menu 3592 faq - | GA pv 4294 FB pv 4021 chat 2861 | err 0
+p5 tap2      B defer              LCP 1520 | menu 3598 faq - | GA pv 4190 FB pv 3930 chat 2537 | err 0
+p5 tap2      C report-tiers       LCP 1536 | menu 3596 faq - | GA pv 5040 FB pv 6712 chat 9568 | err 0
+p5 tap2      E report-hors-mesure LCP 1536 | menu 3592 faq - | GA pv 3548 FB pv 6864 chat 9689 | err 0
+p5 tap4      D wprocket-tout      LCP 1548 | menu 6495 faq 6495 | GA pv 6192 FB pv 6703 chat 6381 | err 0
+p5 tap4      A classique          LCP 1728 | menu 5589 faq 4226 | GA pv 4308 FB pv 4018 chat 2870 | err 0
+p5 tap4      B defer              LCP 1528 | menu 5590 faq 4331 | GA pv 4203 FB pv 3928 chat 2528 | err 0
+p5 tap4      C report-tiers       LCP 1524 | menu 5600 faq 4106 | GA pv 6741 FB pv 8414 chat 11228 | err 0
+p5 tap4      E report-hors-mesure LCP 1544 | menu 5587 faq 4107 | GA pv 3469 FB pv 8439 chat 11279 | err 0
+p5 tap7      D wprocket-tout      LCP 1536 | menu 9504 faq 9504 | GA pv 9203 FB pv 9720 chat 9393 | err 0
+p5 tap7      A classique          LCP 1756 | menu 8600 faq 7107 | GA pv 4299 FB pv 4028 chat 2867 | err 0
+p5 tap7      B defer              LCP 1520 | menu 8599 faq 7122 | GA pv 4203 FB pv 3943 chat 2535 | err 0
+p5 tap7      C report-tiers       LCP 1520 | menu 8599 faq 7107 | GA pv 9755 FB pv 11432 chat 14246 | err 0
+p5 tap7      E report-hors-mesure LCP 1524 | menu 8586 faq 7107 | GA pv 3467 FB pv 11415 chat 14232 | err 0
+p5 scrolltap D wprocket-tout      LCP 1296 | menu - faq - | GA pv 3805 FB pv 4340 chat 3998 | err 0
+p5 scrolltap A classique          LCP - | menu 2585 faq - | GA pv 4290 FB pv 4022 chat 2864 | err 0
+p5 scrolltap B defer              LCP 1528 | menu 4197 faq - | GA pv 4192 FB pv 3931 chat 2539 | err 0
+p5 scrolltap C report-tiers       LCP 1536 | menu 2586 faq - | GA pv 5023 FB pv 6696 chat 9513 | err 0
+p5 scrolltap E report-hors-mesure LCP 1524 | menu 2590 faq - | GA pv 3551 FB pv 6866 chat 9681 | err 0
+p6 passif    A classique          LCP 1740 | menu - faq - | GA pv 4318 FB pv 4033 chat 2866 | err 0
+p6 passif    B defer              LCP 1520 | menu - faq - | GA pv 4197 FB pv 3929 chat 2532 | err 0
+p6 passif    C report-tiers       LCP 1528 | menu - faq - | GA pv 9931 FB pv 11603 chat 14417 | err 0
+p6 passif    E report-hors-mesure LCP 1540 | menu - faq - | GA pv 3471 FB pv 11778 chat 14599 | err 0
+p6 passif    D wprocket-tout      LCP 1540 | menu - faq - | GA pv - FB pv - chat - | err 0
+p6 tap2      A classique          LCP 1740 | menu 3592 faq - | GA pv 4297 FB pv 4027 chat 2867 | err 0
+p6 tap2      B defer              LCP 1520 | menu 3591 faq - | GA pv 4190 FB pv 3920 chat 2533 | err 0
+p6 tap2      C report-tiers       LCP 1520 | menu 3588 faq - | GA pv 5034 FB pv 6706 chat 9521 | err 0
+p6 tap2      E report-hors-mesure LCP 1528 | menu 3595 faq - | GA pv 3555 FB pv 6876 chat 9696 | err 0
+p6 tap2      D wprocket-tout      LCP 1536 | menu 4502 faq 4502 | GA pv 4197 FB pv 4719 chat 4386 | err 0
+p6 tap4      A classique          LCP 1740 | menu 5592 faq 4236 | GA pv 4316 FB pv 4033 chat 2870 | err 0
+p6 tap4      B defer              LCP 1520 | menu 5590 faq 4301 | GA pv 4194 FB pv 3936 chat 2535 | err 0
+p6 tap4      C report-tiers       LCP 1540 | menu 5591 faq 4113 | GA pv 6760 FB pv 8434 chat 11297 | err 0
+p6 tap4      E report-hors-mesure LCP 1520 | menu 5588 faq 4112 | GA pv 3458 FB pv 8424 chat 11236 | err 0
+p6 tap4      D wprocket-tout      LCP 1540 | menu 6501 faq 6501 | GA pv 6202 FB pv 6722 chat 6389 | err 0
+p6 tap7      A classique          LCP 1728 | menu 8598 faq 7122 | GA pv 4279 FB pv 4019 chat 2865 | err 0
+p6 tap7      B defer              LCP 1520 | menu 8593 faq 7119 | GA pv 4192 FB pv 3931 chat 2531 | err 0
+p6 tap7      C report-tiers       LCP 1520 | menu 8593 faq 7116 | GA pv 9752 FB pv 11430 chat 14238 | err 0
+p6 tap7      E report-hors-mesure LCP 1520 | menu 8590 faq 7132 | GA pv 3464 FB pv 11442 chat 14252 | err 0
+p6 tap7      D wprocket-tout      LCP 1536 | menu 9506 faq 9506 | GA pv 9207 FB pv 9722 chat 9396 | err 0
+p6 scrolltap A classique          LCP 1704 | menu 2594 faq - | GA pv 4282 FB pv 4019 chat 2860 | err 0
+p6 scrolltap B defer              LCP 1524 | menu 4193 faq - | GA pv 4187 FB pv 3925 chat 2526 | err 0
+p6 scrolltap C report-tiers       LCP 1516 | menu 2591 faq - | GA pv 5024 FB pv 6698 chat 9514 | err 0
+p6 scrolltap E report-hors-mesure LCP 1308 | menu 2597 faq - | GA pv 3563 FB pv 6875 chat 9688 | err 0
+p6 scrolltap D wprocket-tout      LCP 1288 | menu - faq - | GA pv 3816 FB pv 4335 chat 4010 | err 0
+p7 passif    B defer              LCP 1520 | menu - faq - | GA pv 4188 FB pv 3929 chat 2537 | err 0
+p7 passif    C report-tiers       LCP 1520 | menu - faq - | GA pv 9940 FB pv 11603 chat 14417 | err 0
+p7 passif    E report-hors-mesure LCP 1524 | menu - faq - | GA pv 3463 FB pv 11778 chat 14593 | err 0
+p7 passif    D wprocket-tout      LCP 1536 | menu - faq - | GA pv - FB pv - chat - | err 0
+p7 passif    A classique          LCP 1740 | menu - faq - | GA pv 4291 FB pv 4024 chat 2873 | err 0
+p7 tap2      B defer              LCP 1520 | menu 3599 faq - | GA pv 4193 FB pv 3930 chat 2531 | err 0
+p7 tap2      C report-tiers       LCP 1520 | menu 3597 faq - | GA pv 5020 FB pv 6688 chat 9501 | err 0
+p7 tap2      E report-hors-mesure LCP 1512 | menu 3588 faq - | GA pv 3545 FB pv 6892 chat 9670 | err 0
+p7 tap2      D wprocket-tout      LCP 1540 | menu 4497 faq 4497 | GA pv 4189 FB pv 4712 chat 4386 | err 0
+p7 tap2      A classique          LCP 1736 | menu 3598 faq - | GA pv 4296 FB pv 4027 chat 2867 | err 0
+p7 tap4      B defer              LCP 1520 | menu 5597 faq 4289 | GA pv 4186 FB pv 3919 chat 2524 | err 0
+p7 tap4      C report-tiers       LCP 1520 | menu 5583 faq 4105 | GA pv 6745 FB pv 8421 chat 11227 | err 0
+p7 tap4      E report-hors-mesure LCP 1520 | menu 5598 faq 4104 | GA pv 3457 FB pv 8428 chat 11241 | err 0
+p7 tap4      D wprocket-tout      LCP 1536 | menu 6495 faq 6495 | GA pv 6196 FB pv 6718 chat 6386 | err 0
+p7 tap4      A classique          LCP 1720 | menu 5586 faq 4216 | GA pv 4300 FB pv 4010 chat 2850 | err 0
+p7 tap7      B defer              LCP 1544 | menu 8591 faq 7116 | GA pv 4208 FB pv 3947 chat 2548 | err 0
+p7 tap7      C report-tiers       LCP 1524 | menu 8585 faq 7109 | GA pv 9748 FB pv 11417 chat 14234 | err 0
+p7 tap7      E report-hors-mesure LCP 1520 | menu 8584 faq 7106 | GA pv 3457 FB pv 11433 chat 14245 | err 0
+p7 tap7      D wprocket-tout      LCP 1560 | menu 9524 faq 9524 | GA pv 9206 FB pv 9731 chat 9411 | err 0
+p7 tap7      A classique          LCP 1740 | menu 8589 faq 7114 | GA pv 4288 FB pv 4028 chat 2866 | err 0
+p7 scrolltap B defer              LCP 1308 | menu 4223 faq - | GA pv 4217 FB pv 3948 chat 2549 | err 0
+p7 scrolltap C report-tiers       LCP 1524 | menu 2590 faq - | GA pv 5014 FB pv 6687 chat 9527 | err 0
+p7 scrolltap E report-hors-mesure LCP 1292 | menu 2593 faq - | GA pv 3557 FB pv 6870 chat 9693 | err 0
+p7 scrolltap D wprocket-tout      LCP 1288 | menu - faq - | GA pv 3837 FB pv 4345 chat 4021 | err 0
+p7 scrolltap A classique          LCP 1704 | menu 2589 faq - | GA pv 4299 FB pv 4027 chat 2864 | err 0
+p8 passif    C report-tiers       LCP 1520 | menu - faq - | GA pv 9924 FB pv 11599 chat 14410 | err 0
+p8 passif    E report-hors-mesure LCP 1520 | menu - faq - | GA pv 3462 FB pv 11800 chat 14604 | err 0
+p8 passif    D wprocket-tout      LCP 1552 | menu - faq - | GA pv - FB pv - chat - | err 0
+p8 passif    A classique          LCP 1728 | menu - faq - | GA pv 4282 FB pv 4016 chat 2864 | err 0
+p8 passif    B defer              LCP 1544 | menu - faq - | GA pv 4199 FB pv 3932 chat 2537 | err 0
+p8 tap2      C report-tiers       LCP 1536 | menu 3587 faq - | GA pv 5039 FB pv 6718 chat 9519 | err 0
+p8 tap2      E report-hors-mesure LCP 1524 | menu 3595 faq - | GA pv 3539 FB pv 6856 chat 9678 | err 0
+p8 tap2      D wprocket-tout      LCP 1548 | menu 4495 faq 4495 | GA pv 4194 FB pv 4712 chat 4382 | err 0
+p8 tap2      A classique          LCP 1728 | menu 3587 faq - | GA pv 4269 FB pv 4007 chat 2851 | err 0
+p8 tap2      B defer              LCP 1524 | menu 3597 faq - | GA pv 4182 FB pv 3922 chat 2525 | err 0
+p8 tap4      C report-tiers       LCP 1536 | menu 5590 faq 4111 | GA pv 6750 FB pv 8421 chat 11237 | err 0
+p8 tap4      E report-hors-mesure LCP 1524 | menu 5593 faq 4115 | GA pv 3451 FB pv 8428 chat 11239 | err 0
+p8 tap4      D wprocket-tout      LCP 1540 | menu 6497 faq 6497 | GA pv 6199 FB pv 6722 chat 6386 | err 0
+p8 tap4      A classique          LCP 1724 | menu 5594 faq 4209 | GA pv 4286 FB pv 4007 chat 2844 | err 0
+p8 tap4      B defer              LCP 1520 | menu 5593 faq 4300 | GA pv 4180 FB pv 3919 chat 2520 | err 0
+p8 tap7      C report-tiers       LCP 1536 | menu 8591 faq 7130 | GA pv 9771 FB pv 11446 chat 14255 | err 0
+p8 tap7      E report-hors-mesure LCP 1536 | menu 8590 faq 7127 | GA pv 3458 FB pv 11435 chat 14245 | err 0
+p8 tap7      D wprocket-tout      LCP 1536 | menu 9512 faq 9512 | GA pv 9203 FB pv 9740 chat 9398 | err 0
+p8 tap7      A classique          LCP 1740 | menu 8597 faq 7120 | GA pv 4280 FB pv 4027 chat 2859 | err 0
+p8 tap7      B defer              LCP 1520 | menu 8596 faq 7104 | GA pv 4187 FB pv 3920 chat 2520 | err 0
+p8 scrolltap C report-tiers       LCP 1528 | menu 2588 faq - | GA pv 5035 FB pv 6704 chat 9512 | err 0
+p8 scrolltap E report-hors-mesure LCP 1304 | menu 2597 faq - | GA pv 3555 FB pv 6874 chat 9691 | err 0
+p8 scrolltap D wprocket-tout      LCP 1304 | menu - faq - | GA pv 3819 FB pv 4330 chat 4006 | err 0
+p8 scrolltap A classique          LCP - | menu 2598 faq - | GA pv 4283 FB pv 4019 chat 2859 | err 0
+p8 scrolltap B defer              LCP 1308 | menu 4214 faq - | GA pv 4208 FB pv 3943 chat 2546 | err 0
+p9 passif    E report-hors-mesure LCP 1520 | menu - faq - | GA pv 3443 FB pv 11763 chat 14577 | err 0
+p9 passif    D wprocket-tout      LCP 1540 | menu - faq - | GA pv - FB pv - chat - | err 0
+p9 passif    A classique          LCP 1744 | menu - faq - | GA pv 4289 FB pv 4027 chat 2867 | err 0
+p9 passif    B defer              LCP 1536 | menu - faq - | GA pv 4201 FB pv 3935 chat 2550 | err 0
+p9 passif    C report-tiers       LCP 1528 | menu - faq - | GA pv 9931 FB pv 11606 chat 14416 | err 0
+p9 tap2      E report-hors-mesure LCP 1516 | menu 3594 faq - | GA pv 3550 FB pv 6863 chat 9685 | err 0
+p9 tap2      D wprocket-tout      LCP 1560 | menu 4496 faq 4496 | GA pv 4202 FB pv 4719 chat 4388 | err 0
+p9 tap2      A classique          LCP 1736 | menu 3602 faq - | GA pv 4293 FB pv 4043 chat 2899 | err 0
+p9 tap2      B defer              LCP 1524 | menu 3589 faq - | GA pv 4194 FB pv 3922 chat 2533 | err 0
+p9 tap2      C report-tiers       LCP 1536 | menu 3584 faq - | GA pv 5039 FB pv 6713 chat 9523 | err 0
+p9 tap4      E report-hors-mesure LCP 1516 | menu 5595 faq 4100 | GA pv 3468 FB pv 8411 chat 11222 | err 0
+p9 tap4      D wprocket-tout      LCP 1560 | menu 6502 faq 6502 | GA pv 6196 FB pv 6717 chat 6390 | err 0
+p9 tap4      A classique          LCP 1740 | menu 5587 faq 4221 | GA pv 4305 FB pv 4020 chat 2865 | err 0
+p9 tap4      B defer              LCP 1520 | menu 5588 faq 4311 | GA pv 4192 FB pv 3927 chat 2531 | err 0
+p9 tap4      C report-tiers       LCP 1540 | menu 5592 faq 4110 | GA pv 6759 FB pv 8437 chat 11284 | err 0
+p9 tap7      E report-hors-mesure LCP 1520 | menu 8584 faq 7106 | GA pv 3449 FB pv 11426 chat 14242 | err 0
+p9 tap7      D wprocket-tout      LCP 1540 | menu 9510 faq 9510 | GA pv 9198 FB pv 9732 chat 9395 | err 0
+p9 tap7      A classique          LCP 1724 | menu 8590 faq 7114 | GA pv 4273 FB pv 4009 chat 2847 | err 0
+p9 tap7      B defer              LCP 1524 | menu 8589 faq 7115 | GA pv 4196 FB pv 3935 chat 2541 | err 0
+p9 tap7      C report-tiers       LCP 1520 | menu 8587 faq 7125 | GA pv 9767 FB pv 11437 chat 14255 | err 0
+p9 scrolltap E report-hors-mesure LCP 1528 | menu 2594 faq - | GA pv 3549 FB pv 6868 chat 9683 | err 0
+p9 scrolltap D wprocket-tout      LCP 1304 | menu - faq - | GA pv 3805 FB pv 4337 chat 4000 | err 0
+p9 scrolltap A classique          LCP - | menu 2589 faq - | GA pv 4283 FB pv 4013 chat 2852 | err 0
+p9 scrolltap B defer              LCP 1520 | menu 4198 faq - | GA pv 4193 FB pv 3930 chat 2533 | err 0
+p9 scrolltap C report-tiers       LCP 1528 | menu 2595 faq - | GA pv 5037 FB pv 6705 chat 9518 | err 0
+p10 passif    D wprocket-tout      LCP 1544 | menu - faq - | GA pv - FB pv - chat - | err 0
+p10 passif    A classique          LCP 1728 | menu - faq - | GA pv 4294 FB pv 4028 chat 2869 | err 0
+p10 passif    B defer              LCP 1536 | menu - faq - | GA pv 4196 FB pv 3930 chat 2531 | err 0
+p10 passif    C report-tiers       LCP 1528 | menu - faq - | GA pv 9931 FB pv 11606 chat 14416 | err 0
+p10 passif    E report-hors-mesure LCP 1528 | menu - faq - | GA pv 3466 FB pv 11779 chat 14593 | err 0
+p10 tap2      D wprocket-tout      LCP 1540 | menu 4509 faq 4507 | GA pv 4195 FB pv 4727 chat 4391 | err 0
+p10 tap2      A classique          LCP 1724 | menu 3601 faq - | GA pv 4280 FB pv 4010 chat 2854 | err 0
+p10 tap2      B defer              LCP 1524 | menu 3596 faq - | GA pv 4205 FB pv 3929 chat 2532 | err 0
+p10 tap2      C report-tiers       LCP 1520 | menu 3594 faq - | GA pv 5042 FB pv 6713 chat 9522 | err 0
+p10 tap2      E report-hors-mesure LCP 1544 | menu 3598 faq - | GA pv 3555 FB pv 6875 chat 9690 | err 0
+p10 tap4      D wprocket-tout      LCP 1540 | menu 6498 faq 6498 | GA pv 6204 FB pv 6723 chat 6392 | err 0
+p10 tap4      A classique          LCP 1744 | menu 5584 faq 4228 | GA pv 4309 FB pv 4029 chat 2868 | err 0
+p10 tap4      B defer              LCP 1516 | menu 5589 faq 4297 | GA pv 4187 FB pv 3915 chat 2523 | err 0
+p10 tap4      C report-tiers       LCP 1520 | menu 5595 faq 4100 | GA pv 6733 FB pv 8401 chat 11223 | err 0
+p10 tap4      E report-hors-mesure LCP 1540 | menu 5598 faq 4105 | GA pv 3460 FB pv 8415 chat 11223 | err 0
+p10 tap7      D wprocket-tout      LCP 1544 | menu 9509 faq 9509 | GA pv 9199 FB pv 9711 chat 9395 | err 0
+p10 tap7      A classique          LCP 1724 | menu 8600 faq 7109 | GA pv 4270 FB pv 4014 chat 2850 | err 0
+p10 tap7      B defer              LCP 1520 | menu 8596 faq 7121 | GA pv 4235 FB pv 3966 chat 2598 | err 0
+p10 tap7      C report-tiers       LCP 1532 | menu 8589 faq 7115 | GA pv 9755 FB pv 11423 chat 14233 | err 0
+p10 tap7      E report-hors-mesure LCP 1536 | menu 8595 faq 7119 | GA pv 3463 FB pv 11440 chat 14249 | err 0
+p10 scrolltap D wprocket-tout      LCP 1304 | menu 4081 faq - | GA pv 3791 FB pv 4275 chat 3978 | err 0
+p10 scrolltap A classique          LCP 1692 | menu 2589 faq - | GA pv 4291 FB pv 4016 chat 2860 | err 0
+p10 scrolltap B defer              LCP 1528 | menu 4127 faq - | GA pv 4208 FB pv 3925 chat 2528 | err 0
+p10 scrolltap C report-tiers       LCP 1516 | menu 2595 faq - | GA pv 5016 FB pv 6685 chat 9501 | err 0
+p10 scrolltap E report-hors-mesure LCP 1296 | menu 2597 faq - | GA pv 3563 FB pv 6880 chat 9700 | err 0
+écrit brut/serie-2026-10-20T19-51/serie-cpu9-slow4g-2026-10-20T19-17-43.json
+coordonnées {"#faq-q1":{"x":206,"y":424},".burger":{"x":365,"y":28},"scrollTemoin":1952,"#temoin":{"x":56,"y":663}}
+p1 temoin    A classique          LCP 1908 | menu - faq - | GA pv 4884 FB pv 4947 chat 3261 | err 0
+p1 temoin    B defer              LCP 1560 | menu - faq - | GA pv 4916 FB pv 4966 chat 2936 | err 0
+p2 temoin    B defer              LCP 1564 | menu - faq - | GA pv 4733 FB pv 4777 chat 2897 | err 0
+p2 temoin    A classique          LCP 1904 | menu - faq - | GA pv 4878 FB pv 4935 chat 3251 | err 0
+écrit brut/serie-2026-10-20T19-51/serie-cpu22-slow4g-2026-10-20T19-19-08.json
+coordonnées {"#faq-q1":{"x":206,"y":424},".burger":{"x":365,"y":28},"scrollTemoin":1952,"#temoin":{"x":56,"y":663}}
+p1 passif    A classique          LCP 1916 | menu - faq - | GA pv 4937 FB pv 4962 chat 3270 | err 0
+p1 passif    B defer              LCP 1568 | menu - faq - | GA pv 4708 FB pv 4757 chat 2846 | err 0
+p1 passif    C report-tiers       LCP 1572 | menu - faq - | GA pv 10399 FB pv 12044 chat 14839 | err 0
+p1 passif    E report-hors-mesure LCP 1580 | menu - faq - | GA pv 3788 FB pv 12167 chat 14999 | err 0
+p1 passif    D wprocket-tout      LCP 1584 | menu - faq - | GA pv - FB pv - chat - | err 0
+p1 tap2      A classique          LCP 1896 | menu 3613 faq - | GA pv 4904 FB pv 4926 chat 3251 | err 0
+p1 tap2      B defer              LCP 1564 | menu 3616 faq - | GA pv 4710 FB pv 4752 chat 2846 | err 0
+p1 tap2      C report-tiers       LCP 1596 | menu 3594 faq - | GA pv 5664 FB pv 7313 chat 10129 | err 0
+p1 tap2      E report-hors-mesure LCP 1572 | menu 3601 faq - | GA pv 3811 FB pv 7413 chat 10346 | err 0
+p1 tap2      D wprocket-tout      LCP 1564 | menu 5591 faq 5591 | GA pv 4473 FB pv 5689 chat 4956 | err 0
+p1 tap4      A classique          LCP 1912 | menu 5605 faq 4946 | GA pv 4911 FB pv 5001 chat 3231 | err 0
+p1 tap4      B defer              LCP 1568 | menu 5601 faq 4535 | GA pv 4820 FB pv 4867 chat 2848 | err 0
+p1 tap4      C report-tiers       LCP 1564 | menu 5616 faq 4140 | GA pv 7115 FB pv 8763 chat 11533 | err 0
+p1 tap4      E report-hors-mesure LCP 1564 | menu 5604 faq 4154 | GA pv 3789 FB pv 8699 chat 11560 | err 0
+p1 tap4      D wprocket-tout      LCP 1584 | menu 7603 faq 7603 | GA pv 6456 FB pv 7706 chat 6950 | err 0
+p1 tap7      A classique          LCP 1912 | menu 8588 faq 7157 | GA pv 4931 FB pv 4953 chat 3276 | err 0
+p1 tap7      B defer              LCP 1580 | menu 8593 faq 7143 | GA pv 4685 FB pv 4761 chat 2880 | err 0
+p1 tap7      C report-tiers       LCP 1564 | menu 8589 faq 7142 | GA pv 10112 FB pv 11792 chat 14566 | err 0
+p1 tap7      E report-hors-mesure LCP 1564 | menu 8589 faq 7137 | GA pv 3779 FB pv 11707 chat 14547 | err 0
+p1 tap7      D wprocket-tout      LCP 1580 | menu 10593 faq 10593 | GA pv 9488 FB pv 10690 chat 9964 | err 0
+p1 scrolltap A classique          LCP - | menu 2605 faq - | GA pv 4939 FB pv 4962 chat 3269 | err 0
+p1 scrolltap B defer              LCP 1396 | menu 4127 faq - | GA pv 4737 FB pv 4784 chat 2846 | err 0
+p1 scrolltap C report-tiers       LCP 1400 | menu 2631 faq - | GA pv 5743 FB pv 7382 chat 10186 | err 0
+p1 scrolltap E report-hors-mesure LCP 1412 | menu 2752 faq - | GA pv 3801 FB pv 7468 chat 10331 | err 0
+p1 scrolltap D wprocket-tout      LCP 1392 | menu - faq - | GA pv 4104 FB pv 5339 chat 4621 | err 0
+p2 passif    B defer              LCP 1580 | menu - faq - | GA pv 4733 FB pv 4783 chat 2879 | err 0
+p2 passif    C report-tiers       LCP 1572 | menu - faq - | GA pv 10359 FB pv 11995 chat 14828 | err 0
+p2 passif    E report-hors-mesure LCP 1580 | menu - faq - | GA pv 3788 FB pv 12172 chat 15015 | err 0
+p2 passif    D wprocket-tout      LCP 1584 | menu - faq - | GA pv - FB pv - chat - | err 0
+p2 passif    A classique          LCP 1904 | menu - faq - | GA pv 4904 FB pv 4929 chat 3279 | err 0
+p2 tap2      B defer              LCP 1576 | menu 3604 faq - | GA pv 4741 FB pv 4781 chat 2887 | err 0
+p2 tap2      C report-tiers       LCP 1572 | menu 3604 faq - | GA pv 5636 FB pv 7283 chat 10089 | err 0
+p2 tap2      E report-hors-mesure LCP 1560 | menu 3596 faq - | GA pv 3796 FB pv 7411 chat 10292 | err 0
+p2 tap2      D wprocket-tout      LCP 1580 | menu 5611 faq 5611 | GA pv 4485 FB pv 5711 chat 4957 | err 0
+p2 tap2      A classique          LCP 1892 | menu 3614 faq - | GA pv 4897 FB pv 4920 chat 3248 | err 0
+p2 tap4      B defer              LCP 1580 | menu 5600 faq 4817 | GA pv 4778 FB pv 4901 chat 2861 | err 0
+p2 tap4      C report-tiers       LCP 1564 | menu 5609 faq 4128 | GA pv 7090 FB pv 8729 chat 11527 | err 0
+p2 tap4      E report-hors-mesure LCP 1564 | menu 5603 faq 4169 | GA pv 3790 FB pv 8723 chat 11560 | err 0
+p2 tap4      D wprocket-tout      LCP 1564 | menu 7585 faq 7585 | GA pv 6468 FB pv 7688 chat 6941 | err 0
+p2 tap4      A classique          LCP 1900 | menu 5601 faq 4924 | GA pv 4877 FB pv 5029 chat 3265 | err 0
+p2 tap7      B defer              LCP 1552 | menu 8611 faq 7150 | GA pv 4735 FB pv 4780 chat 2869 | err 0
+p2 tap7      C report-tiers       LCP 1580 | menu 8600 faq 7132 | GA pv 10090 FB pv 11735 chat 14555 | err 0
+p2 tap7      E report-hors-mesure LCP 1576 | menu 8594 faq 7129 | GA pv 3792 FB pv 11694 chat 14549 | err 0
+p2 tap7      D wprocket-tout      LCP 1560 | menu 10629 faq 10629 | GA pv 9472 FB pv 10724 chat 9961 | err 0
+p2 tap7      A classique          LCP 1900 | menu 8607 faq 7145 | GA pv 4890 FB pv 4950 chat 3264 | err 0
+p2 scrolltap B defer              LCP 1428 | menu 4156 faq - | GA pv 4750 FB pv 4792 chat 2865 | err 0
+p2 scrolltap C report-tiers       LCP 1400 | menu 2612 faq - | GA pv 5674 FB pv 7303 chat 10136 | err 0
+p2 scrolltap E report-hors-mesure LCP 1396 | menu 2735 faq - | GA pv 3797 FB pv 7435 chat 10285 | err 0
+p2 scrolltap D wprocket-tout      LCP 1396 | menu - faq - | GA pv 4103 FB pv 5273 chat 4566 | err 0
+p2 scrolltap A classique          LCP - | menu 2611 faq - | GA pv 4942 FB pv 4964 chat 3277 | err 0
+p3 passif    C report-tiers       LCP 1564 | menu - faq - | GA pv 10362 FB pv 11999 chat 14799 | err 0
+p3 passif    E report-hors-mesure LCP 1580 | menu - faq - | GA pv 3795 FB pv 12173 chat 15020 | err 0
+p3 passif    D wprocket-tout      LCP 1564 | menu - faq - | GA pv - FB pv - chat - | err 0
+p3 passif    A classique          LCP 1896 | menu - faq - | GA pv 4931 FB pv 4953 chat 3258 | err 0
+p3 passif    B defer              LCP 1580 | menu - faq - | GA pv 4726 FB pv 4766 chat 2856 | err 0
+p3 tap2      C report-tiers       LCP 1560 | menu 3606 faq - | GA pv 5646 FB pv 7306 chat 10100 | err 0
+p3 tap2      E report-hors-mesure LCP 1568 | menu 3605 faq - | GA pv 3813 FB pv 7441 chat 10240 | err 0
+p3 tap2      D wprocket-tout      LCP 1568 | menu 5614 faq 5614 | GA pv 4494 FB pv 5711 chat 4958 | err 0
+p3 tap2      A classique          LCP 1916 | menu 3605 faq - | GA pv 4903 FB pv 4927 chat 3263 | err 0
+p3 tap2      B defer              LCP 1580 | menu 3599 faq - | GA pv 4741 FB pv 4777 chat 2866 | err 0
+p3 tap4      C report-tiers       LCP 1564 | menu 5596 faq 4124 | GA pv 7074 FB pv 8725 chat 11523 | err 0
+p3 tap4      E report-hors-mesure LCP 1576 | menu 5599 faq 4147 | GA pv 3793 FB pv 8716 chat 11581 | err 0
+p3 tap4      D wprocket-tout      LCP 1568 | menu 7564 faq 7564 | GA pv 6450 FB pv 7656 chat 6931 | err 0
+p3 tap4      A classique          LCP 1896 | menu 5595 faq 4951 | GA pv 4915 FB pv 5001 chat 3270 | err 0
+p3 tap4      B defer              LCP 1568 | menu 5597 faq 4751 | GA pv 4708 FB pv 4822 chat 2849 | err 0
+p3 tap7      C report-tiers       LCP 1564 | menu 8595 faq 7142 | GA pv 10069 FB pv 11711 chat 14569 | err 0
+p3 tap7      E report-hors-mesure LCP 1564 | menu 8592 faq 7155 | GA pv 3785 FB pv 11714 chat 14560 | err 0
+p3 tap7      D wprocket-tout      LCP 1584 | menu 10603 faq 10603 | GA pv 9471 FB pv 10701 chat 9948 | err 0
+p3 tap7      A classique          LCP 1916 | menu 8601 faq 7172 | GA pv 4932 FB pv 4954 chat 3282 | err 0
+p3 tap7      B defer              LCP 1564 | menu 8598 faq 7170 | GA pv 4720 FB pv 4763 chat 2848 | err 0
+p3 scrolltap C report-tiers       LCP 1396 | menu 2604 faq - | GA pv 5724 FB pv 7376 chat 10168 | err 0
+p3 scrolltap E report-hors-mesure LCP 1436 | menu 2771 faq - | GA pv 3823 FB pv 7474 chat 10320 | err 0
+p3 scrolltap D wprocket-tout      LCP 1388 | menu - faq - | GA pv 4103 FB pv 5303 chat 4597 | err 0
+p3 scrolltap A classique          LCP - | menu 2606 faq - | GA pv 4926 FB pv 4949 chat 3256 | err 0
+p3 scrolltap B defer              LCP 1420 | menu 4139 faq - | GA pv 4744 FB pv 4783 chat 2863 | err 0
+p4 passif    E report-hors-mesure LCP 1564 | menu - faq - | GA pv 3779 FB pv 12169 chat 15013 | err 0
+p4 passif    D wprocket-tout      LCP 1572 | menu - faq - | GA pv - FB pv - chat - | err 0
+p4 passif    A classique          LCP 1884 | menu - faq - | GA pv 4906 FB pv 4925 chat 3284 | err 0
+p4 passif    B defer              LCP 1564 | menu - faq - | GA pv 4728 FB pv 4778 chat 2858 | err 0
+p4 passif    C report-tiers       LCP 1572 | menu - faq - | GA pv 10406 FB pv 12065 chat 14850 | err 0
+p4 tap2      E report-hors-mesure LCP 1564 | menu 3662 faq - | GA pv 3874 FB pv 7428 chat 10294 | err 0
+p4 tap2      D wprocket-tout      LCP 1572 | menu 5606 faq 5606 | GA pv 4485 FB pv 5710 chat 4953 | err 0
+p4 tap2      A classique          LCP 1900 | menu 3615 faq - | GA pv 4913 FB pv 4933 chat 3250 | err 0
+p4 tap2      B defer              LCP 1576 | menu 3608 faq - | GA pv 4828 FB pv 4874 chat 2880 | err 0
+p4 tap2      C report-tiers       LCP 1568 | menu 3608 faq - | GA pv 5640 FB pv 7282 chat 10122 | err 0
+p4 tap4      E report-hors-mesure LCP 1576 | menu 5597 faq 4139 | GA pv 3781 FB pv 8701 chat 11545 | err 0
+p4 tap4      D wprocket-tout      LCP 1572 | menu 7586 faq 7586 | GA pv 6454 FB pv 7689 chat 6933 | err 0
+p4 tap4      A classique          LCP 1896 | menu 5610 faq 4989 | GA pv 4951 FB pv 5115 chat 3257 | err 0
+p4 tap4      B defer              LCP 1560 | menu 5601 faq 4505 | GA pv 4784 FB pv 4834 chat 2861 | err 0
+p4 tap4      C report-tiers       LCP 1580 | menu 5614 faq 4134 | GA pv 7089 FB pv 8738 chat 11547 | err 0
+p4 tap7      E report-hors-mesure LCP 1564 | menu 8607 faq 7132 | GA pv 3793 FB pv 11691 chat 14548 | err 0
+p4 tap7      D wprocket-tout      LCP 1576 | menu 10586 faq 10586 | GA pv 9471 FB pv 10684 chat 9930 | err 0
+p4 tap7      A classique          LCP 1888 | menu 8601 faq 7159 | GA pv 4896 FB pv 4921 chat 3253 | err 0
+p4 tap7      B defer              LCP 1568 | menu 8596 faq 7162 | GA pv 4703 FB pv 4744 chat 2847 | err 0
+p4 tap7      C report-tiers       LCP 1556 | menu 8608 faq 7127 | GA pv 10068 FB pv 11719 chat 14530 | err 0
+p4 scrolltap E report-hors-mesure LCP 1396 | menu 2754 faq - | GA pv 3783 FB pv 7477 chat 10292 | err 0
+p4 scrolltap D wprocket-tout      LCP 1384 | menu - faq - | GA pv 4094 FB pv 5269 chat 4561 | err 0
+p4 scrolltap A classique          LCP - | menu 2597 faq - | GA pv 4911 FB pv 4937 chat 3262 | err 0
+p4 scrolltap B defer              LCP 1396 | menu 4153 faq - | GA pv 4763 FB pv 4805 chat 2885 | err 0
+p4 scrolltap C report-tiers       LCP 1404 | menu 2612 faq - | GA pv 5689 FB pv 7412 chat 10140 | err 0
+p5 passif    D wprocket-tout      LCP 1564 | menu - faq - | GA pv - FB pv - chat - | err 0
+p5 passif    A classique          LCP 1916 | menu - faq - | GA pv 4922 FB pv 4940 chat 3278 | err 0
+p5 passif    B defer              LCP 1580 | menu - faq - | GA pv 4708 FB pv 4754 chat 2876 | err 0
+p5 passif    C report-tiers       LCP 1564 | menu - faq - | GA pv 10386 FB pv 12027 chat 14843 | err 0
+p5 passif    E report-hors-mesure LCP 1584 | menu - faq - | GA pv 3763 FB pv 12164 chat 15030 | err 0
+p5 tap2      D wprocket-tout      LCP 1584 | menu 5615 faq 5615 | GA pv 4489 FB pv 5717 chat 4964 | err 0
+p5 tap2      A classique          LCP 1896 | menu 3607 faq - | GA pv 4922 FB pv 4947 chat 3263 | err 0
+p5 tap2      B defer              LCP 1576 | menu 3605 faq - | GA pv 4729 FB pv 4769 chat 2867 | err 0
+p5 tap2      C report-tiers       LCP 1564 | menu 3598 faq - | GA pv 5611 FB pv 7251 chat 10068 | err 0
+p5 tap2      E report-hors-mesure LCP 1568 | menu 3607 faq - | GA pv 3819 FB pv 7405 chat 10279 | err 0
+p5 tap4      D wprocket-tout      LCP 1568 | menu 7605 faq 7605 | GA pv 6465 FB pv 7697 chat 6948 | err 0
+p5 tap4      A classique          LCP 1904 | menu 5602 faq 4948 | GA pv 4912 FB pv 5025 chat 3262 | err 0
+p5 tap4      B defer              LCP 1580 | menu 5597 faq 4772 | GA pv 4734 FB pv 4855 chat 2868 | err 0
+p5 tap4      C report-tiers       LCP 1584 | menu 5592 faq 4144 | GA pv 7106 FB pv 8753 chat 11549 | err 0
+p5 tap4      E report-hors-mesure LCP 1568 | menu 5598 faq 4145 | GA pv 3786 FB pv 8697 chat 11547 | err 0
+p5 tap7      D wprocket-tout      LCP 1564 | menu 10623 faq 10623 | GA pv 9473 FB pv 10722 chat 9969 | err 0
+p5 tap7      A classique          LCP 1912 | menu 8603 faq 7135 | GA pv 4932 FB pv 4958 chat 3282 | err 0
+p5 tap7      B defer              LCP 1580 | menu 8599 faq 7130 | GA pv 4728 FB pv 4768 chat 2872 | err 0
+p5 tap7      C report-tiers       LCP 1564 | menu 8596 faq 7144 | GA pv 10102 FB pv 11751 chat 14556 | err 0
+p5 tap7      E report-hors-mesure LCP 1572 | menu 8590 faq 7120 | GA pv 3782 FB pv 11674 chat 14533 | err 0
+p5 scrolltap D wprocket-tout      LCP 1384 | menu - faq - | GA pv 4092 FB pv 5313 chat 4598 | err 0
+p5 scrolltap A classique          LCP - | menu 2599 faq - | GA pv 4949 FB pv 4975 chat 3269 | err 0
+p5 scrolltap B defer              LCP 1420 | menu 4161 faq - | GA pv 4767 FB pv 4812 chat 2858 | err 0
+p5 scrolltap C report-tiers       LCP 1400 | menu 2620 faq - | GA pv 5705 FB pv 7345 chat 10156 | err 0
+p5 scrolltap E report-hors-mesure LCP 1404 | menu 2751 faq - | GA pv 3776 FB pv 7465 chat 10309 | err 0
+p6 passif    A classique          LCP 1896 | menu - faq - | GA pv 4894 FB pv 4914 chat 3253 | err 0
+p6 passif    B defer              LCP 1588 | menu - faq - | GA pv 4789 FB pv 4835 chat 2872 | err 0
+p6 passif    C report-tiers       LCP 1580 | menu - faq - | GA pv 10380 FB pv 12029 chat 14842 | err 0
+p6 passif    E report-hors-mesure LCP 1580 | menu - faq - | GA pv 3791 FB pv 12158 chat 15011 | err 0
+p6 passif    D wprocket-tout      LCP 1568 | menu - faq - | GA pv - FB pv - chat - | err 0
+p6 tap2      A classique          LCP 1892 | menu 3616 faq - | GA pv 5041 FB pv 5068 chat 3486 | err 0
+p6 tap2      B defer              LCP 1572 | menu 3606 faq - | GA pv 4807 FB pv 4853 chat 2890 | err 0
+p6 tap2      C report-tiers       LCP 1576 | menu 3606 faq - | GA pv 5761 FB pv 7443 chat 10195 | err 0
+p6 tap2      E report-hors-mesure LCP 1580 | menu 3634 faq - | GA pv 3868 FB pv 7487 chat 10365 | err 0
+p6 tap2      D wprocket-tout      LCP 1572 | menu 5775 faq 5775 | GA pv 4526 FB pv 5888 chat 5055 | err 0
+p6 tap4      A classique          LCP 1912 | menu 5610 faq 5062 | GA pv 5020 FB pv 5119 chat 3287 | err 0
+p6 tap4      B defer              LCP 1572 | menu 5603 faq 5116 | GA pv 5050 FB pv 5286 chat 3059 | err 0
+p6 tap4      C report-tiers       LCP 1588 | menu 5610 faq 4137 | GA pv 7241 FB pv 9030 chat 11603 | err 0
+p6 tap4      E report-hors-mesure LCP 1588 | menu 5602 faq 4141 | GA pv 3892 FB pv 9081 chat 11631 | err 0
+p6 tap4      D wprocket-tout      LCP 1612 | menu 7761 faq 7761 | GA pv 6505 FB pv 7871 chat 7048 | err 0
+p6 tap7      A classique          LCP 1968 | menu 8597 faq 7150 | GA pv 5066 FB pv 5135 chat 3316 | err 0
+p6 tap7      B defer              LCP 1584 | menu 8607 faq 7152 | GA pv 4882 FB pv 4931 chat 2907 | err 0
+p6 tap7      C report-tiers       LCP 1568 | menu 8602 faq 7154 | GA pv 10353 FB pv 12031 chat 14585 | err 0
+p6 tap7      E report-hors-mesure LCP 1612 | menu 8597 faq 7163 | GA pv 3945 FB pv 12033 chat 14598 | err 0
+p6 tap7      D wprocket-tout      LCP 1612 | menu 12235 faq 12235 | GA pv 9991 FB pv 12471 chat 10907 | err 0
+p6 scrolltap A classique          LCP - | menu 2624 faq - | GA pv 5817 FB pv 5874 chat 3282 | err 0
+p6 scrolltap B defer              LCP 1544 | menu 4103 faq - | GA pv 5953 FB pv 6145 chat 3258 | err 0
+p6 scrolltap C report-tiers       LCP 1420 | menu 2622 faq - | GA pv 5770 FB pv 7455 chat 10253 | err 0
+p6 scrolltap E report-hors-mesure LCP 1416 | menu 4090 faq - | GA pv 3854 FB pv 7758 chat 10622 | err 0
+p6 scrolltap D wprocket-tout      LCP 1420 | menu - faq - | GA pv 4197 FB pv 5611 chat 4754 | err 0
+p7 passif    B defer              LCP 1564 | menu - faq - | GA pv 4822 FB pv 4870 chat 2898 | err 0
+p7 passif    C report-tiers       LCP 1584 | menu - faq - | GA pv 10457 FB pv 12214 chat 14978 | err 0
+p7 passif    E report-hors-mesure LCP 1572 | menu - faq - | GA pv 3895 FB pv 12212 chat 15098 | err 0
+p7 passif    D wprocket-tout      LCP 1580 | menu - faq - | GA pv - FB pv - chat - | err 0
+p7 passif    A classique          LCP 1964 | menu - faq - | GA pv 5073 FB pv 5099 chat 3383 | err 0
+p7 tap2      B defer              LCP 1588 | menu 3616 faq - | GA pv 4922 FB pv 4968 chat 2929 | err 0
+p7 tap2      C report-tiers       LCP 1572 | menu 3605 faq - | GA pv 5796 FB pv 7476 chat 10340 | err 0
+p7 tap2      E report-hors-mesure LCP 1572 | menu 3631 faq - | GA pv 3864 FB pv 7472 chat 10378 | err 0
+p7 tap2      D wprocket-tout      LCP 1560 | menu 5787 faq 5787 | GA pv 4562 FB pv 5899 chat 5078 | err 0
+p7 tap2      A classique          LCP 1980 | menu 3610 faq - | GA pv 5185 FB pv 5214 chat 3474 | err 0
+p7 tap4      B defer              LCP 1584 | menu 5604 faq 4999 | GA pv 4949 FB pv 5132 chat 2956 | err 0
+p7 tap4      C report-tiers       LCP 1588 | menu 5627 faq 4144 | GA pv 7288 FB pv 9168 chat 11783 | err 0
+p7 tap4      E report-hors-mesure LCP 1576 | menu 5596 faq 4230 | GA pv 4043 FB pv 8936 chat 11812 | err 0
+p7 tap4      D wprocket-tout      LCP 1584 | menu 7967 faq 7967 | GA pv 6528 FB pv 8153 chat 7070 | err 0
+p7 tap4      A classique          LCP 1964 | menu 5608 faq 4459 | GA pv 5167 FB pv 5197 chat 3337 | err 0
+p7 tap7      B defer              LCP 1580 | menu 8605 faq 7138 | GA pv 4936 FB pv 4983 chat 2964 | err 0
+p7 tap7      C report-tiers       LCP 1584 | menu 8614 faq 7140 | GA pv 10184 FB pv 11847 chat 14634 | err 0
+p7 tap7      E report-hors-mesure LCP 1568 | menu 8604 faq 7136 | GA pv 3791 FB pv 11864 chat 14852 | err 0
+p7 tap7      D wprocket-tout      LCP 1560 | menu 11078 faq 11078 | GA pv 9604 FB pv 11227 chat 10255 | err 0
+p7 tap7      A classique          LCP 1972 | menu 8591 faq 7130 | GA pv 5027 FB pv 5054 chat 3439 | err 0
+p7 scrolltap B defer              LCP 1416 | menu 4126 faq - | GA pv 4751 FB pv 4793 chat 2823 | err 0
+p7 scrolltap C report-tiers       LCP 1396 | menu 2617 faq - | GA pv 5700 FB pv 7339 chat 10148 | err 0
+p7 scrolltap E report-hors-mesure LCP 1396 | menu 2739 faq - | GA pv 3856 FB pv 7441 chat 10299 | err 0
+p7 scrolltap D wprocket-tout      LCP 1384 | menu - faq - | GA pv 4108 FB pv 5639 chat 4711 | err 0
+p7 scrolltap A classique          LCP - | menu 2733 faq - | GA pv 5148 FB pv 5172 chat 3317 | err 0
+p8 passif    C report-tiers       LCP 1596 | menu - faq - | GA pv 10514 FB pv 12238 chat 14854 | err 0
+p8 passif    E report-hors-mesure LCP 1572 | menu - faq - | GA pv 3804 FB pv 12190 chat 15040 | err 0
+p8 passif    D wprocket-tout      LCP 1560 | menu - faq - | GA pv - FB pv - chat - | err 0
+p8 passif    A classique          LCP 1908 | menu - faq - | GA pv 4898 FB pv 4918 chat 3233 | err 0
+p8 passif    B defer              LCP 1572 | menu - faq - | GA pv 4727 FB pv 4785 chat 2844 | err 0
+p8 tap2      C report-tiers       LCP 1568 | menu 3591 faq - | GA pv 5682 FB pv 7351 chat 10291 | err 0
+p8 tap2      E report-hors-mesure LCP 1572 | menu 3610 faq - | GA pv 3836 FB pv 7421 chat 10303 | err 0
+p8 tap2      D wprocket-tout      LCP 1576 | menu 5571 faq 5571 | GA pv 4473 FB pv 5668 chat 4932 | err 0
+p8 tap2      A classique          LCP 1892 | menu 3604 faq - | GA pv 4879 FB pv 4940 chat 3216 | err 0
+p8 tap2      B defer              LCP 1572 | menu 3605 faq - | GA pv 4706 FB pv 4744 chat 2843 | err 0
+p8 tap4      C report-tiers       LCP 1556 | menu 5607 faq 4131 | GA pv 7105 FB pv 8803 chat 11615 | err 0
+p8 tap4      E report-hors-mesure LCP 1556 | menu 5599 faq 4166 | GA pv 3852 FB pv 8736 chat 11592 | err 0
+p8 tap4      D wprocket-tout      LCP 1564 | menu 7617 faq 7617 | GA pv 6461 FB pv 7717 chat 6966 | err 0
+p8 tap4      A classique          LCP 1900 | menu 5603 faq 5020 | GA pv 4988 FB pv 5082 chat 3290 | err 0
+p8 tap4      B defer              LCP 1572 | menu 5604 faq 4886 | GA pv 4847 FB pv 4976 chat 2899 | err 0
+p8 tap7      C report-tiers       LCP 1564 | menu 8586 faq 7140 | GA pv 10110 FB pv 11762 chat 14560 | err 0
+p8 tap7      E report-hors-mesure LCP 1564 | menu 8593 faq 7153 | GA pv 3764 FB pv 11706 chat 14572 | err 0
+p8 tap7      D wprocket-tout      LCP 1568 | menu 10815 faq 10815 | GA pv 9525 FB pv 10925 chat 10138 | err 0
+p8 tap7      A classique          LCP 1916 | menu 8599 faq 7154 | GA pv 4969 FB pv 4992 chat 3333 | err 0
+p8 tap7      B defer              LCP 1572 | menu 8608 faq 7138 | GA pv 4695 FB pv 4739 chat 2875 | err 0
+p8 scrolltap C report-tiers       LCP 1388 | menu 2626 faq - | GA pv 5690 FB pv 7418 chat 10174 | err 0
+p8 scrolltap E report-hors-mesure LCP 1428 | menu 2834 faq - | GA pv 3965 FB pv 7618 chat 10434 | err 0
+p8 scrolltap D wprocket-tout      LCP 1384 | menu - faq - | GA pv 4100 FB pv 5287 chat 4597 | err 0
+p8 scrolltap A classique          LCP - | menu 2635 faq - | GA pv 5014 FB pv 5035 chat 3286 | err 0
+p8 scrolltap B defer              LCP 1424 | menu 4169 faq - | GA pv 4798 FB pv 4845 chat 2869 | err 0
+p9 passif    E report-hors-mesure LCP 1560 | menu - faq - | GA pv 3779 FB pv 12165 chat 15020 | err 0
+p9 passif    D wprocket-tout      LCP 1560 | menu - faq - | GA pv - FB pv - chat - | err 0
+p9 passif    A classique          LCP 1920 | menu - faq - | GA pv 4969 FB pv 4993 chat 3274 | err 0
+p9 passif    B defer              LCP 1568 | menu - faq - | GA pv 4740 FB pv 4786 chat 2869 | err 0
+p9 passif    C report-tiers       LCP 1584 | menu - faq - | GA pv 10578 FB pv 12262 chat 14900 | err 0
+p9 tap2      E report-hors-mesure LCP 1588 | menu 3690 faq - | GA pv 3951 FB pv 7648 chat 10408 | err 0
+p9 tap2      D wprocket-tout      LCP 1572 | menu 5702 faq 5702 | GA pv 4495 FB pv 5810 chat 4997 | err 0
+p9 tap2      A classique          LCP 1920 | menu 3595 faq - | GA pv 4923 FB pv 4986 chat 3234 | err 0
+p9 tap2      B defer              LCP 1580 | menu 3631 faq - | GA pv 4785 FB pv 4827 chat 3029 | err 0
+p9 tap2      C report-tiers       LCP 1576 | menu 3607 faq - | GA pv 6153 FB pv 7882 chat 10604 | err 0
+p9 tap4      E report-hors-mesure LCP 1584 | menu 5602 faq 4145 | GA pv 3838 FB pv 8698 chat 11577 | err 0
+p9 tap4      D wprocket-tout      LCP 1600 | menu 7605 faq 7605 | GA pv 6465 FB pv 7707 chat 6932 | err 0
+p9 tap4      A classique          LCP 1924 | menu 5597 faq 5008 | GA pv 4973 FB pv 5076 chat 3265 | err 0
+p9 tap4      B defer              LCP 1592 | menu 5600 faq 4911 | GA pv 4859 FB pv 5003 chat 3062 | err 0
+p9 tap4      C report-tiers       LCP 1568 | menu 5591 faq 4130 | GA pv 7148 FB pv 8909 chat 11552 | err 0
+p9 tap7      E report-hors-mesure LCP 1572 | menu 8589 faq 7123 | GA pv 3798 FB pv 11685 chat 14565 | err 0
+p9 tap7      D wprocket-tout      LCP 1540 | menu 10565 faq 10560 | GA pv 9456 FB pv 10656 chat 9920 | err 0
+p9 tap7      A classique          LCP 1888 | menu 8596 faq 7131 | GA pv 4852 FB pv 4908 chat 3219 | err 0
+p9 tap7      B defer              LCP 1572 | menu 8599 faq 7131 | GA pv 4720 FB pv 4765 chat 2846 | err 0
+p9 tap7      C report-tiers       LCP 1568 | menu 8591 faq 7136 | GA pv 10080 FB pv 11858 chat 14685 | err 0
+p9 scrolltap E report-hors-mesure LCP 1408 | menu 2720 faq - | GA pv 3746 FB pv 7405 chat 10299 | err 0
+p9 scrolltap D wprocket-tout      LCP 1388 | menu - faq - | GA pv 4087 FB pv 5214 chat 4553 | err 0
+p9 scrolltap A classique          LCP - | menu 2598 faq - | GA pv 4904 FB pv 4929 chat 3236 | err 0
+p9 scrolltap B defer              LCP 1400 | menu 4133 faq - | GA pv 4711 FB pv 4755 chat 2842 | err 0
+p9 scrolltap C report-tiers       LCP 1400 | menu 2593 faq - | GA pv 5628 FB pv 7258 chat 10152 | err 0
+p10 passif    D wprocket-tout      LCP 1552 | menu - faq - | GA pv - FB pv - chat - | err 0
+p10 passif    A classique          LCP 1896 | menu - faq - | GA pv 4870 FB pv 4889 chat 3251 | err 0
+p10 passif    B defer              LCP 1576 | menu - faq - | GA pv 4707 FB pv 4752 chat 2865 | err 0
+p10 passif    C report-tiers       LCP 1568 | menu - faq - | GA pv 10367 FB pv 11994 chat 14832 | err 0
+p10 passif    E report-hors-mesure LCP 1568 | menu - faq - | GA pv 3774 FB pv 12149 chat 14993 | err 0
+p10 tap2      D wprocket-tout      LCP 1548 | menu 5532 faq 5531 | GA pv 4459 FB pv 5623 chat 4905 | err 0
+p10 tap2      A classique          LCP 1880 | menu 3615 faq - | GA pv 4829 FB pv 4882 chat 3222 | err 0
+p10 tap2      B defer              LCP 1556 | menu 3609 faq - | GA pv 4686 FB pv 4729 chat 2865 | err 0
+p10 tap2      C report-tiers       LCP 1572 | menu 3601 faq - | GA pv 5586 FB pv 7226 chat 10065 | err 0
+p10 tap2      E report-hors-mesure LCP 1568 | menu 3606 faq - | GA pv 3804 FB pv 7377 chat 10251 | err 0
+p10 tap4      D wprocket-tout      LCP 1552 | menu 7522 faq 7522 | GA pv 6452 FB pv 7611 chat 6905 | err 0
+p10 tap4      A classique          LCP 1876 | menu 5604 faq 4904 | GA pv 4870 FB pv 4961 chat 3218 | err 0
+p10 tap4      B defer              LCP 1564 | menu 5592 faq 4728 | GA pv 4691 FB pv 4795 chat 2838 | err 0
+p10 tap4      C report-tiers       LCP 1556 | menu 5605 faq 4133 | GA pv 7077 FB pv 8688 chat 11538 | err 0
+p10 tap4      E report-hors-mesure LCP 1576 | menu 5585 faq 4131 | GA pv 3766 FB pv 8677 chat 11541 | err 0
+p10 tap7      D wprocket-tout      LCP 1556 | menu 10545 faq 10545 | GA pv 9449 FB pv 10634 chat 9905 | err 0
+p10 tap7      A classique          LCP 1884 | menu 8604 faq 7140 | GA pv 4869 FB pv 4892 chat 3228 | err 0
+p10 tap7      B defer              LCP 1568 | menu 8599 faq 7133 | GA pv 4689 FB pv 4732 chat 2836 | err 0
+p10 tap7      C report-tiers       LCP 1572 | menu 8604 faq 7151 | GA pv 10088 FB pv 11717 chat 14556 | err 0
+p10 tap7      E report-hors-mesure LCP 1556 | menu 8600 faq 7112 | GA pv 3804 FB pv 11680 chat 14520 | err 0
+p10 scrolltap D wprocket-tout      LCP 1376 | menu - faq - | GA pv 4081 FB pv 5243 chat 4544 | err 0
+p10 scrolltap A classique          LCP - | menu 2604 faq - | GA pv 4903 FB pv 4926 chat 3225 | err 0
+p10 scrolltap B defer              LCP 1396 | menu 4175 faq - | GA pv 4787 FB pv 4829 chat 2840 | err 0
+p10 scrolltap C report-tiers       LCP 1392 | menu 2594 faq - | GA pv 5602 FB pv 7233 chat 10076 | err 0
+p10 scrolltap E report-hors-mesure LCP 1412 | menu 2730 faq - | GA pv 3773 FB pv 7423 chat 10281 | err 0
+écrit brut/serie-2026-10-20T19-51/serie-cpu22-slow4g-2026-10-20T20-43-33.json
+lighthouse ×9 A passage 1
+lighthouse ×9 B passage 1
+lighthouse ×9 C passage 1
+lighthouse ×9 E passage 1
+lighthouse ×9 D passage 1
+lighthouse ×9 B passage 2
+lighthouse ×9 C passage 2
+lighthouse ×9 E passage 2
+lighthouse ×9 D passage 2
+lighthouse ×9 A passage 2
+lighthouse ×9 C passage 3
+lighthouse ×9 E passage 3
+lighthouse ×9 D passage 3
+lighthouse ×9 A passage 3
+lighthouse ×9 B passage 3
+lighthouse ×22 A passage 1
+lighthouse ×22 B passage 1
+lighthouse ×22 C passage 1
+lighthouse ×22 E passage 1
+lighthouse ×22 D passage 1
+lighthouse ×22 B passage 2
+lighthouse ×22 C passage 2
+lighthouse ×22 E passage 2
+lighthouse ×22 D passage 2
+lighthouse ×22 A passage 2
+lighthouse ×22 C passage 3
+lighthouse ×22 E passage 3
+lighthouse ×22 D passage 3
+lighthouse ×22 A passage 3
+lighthouse ×22 B passage 3
+Résultats : brut/serie-2026-10-20T19-51/RESULTATS.md

@@ -1,0 +1,8 @@
+ProductName:		macOS
+ProductVersion:		26.5.1
+BuildVersion:		25F80
+Apple M4 Max
+14
+38654705664
+Google Chrome 155.0.8059.85 
+v25.9.0

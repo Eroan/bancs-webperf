@@ -1,0 +1,64 @@
+x1  BI 4169.5
+x4  BI 1037
+x6  BI 678
+x7  BI 576
+x8  BI 507
+x9  BI 442
+x10  BI 401
+x12  BI 329.5
+x16  BI 239
+x20  BI 188
+x22  BI 170
+x24  BI 158.5
+x26  BI 145
+x28  BI 132
+x30  BI 120.5
+x1  BI 4259
+x4  BI 1043.5
+x6  BI 687.5
+x7  BI 581
+x8  BI 502.5
+x9  BI 449.5
+x10  BI 398.5
+x12  BI 329
+x16  BI 237.5
+x20  BI 191.5
+x22  BI 173
+x24  BI 151
+x26  BI 144
+x28  BI 131.5
+x30  BI 123
+x1  BI 4152
+x4  BI 1042
+x6  BI 682
+x7  BI 580
+x8  BI 500.5
+x9  BI 451
+x10  BI 397.5
+x12  BI 327
+x16  BI 240.5
+x20  BI 193.5
+x22  BI 171.5
+x24  BI 157
+x26  BI 144.5
+x28  BI 131.5
+x30  BI 120.5
+x1   médiane 4169.5 [4152, 4259]
+x4   médiane 1042 [1037, 1043.5]
+x6   médiane 682 [678, 687.5]
+x7   médiane 580 [576, 581]
+x8   médiane 502.5 [500.5, 507]
+x9   médiane 449.5 [442, 451]
+x10  médiane 398.5 [397.5, 401]
+x12  médiane 329 [327, 329.5]
+x16  médiane 239 [237.5, 240.5]
+x20  médiane 191.5 [188, 193.5]
+x22  médiane 171.5 [170, 173]
+x24  médiane 157 [151, 158.5]
+x26  médiane 144.5 [144, 145]
+x28  médiane 131.5 [131.5, 132]
+x30  médiane 120.5 [120.5, 123]
+BI_X1 4169.5
+TAUX 460 9 (indice 449.5)
+TAUX 173 22 (indice 171.5)
+taux retenus : milieu de gamme ×9, équivalent PSI ×22
