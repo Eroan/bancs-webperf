@@ -62,7 +62,8 @@ TBT à ×22 : A 568 ms, B 576 ms, C 24 ms, E 205 ms, D 0 ms. Lighthouse ne fait 
 il note D à 100 alors que D ne mesure aucun visiteur sans geste et diffère chaque premier geste
 de 0,9 à 3,5 s. Le LCP simulé de E (2 734 ms à ×9) s'écarte des autres sans que le LCP mesuré
 dans le navigateur ne bouge (1 526 ms) : artefact du modèle de simulation (Lantern), non
-expliqué ; le LCP observé par Lighthouse sur cette page locale non bridée est de 32 à 38 ms.
+expliqué ; le LCP observé (non simulé) par Lighthouse sur cette page locale non bridée vaut
+35 ms [25, 53] sur les 30 rapports.
 
 ## Limites
 

@@ -10,6 +10,7 @@ Calibrage (indice de Lighthouse calculé dans la page) : ×1 → 4170 [4152, 425
 - `serie-cpu9-slow4g-2026-10-20T19-17-43.json` : Chrome 155.0.8059.85, Playwright 1.64.1, 10 passage(s), 2026-10-20T19:17:43.260Z
 - Passages lus : 254 ; passages avec erreur JavaScript : 0/254
 - Passages dont un geste a échoué côté banc (écartés) : 0/254
+- Travail du chat synthétique, mesuré par le widget : 174 ms [159, 225] sur 244 exécutions
 - Retard des gestes sur l'horaire prévu : 1 ms [-5, 3]
 - Témoin (gestionnaire de 100 ms, A et B) : traitement 104 ms [103, 107], durée Event Timing 144 ms [144, 152] ; 8/8 (traitement entre 95 et 130 ms)
 
@@ -102,6 +103,7 @@ Attendu : menu ouvert au premier tap, visible, refermé au second. Effet d'un ta
 - `serie-cpu22-slow4g-2026-10-20T20-43-33.json` : Chrome 155.0.8059.85, Playwright 1.64.1, 10 passage(s), 2026-10-20T20:43:33.942Z
 - Passages lus : 254 ; passages avec erreur JavaScript : 0/254
 - Passages dont un geste a échoué côté banc (écartés) : 0/254
+- Travail du chat synthétique, mesuré par le widget : 439 ms [399, 855] sur 244 exécutions
 - Retard des gestes sur l'horaire prévu : 1 ms [-2, 3]
 - Témoin (gestionnaire de 100 ms, A et B) : traitement 110 ms [105, 113], durée Event Timing 160 ms [144, 168] ; 8/8 (traitement entre 95 et 130 ms)
 
@@ -189,6 +191,8 @@ Attendu : menu ouvert au premier tap, visible, refermé au second. Effet d'un ta
 | D tout reporter (WP Rocket) | 0 / 0 / 10 sur 10 | n/a | 0 / 10 / 0 sur 10 | 0/10 | 10/10 | 2 [2, 2] |
 
 ## Lighthouse 13.5.0, mobile, throttling simulé (aucun geste)
+
+LCP observé (non simulé) dans les 30 rapports : 35 ms [25, 53] ; les valeurs ci-dessous sont simulées.
 
 | Multiplicateur | Variante | Score | FCP | LCP | TBT | benchmarkIndex de l'hôte |
 |---|---|---|---|---|---|---|

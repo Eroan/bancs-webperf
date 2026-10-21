@@ -89,6 +89,9 @@ def section(cpu, reseau, S):
       + ('' if not err else ' : ' + '; '.join(sorted({e for r in err for e in r['erreurs']}))[:300]))
     ko = [r for r in B if any(not a.get('ok', True) for a in r['actions'])]
     p(f"- Passages dont un geste a échoué côté banc (écartés) : {compte(len(ko), len(B), '')}")
+    chat = [c['ms'] for r in B for c in r['chat']]
+    if chat:
+        p(f"- Travail du chat synthétique, mesuré par le widget : {mm(chat, ' ms')} sur {len(chat)} exécutions")
     retards = [a['retardMs'] for r in B for a in r['actions']]
     if retards:
         p(f"- Retard des gestes sur l'horaire prévu : {mm(retards, ' ms')}")
@@ -202,7 +205,10 @@ def lighthouse():
             'score': round(d['categories']['performance']['score'] * 100),
             'lcp': a['largest-contentful-paint']['numericValue'], 'tbt': a['total-blocking-time']['numericValue'],
             'fcp': a['first-contentful-paint']['numericValue'], 'bi': d['environment']['benchmarkIndex'],
-            'mult': d['configSettings']['throttling']['cpuSlowdownMultiplier']})
+            'mult': d['configSettings']['throttling']['cpuSlowdownMultiplier'],
+            'lcp_obs': a['metrics']['details']['items'][0]['observedLargestContentfulPaint']})
+    obs = [x['lcp_obs'] for R in rows.values() for x in R]
+    print(f"LCP observé (non simulé) dans les {len(obs)} rapports : {mm(obs, ' ms')} ; les valeurs ci-dessous sont simulées.\n")
     print("| Multiplicateur | Variante | Score | FCP | LCP | TBT | benchmarkIndex de l'hôte |")
     print("|---|---|---|---|---|---|---|")
     for (cpu, v) in sorted(rows, key=lambda k: (int(k[0][3:]), ORDRE.index(k[1]))):
