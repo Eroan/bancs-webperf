@@ -7,6 +7,12 @@ gtag.js et fbevents.js changent chez Google et Meta (gtag.js a changé en deux h
 demie le 2026-10-20) : une relance mesure leur version du jour, dont l'empreinte est
 archivée avec la série (`vendor.txt`).
 
+## Résultats
+
+Série de référence du 2026-10-20 (×9 et ×22, Slow 4G, 10 passages) : lecture dans
+[`brut/serie-2026-10-20T19-51/LECTURE.md`](brut/serie-2026-10-20T19-51/LECTURE.md),
+tableaux complets dans `RESULTATS.md` du même dossier.
+
 ## Relancer (à froid)
 
 Fermer les tâches lourdes, puis :

@@ -33,7 +33,7 @@ WebP 50 Ko), FAQ en accordéon, carrousel Slick, galerie Magnific Popup, texte.
 
 Ces fichiers tiers ne sont pas dans le dépôt : `vendor/recuperer.sh` les récupère et compare
 leur empreinte à `vendor/SHA256SUMS` (série de référence).
-| widget de chat | **synthétique** : ~150 Ko, ~350 ms de travail à ×8, écouteur de clic global | `site.mjs` |
+| widget de chat | **synthétique** : ~150 Ko, écouteur de clic global ; travail mesuré 174 ms [159, 225] à ×9 et 439 ms [399, 855] à ×22 sur la série de référence (350 ms à ×8 au pilote, machine chargée) | `site.mjs` |
 
 Variantes :
 
