@@ -1,0 +1,11 @@
+{
+  "name": "banc-bridage-reseau-cdp",
+  "version": "1.0.0",
+  "description": "Banc : ce que retarde le bridage réseau du protocole DevTools (latence, débit) dans les timings de navigation",
+  "scripts": { "banc": "bash run.sh" },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": { "playwright": "1.64.1" },
+  "repository": { "type": "git", "url": "https://github.com/Eroan/bancs-webperf.git", "directory": "bridage-reseau-cdp" },
+  "author": "Eroan Boyer (Agence Web Performance)"
+}
