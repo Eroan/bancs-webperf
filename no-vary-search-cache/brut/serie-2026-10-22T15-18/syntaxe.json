@@ -1,0 +1,1410 @@
+{
+ "moteurs": [
+  "Chrome 155.0.8059.85",
+  "Firefox 158.0"
+ ],
+ "playwright": "1.64.1",
+ "passages": 5,
+ "mesures": [
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "page",
+   "passage": 1,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "page",
+   "passage": 1,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "page",
+   "passage": 1,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "page",
+   "passage": 2,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "page",
+   "passage": 2,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "page",
+   "passage": 2,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "page",
+   "passage": 3,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "page",
+   "passage": 3,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "page",
+   "passage": 3,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "page",
+   "passage": 4,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "page",
+   "passage": 4,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "page",
+   "passage": 4,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params",
+   "change": "page",
+   "passage": 5,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Chrome 155.0.8059.85",
+   "valeur": null,
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params",
+   "change": "page",
+   "passage": 5,
+   "redemandee": false,
+   "requetes": [
+    "/c0/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=()",
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c1/p?utm_source=a&page=1",
+    "/c1/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": false,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params, except=(\"page\")",
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c2/p?utm_source=a&page=1",
+    "/c2/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "except=(\"page\")",
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c3/p?utm_source=a&page=1",
+    "/c3/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": false,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": "params=(\"utm_source\")",
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c4/p?utm_source=a&page=1",
+    "/c4/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "utm_source",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=b&page=1"
+   ],
+   "search": "?utm_source=b&page=1"
+  },
+  {
+   "moteur": "Firefox 158.0",
+   "valeur": null,
+   "change": "page",
+   "passage": 5,
+   "redemandee": true,
+   "requetes": [
+    "/c5/p?utm_source=a&page=1",
+    "/c5/p?utm_source=a&page=2"
+   ],
+   "search": "?utm_source=a&page=2"
+  }
+ ]
+}

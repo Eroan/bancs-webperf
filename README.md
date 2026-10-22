@@ -9,6 +9,7 @@ qui en tire chaque chiffre.
 |---|---|
 | [`report-interaction/`](report-interaction/) | Reporter les scripts à la première interaction : gain au chargement, mesure d'audience perdue, gestes différés ou perdus (jQuery, GA4, Meta Pixel, WP Rocket Delay JS, chargeur AWP) |
 | [`bridage-reseau-cdp/`](bridage-reseau-cdp/) | Bridage réseau du protocole DevTools (`emulateNetworkConditions`, `emulateNetworkConditionsByRule`) : la latence retarde-t-elle le TTFB, s'ajoute-t-elle au temps du serveur ? |
+| [`no-vary-search-cache/`](no-vary-search-cache/) | `No-Vary-Search` : réutilisation du cache disque selon le `Cache-Control` du HTML, URL revalidée, syntaxes appliquées par Chrome et Firefox |
 
 ## Principes communs
 

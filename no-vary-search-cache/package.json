@@ -1,0 +1,20 @@
+{
+  "name": "banc-no-vary-search-cache",
+  "version": "1.0.0",
+  "description": "Banc : réutilisation du cache disque de Chrome par No-Vary-Search selon le Cache-Control du HTML",
+  "scripts": {
+    "banc": "bash run.sh"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.64.1",
+    "puppeteer-core": "^25.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eroan/bancs-webperf.git",
+    "directory": "no-vary-search-cache"
+  },
+  "author": "Eroan Boyer (Agence Web Performance)"
+}

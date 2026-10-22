@@ -1,0 +1,1014 @@
+{
+ "chrome": "155.0.8059.85",
+ "playwright": "1.64.1",
+ "passages": 10,
+ "cas": {
+  "max-age=600": {
+   "Cache-Control": "max-age=600",
+   "No-Vary-Search": "params=(\"utm_source\")"
+  },
+  "sans Cache-Control, ETag": {
+   "ETag": "\"v1\"",
+   "No-Vary-Search": "params=(\"utm_source\")"
+  },
+  "no-cache, ETag": {
+   "Cache-Control": "no-cache",
+   "ETag": "\"v1\"",
+   "No-Vary-Search": "params=(\"utm_source\")"
+  },
+  "max-age=0, must-revalidate, ETag": {
+   "Cache-Control": "max-age=0, must-revalidate",
+   "ETag": "\"v1\"",
+   "No-Vary-Search": "params=(\"utm_source\")"
+  },
+  "no-store": {
+   "Cache-Control": "no-store",
+   "No-Vary-Search": "params=(\"utm_source\")"
+  },
+  "témoin : max-age=600 sans No-Vary-Search": {
+   "Cache-Control": "max-age=600"
+  }
+ },
+ "mesures": [
+  {
+   "cas": "max-age=600",
+   "passage": 1,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 1,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 1,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 1,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 1,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 1,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 2,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 2,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 2,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 2,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 2,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 2,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 3,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 3,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 3,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 3,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 3,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 3,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 4,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 4,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 4,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 4,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 4,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 4,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 5,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 5,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 5,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 5,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 5,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 5,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 6,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 6,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 6,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 6,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 6,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 6,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 7,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 7,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 7,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 7,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 7,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 7,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 8,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 8,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 8,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 8,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 8,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 8,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 9,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 9,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 9,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 9,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 9,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 9,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=0, must-revalidate, ETag",
+   "passage": 10,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-store",
+   "passage": 10,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 10,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "max-age=600",
+   "passage": 10,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control, ETag",
+   "passage": 10,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "no-cache, ETag",
+   "passage": 10,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  }
+ ]
+}
