@@ -13,6 +13,7 @@ const CAS = {
   'no-cache, ETag': { 'Cache-Control': 'no-cache', ETag: '"v1"', 'No-Vary-Search': NVS },
   'max-age=0, must-revalidate, ETag': { 'Cache-Control': 'max-age=0, must-revalidate', ETag: '"v1"', 'No-Vary-Search': NVS },
   'no-store': { 'Cache-Control': 'no-store', 'No-Vary-Search': NVS },
+  'sans Cache-Control ni validateur (WordPress par défaut)': { 'No-Vary-Search': NVS },
   'témoin : max-age=600 sans No-Vary-Search': { 'Cache-Control': 'max-age=600' },
 };
 let cas, requetes = [];

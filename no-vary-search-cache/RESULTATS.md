@@ -1,6 +1,6 @@
 # Résultats : No-Vary-Search et cache disque de Chrome
 
-Série `serie-2026-10-22T15-18` : Chrome 155.0.8059.85, Playwright 1.64.1, 10 passages par cas. Parcours : chargement de `/p?utm_source=a`, puis clic vers `/p?utm_source=b`, contexte neuf à chaque passage. Protocole : `PROTOCOLE.md`.
+Série `serie-2026-10-22T15-20` : Chrome 155.0.8059.85, Playwright 1.64.1, 10 passages par cas. Parcours : chargement de `/p?utm_source=a`, puis clic vers `/p?utm_source=b`, contexte neuf à chaque passage. Protocole : `PROTOCOLE.md`.
 
 | Cas (en-têtes du HTML) | 2e page sans requête au serveur | 2e page par revalidation (304) | URL redemandée à la revalidation | 2e page redemandée en entier | `deliveryType` de la 2e page | `transferSize` | `location.search` côté page |
 |---|---|---|---|---|---|---|---|
@@ -9,6 +9,7 @@ Série `serie-2026-10-22T15-18` : Chrome 155.0.8059.85, Playwright 1.64.1, 10 pa
 | no-cache, ETag | 0/10 | 10/10 | `/p?utm_source=a` | 0/10 | `cache` | 300 | `?utm_source=b` |
 | max-age=0, must-revalidate, ETag | 0/10 | 10/10 | `/p?utm_source=a` | 0/10 | `cache` | 300 | `?utm_source=b` |
 | no-store | 0/10 | 0/10 | — | 10/10 | `""` | 394 | `?utm_source=b` |
+| sans Cache-Control ni validateur (WordPress par défaut) | 0/10 | 0/10 | — | 10/10 | `""` | 394 | `?utm_source=b` |
 | témoin : max-age=600 sans No-Vary-Search | 0/10 | 0/10 | — | 10/10 | `""` | 394 | `?utm_source=b` |
 
 ## En-têtes servis par cas
@@ -18,6 +19,7 @@ Série `serie-2026-10-22T15-18` : Chrome 155.0.8059.85, Playwright 1.64.1, 10 pa
 - no-cache, ETag : `Cache-Control: no-cache` ; `ETag: "v1"` ; `No-Vary-Search: params=("utm_source")`
 - max-age=0, must-revalidate, ETag : `Cache-Control: max-age=0, must-revalidate` ; `ETag: "v1"` ; `No-Vary-Search: params=("utm_source")`
 - no-store : `Cache-Control: no-store` ; `No-Vary-Search: params=("utm_source")`
+- sans Cache-Control ni validateur (WordPress par défaut) : `No-Vary-Search: params=("utm_source")`
 - témoin : max-age=600 sans No-Vary-Search : `Cache-Control: max-age=600`
 
 ## Syntaxe : valeurs appliquées par chaque moteur

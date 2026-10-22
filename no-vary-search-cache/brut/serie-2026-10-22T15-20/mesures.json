@@ -25,6 +25,9 @@
    "Cache-Control": "no-store",
    "No-Vary-Search": "params=(\"utm_source\")"
   },
+  "sans Cache-Control ni validateur (WordPress par défaut)": {
+   "No-Vary-Search": "params=(\"utm_source\")"
+  },
   "témoin : max-age=600 sans No-Vary-Search": {
    "Cache-Control": "max-age=600"
   }
@@ -112,6 +115,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 1,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "témoin : max-age=600 sans No-Vary-Search",
    "passage": 1,
    "requetes": [
@@ -197,6 +217,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 2,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "témoin : max-age=600 sans No-Vary-Search",
    "passage": 2,
    "requetes": [
@@ -278,6 +315,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 3,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "témoin : max-age=600 sans No-Vary-Search",
    "passage": 3,
    "requetes": [
@@ -359,6 +413,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 4,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "témoin : max-age=600 sans No-Vary-Search",
    "passage": 4,
    "requetes": [
@@ -440,6 +511,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 5,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "témoin : max-age=600 sans No-Vary-Search",
    "passage": 5,
    "requetes": [
@@ -518,6 +606,23 @@
    ],
    "deliveryType": "cache",
    "transferSize": 300,
+   "locationSearch": "?utm_source=b"
+  },
+  {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 6,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
    "locationSearch": "?utm_source=b"
   },
   {
@@ -619,6 +724,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "passage": 7,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "max-age=600",
    "passage": 7,
    "requetes": [
@@ -700,7 +822,7 @@
    "locationSearch": "?utm_source=b"
   },
   {
-   "cas": "témoin : max-age=600 sans No-Vary-Search",
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
    "passage": 7,
    "requetes": [
     {
@@ -717,6 +839,19 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "max-age=600",
+   "passage": 8,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "cache",
+   "transferSize": 0,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "sans Cache-Control, ETag",
    "passage": 8,
    "requetes": [
@@ -785,6 +920,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 8,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "témoin : max-age=600 sans No-Vary-Search",
    "passage": 8,
    "requetes": [
@@ -802,16 +954,20 @@
    "locationSearch": "?utm_source=b"
   },
   {
-   "cas": "max-age=600",
-   "passage": 8,
+   "cas": "sans Cache-Control, ETag",
+   "passage": 9,
    "requetes": [
     {
      "url": "/p?utm_source=a",
      "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": true
     }
    ],
    "deliveryType": "cache",
-   "transferSize": 0,
+   "transferSize": 300,
    "locationSearch": "?utm_source=b"
   },
   {
@@ -866,6 +1022,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 9,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "témoin : max-age=600 sans No-Vary-Search",
    "passage": 9,
    "requetes": [
@@ -896,8 +1069,8 @@
    "locationSearch": "?utm_source=b"
   },
   {
-   "cas": "sans Cache-Control, ETag",
-   "passage": 9,
+   "cas": "no-cache, ETag",
+   "passage": 10,
    "requetes": [
     {
      "url": "/p?utm_source=a",
@@ -947,6 +1120,23 @@
    "locationSearch": "?utm_source=b"
   },
   {
+   "cas": "sans Cache-Control ni validateur (WordPress par défaut)",
+   "passage": 10,
+   "requetes": [
+    {
+     "url": "/p?utm_source=a",
+     "revalidation": false
+    },
+    {
+     "url": "/p?utm_source=b",
+     "revalidation": false
+    }
+   ],
+   "deliveryType": "",
+   "transferSize": 394,
+   "locationSearch": "?utm_source=b"
+  },
+  {
    "cas": "témoin : max-age=600 sans No-Vary-Search",
    "passage": 10,
    "requetes": [
@@ -978,23 +1168,6 @@
   },
   {
    "cas": "sans Cache-Control, ETag",
-   "passage": 10,
-   "requetes": [
-    {
-     "url": "/p?utm_source=a",
-     "revalidation": false
-    },
-    {
-     "url": "/p?utm_source=a",
-     "revalidation": true
-    }
-   ],
-   "deliveryType": "cache",
-   "transferSize": 300,
-   "locationSearch": "?utm_source=b"
-  },
-  {
-   "cas": "no-cache, ETag",
    "passage": 10,
    "requetes": [
     {

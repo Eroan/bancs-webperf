@@ -20,7 +20,8 @@ différence des bancs chronométrés du dépôt.
 ## Cas
 
 Cinq `Cache-Control` avec l'en-tête (`max-age=600` ; aucun, avec `ETag` ; `no-cache` avec `ETag` ;
-`max-age=0, must-revalidate` avec `ETag` ; `no-store`), plus un témoin `max-age=600` sans `No-Vary-Search`.
+`max-age=0, must-revalidate` avec `ETag` ; `no-store` ; ni `Cache-Control` ni validateur, comme une page
+WordPress sans extension de cache, cas ajouté le 2026-10-22 après relevé des en-têtes de WordPress 7.1.3), plus un témoin `max-age=600` sans `No-Vary-Search`.
 
 ## Mesures
 
