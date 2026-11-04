@@ -1,0 +1,8 @@
+ProductName:		macOS
+ProductVersion:		26.5.1
+BuildVersion:		25F80
+Apple M4 Max
+Google Chrome 156.0.8078.80 
+v25.9.0
+départ 2026-11-04 16:35:00 ; processeur inactif : 87.5 %
+fin 2026-11-04 17:10:36 ; processeur inactif : 85.4 %

@@ -1,0 +1,24 @@
+// Ligne de commande de Lighthouse 13.6.0 sur plusieurs URL : ce qu'elle écrit, ce qu'elle rend.
+import { spawn } from 'node:child_process';
+import fs from 'node:fs'; import os from 'node:os'; import path from 'node:path';
+import { demarrer, LOCALES } from './serveur.mjs';
+const SORTIE = process.env.SORTIE; if (!SORTIE || !process.env.CHROME_PATH) throw new Error('SORTIE et CHROME_PATH requis');
+const CLI = 'node_modules/lh136/cli/index.js';
+const lancer = args => new Promise(ok => { const p = spawn(process.execPath, args, { stdio: ['ignore', 'ignore', 'pipe'] }); let e = ''; p.stderr.on('data', d => e += d); p.on('close', c => ok({ code: c, err: e })); });
+const { s, port } = await demarrer();
+const base = `http://127.0.0.1:${port}`, t = fs.mkdtempSync(path.join(os.tmpdir(), 'banc-lot-'));
+const F = ['--only-audits=first-contentful-paint', '--output=json', '--quiet', '--chrome-flags=--headless=new'];
+const liste = (n, lignes) => { const f = path.join(t, n); fs.writeFileSync(f, lignes.join('\n') + '\n'); return f; };
+const bonnes = liste('bonnes.txt', ['# commentaire ignoré', '', `${base}/texte-preload`, `${base}/image-locale`]);
+const avecEchec = liste('echec.txt', [`${base}/texte-preload`, 'http://127.0.0.1:9/hors-service', `${base}/image-locale`]);
+const r = {}; const dossier = n => { const d = path.join(t, n); fs.mkdirSync(d); return d; };
+const noms = d => fs.readdirSync(d).map(x => x.replace(/\d{4}-\d{2}-\d{2}.*?(\.report)/, '<date>$1')).sort();
+let d = dossier('a'), x = await lancer([CLI, `--url-file=${bonnes}`, `--output-path=${d}`, ...F]); r['--url-file, deux URL, commentaire et ligne vide'] = { code: x.code, fichiers: noms(d) };
+d = dossier('b'); x = await lancer([CLI, `--url-file=${avecEchec}`, `--output-path=${d}`, ...F]); r['URL en échec au milieu, sans --fail-fast'] = { code: x.code, fichiers: noms(d) };
+d = dossier('c'); x = await lancer([CLI, `--url-file=${avecEchec}`, `--output-path=${d}`, '--fail-fast', ...F]); r['URL en échec au milieu, avec --fail-fast'] = { code: x.code, fichiers: noms(d) };
+d = dossier('d'); x = await lancer([CLI, `${base}/texte-preload`, `${base}/image-locale`, `--output-path=${d}`, ...F]); r['deux URL en arguments'] = { code: x.code, fichiers: noms(d) };
+x = await lancer([CLI, `--url-file=${bonnes}`, `--output-path=${path.join(t, 'fichier.json')}`, ...F]); r['--output-path qui n\'est pas un dossier existant'] = { code: x.code, message: x.err.trim().split('\n').filter(l => l.trim() && !l.startsWith('Specify')).pop().slice(0, 200) };
+d = dossier('e'); x = await lancer([CLI, `--url-file=${bonnes}`, `-G=${d}`, ...F]); r['-G sur plusieurs URL'] = { code: x.code, message: x.err.trim().split('\n').filter(l => l.trim() && !l.startsWith('Specify')).pop().slice(0, 200) };
+d = dossier('f'); x = await lancer([CLI, `${base}/texte-preload`, `--output-path=${path.join(d, 'seul.json')}`, ...F]); r['une URL, --output-path vers un fichier (forme du script du wiki)'] = { code: x.code, fichiers: noms(d) };
+s.close(); fs.rmSync(t, { recursive: true, force: true });
+fs.writeFileSync(path.join(SORTIE, 'lot.json'), JSON.stringify(r, null, 1)); console.log(JSON.stringify(r, null, 1)); console.log('FIN');

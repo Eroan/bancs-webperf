@@ -1,0 +1,45 @@
+{
+ "--url-file, deux URL, commentaire et ligne vide": {
+  "code": 0,
+  "fichiers": [
+   "127.0.0.1-image-locale_<date>.report.json",
+   "127.0.0.1-texte-preload_<date>.report.json"
+  ]
+ },
+ "URL en échec au milieu, sans --fail-fast": {
+  "code": 1,
+  "fichiers": [
+   "127.0.0.1-image-locale_<date>.report.json",
+   "127.0.0.1-texte-preload_<date>.report.json",
+   "chromewebdata_<date>.report.json"
+  ]
+ },
+ "URL en échec au milieu, avec --fail-fast": {
+  "code": 1,
+  "fichiers": [
+   "127.0.0.1-texte-preload_<date>.report.json",
+   "chromewebdata_<date>.report.json"
+  ]
+ },
+ "deux URL en arguments": {
+  "code": 0,
+  "fichiers": [
+   "127.0.0.1-image-locale_<date>.report.json",
+   "127.0.0.1-texte-preload_<date>.report.json"
+  ]
+ },
+ "--output-path qui n'est pas un dossier existant": {
+  "code": 1,
+  "message": "--output-path must be an existing directory when auditing multiple URLs"
+ },
+ "-G sur plusieurs URL": {
+  "code": 1,
+  "message": "Cannot use -G/--gather-mode or -A/--audit-mode when auditing multiple URLs"
+ },
+ "une URL, --output-path vers un fichier (forme du script du wiki)": {
+  "code": 0,
+  "fichiers": [
+   "seul.json"
+  ]
+ }
+}

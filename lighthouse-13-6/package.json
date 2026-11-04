@@ -1,0 +1,11 @@
+{
+  "name": "banc-lighthouse-13-6",
+  "private": true,
+  "type": "module",
+  "description": "Lighthouse 13.5.0 contre 13.6.0 : même relevé, variantes de Lantern, audits agentiques, ligne de commande en lot",
+  "dependencies": {
+    "lh135": "npm:lighthouse@13.5.0",
+    "lh136": "npm:lighthouse@13.6.0",
+    "te65": "npm:@paulirish/trace_engine@0.0.65"
+  }
+}
