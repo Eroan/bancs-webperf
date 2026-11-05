@@ -1,0 +1,11 @@
+{
+  "name": "banc-reset-typographique",
+  "version": "1.0.0",
+  "description": "Banc : reset typographique CSS, ce qui agit, ce qui reste inerte et ce qui dégrade la page",
+  "scripts": { "banc": "bash run.sh" },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": { "playwright": "1.64.1", "puppeteer-core": "25.15.0" },
+  "repository": { "type": "git", "url": "https://github.com/Eroan/bancs-webperf.git", "directory": "reset-typographique" },
+  "author": "Eroan Boyer (Agence Web Performance)"
+}

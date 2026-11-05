@@ -1,0 +1,17 @@
+/* Titres : liste écrite à la main, :heading ferait sauter la règle sous Chrome et Firefox */
+:where(h1, h2, h3, h4, h5, h6) { text-wrap: balance; }
+
+/* Texte courant d'article seulement : pretty coûte au rendu */
+:where(article p, article li) {
+  text-wrap: pretty;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  overflow-wrap: break-word;
+}
+:where(pre, code, kbd, samp, var) { hyphens: manual; }
+
+/* Chiffres en colonne : exige tnum dans le fichier de police */
+:where(table, .tabular) { font-variant-numeric: tabular-nums; }
+
+/* Guillemets français avec espace fine ; les autres langues gardent quotes: auto */
+:where(q:lang(fr)) { quotes: "«\202F" "\202F»" "“" "”"; }

@@ -11,6 +11,7 @@ qui en tire chaque chiffre.
 | [`bridage-reseau-cdp/`](bridage-reseau-cdp/) | Bridage réseau du protocole DevTools (`emulateNetworkConditions`, `emulateNetworkConditionsByRule`) : la latence retarde-t-elle le TTFB, s'ajoute-t-elle au temps du serveur ? |
 | [`no-vary-search-cache/`](no-vary-search-cache/) | `No-Vary-Search` : réutilisation du cache disque selon le `Cache-Control` du HTML, URL revalidée, syntaxes appliquées par Chrome et Firefox |
 | [`lighthouse-13-6/`](lighthouse-13-6/) | Lighthouse 13.5.0 contre 13.6.0 sur un même relevé : écart de FCP, LCP et score, part de chaque changement de Lantern (modèle réseau et HTTP/3, `renderBlocking`, LCP texte, modules), audits `llms-txt`, `robots-txt`, `ard-schema`, ligne de commande en lot |
+| [`reset-typographique/`](reset-typographique/) | Reset typographique CSS : `font-size-adjust: from-font` et bascule de police, réglages OpenType après `pyftsubset`, `text-box` sur le texte courant, jetons en `cqi`, `:heading`, `font-variation-settings` sur `*`, `font-variant-position`, limites de césure, `quotes` (Chrome, Firefox, WebKit) |
 
 ## Principes communs
 

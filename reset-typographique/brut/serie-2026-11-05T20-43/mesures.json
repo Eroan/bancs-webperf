@@ -1,0 +1,3481 @@
+{
+ "passages": 3,
+ "versions": {
+  "chrome": "156.0.8078.80",
+  "firefox": "158.0",
+  "webkit": "27.2"
+ },
+ "mesures": {
+  "chrome": [
+   {
+    "bascule": {
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     },
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.447266",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.54541",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     },
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1148.1,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1201.2,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.54541"
+      },
+      "c": {
+       "largeur": 161,
+       "nombre": "0.54541"
+      },
+      "g": {
+       "largeur": 301.1,
+       "nombre": "0.54541"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 25.6,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 21
+    },
+    "selecteurs": {
+     "supports": false,
+     "listeSimple": false,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": false,
+     "h2": "SyntaxError",
+     "role": "SyntaxError"
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.03,
+       "indice": 16.69
+      },
+      "STIX Two Text": {
+       "courant": 17.83,
+       "indice": 14.86
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 17
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 17
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.03,
+       "indice": 20.03
+      },
+      "STIX Two Text": {
+       "courant": 17.83,
+       "indice": 13.44
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.88
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 20.2
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.2
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 194
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 194
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 290.3
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 194
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 194
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 130,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": false,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": false,
+      "-webkit-hyphenate-limit-lines: 2": false,
+      "hanging-punctuation: first allow-end last": false,
+      "text-wrap: pretty": true,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": true,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": true,
+      "-webkit-text-size-adjust: none": true,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 192.66,
+     "optimizeLegibility": 192.66,
+     "font-kerning: normal": 192.66,
+     "font-kerning: none": 207.94
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "pretty",
+     "pHyphens": "auto",
+     "pLimite": "6 3 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       false
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       false
+      ],
+      [
+       "text-wrap: pretty",
+       true
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       true
+      ],
+      [
+       ":heading",
+       false
+      ]
+     ]
+    }
+   },
+   {
+    "bascule": {
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.447266",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.54541",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     },
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1148.1,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1201.2,
+       "hauteur": 72
+      }
+     },
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.54541"
+      },
+      "c": {
+       "largeur": 161,
+       "nombre": "0.54541"
+      },
+      "g": {
+       "largeur": 301.1,
+       "nombre": "0.54541"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 25.6,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 21
+    },
+    "selecteurs": {
+     "supports": false,
+     "listeSimple": false,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": false,
+     "h2": "SyntaxError",
+     "role": "SyntaxError"
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.03,
+       "indice": 16.69
+      },
+      "STIX Two Text": {
+       "courant": 17.83,
+       "indice": 14.86
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 17
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 17
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.03,
+       "indice": 20.03
+      },
+      "STIX Two Text": {
+       "courant": 17.83,
+       "indice": 13.44
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.88
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 20.2
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.2
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 194
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 194
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 290.3
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 194
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 194
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 130,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": false,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": false,
+      "-webkit-hyphenate-limit-lines: 2": false,
+      "hanging-punctuation: first allow-end last": false,
+      "text-wrap: pretty": true,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": true,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": true,
+      "-webkit-text-size-adjust: none": true,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 192.66,
+     "optimizeLegibility": 192.66,
+     "font-kerning: normal": 192.66,
+     "font-kerning: none": 207.94
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "pretty",
+     "pHyphens": "auto",
+     "pLimite": "6 3 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       false
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       false
+      ],
+      [
+       "text-wrap: pretty",
+       true
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       true
+      ],
+      [
+       ":heading",
+       false
+      ]
+     ]
+    }
+   },
+   {
+    "bascule": {
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1148.1,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1201.2,
+       "hauteur": 72
+      }
+     },
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     },
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.447266",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.54541",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.54541"
+      },
+      "c": {
+       "largeur": 161,
+       "nombre": "0.54541"
+      },
+      "g": {
+       "largeur": 301.1,
+       "nombre": "0.54541"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 25.6,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 21
+    },
+    "selecteurs": {
+     "supports": false,
+     "listeSimple": false,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": false,
+     "h2": "SyntaxError",
+     "role": "SyntaxError"
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.03,
+       "indice": 16.69
+      },
+      "STIX Two Text": {
+       "courant": 17.83,
+       "indice": 14.86
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 17
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 17
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.03,
+       "indice": 20.03
+      },
+      "STIX Two Text": {
+       "courant": 17.83,
+       "indice": 13.44
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.88
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 20.2
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.2
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 194
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 194
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 290.3
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 194
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 194
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 130,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": false,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": false,
+      "-webkit-hyphenate-limit-lines: 2": false,
+      "hanging-punctuation: first allow-end last": false,
+      "text-wrap: pretty": true,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": true,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": true,
+      "-webkit-text-size-adjust: none": true,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 192.66,
+     "optimizeLegibility": 192.66,
+     "font-kerning: normal": 192.66,
+     "font-kerning: none": 207.94
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "pretty",
+     "pHyphens": "auto",
+     "pLimite": "6 3 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       false
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       false
+      ],
+      [
+       "text-wrap: pretty",
+       true
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       true
+      ],
+      [
+       ":heading",
+       false
+      ]
+     ]
+    }
+   }
+  ],
+  "firefox": [
+   {
+    "bascule": {
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.7,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     },
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.446875",
+       "largeur": 942.7,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545833",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     },
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1119.4,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.5,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.545833"
+      },
+      "c": {
+       "largeur": 163.8,
+       "nombre": "0.545833"
+      },
+      "g": {
+       "largeur": 300.9,
+       "nombre": "0.545833"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 26.1,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 21
+    },
+    "selecteurs": {
+     "supports": false,
+     "listeSimple": false,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": false,
+     "h2": "SyntaxError",
+     "role": "SyntaxError"
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 16.68
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 14.85
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 17
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 17
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 14.45
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 13.43
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.87
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 14.58
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.1
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 294.7
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 187,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": false,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": false,
+      "-webkit-hyphenate-limit-lines: 2": false,
+      "hanging-punctuation: first allow-end last": false,
+      "text-wrap: pretty": false,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": true,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": false,
+      "-webkit-text-size-adjust: none": true,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 193.85,
+     "optimizeLegibility": 193.85,
+     "font-kerning: normal": 192.72,
+     "font-kerning: none": 207.92
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "auto",
+     "pHyphens": "auto",
+     "pLimite": "6 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       false
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       false
+      ],
+      [
+       "text-wrap: pretty",
+       false
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       true
+      ],
+      [
+       ":heading",
+       false
+      ]
+     ]
+    }
+   },
+   {
+    "bascule": {
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.446875",
+       "largeur": 942.7,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545833",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     },
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1119.4,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     },
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.7,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.5,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.545833"
+      },
+      "c": {
+       "largeur": 163.8,
+       "nombre": "0.545833"
+      },
+      "g": {
+       "largeur": 300.9,
+       "nombre": "0.545833"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 26.1,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 21
+    },
+    "selecteurs": {
+     "supports": false,
+     "listeSimple": false,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": false,
+     "h2": "SyntaxError",
+     "role": "SyntaxError"
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 16.68
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 14.85
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 17
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 17
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 14.45
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 13.43
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.87
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 14.58
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.1
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 294.7
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 187,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": false,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": false,
+      "-webkit-hyphenate-limit-lines: 2": false,
+      "hanging-punctuation: first allow-end last": false,
+      "text-wrap: pretty": false,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": true,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": false,
+      "-webkit-text-size-adjust: none": true,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 193.85,
+     "optimizeLegibility": 193.85,
+     "font-kerning: normal": 192.72,
+     "font-kerning: none": 207.92
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "auto",
+     "pHyphens": "auto",
+     "pLimite": "6 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       false
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       false
+      ],
+      [
+       "text-wrap: pretty",
+       false
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       true
+      ],
+      [
+       ":heading",
+       false
+      ]
+     ]
+    }
+   },
+   {
+    "bascule": {
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1119.4,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     },
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.7,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     },
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.446875",
+       "largeur": 942.7,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545833",
+       "largeur": 1203,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.5,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.545833"
+      },
+      "c": {
+       "largeur": 163.8,
+       "nombre": "0.545833"
+      },
+      "g": {
+       "largeur": 300.9,
+       "nombre": "0.545833"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.7,
+      "p0": 157,
+      "t1": 92.7,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 26.1,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 21
+    },
+    "selecteurs": {
+     "supports": false,
+     "listeSimple": false,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": false,
+     "h2": "SyntaxError",
+     "role": "SyntaxError"
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 16.68
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 14.85
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 17
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 17
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 14.45
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 13.43
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.87
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 14.58
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.1
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 294.7
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 187,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": false,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": false,
+      "-webkit-hyphenate-limit-lines: 2": false,
+      "hanging-punctuation: first allow-end last": false,
+      "text-wrap: pretty": false,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": true,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": false,
+      "-webkit-text-size-adjust: none": true,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 193.85,
+     "optimizeLegibility": 193.85,
+     "font-kerning: normal": 192.72,
+     "font-kerning: none": 207.92
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "auto",
+     "pHyphens": "auto",
+     "pLimite": "6 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       false
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       false
+      ],
+      [
+       "text-wrap: pretty",
+       false
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       true
+      ],
+      [
+       ":heading",
+       false
+      ]
+     ]
+    }
+   }
+  ],
+  "webkit": [
+   {
+    "bascule": {
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     },
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.447266",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.54541",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     },
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1148.5,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1201.8,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.54541"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "0.422852"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "0.484375"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 25.6,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 20.5
+    },
+    "selecteurs": {
+     "supports": true,
+     "listeSimple": true,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": true,
+     "h2": true,
+     "role": false
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 16.68
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 14.85
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 16.99
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 16.99
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 20.02
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 13.43
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.87
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 20.2
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.1
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 294.7
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 130,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": true,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": true,
+      "-webkit-hyphenate-limit-lines: 2": true,
+      "hanging-punctuation: first allow-end last": true,
+      "text-wrap: pretty": true,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": false,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": false,
+      "-webkit-text-size-adjust: none": false,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 193.52,
+     "optimizeLegibility": 193.52,
+     "font-kerning: normal": 193.52,
+     "font-kerning: none": 207.93
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "pretty",
+     "pHyphens": "auto",
+     "pLimite": "6 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       true
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       true
+      ],
+      [
+       "text-wrap: pretty",
+       true
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       false
+      ],
+      [
+       ":heading",
+       true
+      ]
+     ]
+    }
+   },
+   {
+    "bascule": {
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.447266",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.54541",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     },
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1148.5,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1201.8,
+       "hauteur": 72
+      }
+     },
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.54541"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "0.422852"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "0.484375"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 25.6,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 20.5
+    },
+    "selecteurs": {
+     "supports": true,
+     "listeSimple": true,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": true,
+     "h2": true,
+     "role": false
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 16.68
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 14.85
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 16.99
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 16.99
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 20.02
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 13.43
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.87
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 20.2
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.1
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 294.7
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 130,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": true,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": true,
+      "-webkit-hyphenate-limit-lines: 2": true,
+      "hanging-punctuation: first allow-end last": true,
+      "text-wrap: pretty": true,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": false,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": false,
+      "-webkit-text-size-adjust: none": false,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 193.52,
+     "optimizeLegibility": 193.52,
+     "font-kerning: normal": 193.52,
+     "font-kerning: none": 207.93
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "pretty",
+     "pHyphens": "auto",
+     "pLimite": "6 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       true
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       true
+      ],
+      [
+       "text-wrap: pretty",
+       true
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       false
+      ],
+      [
+       ":heading",
+       true
+      ]
+     ]
+    }
+   },
+   {
+    "bascule": {
+     "0.545": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.545",
+       "largeur": 1148.5,
+       "hauteur": 72
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.545",
+       "largeur": 1201.8,
+       "hauteur": 72
+      }
+     },
+     "none": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "none",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "none",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     },
+     "from-font": {
+      "pendant": {
+       "etat": "loading",
+       "nombre": "0.447266",
+       "largeur": 942.5,
+       "hauteur": 48
+      },
+      "apres": {
+       "etat": "loaded",
+       "nombre": "0.54541",
+       "largeur": 1202.7,
+       "hauteur": 72
+      }
+     }
+    },
+    "heritage": {
+     "none": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "none"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "none"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "none"
+      }
+     },
+     "from-font": {
+      "a": {
+       "largeur": 109.4,
+       "nombre": "0.54541"
+      },
+      "c": {
+       "largeur": 124.8,
+       "nombre": "0.422852"
+      },
+      "g": {
+       "largeur": 267.4,
+       "nombre": "0.484375"
+      }
+     }
+    },
+    "opentype": {
+     "tout": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "defaut": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-tnum": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 165,
+      "t0": 165,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-subs-sups": {
+      "p1": 92.8,
+      "p0": 157,
+      "t1": 92.8,
+      "t0": 157,
+      "opszAuto": 479.8,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     },
+     "liste-opsz14": {
+      "p1": 104.1,
+      "p0": 161.5,
+      "t1": 104.1,
+      "t0": 161.5,
+      "opszAuto": 520.4,
+      "opszNone": 520.4,
+      "etat": "loaded"
+     }
+    },
+    "textbox": {
+     "sans": {
+      "hauteurP": 76.8,
+      "pas": 92.8,
+      "hauteurLi": 25.6,
+      "trim": "none"
+     },
+     "avec": {
+      "hauteurP": 62.3,
+      "pas": 78.3,
+      "hauteurLi": 11.1,
+      "trim": "trim-both"
+     }
+    },
+    "feuille": {
+     "h1": 64,
+     "h3": 44,
+     "h6": 44,
+     "p": 18,
+     "blockquote": 44,
+     "figcaption": 44,
+     "tailleLi": 18,
+     "hauteurLi": 12.5,
+     "pasLi": 12.5,
+     "hauteurLien": 20.5
+    },
+    "selecteurs": {
+     "supports": true,
+     "listeSimple": true,
+     "listePardonnante": true,
+     "h3DansIs": true,
+     "temoin": true,
+     "garde": true,
+     "h2": true,
+     "role": false
+    },
+    "variation": {
+     "parent wght, sans *": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent wght, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 203.5,
+      "icone": "\"GRAD\" 0"
+     },
+     "parent wght, règle sur body": {
+      "enfant": "\"wght\" 900",
+      "largeur": 219.2,
+      "icone": "\"FILL\" 1"
+     },
+     "parent font-weight, avec *": {
+      "enfant": "\"GRAD\" 0",
+      "largeur": 219.2,
+      "icone": "\"GRAD\" 0"
+     }
+    },
+    "position": {
+     "defaut": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 16.68
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 14.85
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 16.99
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 16.99
+      }
+     },
+     "regle": {
+      "Arial": {
+       "courant": 20.02,
+       "indice": 20.02
+      },
+      "STIX Two Text": {
+       "courant": 17.82,
+       "indice": 13.43
+      },
+      "Inter tout": {
+       "courant": 20.2,
+       "indice": 13.87
+      },
+      "Inter liste": {
+       "courant": 20.2,
+       "indice": 20.2
+      }
+     }
+    },
+    "cqi": {
+     "hors": 44,
+     "pb": 18,
+     "dans": 34.6,
+     "pd": 18,
+     "pl": 17.4,
+     "reg": 44,
+     "auto": 44
+    },
+    "quotes": {
+     "defaut": {
+      "f": {
+       "quotes": "auto",
+       "largeur": 293.1
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     },
+     "billet": {
+      "f": {
+       "quotes": "\"«\\\\00202F\" \"\\\\00202F»\" \"\\\"\" \"\\\"\"",
+       "largeur": 509.1
+      },
+      "e": {
+       "quotes": "\"\\\"\" \"\\\"\" \"'\" \"'\"",
+       "largeur": 193.4
+      },
+      "g": {
+       "quotes": "\"'\" \"'\" \"\\\"\" \"\\\"\"",
+       "largeur": 193.4
+      }
+     },
+     "corrige": {
+      "f": {
+       "quotes": "\"« \" \" »\" \"“\" \"”\"",
+       "largeur": 294.7
+      },
+      "e": {
+       "quotes": "auto",
+       "largeur": 193.9
+      },
+      "g": {
+       "quotes": "auto",
+       "largeur": 193.9
+      }
+     }
+    },
+    "cesure": {
+     "debordement": {
+      "manual, lang=fr": 184,
+      "auto, lang=fr": 130,
+      "auto, lang=fr, majuscule": 130,
+      "auto, lang=de, majuscule": 130,
+      "auto, sans lang": 184,
+      "auto, lang=fr, hyphenate-limit-chars: 30": 184,
+      "auto, lang=fr, majuscule, break-word": 130,
+      "auto, lang=fr, majuscule, anywhere": 130
+     },
+     "celluleBreakWord": 167.1,
+     "celluleAnywhere": 36
+    },
+    "support": {
+     "s": {
+      "display: block": true,
+      "hyphenate-limit-chars: 6 3 3": true,
+      "hyphenate-character: \"x\"": true,
+      "hyphenate-limit-lines: 2": true,
+      "hyphenate-limit-zone: 8%": false,
+      "hyphenate-limit-last: always": false,
+      "-webkit-hyphenate-limit-before: 4": true,
+      "-webkit-hyphenate-limit-lines: 2": true,
+      "hanging-punctuation: first allow-end last": true,
+      "text-wrap: pretty": true,
+      "text-wrap: stable": true,
+      "text-box: trim-both cap alphabetic": true,
+      "font-variant-emoji: text": false,
+      "font-variant-position: sub": true,
+      "font-size-adjust: from-font": true,
+      "text-size-adjust: none": false,
+      "-webkit-text-size-adjust: none": false,
+      "-webkit-font-smoothing: antialiased": true
+     },
+     "initiales": {
+      "font-optical-sizing": "auto",
+      "font-kerning": "auto",
+      "font-variant-ligatures": "normal",
+      "text-decoration-skip-ink": "auto",
+      "text-rendering": "auto"
+     }
+    },
+    "rendu": {
+     "defaut": 193.52,
+     "optimizeLegibility": 193.52,
+     "font-kerning: normal": 193.52,
+     "font-kerning: none": 207.93
+    },
+    "bloc": {
+     "hStyle": "balance",
+     "hHyphens": "manual",
+     "pStyle": "pretty",
+     "pHyphens": "auto",
+     "pLimite": "6 3",
+     "pOverflow": "break-word",
+     "liHyphens": "auto",
+     "codeHyphens": "manual",
+     "voisinHyphens": "auto",
+     "classeHyphens": "none",
+     "horsHyphens": "manual",
+     "tableau": "tabular-nums",
+     "qFr": "\"« \" \" »\" \"“\" \"”\"",
+     "qEn": "auto",
+     "debordementP": 130,
+     "console": [
+      [
+       "hyphenate-limit-chars: 6 3 3",
+       true
+      ],
+      [
+       "hyphenate-limit-lines: 2",
+       true
+      ],
+      [
+       "hyphenate-limit-zone: 8%",
+       false
+      ],
+      [
+       "hyphenate-limit-last: always",
+       false
+      ],
+      [
+       "hanging-punctuation: first",
+       true
+      ],
+      [
+       "text-wrap: pretty",
+       true
+      ],
+      [
+       "text-box: trim-both cap alphabetic",
+       true
+      ],
+      [
+       "font-variant-emoji: text",
+       false
+      ],
+      [
+       ":heading",
+       true
+      ]
+     ]
+    }
+   }
+  ]
+ }
+}

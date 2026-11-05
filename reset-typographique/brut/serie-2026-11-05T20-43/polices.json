@@ -1,0 +1,118 @@
+{
+ "fonttools": "4.65.0",
+ "commit_inter": "e1d6480102fed30739fead0faee463101f892c8f",
+ "liste": "kern,liga,clig,calt,rlig,frac,ccmp,locl,rvrn,mark",
+ "unicodes": "U+0020-007E,U+00A0-00FF,U+20AC,U+2010,U+2013,U+2014,U+2018,U+2019,U+201A,U+201C,U+201D,U+201E,U+2039,U+203A,U+2026,U+2022,U+0153,U+0152",
+ "fichiers": {
+  "tout": {
+   "octets": 90768,
+   "gsub": [
+    "aalt",
+    "calt",
+    "case",
+    "cv01",
+    "cv02",
+    "cv03",
+    "cv04",
+    "cv05",
+    "cv06",
+    "cv07",
+    "cv08",
+    "cv09",
+    "cv10",
+    "cv11",
+    "cv12",
+    "cv13",
+    "dlig",
+    "dnom",
+    "frac",
+    "locl",
+    "numr",
+    "ordn",
+    "pnum",
+    "salt",
+    "sinf",
+    "ss01",
+    "ss02",
+    "ss03",
+    "ss04",
+    "ss05",
+    "ss06",
+    "ss07",
+    "ss08",
+    "subs",
+    "sups",
+    "tnum",
+    "zero"
+   ],
+   "axes": [
+    "opsz",
+    "wght"
+   ]
+  },
+  "defaut": {
+   "octets": 58168,
+   "gsub": [
+    "calt",
+    "dnom",
+    "frac",
+    "locl",
+    "numr"
+   ],
+   "axes": [
+    "opsz",
+    "wght"
+   ]
+  },
+  "liste": {
+   "octets": 57576,
+   "gsub": [
+    "calt",
+    "frac",
+    "locl"
+   ],
+   "axes": [
+    "opsz",
+    "wght"
+   ]
+  },
+  "liste-tnum": {
+   "octets": 59732,
+   "gsub": [
+    "calt",
+    "frac",
+    "locl",
+    "tnum"
+   ],
+   "axes": [
+    "opsz",
+    "wght"
+   ]
+  },
+  "liste-subs-sups": {
+   "octets": 70160,
+   "gsub": [
+    "calt",
+    "frac",
+    "locl",
+    "subs",
+    "sups"
+   ],
+   "axes": [
+    "opsz",
+    "wght"
+   ]
+  },
+  "liste-opsz14": {
+   "octets": 36892,
+   "gsub": [
+    "calt",
+    "frac",
+    "locl"
+   ],
+   "axes": [
+    "wght"
+   ]
+  }
+ }
+}
