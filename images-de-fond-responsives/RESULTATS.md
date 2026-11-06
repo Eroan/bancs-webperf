@@ -1,6 +1,6 @@
 # Résultats : image de fond responsive
 
-Série `serie-2026-11-06T15-29`, 3 passages, délai serveur de 120 ms par image, images en `max-age=3600`. départ 2026-11-06 15:29:11 ; processeur inactif : 67.72 %.
+Série `serie-2026-11-06T15-51`, 3 passages, délai serveur de 120 ms par image, images en `max-age=3600`. départ 2026-11-06 15:51:27 ; processeur inactif : 87.97 %.
 Moteurs : Chrome 156.0.8078.80, Firefox 158.0, WebKit 27.2 (Playwright). Tous les témoins du protocole sont passés (le banc sort en 1 sinon).
 
 ```text
@@ -154,6 +154,25 @@ Fichiers servis tels quels, seul le préfixe `/img/` change. Le témoin exige un
 | 1400x900@1 | `hero-1920.avif` | `article-1920.avif` | 3 moteurs |
 | 1400x900@1,25 | `hero-2880.avif` | `article-2880.avif` | 3 moteurs |
 | 1400x900@2 | `hero-2880.avif` | `article-2880.avif` | 3 moteurs |
+
+### Émulation mobile : position de la balise viewport
+
+412 × 915 px, DPR 2,625, `isMobile` et `hasTouch` (Playwright), sans Firefox. `apres` : balise viewport placée derrière les préchargements, la feuille et 100 000 caractères de commentaire. `Largeur` : `window.innerWidth`.
+
+| Cas | Requêtes | Nombre | Largeur | DPR relu | Moteur |
+| --- | --- | --- | --- | --- | --- |
+| bloc-meta-avant | `hero-1536.avif` | 1 | 412 | 2.625 | Chrome 156.0.8078.80 |
+| bloc-meta-avant | `hero-1536.avif` | 1 | 412 | 2.625 | WebKit 27.2 (Playwright) |
+| bloc-meta-juste-apres | `hero-2880.avif` + `hero-1536.avif` | 2 | 412 | 2.625 | Chrome 156.0.8078.80 |
+| bloc-meta-juste-apres | `hero-2880.avif` + `hero-1536.avif` | 2 | 412 | 2.625 | WebKit 27.2 (Playwright) |
+| bloc-meta-apres | `hero-2880.avif` + `hero-1536.avif` | 2 | 412 | 2.625 | Chrome 156.0.8078.80 |
+| bloc-meta-apres | `hero-2880.avif` + `hero-1536.avif` | 2 | 412 | 2.625 | WebKit 27.2 (Playwright) |
+| bloc-sans-meta | `hero-2880.avif` | 1 | 981 | 2.625 | Chrome 156.0.8078.80 |
+| bloc-sans-meta | `hero-2880.avif` | 1 | 980 | 1.104 | WebKit 27.2 (Playwright) |
+| w-meta-avant | `hero-1600.jpg` + `hero-800.jpg` | 2 | 412 | 2.625 | Chrome 156.0.8078.80 |
+| w-meta-avant | `hero-1600.jpg` + `hero-800.jpg` | 2 | 412 | 2.625 | WebKit 27.2 (Playwright) |
+| sans-preload-meta-apres | `hero-800.jpg` | 1 | 412 | 2.625 | Chrome 156.0.8078.80 |
+| sans-preload-meta-apres | `hero-800.jpg` | 1 | 412 | 2.625 | WebKit 27.2 (Playwright) |
 
 ## 3. Écritures de `image-set()`
 

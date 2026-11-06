@@ -21,7 +21,9 @@ poser une image de fond responsive, pas à une question de durée.
 8. L'élément LCP et les outils : `largest-contentful-paint`, valeur calculée, Resource Timing disent-ils quelle image a été retenue ?
 
 Ajouts après un passage de contrôle du même jour, non publié, avant la série : requêtes de conteneur sans déclaration de base (Firefox avait
-téléchargé deux images), recalcul de style après un changement de DPR (aucune requête sans lui), blocs publiés rejoués tels quels.
+téléchargé deux images), recalcul de style après un changement de DPR (aucune requête sans lui), blocs publiés rejoués tels quels. Ajout après
+une première série complète (commit 7c88d76, mêmes résultats sur les groupes communs) : le groupe `mobile`, les cas précédents n'étant que des fenêtres
+étroites sans émulation mobile, où la balise viewport n'agit pas.
 
 ## Banc
 
@@ -55,11 +57,12 @@ des bancs chronométrés du dépôt.
 | `variables` | `image-set(var(--a) ...)`, ensemble entier dans une variable, résolution des URL relatives, repli | repli sans `var()` : image de repli demandée |
 | `lcp` | Entrées `largest-contentful-paint`, valeur calculée, extrait de console `extraits/console-fonds.js` tel que publié | image retenue présente dans Resource Timing |
 | `publie` | Blocs publiés dans l'article (`extraits/bloc-recommande.*`, `extraits/bloc-variables.*`), lus et servis tels quels, 7 tailles et DPR | une seule requête, en AVIF |
+| `mobile` | Vraie émulation mobile (`isMobile`, Chrome et WebKit) : bloc publié avec la balise viewport avant, juste après les préchargements, après 100 000 caractères, ou absente ; forme en `w` ; requêtes et `window.innerWidth` | 412 px avec la balise, autre valeur sans elle ; une requête quand la balise précède |
 | `syntaxe` | `CSS.supports` de chaque écriture | `image-set(url("a.jpg") 1x)` pris en charge |
 
 ## Limites connues
 
 Le banc dit quelle image part, pas à quelle vitesse : il ne mesure ni le gain de LCP d'un préchargement ni le coût d'un doublon.
-Un DPR émulé ne remplace pas un écran réel : il pilote le même calcul, relu dans la page. Le zoom du navigateur n'est pas testé. La
+Un DPR émulé ne remplace pas un écran réel : il pilote le même calcul, relu dans la page. Hors du groupe `mobile`, les petites tailles sont des fenêtres étroites, sans émulation mobile ; Firefox n'a pas de mode mobile par ce pilote. Le zoom du navigateur n'est pas testé. La
 connexion lente n'est testée que sous Chrome ; Firefox et WebKit se lisent dans le code (seul le DPR entre dans le choix). `Save-Data`
 n'est pas testé. Chrome 132 et antérieurs (`srcset` à moyenne géométrique) ne sont pas lancés : ils se lisent dans le code.

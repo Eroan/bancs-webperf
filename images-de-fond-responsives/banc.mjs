@@ -87,8 +87,8 @@ const pw = (type, opts) => async () => {
   const b = await type.launch(opts);
   return {
     b, version: b.version(),
-    async ouvrir({ w, h, dpr }) {
-      const c = await b.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: dpr });
+    async ouvrir({ w, h, dpr, mobile }) {
+      const c = await b.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: dpr, ...(mobile ? { isMobile: true, hasTouch: true } : {}) });
       const page = await c.newPage();
       return { page, fermer: () => c.close(), taille: (l, ha) => page.setViewportSize({ width: l, height: ha }), capture: async () => Buffer.from(await page.screenshot({ type: 'png' })), cdp: type === chromium ? () => c.newCDPSession(page) : null };
     },
@@ -134,7 +134,7 @@ async function jouer(m, geo, html, css, suite, attente) {
   await s.page.goto(`${base}/p/${id}/`, { waitUntil: 'load', timeout: 60000 });
   await calme(id);
   const dpr = await s.page.evaluate(() => window.devicePixelRatio);
-  temoin(dpr === geo.dpr, `DPR ${geo.dpr} demandé, ${dpr} relu (${m.nom})`);
+  temoin(geo.dprLibre || dpr === geo.dpr, `DPR ${geo.dpr} demandé, ${dpr} relu (${m.nom})`);
   const plus = suite ? await suite(s, id) : undefined;
   const req = requetes(id);
   await s.fermer();
@@ -376,6 +376,33 @@ const GROUPES = {
       r[`${w}x${h}@${dpr}|bloc-variables`] = y.req;
       temoin(y.req.length === 1 && y.req[0].endsWith('.avif'), `publie ${m.nom} bloc-variables ${w}@${dpr} : ${y.req}`);
     }
+    return r;
+  },
+  // Vraie émulation mobile (isMobile : la balise viewport agit, sinon 980 px). Firefox par BiDi n'a pas de mode mobile équivalent.
+  async mobile(m) {
+    if (m.nom === 'firefox') return { non_teste: true };
+    const r = {};
+    const geo = { w: 412, h: 915, dpr: 2.625, mobile: true };
+    const VP = '<meta name=viewport content="width=device-width,initial-scale=1">';
+    const remplissage = `<!-- ${'x'.repeat(100000)} -->`;
+    const page = (tete, corps) => `<!doctype html><html lang=fr><meta charset=utf-8><title>banc</title>${tete}<body style="margin:0">${corps}`;
+    const a = BLOCS['bloc-recommande'];
+    const lien = '<link rel=stylesheet href="/c/@ID/s.css">';
+    const sec = '<section class=hero style="height:600px"></section>';
+    const largeur = s => s.page.evaluate(() => ({ largeur: window.innerWidth }));
+    const CAS = {
+      'bloc-meta-avant': [enBanc(page(VP + a.html + lien, sec)), enBanc(a.css)],
+      'bloc-meta-juste-apres': [enBanc(page(a.html + VP + lien, sec)), enBanc(a.css)],
+      'bloc-meta-apres': [enBanc(page(a.html + lien + remplissage + VP, sec)), enBanc(a.css)],
+      'bloc-sans-meta': [enBanc(page(a.html + lien, sec)), enBanc(a.css)],
+      'w-meta-avant': [page(VP + FORMES['largeur-imagesizes'].tete + lien, FOND), FORMES['largeur-imagesizes'].css],
+      'sans-preload-meta-apres': [page(lien + remplissage + VP, FOND), FORMES['sans-preload'].css],
+    };
+    // Sans balise viewport, WebKit de Playwright rééchelonne devicePixelRatio (1,10 relu) : le DPR relu s'imprime au lieu d'être exigé.
+    for (const [k, [html, css]] of Object.entries(CAS)) r[k] = await jouer(m, { ...geo, dprLibre: k === 'bloc-sans-meta' }, html, css, largeur);
+    temoin(r['bloc-meta-avant'].largeur === 412, `mobile ${m.nom} : largeur ${r['bloc-meta-avant'].largeur} avec viewport`);
+    temoin(r['bloc-sans-meta'].largeur !== 412, `mobile ${m.nom} : largeur ${r['bloc-sans-meta'].largeur} sans viewport`);
+    temoin(r['bloc-meta-avant'].req.length === 1, `mobile ${m.nom} bloc-meta-avant : ${r['bloc-meta-avant'].req}`);
     return r;
   },
   async syntaxe(m) {

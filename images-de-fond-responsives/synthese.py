@@ -101,6 +101,15 @@ for c in configs:
             ligne(c.replace(".", ","), *cs[e], e)
 print()
 
+print("### Émulation mobile : position de la balise viewport\n")
+print("412 × 915 px, DPR 2,625, `isMobile` et `hasTouch` (Playwright), sans Firefox. `apres` : balise viewport placée derrière les préchargements, la feuille et 100 000 caractères de commentaire. `Largeur` : `window.innerWidth`.\n")
+entete("Cas", "Requêtes", "Nombre", "Largeur", "DPR relu", "Moteur")
+for k in ["bloc-meta-avant", "bloc-meta-juste-apres", "bloc-meta-apres", "bloc-sans-meta", "w-meta-avant", "sans-preload-meta-apres"]:
+    for e in ("chrome", "webkit"):
+        v = lire(e, "mobile", k)
+        ligne(k, cell([x["req"] for x in v]), "/".join(map(str, sorted(set(len(x["req"]) for x in v)))), cell([x["largeur"] for x in v], str), cell([x["dpr"] for x in v], lambda d: f"{d:.4g}"), NOMS[e])
+print()
+
 print("## 3. Écritures de `image-set()`\n")
 print("Noms de fichier : `aN` AVIF, `jN` JPEG, de densité N. `tous-types-inconnus` : première déclaration `url(repli.jpg)`, seconde `image-set(url(x.xyz) type(\"image/x-inconnu\"))`.\n")
 ecr = ["complet", "jpeg-en-tete", "avif-1x-seul", "type-sans-densite", "type-inconnu", "doublon-densite", "ordre-inverse", "seulement-2x", "seulement-1x", "dpi", "dppx", "chaine", "degrade", "prefixe", "tous-types-inconnus"]
