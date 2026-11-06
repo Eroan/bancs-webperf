@@ -1,0 +1,10 @@
+.hero { background-size: cover; background-image: var(--mobile-1x); }
+@media (min-width: 768px) {
+  .hero { background-image: var(--large-1x); }
+}
+@supports (background-image: image-set(url("a.jpg") 1x)) {
+  .hero { background-image: image-set(var(--mobile-1x) 1x, var(--mobile-2x) 2x); }
+  @media (min-width: 768px) {
+    .hero { background-image: image-set(var(--large-1x) 1x, var(--large-2x) 2x); }
+  }
+}

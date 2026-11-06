@@ -1,0 +1,10 @@
+<!-- Dans le <head>, URL écrites par le gabarit -->
+<link rel="preload" as="image" fetchpriority="high" media="(max-width: 767px)"
+      imagesrcset="/img/article-768.avif 1x, /img/article-1536.avif 2x">
+<link rel="preload" as="image" fetchpriority="high" media="(min-width: 768px)"
+      imagesrcset="/img/article-1920.avif 1x, /img/article-2880.avif 2x">
+
+<!-- Dans le corps : mêmes URL, en chemin absolu -->
+<section class="hero" style="
+  --mobile-1x: url('/img/article-768.avif');  --mobile-2x: url('/img/article-1536.avif');
+  --large-1x: url('/img/article-1920.avif');  --large-2x: url('/img/article-2880.avif')"></section>

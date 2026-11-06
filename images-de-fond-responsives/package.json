@@ -1,0 +1,11 @@
+{
+  "name": "banc-images-de-fond-responsives",
+  "version": "1.0.0",
+  "description": "Banc : image-set(), media queries et préchargement pour une image de fond responsive (image téléchargée, doublons, taille naturelle)",
+  "scripts": { "banc": "bash run.sh" },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": { "playwright": "1.64.1", "puppeteer-core": "25.15.0" },
+  "repository": { "type": "git", "url": "https://github.com/Eroan/bancs-webperf.git", "directory": "images-de-fond-responsives" },
+  "author": "Eroan Boyer (Agence Web Performance)"
+}

@@ -1,0 +1,22 @@
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/hero-1920.jpg"); /* repli : image-set() ou type() non pris en charge */
+  background-image: image-set(
+    url("/img/hero-1920.avif") type("image/avif") 1x,
+    url("/img/hero-2880.avif") type("image/avif") 2x,
+    url("/img/hero-1920.jpg") type("image/jpeg") 1x,
+    url("/img/hero-2880.jpg") type("image/jpeg") 2x
+  );
+}
+@media (max-width: 767px) {
+  .hero {
+    background-image: url("/img/hero-768.jpg");
+    background-image: image-set(
+      url("/img/hero-768.avif") type("image/avif") 1x,
+      url("/img/hero-1536.avif") type("image/avif") 2x,
+      url("/img/hero-768.jpg") type("image/jpeg") 1x,
+      url("/img/hero-1536.jpg") type("image/jpeg") 2x
+    );
+  }
+}
