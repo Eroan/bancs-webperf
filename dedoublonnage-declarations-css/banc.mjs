@@ -60,11 +60,29 @@ function valide(css, entree) {
 }
 
 // --- structure : règles de style, sélecteurs (listes dépliées), déclarations ---
+// sujet universel : composé le plus à droite sans classe, id, balise ni attribut (`> *`, `:nth-child()` seul, `::selection`),
+// que Chromium range dans le seau universel et essaie sur chaque élément (rule_set.cc)
+function sujetUniversel(sel) {
+  let t = sel.trim();
+  for (let i = 0; i < 5; i++) t = t.replace(/\([^()]*\)/g, '()');
+  const c = t.split(/\s*[>+~]\s*|\s+/).filter(Boolean).at(-1) || '';
+  return !/[.#\[]/.test(c) && !/^[a-zA-Z]/.test(c);
+}
 function structureCss(css) {
-  let regles = 0, selecteurs = 0, declarations = 0;
-  postcss.parse(css).walkRules((r) => { regles++; try { selecteurs += r.selectors.length; } catch { selecteurs++; } });
+  let regles = 0, selecteurs = 0, declarations = 0, universels = 0;
+  postcss.parse(css).walkRules((r) => {
+    if (r.parent && r.parent.type === 'atrule' && /keyframes$/i.test(r.parent.name)) return;   // 0%, from, to : pas des sélecteurs
+    regles++;
+    let sels; try { sels = r.selectors; } catch { sels = [r.selector]; }
+    selecteurs += sels.length; universels += sels.filter(sujetUniversel).length;
+  });
   postcss.parse(css).walkDecls(() => { declarations++; });
-  return { regles, selecteurs, declarations };
+  return { regles, selecteurs, declarations, universels };
+}
+// témoins de la détection, vérifiés au lancement
+for (const [sel, attendu] of [['.row > *', true], ['.a :nth-child(2)', true], ['::selection', true], ['*', true], ['.btn', false],
+  ['ul li', false], ['[data-x]', false], ['.a:not(.b > *)', false], ['.t > tbody > tr:nth-of-type(odd) > *', true]]) {
+  if (sujetUniversel(sel) !== attendu) throw new Error(`TÉMOIN sujetUniversel : ${sel}`);
 }
 
 // --- conservation des déclarations : (portée, sélecteur, propriété, valeur normalisée) ---

@@ -7,7 +7,8 @@
   "structure": {
    "regles": 273,
    "selecteurs": 426,
-   "declarations": 539
+   "declarations": 539,
+   "universels": 17
   }
  },
  {
@@ -24,7 +25,8 @@
   "structure": {
    "regles": 268,
    "selecteurs": 599,
-   "declarations": 412
+   "declarations": 412,
+   "universels": 17
   }
  },
  {
@@ -41,7 +43,8 @@
   "structure": {
    "regles": 262,
    "selecteurs": 424,
-   "declarations": 529
+   "declarations": 529,
+   "universels": 17
   }
  },
  {
@@ -58,7 +61,8 @@
   "structure": {
    "regles": 267,
    "selecteurs": 599,
-   "declarations": 410
+   "declarations": 410,
+   "universels": 17
   }
  },
  {
@@ -75,7 +79,8 @@
   "structure": {
    "regles": 262,
    "selecteurs": 424,
-   "declarations": 528
+   "declarations": 528,
+   "universels": 17
   }
  },
  {
@@ -86,7 +91,8 @@
   "structure": {
    "regles": 518,
    "selecteurs": 830,
-   "declarations": 1053
+   "declarations": 1053,
+   "universels": 25
   }
  },
  {
@@ -103,7 +109,8 @@
   "structure": {
    "regles": 521,
    "selecteurs": 1268,
-   "declarations": 816
+   "declarations": 816,
+   "universels": 31
   }
  },
  {
@@ -120,7 +127,8 @@
   "structure": {
    "regles": 511,
    "selecteurs": 827,
-   "declarations": 1048
+   "declarations": 1048,
+   "universels": 25
   }
  },
  {
@@ -137,7 +145,8 @@
   "structure": {
    "regles": 509,
    "selecteurs": 1283,
-   "declarations": 787
+   "declarations": 787,
+   "universels": 31
   }
  },
  {
@@ -154,7 +163,8 @@
   "structure": {
    "regles": 499,
    "selecteurs": 822,
-   "declarations": 1036
+   "declarations": 1036,
+   "universels": 25
   }
  },
  {
@@ -165,7 +175,8 @@
   "structure": {
    "regles": 206,
    "selecteurs": 505,
-   "declarations": 435
+   "declarations": 435,
+   "universels": 15
   }
  },
  {
@@ -182,7 +193,8 @@
   "structure": {
    "regles": 212,
    "selecteurs": 781,
-   "declarations": 361
+   "declarations": 361,
+   "universels": 15
   }
  },
  {
@@ -199,7 +211,8 @@
   "structure": {
    "regles": 202,
    "selecteurs": 506,
-   "declarations": 429
+   "declarations": 429,
+   "universels": 15
   }
  },
  {
@@ -216,7 +229,8 @@
   "structure": {
    "regles": 209,
    "selecteurs": 782,
-   "declarations": 358
+   "declarations": 358,
+   "universels": 15
   }
  },
  {
@@ -233,7 +247,8 @@
   "structure": {
    "regles": 199,
    "selecteurs": 504,
-   "declarations": 428
+   "declarations": 428,
+   "universels": 15
   }
  },
  {
@@ -242,9 +257,10 @@
   "constats": 184,
   "constats_agressifs": 184,
   "structure": {
-   "regles": 480,
-   "selecteurs": 977,
-   "declarations": 1412
+   "regles": 479,
+   "selecteurs": 976,
+   "declarations": 1412,
+   "universels": 17
   }
  },
  {
@@ -259,9 +275,10 @@
    "saved": -50432
   },
   "structure": {
-   "regles": 553,
-   "selecteurs": 1776,
-   "declarations": 1015
+   "regles": 552,
+   "selecteurs": 1775,
+   "declarations": 1015,
+   "universels": 18
   }
  },
  {
@@ -276,9 +293,10 @@
    "saved": 90
   },
   "structure": {
-   "regles": 476,
-   "selecteurs": 977,
-   "declarations": 1408
+   "regles": 475,
+   "selecteurs": 976,
+   "declarations": 1408,
+   "universels": 17
   }
  },
  {
@@ -293,9 +311,10 @@
    "saved": -54314
   },
   "structure": {
-   "regles": 560,
-   "selecteurs": 1836,
-   "declarations": 991
+   "regles": 559,
+   "selecteurs": 1835,
+   "declarations": 991,
+   "universels": 18
   }
  },
  {
@@ -310,9 +329,10 @@
    "saved": 109
   },
   "structure": {
-   "regles": 475,
-   "selecteurs": 977,
-   "declarations": 1407
+   "regles": 474,
+   "selecteurs": 976,
+   "declarations": 1407,
+   "universels": 17
   }
  },
  {
@@ -321,9 +341,10 @@
   "constats": 146,
   "constats_agressifs": 146,
   "structure": {
-   "regles": 551,
-   "selecteurs": 682,
-   "declarations": 911
+   "regles": 549,
+   "selecteurs": 680,
+   "declarations": 911,
+   "universels": 106
   }
  },
  {
@@ -338,9 +359,10 @@
    "saved": -2275
   },
   "structure": {
-   "regles": 542,
-   "selecteurs": 819,
-   "declarations": 794
+   "regles": 540,
+   "selecteurs": 817,
+   "declarations": 794,
+   "universels": 106
   }
  },
  {
@@ -355,9 +377,10 @@
    "saved": 750
   },
   "structure": {
-   "regles": 525,
-   "selecteurs": 681,
-   "declarations": 886
+   "regles": 523,
+   "selecteurs": 679,
+   "declarations": 886,
+   "universels": 106
   }
  },
  {
@@ -372,9 +395,10 @@
    "saved": -1630
   },
   "structure": {
-   "regles": 517,
-   "selecteurs": 837,
-   "declarations": 754
+   "regles": 515,
+   "selecteurs": 835,
+   "declarations": 754,
+   "universels": 106
   }
  },
  {
@@ -389,9 +413,10 @@
    "saved": 1467
   },
   "structure": {
-   "regles": 507,
-   "selecteurs": 679,
-   "declarations": 870
+   "regles": 505,
+   "selecteurs": 677,
+   "declarations": 870,
+   "universels": 106
   }
  },
  {
@@ -400,9 +425,10 @@
   "constats": 307,
   "constats_agressifs": 307,
   "structure": {
-   "regles": 1078,
-   "selecteurs": 1555,
-   "declarations": 2341
+   "regles": 1063,
+   "selecteurs": 1540,
+   "declarations": 2341,
+   "universels": 98
   }
  },
  {
@@ -417,9 +443,10 @@
    "saved": -35824
   },
   "structure": {
-   "regles": 1078,
-   "selecteurs": 2459,
-   "declarations": 1666
+   "regles": 1063,
+   "selecteurs": 2440,
+   "declarations": 1666,
+   "universels": 151
   }
  },
  {
@@ -434,9 +461,10 @@
    "saved": 1240
   },
   "structure": {
-   "regles": 1043,
-   "selecteurs": 1549,
-   "declarations": 2311
+   "regles": 1028,
+   "selecteurs": 1530,
+   "declarations": 2311,
+   "universels": 97
   }
  },
  {
@@ -451,9 +479,10 @@
    "saved": -38733
   },
   "structure": {
-   "regles": 1085,
-   "selecteurs": 2511,
-   "declarations": 1634
+   "regles": 1070,
+   "selecteurs": 2492,
+   "declarations": 1634,
+   "universels": 151
   }
  },
  {
@@ -468,9 +497,10 @@
    "saved": 1392
   },
   "structure": {
-   "regles": 1039,
-   "selecteurs": 1547,
-   "declarations": 2309
+   "regles": 1024,
+   "selecteurs": 1528,
+   "declarations": 2309,
+   "universels": 97
   }
  },
  {
@@ -479,9 +509,10 @@
   "constats": 832,
   "constats_agressifs": 832,
   "structure": {
-   "regles": 2556,
-   "selecteurs": 2967,
-   "declarations": 5543
+   "regles": 2550,
+   "selecteurs": 2961,
+   "declarations": 5543,
+   "universels": 83
   }
  },
  {
@@ -496,9 +527,10 @@
    "saved": -1158
   },
   "structure": {
-   "regles": 2688,
-   "selecteurs": 3903,
-   "declarations": 4783
+   "regles": 2682,
+   "selecteurs": 3897,
+   "declarations": 4783,
+   "universels": 132
   }
  },
  {
@@ -513,9 +545,10 @@
    "saved": 1676
   },
   "structure": {
-   "regles": 2537,
-   "selecteurs": 3103,
-   "declarations": 5387
+   "regles": 2531,
+   "selecteurs": 3097,
+   "declarations": 5387,
+   "universels": 117
   }
  },
  {
@@ -530,9 +563,10 @@
    "saved": 14499
   },
   "structure": {
-   "regles": 2494,
-   "selecteurs": 4242,
-   "declarations": 4227
+   "regles": 2488,
+   "selecteurs": 4236,
+   "declarations": 4227,
+   "universels": 132
   }
  },
  {
@@ -547,9 +581,10 @@
    "saved": 15669
   },
   "structure": {
-   "regles": 2341,
-   "selecteurs": 3301,
-   "declarations": 4990
+   "regles": 2335,
+   "selecteurs": 3295,
+   "declarations": 4990,
+   "universels": 117
   }
  },
  {
@@ -558,9 +593,10 @@
   "constats": 1478,
   "constats_agressifs": 1478,
   "structure": {
-   "regles": 4238,
-   "selecteurs": 5097,
-   "declarations": 10291
+   "regles": 4233,
+   "selecteurs": 5092,
+   "declarations": 10291,
+   "universels": 12
   }
  },
  {
@@ -575,9 +611,10 @@
    "saved": 96320
   },
   "structure": {
-   "regles": 4189,
-   "selecteurs": 6009,
-   "declarations": 8278
+   "regles": 4184,
+   "selecteurs": 6004,
+   "declarations": 8278,
+   "universels": 10
   }
  },
  {
@@ -592,9 +629,10 @@
    "saved": 99439
   },
   "structure": {
-   "regles": 4178,
-   "selecteurs": 5795,
-   "declarations": 8440
+   "regles": 4173,
+   "selecteurs": 5790,
+   "declarations": 8440,
+   "universels": 10
   }
  },
  {
@@ -609,9 +647,10 @@
    "saved": 103591
   },
   "structure": {
-   "regles": 4149,
-   "selecteurs": 6071,
-   "declarations": 8155
+   "regles": 4144,
+   "selecteurs": 6066,
+   "declarations": 8155,
+   "universels": 10
   }
  },
  {
@@ -626,9 +665,10 @@
    "saved": 106884
   },
   "structure": {
-   "regles": 4139,
-   "selecteurs": 5833,
-   "declarations": 8330
+   "regles": 4134,
+   "selecteurs": 5828,
+   "declarations": 8330,
+   "universels": 10
   }
  }
 ]

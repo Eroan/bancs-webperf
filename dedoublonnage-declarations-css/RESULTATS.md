@@ -3,7 +3,7 @@
 Produit par `synthese.py` depuis `brut/` ; protocole dans `PROTOCOLE.md`. Tout chiffre cité ailleurs vient de ce fichier.
 
 ```
-date : 2026-11-10T18:00:54.736Z
+date : 2026-11-10T18:06:27.890Z
 os : Darwin 25.5.0 arm64 ; Apple M4 Max
 node : v26.13.0
 chrome : 157.0.8103.50
@@ -14,7 +14,7 @@ csso : 5.0.5
 clean-css : 5.3.3
 postcss : 8.5.32
 playwright : 1.65.0
-charge : CPU usage: 9.80% user, 8.36% sys, 81.82% idle
+charge : CPU usage: 13.74% user, 17.81% sys, 68.43% idle
 ```
 
 ## 1. Corpus, constats et structure
@@ -26,11 +26,24 @@ Constats = groupes signalés par l'analyse (`analyze()`, mode par défaut). Sél
 | `generatepress-3.6.1-main.css` | 29 198 | 96 | 273 | 426 | +40,6 % | -0,5 % | +40,6 % | -0,5 % |
 | `astra-4.14.2-main.min.css` | 44 905 | 166 | 518 | 830 | +52,8 % | -0,4 % | +54,6 % | -1,0 % |
 | `kadence-1.6.0-global.min.css` | 28 012 | 79 | 206 | 505 | +54,7 % | +0,2 % | +54,9 % | -0,2 % |
-| `woocommerce-11.2.2.css` | 92 709 | 184 | 480 | 977 | +81,8 % | 0,0 % | +87,9 % | 0,0 % |
-| `elementor-4.4.0-frontend.css` | 64 419 | 146 | 551 | 682 | +20,1 % | -0,1 % | +22,7 % | -0,4 % |
-| `wordpress-7.1.4-block-library.css` | 164 523 | 307 | 1 078 | 1 555 | +58,1 % | -0,4 % | +61,5 % | -0,5 % |
-| `bootstrap-5.3.8.css` | 280 311 | 832 | 2 556 | 2 967 | +31,5 % | +4,6 % | +43,0 % | +11,3 % |
-| `bulma-1.0.4.css` | 763 923 | 1478 | 4 238 | 5 097 | +17,9 % | +13,7 % | +19,1 % | +14,4 % |
+| `woocommerce-11.2.2.css` | 92 709 | 184 | 479 | 976 | +81,9 % | 0,0 % | +88,0 % | 0,0 % |
+| `elementor-4.4.0-frontend.css` | 64 419 | 146 | 549 | 680 | +20,1 % | -0,1 % | +22,8 % | -0,4 % |
+| `wordpress-7.1.4-block-library.css` | 164 523 | 307 | 1 063 | 1 540 | +58,4 % | -0,6 % | +61,8 % | -0,8 % |
+| `bootstrap-5.3.8.css` | 280 311 | 832 | 2 550 | 2 961 | +31,6 % | +4,6 % | +43,1 % | +11,3 % |
+| `bulma-1.0.4.css` | 763 923 | 1478 | 4 233 | 5 092 | +17,9 % | +13,7 % | +19,1 % | +14,5 % |
+
+Sélecteurs à sujet universel (composé le plus à droite sans classe, id, balise ni attribut, `> *` par exemple), listes dépliées :
+
+| Feuille | Origine | `-f` | `-f -s` | `-f -a` | `-f -a -s` |
+|---|---|---|---|---|---|
+| `generatepress-3.6.1-main.css` | 17 | 17 | 17 | 17 | 17 |
+| `astra-4.14.2-main.min.css` | 25 | 31 | 25 | 31 | 25 |
+| `kadence-1.6.0-global.min.css` | 15 | 15 | 15 | 15 | 15 |
+| `woocommerce-11.2.2.css` | 17 | 18 | 17 | 18 | 17 |
+| `elementor-4.4.0-frontend.css` | 106 | 106 | 106 | 106 | 106 |
+| `wordpress-7.1.4-block-library.css` | 98 | 151 | 97 | 151 | 97 |
+| `bootstrap-5.3.8.css` | 83 | 132 | 117 | 132 | 117 |
+| `bulma-1.0.4.css` | 12 | 10 | 10 | 10 | 10 |
 
 Fusions appliquées / groupes ignorés comme non sûrs / fusions retenues par `-s` :
 
@@ -176,6 +189,27 @@ Variante inverse (Lightning CSS puis `-f -s`, 2087 fusion(s)) : brut -92 351, gz
 | `-f -s` | 44/48 | 34/48 | 26/48 | 29/48 | -0,11 % [-0,77, +8,45] |
 | `-f -a` | 12/48 | 6/48 | 0/48 | 0/48 | +4,37 % [+1,36, +12,47] |
 | `-f -a -s` | 48/48 | 33/48 | 27/48 | 28/48 | -0,06 % [-0,96, +7,95] |
+
+Écart en pourcentage par feuille, sans minification puis après Lightning CSS (brut / gzip 6 / Brotli 11) :
+
+| Feuille | Minification | `-f` | `-f -s` | `-f -a -s` |
+|---|---|---|---|---|
+| `generatepress-3.6.1-main.css` | aucune | +3,7 % / +1,1 % / +1,3 % | -0,8 % / -0,2 % / -0,4 % | -0,8 % / -0,2 % / -0,2 % |
+| `generatepress-3.6.1-main.css` | Lightning CSS | +7,3 % / +2,1 % / +2,3 % | -0,5 % / -0,2 % / -0,1 % | -0,5 % / -0,1 % / 0,0 % |
+| `astra-4.14.2-main.min.css` | aucune | +14,7 % / +5,0 % / +3,3 % | -0,2 % / -0,1 % / -0,3 % | -1,0 % / -0,4 % / -0,6 % |
+| `astra-4.14.2-main.min.css` | Lightning CSS | +15,4 % / +5,3 % / +4,2 % | -0,2 % / -0,1 % / 0,0 % | -0,8 % / -0,3 % / -0,3 % |
+| `kadence-1.6.0-global.min.css` | aucune | +24,6 % / +2,9 % / +2,2 % | -0,7 % / -0,1 % / +1,3 % | -0,8 % / -0,1 % / +0,1 % |
+| `kadence-1.6.0-global.min.css` | Lightning CSS | +26,7 % / +3,7 % / +3,2 % | 0,0 % / 0,0 % / +0,7 % | -0,1 % / -0,1 % / -0,3 % |
+| `woocommerce-11.2.2.css` | aucune | +54,4 % / +17,5 % / +7,7 % | -0,1 % / 0,0 % / -0,3 % | -0,1 % / +0,1 % / -0,2 % |
+| `woocommerce-11.2.2.css` | Lightning CSS | +55,6 % / +18,4 % / +9,1 % | 0,0 % / 0,0 % / -0,1 % | 0,0 % / 0,0 % / +0,1 % |
+| `elementor-4.4.0-frontend.css` | aucune | +3,5 % / +1,9 % / +1,9 % | -1,2 % / -0,2 % / -0,8 % | -2,3 % / -0,3 % / -0,3 % |
+| `elementor-4.4.0-frontend.css` | Lightning CSS | +5,6 % / +2,5 % / +3,4 % | -0,2 % / -0,1 % / +0,1 % | -0,9 % / -0,2 % / -0,1 % |
+| `wordpress-7.1.4-block-library.css` | aucune | +21,8 % / +9,5 % / +6,0 % | -0,8 % / -0,2 % / -0,6 % | -0,8 % / -0,2 % / -0,4 % |
+| `wordpress-7.1.4-block-library.css` | Lightning CSS | +27,6 % / +11,9 % / +7,1 % | -0,4 % / -0,1 % / -0,4 % | -0,5 % / -0,1 % / -0,2 % |
+| `bootstrap-5.3.8.css` | aucune | +0,4 % / +5,7 % / +5,7 % | -0,6 % / +0,8 % / +0,9 % | -5,6 % / +0,8 % / +0,2 % |
+| `bootstrap-5.3.8.css` | Lightning CSS | +1,7 % / +4,9 % / +6,6 % | -0,1 % / +0,9 % / +1,9 % | -4,8 % / +0,9 % / +1,2 % |
+| `bulma-1.0.4.css` | aucune | -12,6 % / -7,4 % / +7,7 % | -13,0 % / -8,3 % / +6,3 % | -14,0 % / -8,6 % / +6,0 % |
+| `bulma-1.0.4.css` | Lightning CSS | -12,7 % / -8,0 % / +9,1 % | -13,2 % / -8,9 % / +8,4 % | -14,2 % / -9,2 % / +7,9 % |
 
 Minification seule contre dédoublonnage seul (octets bruts, écart à la feuille d'origine) :
 

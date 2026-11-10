@@ -40,7 +40,9 @@ def delta(v, base):
     return f"{'+' if d > 0 else ''}{nb(d)} ({'+' if d > 0 else ''}{d / base * 100:.1f} %)".replace(".", ",")
 
 def pct(v, base):
-    d = (v - base) / base * 100
+    d = round((v - base) / base * 100, 1)
+    if d == 0:
+        return "0,0 %"
     return f"{'+' if d > 0 else ''}{d:.1f} %".replace(".", ",")
 
 out = []
@@ -58,6 +60,13 @@ for f in FICHIERS:
     s0 = dd[(f, "aucun")]["structure"]
     cells = [pct(dd[(f, m)]["structure"]["selecteurs"], s0["selecteurs"]) for m in MODES]
     w(f"| `{f}` | {nb(idx[(f, 'aucun', 'aucune')]['brut'])} | {dd[(f, 'aucun')]['constats']} | {nb(s0['regles'])} | {nb(s0['selecteurs'])} | " + " | ".join(cells) + " |")
+w("")
+w("Sélecteurs à sujet universel (composé le plus à droite sans classe, id, balise ni attribut, `> *` par exemple), listes dépliées :\n")
+w("| Feuille | Origine | `-f` | `-f -s` | `-f -a` | `-f -a -s` |")
+w("|---|---|---|---|---|---|")
+for f in FICHIERS:
+    u0 = dd[(f, "aucun")]["structure"]["universels"]
+    w(f"| `{f}` | {nb(u0)} | " + " | ".join(f"{nb(dd[(f, m)]['structure']['universels'])}" for m in MODES) + " |")
 w("")
 w("Fusions appliquées / groupes ignorés comme non sûrs / fusions retenues par `-s` :\n")
 w("| Feuille | `-f` | `-f -s` | `-f -a` | `-f -a -s` |")
@@ -106,6 +115,14 @@ for m in MODES:
     ecarts = [(x["br11"] - b["br11"]) / b["br11"] * 100 for x, b in paires]
     w(f"| {LIB_MODE[m]} | {cnt('brut')}/48 | {cnt('gzip6')}/48 | {cnt('br5')}/48 | {cnt('br11')}/48 | "
       f"{statistics.median(ecarts):+.2f} % [{min(ecarts):+.2f}, {max(ecarts):+.2f}] |".replace(".", ","))
+w("")
+w("Écart en pourcentage par feuille, sans minification puis après Lightning CSS (brut / gzip 6 / Brotli 11) :\n")
+w("| Feuille | Minification | `-f` | `-f -s` | `-f -a -s` |")
+w("|---|---|---|---|---|")
+for f in FICHIERS:
+    for mi in ["aucune", "lightningcss"]:
+        b = idx[(f, "aucun", mi)]
+        w(f"| `{f}` | {LIB_MIN[mi]} | " + " | ".join(" / ".join(pct(idx[(f, m, mi)][k], b[k]) for k in ["brut", "gzip6", "br11"]) for m in ["f", "fs", "fas"]) + " |")
 w("")
 w("Minification seule contre dédoublonnage seul (octets bruts, écart à la feuille d'origine) :\n")
 w("| Feuille | Lightning CSS seul | cssnano seul | `-f -a -s` seul | `-f -a -s` puis Lightning CSS |")
