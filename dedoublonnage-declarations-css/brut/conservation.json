@@ -1,0 +1,841 @@
+[
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "f",
+  "perdus": 1,
+  "gagnes": 1,
+  "voisins": [
+   {
+    "perdu": " | th | font-weight = bold",
+    "sortie": [
+     " | th | font-weight = 700"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | th | font-weight = 700"
+  ]
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fs",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fa",
+  "perdus": 1,
+  "gagnes": 1,
+  "voisins": [
+   {
+    "perdu": " | th | font-weight = bold",
+    "sortie": [
+     " | th | font-weight = 700"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | th | font-weight = 700"
+  ]
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fas",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "f",
+  "perdus": 2,
+  "gagnes": 1,
+  "voisins": [
+   {
+    "perdu": " | fieldset | margin = 0 0",
+    "sortie": [
+     " | fieldset | margin = 0"
+    ]
+   },
+   {
+    "perdu": " | .ast-button-wrap button | border = none",
+    "sortie": [
+     " | .ast-button-wrap button | border = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | .ast-button-wrap button | border = 0"
+  ]
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fs",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fa",
+  "perdus": 5,
+  "gagnes": 4,
+  "voisins": [
+   {
+    "perdu": " | fieldset | margin = 0 0",
+    "sortie": [
+     " | fieldset | margin = 0"
+    ]
+   },
+   {
+    "perdu": " | .main-header-menu .sub-menu .menu-link | word-wrap = break-word",
+    "sortie": [
+     " | .main-header-menu .sub-menu .menu-link | overflow-wrap = break-word"
+    ]
+   },
+   {
+    "perdu": " | .ast-button-wrap button | border = none",
+    "sortie": [
+     " | .ast-button-wrap button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .entry-header | word-wrap = break-word",
+    "sortie": [
+     " | .entry-header | overflow-wrap = break-word"
+    ]
+   },
+   {
+    "perdu": " | .entry-content | word-wrap = break-word",
+    "sortie": [
+     " | .entry-content | overflow-wrap = break-word"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | .ast-button-wrap button | border = 0",
+   " | .main-header-menu .sub-menu .menu-link | overflow-wrap = break-word",
+   " | .entry-header | overflow-wrap = break-word",
+   " | .entry-content | overflow-wrap = break-word"
+  ]
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fas",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "f",
+  "perdus": 1,
+  "gagnes": 1,
+  "voisins": [
+   {
+    "perdu": " | legend | font-weight = bold",
+    "sortie": [
+     " | legend | font-weight = 700"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | legend | font-weight = 700"
+  ]
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fs",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fa",
+  "perdus": 1,
+  "gagnes": 1,
+  "voisins": [
+   {
+    "perdu": " | legend | font-weight = bold",
+    "sortie": [
+     " | legend | font-weight = 700"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | legend | font-weight = 700"
+  ]
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fas",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "f",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fs",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fa",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fas",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "f",
+  "perdus": 5,
+  "gagnes": 5,
+  "voisins": [
+   {
+    "perdu": " | .elementor img | border = none",
+    "sortie": [
+     " | .elementor img | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .elementor embed | border = none",
+    "sortie": [
+     " | .elementor embed | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .elementor iframe | border = none",
+    "sortie": [
+     " | .elementor iframe | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .elementor object | border = none",
+    "sortie": [
+     " | .elementor object | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .elementor video | border = none",
+    "sortie": [
+     " | .elementor video | border = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | .elementor img | border = 0",
+   " | .elementor embed | border = 0",
+   " | .elementor iframe | border = 0",
+   " | .elementor object | border = 0",
+   " | .elementor video | border = 0"
+  ]
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fs",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fa",
+  "perdus": 5,
+  "gagnes": 5,
+  "voisins": [
+   {
+    "perdu": " | .elementor img | border = none",
+    "sortie": [
+     " | .elementor img | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .elementor embed | border = none",
+    "sortie": [
+     " | .elementor embed | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .elementor iframe | border = none",
+    "sortie": [
+     " | .elementor iframe | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .elementor object | border = none",
+    "sortie": [
+     " | .elementor object | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .elementor video | border = none",
+    "sortie": [
+     " | .elementor video | border = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | .elementor img | border = 0",
+   " | .elementor embed | border = 0",
+   " | .elementor iframe | border = 0",
+   " | .elementor object | border = 0",
+   " | .elementor video | border = 0"
+  ]
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fas",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "f",
+  "perdus": 20,
+  "gagnes": 20,
+  "voisins": [
+   {
+    "perdu": " | .wp-block-post-comments .comment-meta b | font-weight = normal",
+    "sortie": [
+     " | .wp-block-post-comments .comment-meta b | font-weight = 400"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-container button | border = none",
+    "sortie": [
+     " | .wp-lightbox-container button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-container button:hover | border = none",
+    "sortie": [
+     " | .wp-lightbox-container button:hover | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-container button:focus | border = none",
+    "sortie": [
+     " | .wp-lightbox-container button:focus | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-container button:not(:hover):not(:active):not(.has-background) | border = none",
+    "sortie": [
+     " | .wp-lightbox-container button:not(:hover):not(:active):not(.has-background) | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-close-button:hover | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-close-button:hover | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-close-button:focus | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-close-button:focus | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background) | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background) | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background) | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background) | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background) | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background) | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay button | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-block-navigation .wp-block-navigation__submenu-icon | border = none",
+    "sortie": [
+     " | .wp-block-navigation .wp-block-navigation__submenu-icon | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-block-navigation .has-child.open-always > .wp-block-navigation__submenu-container | border = none",
+    "sortie": [
+     " | .wp-block-navigation .has-child.open-always > .wp-block-navigation__submenu-container | border = 0"
+    ]
+   },
+   {
+    "perdu": " | button.wp-block-navigation-item__content | border = none",
+    "sortie": [
+     " | button.wp-block-navigation-item__content | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .speed-option | border = none",
+    "sortie": [
+     " | .speed-option | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-block-playlist .waveform-btn | border = none",
+    "sortie": [
+     " | .wp-block-playlist .waveform-btn | border = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | .wp-block-post-comments .comment-meta b | font-weight = 400",
+   " | .wp-lightbox-container button | border = 0",
+   " | .wp-lightbox-container button:hover | border = 0",
+   " | .wp-lightbox-container button:focus | border = 0",
+   " | .wp-lightbox-container button:not(:hover):not(:active):not(.has-background) | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-close-button:hover | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-close-button:focus | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background) | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background) | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background) | border = 0",
+   " | .wp-lightbox-overlay button | border = 0",
+   " | .wp-block-navigation .wp-block-navigation__submenu-icon | border = 0",
+   " | .wp-block-navigation .has-child.open-always > .wp-block-navigation__submenu-container | border = 0",
+   " | button.wp-block-navigation-item__content | border = 0",
+   " | .speed-option | border = 0",
+   " | .wp-block-playlist .waveform-btn | border = 0"
+  ]
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fs",
+  "perdus": 1,
+  "gagnes": 1,
+  "voisins": [
+   {
+    "perdu": " | .wp-block-post-comments .comment-meta b | font-weight = normal",
+    "sortie": [
+     " | .wp-block-post-comments .comment-meta b | font-weight = 400"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | .wp-block-post-comments .comment-meta b | font-weight = 400"
+  ]
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fa",
+  "perdus": 20,
+  "gagnes": 20,
+  "voisins": [
+   {
+    "perdu": " | .wp-block-post-comments .comment-meta b | font-weight = normal",
+    "sortie": [
+     " | .wp-block-post-comments .comment-meta b | font-weight = 400"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-container button | border = none",
+    "sortie": [
+     " | .wp-lightbox-container button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-container button:hover | border = none",
+    "sortie": [
+     " | .wp-lightbox-container button:hover | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-container button:focus | border = none",
+    "sortie": [
+     " | .wp-lightbox-container button:focus | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-container button:not(:hover):not(:active):not(.has-background) | border = none",
+    "sortie": [
+     " | .wp-lightbox-container button:not(:hover):not(:active):not(.has-background) | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-close-button:hover | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-close-button:hover | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-close-button:focus | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-close-button:focus | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background) | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background) | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background) | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background) | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background) | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background) | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-lightbox-overlay button | border = none",
+    "sortie": [
+     " | .wp-lightbox-overlay button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-block-navigation .wp-block-navigation__submenu-icon | border = none",
+    "sortie": [
+     " | .wp-block-navigation .wp-block-navigation__submenu-icon | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-block-navigation .has-child.open-always > .wp-block-navigation__submenu-container | border = none",
+    "sortie": [
+     " | .wp-block-navigation .has-child.open-always > .wp-block-navigation__submenu-container | border = 0"
+    ]
+   },
+   {
+    "perdu": " | button.wp-block-navigation-item__content | border = none",
+    "sortie": [
+     " | button.wp-block-navigation-item__content | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .speed-option | border = none",
+    "sortie": [
+     " | .speed-option | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .wp-block-playlist .waveform-btn | border = none",
+    "sortie": [
+     " | .wp-block-playlist .waveform-btn | border = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | .wp-block-post-comments .comment-meta b | font-weight = 400",
+   " | .wp-lightbox-container button | border = 0",
+   " | .wp-lightbox-container button:hover | border = 0",
+   " | .wp-lightbox-container button:focus | border = 0",
+   " | .wp-lightbox-container button:not(:hover):not(:active):not(.has-background) | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-close-button:hover | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-close-button:focus | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background) | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background) | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus | border = 0",
+   " | .wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background) | border = 0",
+   " | .wp-lightbox-overlay button | border = 0",
+   " | .wp-block-navigation .wp-block-navigation__submenu-icon | border = 0",
+   " | .wp-block-navigation .has-child.open-always > .wp-block-navigation__submenu-container | border = 0",
+   " | button.wp-block-navigation-item__content | border = 0",
+   " | .speed-option | border = 0",
+   " | .wp-block-playlist .waveform-btn | border = 0"
+  ]
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fas",
+  "perdus": 1,
+  "gagnes": 1,
+  "voisins": [
+   {
+    "perdu": " | .wp-block-post-comments .comment-meta b | font-weight = normal",
+    "sortie": [
+     " | .wp-block-post-comments .comment-meta b | font-weight = 400"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | .wp-block-post-comments .comment-meta b | font-weight = 400"
+  ]
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "f",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fs",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fa",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fas",
+  "perdus": 0,
+  "gagnes": 0,
+  "voisins": [],
+  "liste_gagnes": []
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "f",
+  "perdus": 4,
+  "gagnes": 4,
+  "voisins": [
+   {
+    "perdu": " | button | border = none",
+    "sortie": [
+     " | button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | hr | border = none",
+    "sortie": [
+     " | hr | border = 0"
+    ]
+   },
+   {
+    "perdu": " | fieldset | border = none",
+    "sortie": [
+     " | fieldset | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .is-gap-0 | gap !important = 0rem",
+    "sortie": [
+     " | .is-gap-0 | gap !important = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | button | border = 0",
+   " | hr | border = 0",
+   " | fieldset | border = 0",
+   " | .is-gap-0 | gap !important = 0"
+  ]
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fs",
+  "perdus": 4,
+  "gagnes": 4,
+  "voisins": [
+   {
+    "perdu": " | button | border = none",
+    "sortie": [
+     " | button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | hr | border = none",
+    "sortie": [
+     " | hr | border = 0"
+    ]
+   },
+   {
+    "perdu": " | fieldset | border = none",
+    "sortie": [
+     " | fieldset | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .is-gap-0 | gap !important = 0rem",
+    "sortie": [
+     " | .is-gap-0 | gap !important = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | button | border = 0",
+   " | hr | border = 0",
+   " | fieldset | border = 0",
+   " | .is-gap-0 | gap !important = 0"
+  ]
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fa",
+  "perdus": 4,
+  "gagnes": 4,
+  "voisins": [
+   {
+    "perdu": " | button | border = none",
+    "sortie": [
+     " | button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | hr | border = none",
+    "sortie": [
+     " | hr | border = 0"
+    ]
+   },
+   {
+    "perdu": " | fieldset | border = none",
+    "sortie": [
+     " | fieldset | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .is-gap-0 | gap !important = 0rem",
+    "sortie": [
+     " | .is-gap-0 | gap !important = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | button | border = 0",
+   " | hr | border = 0",
+   " | fieldset | border = 0",
+   " | .is-gap-0 | gap !important = 0"
+  ]
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fas",
+  "perdus": 4,
+  "gagnes": 4,
+  "voisins": [
+   {
+    "perdu": " | button | border = none",
+    "sortie": [
+     " | button | border = 0"
+    ]
+   },
+   {
+    "perdu": " | hr | border = none",
+    "sortie": [
+     " | hr | border = 0"
+    ]
+   },
+   {
+    "perdu": " | fieldset | border = none",
+    "sortie": [
+     " | fieldset | border = 0"
+    ]
+   },
+   {
+    "perdu": " | .is-gap-0 | gap !important = 0rem",
+    "sortie": [
+     " | .is-gap-0 | gap !important = 0"
+    ]
+   }
+  ],
+  "liste_gagnes": [
+   " | button | border = 0",
+   " | hr | border = 0",
+   " | fieldset | border = 0",
+   " | .is-gap-0 | gap !important = 0"
+  ]
+ }
+]

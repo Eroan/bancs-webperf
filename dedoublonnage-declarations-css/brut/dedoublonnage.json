@@ -1,0 +1,634 @@
+[
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "aucun",
+  "constats": 96,
+  "constats_agressifs": 96,
+  "structure": {
+   "regles": 273,
+   "selecteurs": 426,
+   "declarations": 539
+  }
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "f",
+  "appliques": 86,
+  "ignores": 69,
+  "retenus": 0,
+  "octets": {
+   "before": 29198,
+   "after": 30275,
+   "saved": -1077
+  },
+  "structure": {
+   "regles": 268,
+   "selecteurs": 599,
+   "declarations": 412
+  }
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fs",
+  "appliques": 10,
+  "ignores": 86,
+  "retenus": 71,
+  "octets": {
+   "before": 29198,
+   "after": 28974,
+   "saved": 224
+  },
+  "structure": {
+   "regles": 262,
+   "selecteurs": 424,
+   "declarations": 529
+  }
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fa",
+  "appliques": 90,
+  "ignores": 67,
+  "retenus": 0,
+  "octets": {
+   "before": 29198,
+   "after": 30288,
+   "saved": -1090
+  },
+  "structure": {
+   "regles": 267,
+   "selecteurs": 599,
+   "declarations": 410
+  }
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fas",
+  "appliques": 12,
+  "ignores": 86,
+  "retenus": 72,
+  "octets": {
+   "before": 29198,
+   "after": 28965,
+   "saved": 233
+  },
+  "structure": {
+   "regles": 262,
+   "selecteurs": 424,
+   "declarations": 528
+  }
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "aucun",
+  "constats": 166,
+  "constats_agressifs": 166,
+  "structure": {
+   "regles": 518,
+   "selecteurs": 830,
+   "declarations": 1053
+  }
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "f",
+  "appliques": 151,
+  "ignores": 128,
+  "retenus": 0,
+  "octets": {
+   "before": 44905,
+   "after": 51490,
+   "saved": -6585
+  },
+  "structure": {
+   "regles": 521,
+   "selecteurs": 1268,
+   "declarations": 816
+  }
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fs",
+  "appliques": 8,
+  "ignores": 163,
+  "retenus": 129,
+  "octets": {
+   "before": 44905,
+   "after": 44802,
+   "saved": 103
+  },
+  "structure": {
+   "regles": 511,
+   "selecteurs": 827,
+   "declarations": 1048
+  }
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fa",
+  "appliques": 172,
+  "ignores": 111,
+  "retenus": 0,
+  "octets": {
+   "before": 44905,
+   "after": 51491,
+   "saved": -6586
+  },
+  "structure": {
+   "regles": 509,
+   "selecteurs": 1283,
+   "declarations": 787
+  }
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fas",
+  "appliques": 21,
+  "ignores": 155,
+  "retenus": 133,
+  "octets": {
+   "before": 44905,
+   "after": 44442,
+   "saved": 463
+  },
+  "structure": {
+   "regles": 499,
+   "selecteurs": 822,
+   "declarations": 1036
+  }
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "aucun",
+  "constats": 79,
+  "constats_agressifs": 79,
+  "structure": {
+   "regles": 206,
+   "selecteurs": 505,
+   "declarations": 435
+  }
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "f",
+  "appliques": 62,
+  "ignores": 45,
+  "retenus": 0,
+  "octets": {
+   "before": 28012,
+   "after": 34911,
+   "saved": -6899
+  },
+  "structure": {
+   "regles": 212,
+   "selecteurs": 781,
+   "declarations": 361
+  }
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fs",
+  "appliques": 6,
+  "ignores": 75,
+  "retenus": 50,
+  "octets": {
+   "before": 28012,
+   "after": 27824,
+   "saved": 188
+  },
+  "structure": {
+   "regles": 202,
+   "selecteurs": 506,
+   "declarations": 429
+  }
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fa",
+  "appliques": 66,
+  "ignores": 41,
+  "retenus": 0,
+  "octets": {
+   "before": 28012,
+   "after": 34901,
+   "saved": -6889
+  },
+  "structure": {
+   "regles": 209,
+   "selecteurs": 782,
+   "declarations": 358
+  }
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fas",
+  "appliques": 8,
+  "ignores": 72,
+  "retenus": 52,
+  "octets": {
+   "before": 28012,
+   "after": 27789,
+   "saved": 223
+  },
+  "structure": {
+   "regles": 199,
+   "selecteurs": 504,
+   "declarations": 428
+  }
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "aucun",
+  "constats": 184,
+  "constats_agressifs": 184,
+  "structure": {
+   "regles": 480,
+   "selecteurs": 977,
+   "declarations": 1412
+  }
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "f",
+  "appliques": 231,
+  "ignores": 141,
+  "retenus": 0,
+  "octets": {
+   "before": 92709,
+   "after": 143141,
+   "saved": -50432
+  },
+  "structure": {
+   "regles": 553,
+   "selecteurs": 1776,
+   "declarations": 1015
+  }
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fs",
+  "appliques": 4,
+  "ignores": 183,
+  "retenus": 197,
+  "octets": {
+   "before": 92709,
+   "after": 92619,
+   "saved": 90
+  },
+  "structure": {
+   "regles": 476,
+   "selecteurs": 977,
+   "declarations": 1408
+  }
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fa",
+  "appliques": 239,
+  "ignores": 133,
+  "retenus": 0,
+  "octets": {
+   "before": 92709,
+   "after": 147023,
+   "saved": -54314
+  },
+  "structure": {
+   "regles": 560,
+   "selecteurs": 1836,
+   "declarations": 991
+  }
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fas",
+  "appliques": 5,
+  "ignores": 182,
+  "retenus": 205,
+  "octets": {
+   "before": 92709,
+   "after": 92600,
+   "saved": 109
+  },
+  "structure": {
+   "regles": 475,
+   "selecteurs": 977,
+   "declarations": 1407
+  }
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "aucun",
+  "constats": 146,
+  "constats_agressifs": 146,
+  "structure": {
+   "regles": 551,
+   "selecteurs": 682,
+   "declarations": 911
+  }
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "f",
+  "appliques": 86,
+  "ignores": 67,
+  "retenus": 0,
+  "octets": {
+   "before": 64419,
+   "after": 66694,
+   "saved": -2275
+  },
+  "structure": {
+   "regles": 542,
+   "selecteurs": 819,
+   "declarations": 794
+  }
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fs",
+  "appliques": 10,
+  "ignores": 96,
+  "retenus": 63,
+  "octets": {
+   "before": 64419,
+   "after": 63669,
+   "saved": 750
+  },
+  "structure": {
+   "regles": 525,
+   "selecteurs": 681,
+   "declarations": 886
+  }
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fa",
+  "appliques": 109,
+  "ignores": 80,
+  "retenus": 0,
+  "octets": {
+   "before": 64419,
+   "after": 66049,
+   "saved": -1630
+  },
+  "structure": {
+   "regles": 517,
+   "selecteurs": 837,
+   "declarations": 754
+  }
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fas",
+  "appliques": 24,
+  "ignores": 120,
+  "retenus": 71,
+  "octets": {
+   "before": 64419,
+   "after": 62952,
+   "saved": 1467
+  },
+  "structure": {
+   "regles": 507,
+   "selecteurs": 679,
+   "declarations": 870
+  }
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "aucun",
+  "constats": 307,
+  "constats_agressifs": 307,
+  "structure": {
+   "regles": 1078,
+   "selecteurs": 1555,
+   "declarations": 2341
+  }
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "f",
+  "appliques": 329,
+  "ignores": 228,
+  "retenus": 0,
+  "octets": {
+   "before": 164523,
+   "after": 200347,
+   "saved": -35824
+  },
+  "structure": {
+   "regles": 1078,
+   "selecteurs": 2459,
+   "declarations": 1666
+  }
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fs",
+  "appliques": 28,
+  "ignores": 270,
+  "retenus": 274,
+  "octets": {
+   "before": 164523,
+   "after": 163283,
+   "saved": 1240
+  },
+  "structure": {
+   "regles": 1043,
+   "selecteurs": 1549,
+   "declarations": 2311
+  }
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fa",
+  "appliques": 347,
+  "ignores": 221,
+  "retenus": 0,
+  "octets": {
+   "before": 164523,
+   "after": 203256,
+   "saved": -38733
+  },
+  "structure": {
+   "regles": 1085,
+   "selecteurs": 2511,
+   "declarations": 1634
+  }
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fas",
+  "appliques": 30,
+  "ignores": 274,
+  "retenus": 288,
+  "octets": {
+   "before": 164523,
+   "after": 163131,
+   "saved": 1392
+  },
+  "structure": {
+   "regles": 1039,
+   "selecteurs": 1547,
+   "declarations": 2309
+  }
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "aucun",
+  "constats": 832,
+  "constats_agressifs": 832,
+  "structure": {
+   "regles": 2556,
+   "selecteurs": 2967,
+   "declarations": 5543
+  }
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "f",
+  "appliques": 402,
+  "ignores": 625,
+  "retenus": 0,
+  "octets": {
+   "before": 280311,
+   "after": 281469,
+   "saved": -1158
+  },
+  "structure": {
+   "regles": 2688,
+   "selecteurs": 3903,
+   "declarations": 4783
+  }
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fs",
+  "appliques": 39,
+  "ignores": 747,
+  "retenus": 293,
+  "octets": {
+   "before": 280311,
+   "after": 278635,
+   "saved": 1676
+  },
+  "structure": {
+   "regles": 2537,
+   "selecteurs": 3103,
+   "declarations": 5387
+  }
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fa",
+  "appliques": 867,
+  "ignores": 204,
+  "retenus": 0,
+  "octets": {
+   "before": 280311,
+   "after": 265812,
+   "saved": 14499
+  },
+  "structure": {
+   "regles": 2494,
+   "selecteurs": 4242,
+   "declarations": 4227
+  }
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fas",
+  "appliques": 401,
+  "ignores": 417,
+  "retenus": 358,
+  "octets": {
+   "before": 280311,
+   "after": 264642,
+   "saved": 15669
+  },
+  "structure": {
+   "regles": 2341,
+   "selecteurs": 3301,
+   "declarations": 4990
+  }
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "aucun",
+  "constats": 1478,
+  "constats_agressifs": 1478,
+  "structure": {
+   "regles": 4238,
+   "selecteurs": 5097,
+   "declarations": 10291
+  }
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "f",
+  "appliques": 2157,
+  "ignores": 381,
+  "retenus": 0,
+  "octets": {
+   "before": 763923,
+   "after": 667603,
+   "saved": 96320
+  },
+  "structure": {
+   "regles": 4189,
+   "selecteurs": 6009,
+   "declarations": 8278
+  }
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fs",
+  "appliques": 2131,
+  "ignores": 392,
+  "retenus": 23,
+  "octets": {
+   "before": 763923,
+   "after": 664484,
+   "saved": 99439
+  },
+  "structure": {
+   "regles": 4178,
+   "selecteurs": 5795,
+   "declarations": 8440
+  }
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fa",
+  "appliques": 2250,
+  "ignores": 315,
+  "retenus": 0,
+  "octets": {
+   "before": 763923,
+   "after": 660332,
+   "saved": 103591
+  },
+  "structure": {
+   "regles": 4149,
+   "selecteurs": 6071,
+   "declarations": 8155
+  }
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fas",
+  "appliques": 2215,
+  "ignores": 327,
+  "retenus": 33,
+  "octets": {
+   "before": 763923,
+   "after": 657039,
+   "saved": 106884
+  },
+  "structure": {
+   "regles": 4139,
+   "selecteurs": 5833,
+   "declarations": 8330
+  }
+ }
+]

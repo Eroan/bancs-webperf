@@ -1,0 +1,182 @@
+[
+ {
+  "cas": "sur",
+  "reference": {
+   "e1": "rgb(255, 0, 0)",
+   "e2": "rgb(255, 0, 0)"
+  },
+  "naif": {
+   "e1": "rgb(255, 0, 0)",
+   "e2": "rgb(255, 0, 0)"
+  },
+  "naif_change": false,
+  "variantes": {
+   "f": {
+    "css": ".a,.b{color:red}",
+    "appliques": 1,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(255, 0, 0)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": false
+   },
+   "fa": {
+    "css": ".a,.b{color:red}",
+    "appliques": 1,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(255, 0, 0)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": false
+   },
+   "f-sans-liste": {
+    "css": ".a,.b{color:red}",
+    "appliques": 1,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(255, 0, 0)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": false
+   }
+  }
+ },
+ {
+  "cas": "intercale",
+  "reference": {
+   "e1": "rgb(0, 0, 255)",
+   "e2": "rgb(255, 0, 0)"
+  },
+  "naif": {
+   "e1": "rgb(255, 0, 0)",
+   "e2": "rgb(255, 0, 0)"
+  },
+  "naif_change": true,
+  "variantes": {
+   "f": {
+    "css": ".a{color:red}.x{color:blue}.b{color:red}",
+    "appliques": 0,
+    "ignores": [
+     "intervening `color` declaration in `.x` (line 1)"
+    ],
+    "rendu": {
+     "e1": "rgb(0, 0, 255)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": false
+   },
+   "fa": {
+    "css": ".x{color:blue}.a,.b{color:red}",
+    "appliques": 1,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(255, 0, 0)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": true
+   },
+   "f-sans-liste": {
+    "css": ".a{color:red}.x{color:blue}.b{color:red}",
+    "appliques": 0,
+    "ignores": [
+     "intervening `color` declaration in `.x` (line 1)"
+    ],
+    "rendu": {
+     "e1": "rgb(0, 0, 255)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": false
+   }
+  }
+ },
+ {
+  "cas": "blocs",
+  "reference": {
+   "e1": "rgb(0, 0, 255)",
+   "e2": "rgb(255, 0, 0)"
+  },
+  "naif": {
+   "e1": "rgb(255, 0, 0)",
+   "e2": "rgb(255, 0, 0)"
+  },
+  "naif_change": true,
+  "variantes": {
+   "f": {
+    "css": "@media (min-width:1px){.a{color:red}}.x{color:blue}@media (min-width:1px){.b{color:red}}",
+    "appliques": 0,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(0, 0, 255)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": false
+   },
+   "fa": {
+    "css": ".x{color:blue}@media (min-width:1px){.a,.b{color:red}}",
+    "appliques": 1,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(255, 0, 0)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": true
+   },
+   "f-sans-liste": {
+    "css": "@media (min-width:1px){.a{color:red}}.x{color:blue}@media (min-width:1px){.b{color:red}}",
+    "appliques": 0,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(0, 0, 255)",
+     "e2": "rgb(255, 0, 0)"
+    },
+    "change": false
+   }
+  }
+ },
+ {
+  "cas": "hack",
+  "reference": {
+   "e1": "rgb(255, 0, 0)",
+   "e2": "rgb(0, 0, 0)"
+  },
+  "naif": {
+   "e1": "rgb(0, 0, 0)",
+   "e2": "rgb(0, 0, 0)"
+  },
+  "naif_change": true,
+  "variantes": {
+   "f": {
+    "css": ".a{color:red}.b::-moz-selection{color:red}",
+    "appliques": 0,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(255, 0, 0)",
+     "e2": "rgb(0, 0, 0)"
+    },
+    "change": false
+   },
+   "fa": {
+    "css": ".a{color:red}.b::-moz-selection{color:red}",
+    "appliques": 0,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(255, 0, 0)",
+     "e2": "rgb(0, 0, 0)"
+    },
+    "change": false
+   },
+   "f-sans-liste": {
+    "css": ".a,.b::-moz-selection{color:red}",
+    "appliques": 1,
+    "ignores": [],
+    "rendu": {
+     "e1": "rgb(0, 0, 0)",
+     "e2": "rgb(0, 0, 0)"
+    },
+    "change": true
+   }
+  }
+ }
+]

@@ -1,0 +1,12 @@
+date : 2026-11-10T18:00:54.736Z
+os : Darwin 25.5.0 arm64 ; Apple M4 Max
+node : v26.13.0
+chrome : 157.0.8103.50
+css-dedup : 1.13.3
+lightningcss : 1.33.0
+cssnano : 9.9.0
+csso : 5.0.5
+clean-css : 5.3.3
+postcss : 8.5.32
+playwright : 1.65.0
+charge : CPU usage: 9.80% user, 8.36% sys, 81.82% idle

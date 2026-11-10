@@ -1,0 +1,28 @@
+18:51:42 inactivité 86.6 % (consécutifs : 1)
+18:52:05 inactivité 83.33 % (consécutifs : 0)
+18:52:28 inactivité 87.6 % (consécutifs : 1)
+18:52:51 inactivité 86.88 % (consécutifs : 2)
+18:53:14 inactivité 86.57 % (consécutifs : 3)
+×1 passage 0 (échauffement, jeté)
+×1 passage 1
+×1 passage 2
+×1 passage 3
+×1 passage 4
+×1 passage 5
+×1 passage 6
+×1 passage 7
+×1 passage 8
+×1 passage 9
+×1 passage 10
+×9 passage 0 (échauffement, jeté)
+×9 passage 1
+×9 passage 2
+×9 passage 3
+×9 passage 4
+×9 passage 5
+×9 passage 6
+×9 passage 7
+×9 passage 8
+×9 passage 9
+×9 passage 10
+TÉMOIN DE DURÉE ÉCHOUÉ : [{"taux":1,"page":"cheatsheet","mesure":"recalc_ms","ok":false,"origine_max":2.1392999999999995,"double_min":2.0626},{"taux":1,"page":"album","mesure":"recalc_ms","ok":false,"origine_max":0.29794999999999994,"double_min":0.29115},{"taux":9,"page":"cheatsheet","mesure":"recalc_ms","ok":false,"origine_max":21.12525,"double_min":19.5411},{"taux":9,"page":"cheatsheet","mesure":"classe_ms","ok":false,"origine_max":19.737025,"double_min":19.398275000000005},{"taux":9,"page":"album","mesure":"recalc_ms","ok":false,"origine_max":1.7827999999999995,"double_min":1.5945}] ; données gardées sous brut/rendu-t1-9-p10-202611101759-TEMOIN-ECHOUE.json

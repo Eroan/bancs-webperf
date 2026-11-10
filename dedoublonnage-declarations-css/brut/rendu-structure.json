@@ -1,0 +1,468 @@
+{
+ "chrome": "157.0.8103.50",
+ "structure": [
+  {
+   "page": "cheatsheet",
+   "variante": "origine",
+   "elements": 1416,
+   "regles_appariees": 8026,
+   "max_par_element": 17,
+   "selecteurs_chrome": {
+    "tentatives": 80930,
+    "correspondances": 6780,
+    "rejets_rapides": 67568,
+    "us": 1226,
+    "selecteurs": 852,
+    "evenements": 2,
+    "elements_recalcules": 1217
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "cheatsheet",
+   "variante": "f",
+   "elements": 1416,
+   "regles_appariees": 10597,
+   "max_par_element": 29,
+   "selecteurs_chrome": {
+    "tentatives": 134933,
+    "correspondances": 8970,
+    "rejets_rapides": 117520,
+    "us": 1890,
+    "selecteurs": 852,
+    "evenements": 2,
+    "elements_recalcules": 1217
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "cheatsheet",
+   "variante": "fs",
+   "elements": 1416,
+   "regles_appariees": 8059,
+   "max_par_element": 17,
+   "selecteurs_chrome": {
+    "tentatives": 112857,
+    "correspondances": 6813,
+    "rejets_rapides": 99390,
+    "us": 1595,
+    "selecteurs": 852,
+    "evenements": 2,
+    "elements_recalcules": 1217
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "cheatsheet",
+   "variante": "fa",
+   "elements": 1416,
+   "regles_appariees": 11171,
+   "max_par_element": 34,
+   "selecteurs_chrome": {
+    "tentatives": 135722,
+    "correspondances": 9415,
+    "rejets_rapides": 117785,
+    "us": 1886,
+    "selecteurs": 852,
+    "evenements": 2,
+    "elements_recalcules": 1217
+   },
+   "ecarts_rendu": {
+    "n": 385,
+    "exemples": [
+     {
+      "element": "button.btn btn-primary",
+      "cible": "style",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent",
+       "background-color: rgb(13, 110, 253) → rgba(0, 0, 0, 0)",
+       "border-block-end-color: rgb(13, 110, 253) → rgba(0, 0, 0, 0)",
+       "border-block-start-color: rgb(13, 110, 253) → rgba(0, 0, 0, 0)"
+      ]
+     },
+     {
+      "element": "button.btn btn-primary",
+      "cible": "avant",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent"
+      ]
+     },
+     {
+      "element": "button.btn btn-primary",
+      "cible": "apres",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent"
+      ]
+     },
+     {
+      "element": "button.btn btn-primary",
+      "cible": "style",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent"
+      ]
+     },
+     {
+      "element": "button.btn btn-primary",
+      "cible": "avant",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent"
+      ]
+     },
+     {
+      "element": "button.btn btn-primary",
+      "cible": "apres",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent"
+      ]
+     },
+     {
+      "element": "form.row g-3",
+      "cible": "style",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem",
+       "inline-size: 865.469px → 873.469px",
+       "margin-inline-end: -8px → -12px",
+       "margin-inline-start: -8px → -12px",
+       "margin-left: -8px → -12px",
+       "margin-right: -8px → -12px"
+      ]
+     },
+     {
+      "element": "form.row g-3",
+      "cible": "avant",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem"
+      ]
+     },
+     {
+      "element": "form.row g-3",
+      "cible": "apres",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem"
+      ]
+     },
+     {
+      "element": "div.col-md-4",
+      "cible": "style",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem",
+       "inline-size: 288.484px → 291.148px",
+       "padding-inline-end: 8px → 12px",
+       "padding-inline-start: 8px → 12px",
+       "padding-left: 8px → 12px",
+       "padding-right: 8px → 12px"
+      ]
+     },
+     {
+      "element": "div.col-md-4",
+      "cible": "avant",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem"
+      ]
+     },
+     {
+      "element": "div.col-md-4",
+      "cible": "apres",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "page": "cheatsheet",
+   "variante": "fas",
+   "elements": 1416,
+   "regles_appariees": 8096,
+   "max_par_element": 17,
+   "selecteurs_chrome": {
+    "tentatives": 112899,
+    "correspondances": 6850,
+    "rejets_rapides": 99392,
+    "us": 1526,
+    "selecteurs": 852,
+    "evenements": 2,
+    "elements_recalcules": 1217
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "cheatsheet",
+   "variante": "double",
+   "elements": 1416,
+   "regles_appariees": 15737,
+   "max_par_element": 34,
+   "selecteurs_chrome": {
+    "tentatives": 159429,
+    "correspondances": 13255,
+    "rejets_rapides": 134313,
+    "us": 2251,
+    "selecteurs": 852,
+    "evenements": 2,
+    "elements_recalcules": 1217
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "album",
+   "variante": "origine",
+   "elements": 211,
+   "regles_appariees": 1214,
+   "max_par_element": 15,
+   "selecteurs_chrome": {
+    "tentatives": 10979,
+    "correspondances": 1011,
+    "rejets_rapides": 8829,
+    "us": 142,
+    "selecteurs": 291,
+    "evenements": 2,
+    "elements_recalcules": 161
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "album",
+   "variante": "f",
+   "elements": 211,
+   "regles_appariees": 1655,
+   "max_par_element": 25,
+   "selecteurs_chrome": {
+    "tentatives": 18604,
+    "correspondances": 1408,
+    "rejets_rapides": 15145,
+    "us": 244,
+    "selecteurs": 291,
+    "evenements": 2,
+    "elements_recalcules": 161
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "album",
+   "variante": "fs",
+   "elements": 211,
+   "regles_appariees": 1251,
+   "max_par_element": 15,
+   "selecteurs_chrome": {
+    "tentatives": 15516,
+    "correspondances": 1042,
+    "rejets_rapides": 13119,
+    "us": 203,
+    "selecteurs": 291,
+    "evenements": 2,
+    "elements_recalcules": 161
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "album",
+   "variante": "fa",
+   "elements": 211,
+   "regles_appariees": 1758,
+   "max_par_element": 28,
+   "selecteurs_chrome": {
+    "tentatives": 18736,
+    "correspondances": 1503,
+    "rejets_rapides": 15179,
+    "us": 277,
+    "selecteurs": 291,
+    "evenements": 2,
+    "elements_recalcules": 161
+   },
+   "ecarts_rendu": {
+    "n": 360,
+    "exemples": [
+     {
+      "element": "a.btn btn-primary my-2",
+      "cible": "style",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent",
+       "background-color: rgb(13, 110, 253) → rgba(0, 0, 0, 0)",
+       "border-block-end-color: rgb(13, 110, 253) → rgba(0, 0, 0, 0)",
+       "border-block-start-color: rgb(13, 110, 253) → rgba(0, 0, 0, 0)"
+      ]
+     },
+     {
+      "element": "a.btn btn-primary my-2",
+      "cible": "avant",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent"
+      ]
+     },
+     {
+      "element": "a.btn btn-primary my-2",
+      "cible": "apres",
+      "proprietes": [
+       "--bs-btn-bg: #0d6efd → transparent",
+       "--bs-btn-border-color: #0d6efd → transparent",
+       "--bs-btn-hover-border-color: #0a58ca → transparent"
+      ]
+     },
+     {
+      "element": "a.btn btn-secondary my-2",
+      "cible": "style",
+      "proprietes": [
+       "--bs-btn-bg: #6c757d → transparent",
+       "--bs-btn-border-color: #6c757d → transparent",
+       "--bs-btn-hover-border-color: #565e64 → transparent",
+       "background-color: rgb(108, 117, 125) → rgba(0, 0, 0, 0)",
+       "border-block-end-color: rgb(108, 117, 125) → rgba(0, 0, 0, 0)",
+       "border-block-start-color: rgb(108, 117, 125) → rgba(0, 0, 0, 0)"
+      ]
+     },
+     {
+      "element": "a.btn btn-secondary my-2",
+      "cible": "avant",
+      "proprietes": [
+       "--bs-btn-bg: #6c757d → transparent",
+       "--bs-btn-border-color: #6c757d → transparent",
+       "--bs-btn-hover-border-color: #565e64 → transparent"
+      ]
+     },
+     {
+      "element": "a.btn btn-secondary my-2",
+      "cible": "apres",
+      "proprietes": [
+       "--bs-btn-bg: #6c757d → transparent",
+       "--bs-btn-border-color: #6c757d → transparent",
+       "--bs-btn-hover-border-color: #565e64 → transparent"
+      ]
+     },
+     {
+      "element": "div.row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3",
+      "cible": "style",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem",
+       "inline-size: 1132px → 1140px",
+       "margin-inline-end: -8px → -12px",
+       "margin-inline-start: -8px → -12px",
+       "margin-left: -8px → -12px",
+       "margin-right: -8px → -12px"
+      ]
+     },
+     {
+      "element": "div.row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3",
+      "cible": "avant",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem"
+      ]
+     },
+     {
+      "element": "div.row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3",
+      "cible": "apres",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem"
+      ]
+     },
+     {
+      "element": "div.col",
+      "cible": "style",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem",
+       "inline-size: 377.328px → 379.992px",
+       "padding-inline-end: 8px → 12px",
+       "padding-inline-start: 8px → 12px",
+       "padding-left: 8px → 12px",
+       "padding-right: 8px → 12px"
+      ]
+     },
+     {
+      "element": "div.col",
+      "cible": "avant",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem"
+      ]
+     },
+     {
+      "element": "div.col",
+      "cible": "apres",
+      "proprietes": [
+       "--bs-gutter-x: 1rem → 1.5rem"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "page": "album",
+   "variante": "fas",
+   "elements": 211,
+   "regles_appariees": 1263,
+   "max_par_element": 16,
+   "selecteurs_chrome": {
+    "tentatives": 15518,
+    "correspondances": 1052,
+    "rejets_rapides": 13110,
+    "us": 229,
+    "selecteurs": 291,
+    "evenements": 2,
+    "elements_recalcules": 161
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  },
+  {
+   "page": "album",
+   "variante": "double",
+   "elements": 211,
+   "regles_appariees": 2401,
+   "max_par_element": 29,
+   "selecteurs_chrome": {
+    "tentatives": 21943,
+    "correspondances": 2009,
+    "rejets_rapides": 17657,
+    "us": 282,
+    "selecteurs": 291,
+    "evenements": 2,
+    "elements_recalcules": 161
+   },
+   "ecarts_rendu": {
+    "n": 0,
+    "exemples": []
+   }
+  }
+ ]
+}

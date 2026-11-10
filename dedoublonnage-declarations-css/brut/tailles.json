@@ -1,0 +1,2362 @@
+[
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "aucun",
+  "minif": "aucune",
+  "brut": 29198,
+  "gzip6": 5978,
+  "br5": 5707,
+  "br11": 5138
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "aucun",
+  "minif": "lightningcss",
+  "brut": 19214,
+  "gzip6": 4587,
+  "br5": 4301,
+  "br11": 4013,
+  "avertissements": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "aucun",
+  "minif": "cssnano",
+  "brut": 18737,
+  "gzip6": 4635,
+  "br5": 4339,
+  "br11": 4037
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "aucun",
+  "minif": "csso",
+  "brut": 18846,
+  "gzip6": 4668,
+  "br5": 4366,
+  "br11": 4059
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "aucun",
+  "minif": "cleancss1",
+  "brut": 19512,
+  "gzip6": 4675,
+  "br5": 4410,
+  "br11": 4088,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "aucun",
+  "minif": "cleancss2",
+  "brut": 19247,
+  "gzip6": 4652,
+  "br5": 4379,
+  "br11": 4052,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "f",
+  "minif": "aucune",
+  "brut": 30275,
+  "gzip6": 6043,
+  "br5": 5803,
+  "br11": 5207
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "f",
+  "minif": "lightningcss",
+  "brut": 20625,
+  "gzip6": 4685,
+  "br5": 4410,
+  "br11": 4107,
+  "avertissements": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "f",
+  "minif": "cssnano",
+  "brut": 20683,
+  "gzip6": 4746,
+  "br5": 4491,
+  "br11": 4145
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "f",
+  "minif": "csso",
+  "brut": 20347,
+  "gzip6": 4765,
+  "br5": 4482,
+  "br11": 4168
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "f",
+  "minif": "cleancss1",
+  "brut": 20773,
+  "gzip6": 4768,
+  "br5": 4511,
+  "br11": 4170,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "f",
+  "minif": "cleancss2",
+  "brut": 20653,
+  "gzip6": 4745,
+  "br5": 4489,
+  "br11": 4147,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fs",
+  "minif": "aucune",
+  "brut": 28974,
+  "gzip6": 5967,
+  "br5": 5694,
+  "br11": 5116
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fs",
+  "minif": "lightningcss",
+  "brut": 19126,
+  "gzip6": 4577,
+  "br5": 4300,
+  "br11": 4008,
+  "avertissements": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fs",
+  "minif": "cssnano",
+  "brut": 18734,
+  "gzip6": 4637,
+  "br5": 4347,
+  "br11": 4031
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fs",
+  "minif": "csso",
+  "brut": 18799,
+  "gzip6": 4662,
+  "br5": 4356,
+  "br11": 4050
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fs",
+  "minif": "cleancss1",
+  "brut": 19363,
+  "gzip6": 4669,
+  "br5": 4403,
+  "br11": 4080,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fs",
+  "minif": "cleancss2",
+  "brut": 19179,
+  "gzip6": 4652,
+  "br5": 4378,
+  "br11": 4053,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fa",
+  "minif": "aucune",
+  "brut": 30288,
+  "gzip6": 6046,
+  "br5": 5793,
+  "br11": 5208
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fa",
+  "minif": "lightningcss",
+  "brut": 20648,
+  "gzip6": 4685,
+  "br5": 4411,
+  "br11": 4100,
+  "avertissements": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fa",
+  "minif": "cssnano",
+  "brut": 20718,
+  "gzip6": 4751,
+  "br5": 4493,
+  "br11": 4154
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fa",
+  "minif": "csso",
+  "brut": 20393,
+  "gzip6": 4769,
+  "br5": 4483,
+  "br11": 4170
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fa",
+  "minif": "cleancss1",
+  "brut": 20796,
+  "gzip6": 4767,
+  "br5": 4506,
+  "br11": 4165,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fa",
+  "minif": "cleancss2",
+  "brut": 20699,
+  "gzip6": 4749,
+  "br5": 4486,
+  "br11": 4155,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fas",
+  "minif": "aucune",
+  "brut": 28965,
+  "gzip6": 5969,
+  "br5": 5699,
+  "br11": 5126
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fas",
+  "minif": "lightningcss",
+  "brut": 19120,
+  "gzip6": 4581,
+  "br5": 4304,
+  "br11": 4011,
+  "avertissements": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fas",
+  "minif": "cssnano",
+  "brut": 18723,
+  "gzip6": 4642,
+  "br5": 4346,
+  "br11": 4039
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fas",
+  "minif": "csso",
+  "brut": 18830,
+  "gzip6": 4671,
+  "br5": 4363,
+  "br11": 4064
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fas",
+  "minif": "cleancss1",
+  "brut": 19357,
+  "gzip6": 4674,
+  "br5": 4403,
+  "br11": 4083,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "fas",
+  "minif": "cleancss2",
+  "brut": 19223,
+  "gzip6": 4663,
+  "br5": 4389,
+  "br11": 4075,
+  "erreurs": 0
+ },
+ {
+  "fichier": "generatepress-3.6.1-main.css",
+  "mode": "lightningcss+fs",
+  "minif": "inverse",
+  "brut": 19123,
+  "gzip6": 4577,
+  "br5": 4291,
+  "br11": 4003,
+  "appliques": 5
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "aucun",
+  "minif": "aucune",
+  "brut": 44905,
+  "gzip6": 8704,
+  "br5": 8398,
+  "br11": 7767
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "aucun",
+  "minif": "lightningcss",
+  "brut": 44160,
+  "gzip6": 8529,
+  "br5": 8250,
+  "br11": 7582,
+  "avertissements": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "aucun",
+  "minif": "cssnano",
+  "brut": 43996,
+  "gzip6": 8615,
+  "br5": 8318,
+  "br11": 7685
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "aucun",
+  "minif": "csso",
+  "brut": 44599,
+  "gzip6": 8716,
+  "br5": 8386,
+  "br11": 7757
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "aucun",
+  "minif": "cleancss1",
+  "brut": 44905,
+  "gzip6": 8704,
+  "br5": 8398,
+  "br11": 7767,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "aucun",
+  "minif": "cleancss2",
+  "brut": 43887,
+  "gzip6": 8575,
+  "br5": 8254,
+  "br11": 7641,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "f",
+  "minif": "aucune",
+  "brut": 51490,
+  "gzip6": 9137,
+  "br5": 8730,
+  "br11": 8022
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "f",
+  "minif": "lightningcss",
+  "brut": 50960,
+  "gzip6": 8980,
+  "br5": 8588,
+  "br11": 7899,
+  "avertissements": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "f",
+  "minif": "cssnano",
+  "brut": 51242,
+  "gzip6": 9087,
+  "br5": 8718,
+  "br11": 8021
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "f",
+  "minif": "csso",
+  "brut": 50041,
+  "gzip6": 9075,
+  "br5": 8747,
+  "br11": 8033
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "f",
+  "minif": "cleancss1",
+  "brut": 51490,
+  "gzip6": 9128,
+  "br5": 8750,
+  "br11": 8056,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "f",
+  "minif": "cleancss2",
+  "brut": 50854,
+  "gzip6": 9023,
+  "br5": 8652,
+  "br11": 7968,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fs",
+  "minif": "aucune",
+  "brut": 44802,
+  "gzip6": 8693,
+  "br5": 8379,
+  "br11": 7747
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fs",
+  "minif": "lightningcss",
+  "brut": 44089,
+  "gzip6": 8522,
+  "br5": 8235,
+  "br11": 7579,
+  "avertissements": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fs",
+  "minif": "cssnano",
+  "brut": 43996,
+  "gzip6": 8615,
+  "br5": 8313,
+  "br11": 7678
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fs",
+  "minif": "csso",
+  "brut": 44535,
+  "gzip6": 8707,
+  "br5": 8374,
+  "br11": 7755
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fs",
+  "minif": "cleancss1",
+  "brut": 44802,
+  "gzip6": 8693,
+  "br5": 8378,
+  "br11": 7744,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fs",
+  "minif": "cleancss2",
+  "brut": 43844,
+  "gzip6": 8577,
+  "br5": 8247,
+  "br11": 7631,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fa",
+  "minif": "aucune",
+  "brut": 51491,
+  "gzip6": 9088,
+  "br5": 8721,
+  "br11": 8010
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fa",
+  "minif": "lightningcss",
+  "brut": 51032,
+  "gzip6": 8935,
+  "br5": 8578,
+  "br11": 7864,
+  "avertissements": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fa",
+  "minif": "cssnano",
+  "brut": 51333,
+  "gzip6": 9065,
+  "br5": 8733,
+  "br11": 8019
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fa",
+  "minif": "csso",
+  "brut": 50039,
+  "gzip6": 9026,
+  "br5": 8716,
+  "br11": 8013
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fa",
+  "minif": "cleancss1",
+  "brut": 51490,
+  "gzip6": 9103,
+  "br5": 8746,
+  "br11": 8057,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fa",
+  "minif": "cleancss2",
+  "brut": 51055,
+  "gzip6": 9015,
+  "br5": 8675,
+  "br11": 7977,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fas",
+  "minif": "aucune",
+  "brut": 44442,
+  "gzip6": 8670,
+  "br5": 8354,
+  "br11": 7723
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fas",
+  "minif": "lightningcss",
+  "brut": 43801,
+  "gzip6": 8506,
+  "br5": 8218,
+  "br11": 7558,
+  "avertissements": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fas",
+  "minif": "cssnano",
+  "brut": 43739,
+  "gzip6": 8608,
+  "br5": 8295,
+  "br11": 7682
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fas",
+  "minif": "csso",
+  "brut": 44228,
+  "gzip6": 8685,
+  "br5": 8350,
+  "br11": 7731
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fas",
+  "minif": "cleancss1",
+  "brut": 44442,
+  "gzip6": 8674,
+  "br5": 8355,
+  "br11": 7725,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "fas",
+  "minif": "cleancss2",
+  "brut": 43626,
+  "gzip6": 8569,
+  "br5": 8230,
+  "br11": 7620,
+  "erreurs": 0
+ },
+ {
+  "fichier": "astra-4.14.2-main.min.css",
+  "mode": "lightningcss+fs",
+  "minif": "inverse",
+  "brut": 44089,
+  "gzip6": 8522,
+  "br5": 8236,
+  "br11": 7569,
+  "appliques": 5
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "aucun",
+  "minif": "aucune",
+  "brut": 28012,
+  "gzip6": 5401,
+  "br5": 5030,
+  "br11": 4712
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "aucun",
+  "minif": "lightningcss",
+  "brut": 27203,
+  "gzip6": 5224,
+  "br5": 4865,
+  "br11": 4563,
+  "avertissements": 2
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "aucun",
+  "minif": "cssnano",
+  "brut": 27511,
+  "gzip6": 5341,
+  "br5": 4994,
+  "br11": 4700
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "aucun",
+  "minif": "csso",
+  "brut": 27501,
+  "gzip6": 5338,
+  "br5": 4985,
+  "br11": 4692
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "aucun",
+  "minif": "cleancss1",
+  "brut": 27889,
+  "gzip6": 5363,
+  "br5": 5009,
+  "br11": 4706,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "aucun",
+  "minif": "cleancss2",
+  "brut": 27502,
+  "gzip6": 5300,
+  "br5": 4952,
+  "br11": 4661,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "f",
+  "minif": "aucune",
+  "brut": 34911,
+  "gzip6": 5555,
+  "br5": 5227,
+  "br11": 4816
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "f",
+  "minif": "lightningcss",
+  "brut": 34478,
+  "gzip6": 5419,
+  "br5": 5096,
+  "br11": 4707,
+  "avertissements": 2
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "f",
+  "minif": "cssnano",
+  "brut": 34763,
+  "gzip6": 5569,
+  "br5": 5249,
+  "br11": 4867
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "f",
+  "minif": "csso",
+  "brut": 34619,
+  "gzip6": 5568,
+  "br5": 5245,
+  "br11": 4858
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "f",
+  "minif": "cleancss1",
+  "brut": 34800,
+  "gzip6": 5567,
+  "br5": 5246,
+  "br11": 4871,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "f",
+  "minif": "cleancss2",
+  "brut": 34693,
+  "gzip6": 5533,
+  "br5": 5216,
+  "br11": 4836,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fs",
+  "minif": "aucune",
+  "brut": 27824,
+  "gzip6": 5393,
+  "br5": 5022,
+  "br11": 4775
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fs",
+  "minif": "lightningcss",
+  "brut": 27198,
+  "gzip6": 5223,
+  "br5": 4866,
+  "br11": 4595,
+  "avertissements": 2
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fs",
+  "minif": "cssnano",
+  "brut": 27511,
+  "gzip6": 5341,
+  "br5": 4994,
+  "br11": 4700
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fs",
+  "minif": "csso",
+  "brut": 27478,
+  "gzip6": 5338,
+  "br5": 4987,
+  "br11": 4682
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fs",
+  "minif": "cleancss1",
+  "brut": 27703,
+  "gzip6": 5350,
+  "br5": 4999,
+  "br11": 4685,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fs",
+  "minif": "cleancss2",
+  "brut": 27497,
+  "gzip6": 5299,
+  "br5": 4955,
+  "br11": 4644,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fa",
+  "minif": "aucune",
+  "brut": 34901,
+  "gzip6": 5562,
+  "br5": 5241,
+  "br11": 4824
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fa",
+  "minif": "lightningcss",
+  "brut": 34468,
+  "gzip6": 5420,
+  "br5": 5105,
+  "br11": 4730,
+  "avertissements": 2
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fa",
+  "minif": "cssnano",
+  "brut": 34770,
+  "gzip6": 5571,
+  "br5": 5257,
+  "br11": 4870
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fa",
+  "minif": "csso",
+  "brut": 34626,
+  "gzip6": 5572,
+  "br5": 5254,
+  "br11": 4876
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fa",
+  "minif": "cleancss1",
+  "brut": 34790,
+  "gzip6": 5571,
+  "br5": 5260,
+  "br11": 4856,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fa",
+  "minif": "cleancss2",
+  "brut": 34689,
+  "gzip6": 5539,
+  "br5": 5237,
+  "br11": 4836,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fas",
+  "minif": "aucune",
+  "brut": 27789,
+  "gzip6": 5396,
+  "br5": 5043,
+  "br11": 4716
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fas",
+  "minif": "lightningcss",
+  "brut": 27163,
+  "gzip6": 5219,
+  "br5": 4876,
+  "br11": 4549,
+  "avertissements": 2
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fas",
+  "minif": "cssnano",
+  "brut": 27482,
+  "gzip6": 5342,
+  "br5": 4997,
+  "br11": 4674
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fas",
+  "minif": "csso",
+  "brut": 27437,
+  "gzip6": 5337,
+  "br5": 4994,
+  "br11": 4692
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fas",
+  "minif": "cleancss1",
+  "brut": 27668,
+  "gzip6": 5352,
+  "br5": 5004,
+  "br11": 4726,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "fas",
+  "minif": "cleancss2",
+  "brut": 27468,
+  "gzip6": 5302,
+  "br5": 4951,
+  "br11": 4660,
+  "erreurs": 0
+ },
+ {
+  "fichier": "kadence-1.6.0-global.min.css",
+  "mode": "lightningcss+fs",
+  "minif": "inverse",
+  "brut": 27195,
+  "gzip6": 5225,
+  "br5": 4869,
+  "br11": 4567,
+  "appliques": 2
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "aucun",
+  "minif": "aucune",
+  "brut": 92709,
+  "gzip6": 11875,
+  "br5": 11145,
+  "br11": 10268
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "aucun",
+  "minif": "lightningcss",
+  "brut": 91399,
+  "gzip6": 11626,
+  "br5": 10909,
+  "br11": 9993,
+  "avertissements": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "aucun",
+  "minif": "cssnano",
+  "brut": 91459,
+  "gzip6": 11843,
+  "br5": 11123,
+  "br11": 10192
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "aucun",
+  "minif": "csso",
+  "brut": 90587,
+  "gzip6": 11914,
+  "br5": 11159,
+  "br11": 10197
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "aucun",
+  "minif": "cleancss1",
+  "brut": 92709,
+  "gzip6": 11875,
+  "br5": 11145,
+  "br11": 10268,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "aucun",
+  "minif": "cleancss2",
+  "brut": 91823,
+  "gzip6": 11856,
+  "br5": 11122,
+  "br11": 10252,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "f",
+  "minif": "aucune",
+  "brut": 143141,
+  "gzip6": 13952,
+  "br5": 12336,
+  "br11": 11061
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "f",
+  "minif": "lightningcss",
+  "brut": 142213,
+  "gzip6": 13763,
+  "br5": 12192,
+  "br11": 10902,
+  "avertissements": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "f",
+  "minif": "cssnano",
+  "brut": 142425,
+  "gzip6": 14082,
+  "br5": 12746,
+  "br11": 11383
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "f",
+  "minif": "csso",
+  "brut": 139652,
+  "gzip6": 14249,
+  "br5": 12809,
+  "br11": 11338
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "f",
+  "minif": "cleancss1",
+  "brut": 143141,
+  "gzip6": 14148,
+  "br5": 12802,
+  "br11": 11411,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "f",
+  "minif": "cleancss2",
+  "brut": 142613,
+  "gzip6": 14103,
+  "br5": 12761,
+  "br11": 11384,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fs",
+  "minif": "aucune",
+  "brut": 92619,
+  "gzip6": 11878,
+  "br5": 11146,
+  "br11": 10239
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fs",
+  "minif": "lightningcss",
+  "brut": 91381,
+  "gzip6": 11626,
+  "br5": 10911,
+  "br11": 9987,
+  "avertissements": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fs",
+  "minif": "cssnano",
+  "brut": 91459,
+  "gzip6": 11841,
+  "br5": 11122,
+  "br11": 10174
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fs",
+  "minif": "csso",
+  "brut": 90531,
+  "gzip6": 11914,
+  "br5": 11160,
+  "br11": 10230
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fs",
+  "minif": "cleancss1",
+  "brut": 92619,
+  "gzip6": 11870,
+  "br5": 11145,
+  "br11": 10261,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fs",
+  "minif": "cleancss2",
+  "brut": 91805,
+  "gzip6": 11854,
+  "br5": 11122,
+  "br11": 10210,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fa",
+  "minif": "aucune",
+  "brut": 147023,
+  "gzip6": 14064,
+  "br5": 12433,
+  "br11": 11136
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fa",
+  "minif": "lightningcss",
+  "brut": 146085,
+  "gzip6": 13860,
+  "br5": 12283,
+  "br11": 10973,
+  "avertissements": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fa",
+  "minif": "cssnano",
+  "brut": 146285,
+  "gzip6": 14210,
+  "br5": 12872,
+  "br11": 11463
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fa",
+  "minif": "csso",
+  "brut": 143519,
+  "gzip6": 14358,
+  "br5": 12926,
+  "br11": 11377
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fa",
+  "minif": "cleancss1",
+  "brut": 147023,
+  "gzip6": 14258,
+  "br5": 12903,
+  "br11": 11462,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fa",
+  "minif": "cleancss2",
+  "brut": 146503,
+  "gzip6": 14213,
+  "br5": 12859,
+  "br11": 11453,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fas",
+  "minif": "aucune",
+  "brut": 92600,
+  "gzip6": 11881,
+  "br5": 11156,
+  "br11": 10249
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fas",
+  "minif": "lightningcss",
+  "brut": 91362,
+  "gzip6": 11631,
+  "br5": 10917,
+  "br11": 9999,
+  "avertissements": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fas",
+  "minif": "cssnano",
+  "brut": 91440,
+  "gzip6": 11844,
+  "br5": 11120,
+  "br11": 10179
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fas",
+  "minif": "csso",
+  "brut": 90512,
+  "gzip6": 11918,
+  "br5": 11167,
+  "br11": 10196
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fas",
+  "minif": "cleancss1",
+  "brut": 92600,
+  "gzip6": 11874,
+  "br5": 11151,
+  "br11": 10226,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "fas",
+  "minif": "cleancss2",
+  "brut": 91786,
+  "gzip6": 11857,
+  "br5": 11127,
+  "br11": 10194,
+  "erreurs": 0
+ },
+ {
+  "fichier": "woocommerce-11.2.2.css",
+  "mode": "lightningcss+fs",
+  "minif": "inverse",
+  "brut": 91381,
+  "gzip6": 11626,
+  "br5": 10911,
+  "br11": 9987,
+  "appliques": 1
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "aucun",
+  "minif": "aucune",
+  "brut": 64419,
+  "gzip6": 7903,
+  "br5": 7131,
+  "br11": 6331
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "aucun",
+  "minif": "lightningcss",
+  "brut": 54520,
+  "gzip6": 7250,
+  "br5": 6619,
+  "br11": 5950,
+  "avertissements": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "aucun",
+  "minif": "cssnano",
+  "brut": 54295,
+  "gzip6": 7263,
+  "br5": 6647,
+  "br11": 6018
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "aucun",
+  "minif": "csso",
+  "brut": 54531,
+  "gzip6": 7259,
+  "br5": 6642,
+  "br11": 6019
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "aucun",
+  "minif": "cleancss1",
+  "brut": 55267,
+  "gzip6": 7276,
+  "br5": 6665,
+  "br11": 6023,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "aucun",
+  "minif": "cleancss2",
+  "brut": 54410,
+  "gzip6": 7290,
+  "br5": 6677,
+  "br11": 6037,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "f",
+  "minif": "aucune",
+  "brut": 66694,
+  "gzip6": 8054,
+  "br5": 7328,
+  "br11": 6451
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "f",
+  "minif": "lightningcss",
+  "brut": 57578,
+  "gzip6": 7433,
+  "br5": 6811,
+  "br11": 6153,
+  "avertissements": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "f",
+  "minif": "cssnano",
+  "brut": 57454,
+  "gzip6": 7415,
+  "br5": 6829,
+  "br11": 6186
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "f",
+  "minif": "csso",
+  "brut": 56876,
+  "gzip6": 7365,
+  "br5": 6776,
+  "br11": 6106
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "f",
+  "minif": "cleancss1",
+  "brut": 57997,
+  "gzip6": 7422,
+  "br5": 6825,
+  "br11": 6168,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "f",
+  "minif": "cleancss2",
+  "brut": 57489,
+  "gzip6": 7429,
+  "br5": 6856,
+  "br11": 6185,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fs",
+  "minif": "aucune",
+  "brut": 63669,
+  "gzip6": 7884,
+  "br5": 7135,
+  "br11": 6282
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fs",
+  "minif": "lightningcss",
+  "brut": 54417,
+  "gzip6": 7245,
+  "br5": 6611,
+  "br11": 5957,
+  "avertissements": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fs",
+  "minif": "cssnano",
+  "brut": 54255,
+  "gzip6": 7256,
+  "br5": 6635,
+  "br11": 6042
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fs",
+  "minif": "csso",
+  "brut": 54442,
+  "gzip6": 7251,
+  "br5": 6629,
+  "br11": 6033
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fs",
+  "minif": "cleancss1",
+  "brut": 54837,
+  "gzip6": 7260,
+  "br5": 6640,
+  "br11": 6000,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fs",
+  "minif": "cleancss2",
+  "brut": 54314,
+  "gzip6": 7282,
+  "br5": 6670,
+  "br11": 6028,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fa",
+  "minif": "aucune",
+  "brut": 66049,
+  "gzip6": 8098,
+  "br5": 7394,
+  "br11": 6523
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fa",
+  "minif": "lightningcss",
+  "brut": 57430,
+  "gzip6": 7465,
+  "br5": 6845,
+  "br11": 6167,
+  "avertissements": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fa",
+  "minif": "cssnano",
+  "brut": 57272,
+  "gzip6": 7458,
+  "br5": 6881,
+  "br11": 6217
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fa",
+  "minif": "csso",
+  "brut": 57295,
+  "gzip6": 7451,
+  "br5": 6873,
+  "br11": 6185
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fa",
+  "minif": "cleancss1",
+  "brut": 57736,
+  "gzip6": 7479,
+  "br5": 6910,
+  "br11": 6213,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fa",
+  "minif": "cleancss2",
+  "brut": 57389,
+  "gzip6": 7480,
+  "br5": 6920,
+  "br11": 6232,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fas",
+  "minif": "aucune",
+  "brut": 62952,
+  "gzip6": 7876,
+  "br5": 7126,
+  "br11": 6310
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fas",
+  "minif": "lightningcss",
+  "brut": 54033,
+  "gzip6": 7237,
+  "br5": 6600,
+  "br11": 5946,
+  "avertissements": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fas",
+  "minif": "cssnano",
+  "brut": 53867,
+  "gzip6": 7244,
+  "br5": 6633,
+  "br11": 5998
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fas",
+  "minif": "csso",
+  "brut": 54029,
+  "gzip6": 7238,
+  "br5": 6614,
+  "br11": 5965
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fas",
+  "minif": "cleancss1",
+  "brut": 54340,
+  "gzip6": 7254,
+  "br5": 6628,
+  "br11": 5965,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "fas",
+  "minif": "cleancss2",
+  "brut": 53978,
+  "gzip6": 7273,
+  "br5": 6659,
+  "br11": 6007,
+  "erreurs": 0
+ },
+ {
+  "fichier": "elementor-4.4.0-frontend.css",
+  "mode": "lightningcss+fs",
+  "minif": "inverse",
+  "brut": 54417,
+  "gzip6": 7245,
+  "br5": 6611,
+  "br11": 5957,
+  "appliques": 5
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "aucun",
+  "minif": "aucune",
+  "brut": 164523,
+  "gzip6": 22855,
+  "br5": 21344,
+  "br11": 18510
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "aucun",
+  "minif": "lightningcss",
+  "brut": 139873,
+  "gzip6": 18930,
+  "br5": 17549,
+  "br11": 15934,
+  "avertissements": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "aucun",
+  "minif": "cssnano",
+  "brut": 139589,
+  "gzip6": 19375,
+  "br5": 17982,
+  "br11": 16180
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "aucun",
+  "minif": "csso",
+  "brut": 139950,
+  "gzip6": 19415,
+  "br5": 17977,
+  "br11": 16156
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "aucun",
+  "minif": "cleancss1",
+  "brut": 142451,
+  "gzip6": 19425,
+  "br5": 18025,
+  "br11": 16196,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "aucun",
+  "minif": "cleancss2",
+  "brut": 140746,
+  "gzip6": 19309,
+  "br5": 17917,
+  "br11": 16134,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "f",
+  "minif": "aucune",
+  "brut": 200347,
+  "gzip6": 25032,
+  "br5": 22953,
+  "br11": 19615
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "f",
+  "minif": "lightningcss",
+  "brut": 178487,
+  "gzip6": 21180,
+  "br5": 19280,
+  "br11": 17071,
+  "avertissements": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "f",
+  "minif": "cssnano",
+  "brut": 179239,
+  "gzip6": 21560,
+  "br5": 19776,
+  "br11": 17438
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "f",
+  "minif": "csso",
+  "brut": 177921,
+  "gzip6": 21611,
+  "br5": 19805,
+  "br11": 17454
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "f",
+  "minif": "cleancss1",
+  "brut": 180063,
+  "gzip6": 21656,
+  "br5": 19863,
+  "br11": 17481,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "f",
+  "minif": "cleancss2",
+  "brut": 179374,
+  "gzip6": 21549,
+  "br5": 19795,
+  "br11": 17458,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fs",
+  "minif": "aucune",
+  "brut": 163283,
+  "gzip6": 22807,
+  "br5": 21320,
+  "br11": 18396
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fs",
+  "minif": "lightningcss",
+  "brut": 139245,
+  "gzip6": 18904,
+  "br5": 17504,
+  "br11": 15865,
+  "avertissements": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fs",
+  "minif": "cssnano",
+  "brut": 139418,
+  "gzip6": 19337,
+  "br5": 17933,
+  "br11": 16153
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fs",
+  "minif": "csso",
+  "brut": 139686,
+  "gzip6": 19353,
+  "br5": 17934,
+  "br11": 16134
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fs",
+  "minif": "cleancss1",
+  "brut": 141601,
+  "gzip6": 19373,
+  "br5": 17952,
+  "br11": 16171,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fs",
+  "minif": "cleancss2",
+  "brut": 140451,
+  "gzip6": 19292,
+  "br5": 17889,
+  "br11": 16105,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fa",
+  "minif": "aucune",
+  "brut": 203256,
+  "gzip6": 25241,
+  "br5": 23083,
+  "br11": 19639
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fa",
+  "minif": "lightningcss",
+  "brut": 181376,
+  "gzip6": 21346,
+  "br5": 19422,
+  "br11": 17140,
+  "avertissements": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fa",
+  "minif": "cssnano",
+  "brut": 182182,
+  "gzip6": 21747,
+  "br5": 19886,
+  "br11": 17495
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fa",
+  "minif": "csso",
+  "brut": 180632,
+  "gzip6": 21780,
+  "br5": 19914,
+  "br11": 17515
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fa",
+  "minif": "cleancss1",
+  "brut": 183023,
+  "gzip6": 21831,
+  "br5": 19972,
+  "br11": 17539,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fa",
+  "minif": "cleancss2",
+  "brut": 182364,
+  "gzip6": 21761,
+  "br5": 19908,
+  "br11": 17527,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fas",
+  "minif": "aucune",
+  "brut": 163131,
+  "gzip6": 22814,
+  "br5": 21335,
+  "br11": 18435
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fas",
+  "minif": "lightningcss",
+  "brut": 139124,
+  "gzip6": 18915,
+  "br5": 17503,
+  "br11": 15902,
+  "avertissements": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fas",
+  "minif": "cssnano",
+  "brut": 139390,
+  "gzip6": 19343,
+  "br5": 17922,
+  "br11": 16162
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fas",
+  "minif": "csso",
+  "brut": 139565,
+  "gzip6": 19373,
+  "br5": 17922,
+  "br11": 16131
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fas",
+  "minif": "cleancss1",
+  "brut": 141480,
+  "gzip6": 19389,
+  "br5": 17945,
+  "br11": 16152,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "fas",
+  "minif": "cleancss2",
+  "brut": 140386,
+  "gzip6": 19334,
+  "br5": 17866,
+  "br11": 16151,
+  "erreurs": 0
+ },
+ {
+  "fichier": "wordpress-7.1.4-block-library.css",
+  "mode": "lightningcss+fs",
+  "minif": "inverse",
+  "brut": 139245,
+  "gzip6": 18906,
+  "br5": 17503,
+  "br11": 15872,
+  "appliques": 20
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "aucun",
+  "minif": "aucune",
+  "brut": 280311,
+  "gzip6": 33488,
+  "br5": 30506,
+  "br11": 24474
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "aucun",
+  "minif": "lightningcss",
+  "brut": 228703,
+  "gzip6": 30826,
+  "br5": 27928,
+  "br11": 22533,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "aucun",
+  "minif": "cssnano",
+  "brut": 226909,
+  "gzip6": 31575,
+  "br5": 28772,
+  "br11": 23491
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "aucun",
+  "minif": "csso",
+  "brut": 228306,
+  "gzip6": 31355,
+  "br5": 28665,
+  "br11": 23279
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "aucun",
+  "minif": "cleancss1",
+  "brut": 232065,
+  "gzip6": 31059,
+  "br5": 28213,
+  "br11": 22747,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "aucun",
+  "minif": "cleancss2",
+  "brut": 230255,
+  "gzip6": 31038,
+  "br5": 28165,
+  "br11": 22675,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "f",
+  "minif": "aucune",
+  "brut": 281469,
+  "gzip6": 35410,
+  "br5": 32247,
+  "br11": 25863
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "f",
+  "minif": "lightningcss",
+  "brut": 232484,
+  "gzip6": 32344,
+  "br5": 29544,
+  "br11": 24018,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "f",
+  "minif": "cssnano",
+  "brut": 233596,
+  "gzip6": 32802,
+  "br5": 29921,
+  "br11": 24170
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "f",
+  "minif": "csso",
+  "brut": 233513,
+  "gzip6": 32715,
+  "br5": 29889,
+  "br11": 24313
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "f",
+  "minif": "cleancss1",
+  "brut": 234451,
+  "gzip6": 32776,
+  "br5": 29921,
+  "br11": 24195,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "f",
+  "minif": "cleancss2",
+  "brut": 233392,
+  "gzip6": 32770,
+  "br5": 29896,
+  "br11": 24228,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fs",
+  "minif": "aucune",
+  "brut": 278635,
+  "gzip6": 33747,
+  "br5": 30825,
+  "br11": 24686
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fs",
+  "minif": "lightningcss",
+  "brut": 228458,
+  "gzip6": 31096,
+  "br5": 28260,
+  "br11": 22959,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fs",
+  "minif": "cssnano",
+  "brut": 226936,
+  "gzip6": 31573,
+  "br5": 28717,
+  "br11": 23349
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fs",
+  "minif": "csso",
+  "brut": 228128,
+  "gzip6": 31569,
+  "br5": 28799,
+  "br11": 23282
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fs",
+  "minif": "cleancss1",
+  "brut": 230887,
+  "gzip6": 31375,
+  "br5": 28481,
+  "br11": 23174,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fs",
+  "minif": "cleancss2",
+  "brut": 229714,
+  "gzip6": 31380,
+  "br5": 28498,
+  "br11": 23143,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fa",
+  "minif": "aucune",
+  "brut": 265812,
+  "gzip6": 35447,
+  "br5": 31939,
+  "br11": 25625
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fa",
+  "minif": "lightningcss",
+  "brut": 220669,
+  "gzip6": 32483,
+  "br5": 29349,
+  "br11": 23892,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fa",
+  "minif": "cssnano",
+  "brut": 221815,
+  "gzip6": 32582,
+  "br5": 29599,
+  "br11": 24285
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fa",
+  "minif": "csso",
+  "brut": 221721,
+  "gzip6": 32557,
+  "br5": 29604,
+  "br11": 24331
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fa",
+  "minif": "cleancss1",
+  "brut": 222504,
+  "gzip6": 32589,
+  "br5": 29640,
+  "br11": 24437,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fa",
+  "minif": "cleancss2",
+  "brut": 221971,
+  "gzip6": 32605,
+  "br5": 29632,
+  "br11": 24356,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fas",
+  "minif": "aucune",
+  "brut": 264642,
+  "gzip6": 33743,
+  "br5": 30535,
+  "br11": 24515
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fas",
+  "minif": "lightningcss",
+  "brut": 217657,
+  "gzip6": 31110,
+  "br5": 28076,
+  "br11": 22793,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fas",
+  "minif": "cssnano",
+  "brut": 216245,
+  "gzip6": 31293,
+  "br5": 28411,
+  "br11": 23496
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fas",
+  "minif": "csso",
+  "brut": 217449,
+  "gzip6": 31323,
+  "br5": 28464,
+  "br11": 23503
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fas",
+  "minif": "cleancss1",
+  "brut": 220071,
+  "gzip6": 31123,
+  "br5": 28177,
+  "br11": 23212,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "fas",
+  "minif": "cleancss2",
+  "brut": 219397,
+  "gzip6": 31139,
+  "br5": 28175,
+  "br11": 23241,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bootstrap-5.3.8.css",
+  "mode": "lightningcss+fs",
+  "minif": "inverse",
+  "brut": 228098,
+  "gzip6": 30872,
+  "br5": 28024,
+  "br11": 22743,
+  "appliques": 17
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "aucun",
+  "minif": "aucune",
+  "brut": 763923,
+  "gzip6": 69117,
+  "br5": 50492,
+  "br11": 37828
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "aucun",
+  "minif": "lightningcss",
+  "brut": 682662,
+  "gzip6": 66002,
+  "br5": 44393,
+  "br11": 36207,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "aucun",
+  "minif": "cssnano",
+  "brut": 660695,
+  "gzip6": 65833,
+  "br5": 44517,
+  "br11": 36510
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "aucun",
+  "minif": "csso",
+  "brut": 677938,
+  "gzip6": 66329,
+  "br5": 44981,
+  "br11": 36730
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "aucun",
+  "minif": "cleancss1",
+  "brut": 684868,
+  "gzip6": 66264,
+  "br5": 44546,
+  "br11": 36411,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "aucun",
+  "minif": "cleancss2",
+  "brut": 677242,
+  "gzip6": 66603,
+  "br5": 44754,
+  "br11": 36575,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "f",
+  "minif": "aucune",
+  "brut": 667603,
+  "gzip6": 64003,
+  "br5": 51639,
+  "br11": 40736
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "f",
+  "minif": "lightningcss",
+  "brut": 595735,
+  "gzip6": 60694,
+  "br5": 48699,
+  "br11": 39495,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "f",
+  "minif": "cssnano",
+  "brut": 590364,
+  "gzip6": 60792,
+  "br5": 48722,
+  "br11": 39937
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "f",
+  "minif": "csso",
+  "brut": 596605,
+  "gzip6": 61160,
+  "br5": 49103,
+  "br11": 40068
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "f",
+  "minif": "cleancss1",
+  "brut": 596000,
+  "gzip6": 61039,
+  "br5": 48928,
+  "br11": 39798,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "f",
+  "minif": "cleancss2",
+  "brut": 589221,
+  "gzip6": 61194,
+  "br5": 49094,
+  "br11": 39636,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fs",
+  "minif": "aucune",
+  "brut": 664484,
+  "gzip6": 63401,
+  "br5": 51182,
+  "br11": 40218
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fs",
+  "minif": "lightningcss",
+  "brut": 592222,
+  "gzip6": 60133,
+  "br5": 48274,
+  "br11": 39253,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fs",
+  "minif": "cssnano",
+  "brut": 586914,
+  "gzip6": 60270,
+  "br5": 48288,
+  "br11": 39295
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fs",
+  "minif": "csso",
+  "brut": 593086,
+  "gzip6": 60652,
+  "br5": 48635,
+  "br11": 39456
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fs",
+  "minif": "cleancss1",
+  "brut": 592567,
+  "gzip6": 60490,
+  "br5": 48493,
+  "br11": 39487,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fs",
+  "minif": "cleancss2",
+  "brut": 585788,
+  "gzip6": 60668,
+  "br5": 48642,
+  "br11": 39425,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fa",
+  "minif": "aucune",
+  "brut": 660332,
+  "gzip6": 63852,
+  "br5": 51586,
+  "br11": 40555
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fa",
+  "minif": "lightningcss",
+  "brut": 589212,
+  "gzip6": 60503,
+  "br5": 48687,
+  "br11": 39683,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fa",
+  "minif": "cssnano",
+  "brut": 587474,
+  "gzip6": 60668,
+  "br5": 48689,
+  "br11": 39788
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fa",
+  "minif": "csso",
+  "brut": 590064,
+  "gzip6": 60971,
+  "br5": 48983,
+  "br11": 39942
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fa",
+  "minif": "cleancss1",
+  "brut": 589480,
+  "gzip6": 60824,
+  "br5": 48832,
+  "br11": 39814,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fa",
+  "minif": "cleancss2",
+  "brut": 586247,
+  "gzip6": 61008,
+  "br5": 49052,
+  "br11": 39734,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fas",
+  "minif": "aucune",
+  "brut": 657039,
+  "gzip6": 63196,
+  "br5": 51054,
+  "br11": 40111
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fas",
+  "minif": "lightningcss",
+  "brut": 585507,
+  "gzip6": 59930,
+  "br5": 48177,
+  "br11": 39085,
+  "avertissements": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fas",
+  "minif": "cssnano",
+  "brut": 583816,
+  "gzip6": 60123,
+  "br5": 48210,
+  "br11": 39403
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fas",
+  "minif": "csso",
+  "brut": 586357,
+  "gzip6": 60425,
+  "br5": 48536,
+  "br11": 39485
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fas",
+  "minif": "cleancss1",
+  "brut": 585853,
+  "gzip6": 60264,
+  "br5": 48383,
+  "br11": 39249,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "fas",
+  "minif": "cleancss2",
+  "brut": 582620,
+  "gzip6": 60472,
+  "br5": 48626,
+  "br11": 39276,
+  "erreurs": 0
+ },
+ {
+  "fichier": "bulma-1.0.4.css",
+  "mode": "lightningcss+fs",
+  "minif": "inverse",
+  "brut": 590311,
+  "gzip6": 59854,
+  "br5": 48169,
+  "br11": 39113,
+  "appliques": 2087
+ }
+]
