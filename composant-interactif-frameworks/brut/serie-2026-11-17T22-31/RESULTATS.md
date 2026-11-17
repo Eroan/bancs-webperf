@@ -128,6 +128,11 @@ Durée nulle (0) : toutes les entrées de l'interaction sous le seuil de 16 ms d
 
 Durée nulle (0) : toutes les entrées de l'interaction sous le seuil de 16 ms de l'observateur.
 
+## Lignes visibles après chaque geste
+
+N = 100 : temoin 100, favori 100, tri1 100, tri2 100, focus 100, touche-l 47, touche-a 27, retour1 47, retour2 100.
+N = 1000 : temoin 1000, favori 1000, tri1 1000, tri2 1000, focus 1000, touche-l 542, touche-a 282, retour1 542, retour2 1000.
+
 ## Témoin (gestionnaire de 100 ms)
 
 Traitement du clic : 101 [100, 104] ms ; durée Event Timing : 152 [128, 320] ms (200 passages retenus).

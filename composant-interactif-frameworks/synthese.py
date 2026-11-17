@@ -135,6 +135,13 @@ for n in tailles:
         print(f"| {v} | {med(pire)} | " + ' | '.join(cols) + ' |')
     print('\nDurée nulle (0) : toutes les entrées de l\'interaction sous le seuil de 16 ms de l\'observateur.')
 
+# Lignes visibles après chaque geste (lues dans la page, passages retenus)
+print('\n## Lignes visibles après chaque geste\n')
+for n in tailles:
+    ok = [p for p in passages if p['n'] == n and not p['refus'] and p['v'] == 'solid']
+    if ok:
+        print(f"N = {n} : " + ', '.join(f"{g['nom']} {g['lu']['vis']}" for g in ok[0]['gestes']) + '.')
+
 # Témoin
 print('\n## Témoin (gestionnaire de 100 ms)\n')
 tt = [g for p in passages if not p['refus'] for g in p['gestes'] if g['nom'] == 'temoin']
