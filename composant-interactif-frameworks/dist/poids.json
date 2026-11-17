@@ -1,0 +1,82 @@
+{
+ "alpine": {
+  "brut": 54964,
+  "gzip": 19219,
+  "brotli": 17421,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "alpine-ssr": {
+  "brut": 54705,
+  "gzip": 19092,
+  "brotli": 17336,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "preact": {
+  "brut": 14493,
+  "gzip": 6148,
+  "brotli": 5661,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "react": {
+  "brut": 220207,
+  "gzip": 67994,
+  "brotli": 58579,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "solid": {
+  "brut": 60072,
+  "gzip": 22925,
+  "brotli": 20923,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "solid-1": {
+  "brut": 17186,
+  "gzip": 6705,
+  "brotli": 6098,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "svelte": {
+  "brut": 35424,
+  "gzip": 13872,
+  "brotli": 12609,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "vanilla": {
+  "brut": 1743,
+  "gzip": 849,
+  "brotli": 694,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "vue": {
+  "brut": 65832,
+  "gzip": 25602,
+  "brotli": 23348,
+  "fichiers": [
+   "app.js"
+  ]
+ },
+ "vue-vapor": {
+  "brut": 57307,
+  "gzip": 21479,
+  "brotli": 19673,
+  "fichiers": [
+   "app.js"
+  ]
+ }
+}

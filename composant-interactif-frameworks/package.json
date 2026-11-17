@@ -1,0 +1,30 @@
+{
+  "name": "banc-composant-interactif-frameworks",
+  "version": "1.0.0",
+  "description": "Banc : composant interactif (liste filtrable) en Solid 2, Alpine, React, Preact, Svelte, Vue",
+  "private": true,
+  "type": "module",
+  "scripts": { "banc": "bash run.sh" },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.29.13",
+    "@preact/preset-vite": "2.10.6",
+    "@solidjs/babel-plugin": "2.0.0",
+    "@solidjs/vite-plugin": "3.0.1",
+    "@solidjs/web": "2.0.0",
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "@vitejs/plugin-react": "6.3.0",
+    "@vitejs/plugin-vue": "6.0.11",
+    "alpinejs": "3.17.5",
+    "playwright": "1.65.1",
+    "preact": "11.2.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "solid-js": "2.0.0",
+    "svelte": "5.57.3",
+    "vite": "8.3.8",
+    "vue": "3.5.45"
+  },
+  "repository": { "type": "git", "url": "https://github.com/Eroan/bancs-webperf.git", "directory": "composant-interactif-frameworks" },
+  "author": "Eroan Boyer (Agence Web Performance)"
+}

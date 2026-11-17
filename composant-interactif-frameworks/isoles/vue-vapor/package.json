@@ -1,0 +1,2 @@
+{ "name": "banc-variante-vue-vapor", "private": true, "type": "module", "license": "MIT",
+  "dependencies": { "vue": "3.6.0-rc.15", "@vitejs/plugin-vue": "6.0.11", "vite": "8.3.8" } }

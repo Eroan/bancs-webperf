@@ -1,0 +1,2 @@
+{ "name": "banc-variante-solid-1", "private": true, "type": "module", "license": "MIT",
+  "dependencies": { "solid-js": "1.9.19", "vite-plugin-solid": "2.11.16", "vite": "8.3.8" } }

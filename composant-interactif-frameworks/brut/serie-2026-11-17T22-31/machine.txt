@@ -1,0 +1,27 @@
+# départ : 2026-11-17 22:31:25
+inactivité médiane 90.1 %
+ %CPU UCOMM
+122.9 airportd        
+ 21.9 com.apple.Driver
+ 19.9 locationd       
+ 12.1 WiFiAgent       
+  6.8 mDNSResponder   
+
+# série ×9 : 2026-11-17 22:32:28
+inactivité médiane 82.8 %
+ %CPU UCOMM
+ 52.8 mds_stores      
+ 43.3 Google Chrome   
+ 31.4 mds             
+ 31.4 mediaanalysisd  
+ 13.6 mdworker_shared 
+
+# fin : 2026-11-17 23:06:02
+inactivité médiane 94.5 %
+ %CPU UCOMM
+  7.6 claude          
+  5.4 claude          
+  5.4 claude          
+  4.9 usbaudiod       
+  2.0 Creative Cloud U
+

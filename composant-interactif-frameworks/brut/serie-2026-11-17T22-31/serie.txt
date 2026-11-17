@@ -1,0 +1,202 @@
+Chrome 157.0.8103.79, taux x9, 10 passage(s), tailles 100,1000, port 58548
+p1 vanilla    N=100  pret    47 ms  ok  temoin=144 favori=40 tri1=72 tri2=56 focus=40 touche-l=40 touche-a=32 retour1=32 retour2=56
+p1 vanilla    N=1000 pret   111 ms  ok  temoin=152 favori=56 tri1=160 tri2=144 focus=56 touche-l=64 touche-a=56 retour1=72 retour2=88
+p1 alpine     N=100  pret   251 ms  ok  temoin=152 favori=56 tri1=56 tri2=56 focus=56 touche-l=56 touche-a=40 retour1=48 retour2=88
+p1 alpine     N=1000 pret   671 ms  ok  temoin=144 favori=56 tri1=192 tri2=160 focus=56 touche-l=104 touche-a=80 retour1=176 retour2=232
+p1 alpine-ssr N=100  pret   253 ms  ok  temoin=144 favori=40 focus=56 touche-l=48 touche-a=40 retour1=48 retour2=56
+p1 alpine-ssr N=1000 pret   785 ms  ok  temoin=160 favori=56 focus=40 touche-l=96 touche-a=80 retour1=104 retour2=120
+p1 solid      N=100  pret    69 ms  ok  temoin=152 favori=40 tri1=56 tri2=56 focus=56 touche-l=32 touche-a=32 retour1=48 retour2=48
+p1 solid      N=1000 pret   152 ms  ok  temoin=152 favori=72 tri1=168 tri2=152 focus=40 touche-l=64 touche-a=56 retour1=128 retour2=168
+p1 solid-1    N=100  pret    55 ms  ok  temoin=136 favori=56 tri1=72 tri2=56 focus=40 touche-l=48 touche-a=32 retour1=48 retour2=48
+p1 solid-1    N=1000 pret   133 ms  ok  temoin=136 favori=72 tri1=152 tri2=152 focus=40 touche-l=64 touche-a=56 retour1=96 retour2=168
+p1 react      N=100  pret   181 ms  ok  temoin=136 favori=56 tri1=72 tri2=56 focus=40 touche-l=48 touche-a=40 retour1=48 retour2=56
+p1 react      N=1000 pret   219 ms  ok  temoin=136 favori=88 tri1=208 tri2=168 focus=72 touche-l=80 touche-a=56 retour1=88 retour2=112
+p1 preact     N=100  pret   109 ms  ok  temoin=136 favori=56 tri1=72 tri2=72 focus=40 touche-l=40 touche-a=32 retour1=48 retour2=48
+p1 preact     N=1000 pret   155 ms  ok  temoin=136 favori=56 tri1=168 tri2=168 focus=72 touche-l=80 touche-a=56 retour1=88 retour2=120
+p1 svelte     N=100  pret   117 ms  ok  temoin=152 favori=56 tri1=56 tri2=72 focus=40 touche-l=48 touche-a=32 retour1=40 retour2=48
+p1 svelte     N=1000 pret   163 ms  ok  temoin=136 favori=72 tri1=152 tri2=256 focus=72 touche-l=64 touche-a=56 retour1=72 retour2=112
+p1 vue        N=100  pret   124 ms  ok  temoin=152 favori=72 tri1=56 tri2=72 focus=40 touche-l=32 touche-a=32 retour1=32 retour2=56
+p1 vue        N=1000 pret   161 ms  ok  temoin=152 favori=72 tri1=168 tri2=152 focus=56 touche-l=72 touche-a=56 retour1=80 retour2=136
+p1 vue-vapor  N=100  pret   112 ms  ok  temoin=136 favori=40 tri1=72 tri2=72 focus=56 touche-l=32 touche-a=32 retour1=40 retour2=56
+p1 vue-vapor  N=1000 pret   150 ms  ok  temoin=136 favori=72 tri1=168 tri2=152 focus=56 touche-l=64 touche-a=56 retour1=72 retour2=128
+p2 alpine     N=1000 pret   682 ms  ok  temoin=136 favori=56 tri1=184 tri2=152 focus=72 touche-l=120 touche-a=80 retour1=168 retour2=256
+p2 alpine     N=100  pret   249 ms  ok  temoin=152 favori=56 tri1=72 tri2=56 focus=56 touche-l=56 touche-a=32 retour1=48 retour2=64
+p2 alpine-ssr N=1000 pret   823 ms  ok  temoin=152 favori=56 focus=56 touche-l=104 touche-a=88 retour1=96 retour2=112
+p2 alpine-ssr N=100  pret   257 ms  ok  temoin=152 favori=56 focus=32 touche-l=48 touche-a=48 retour1=40 retour2=48
+p2 solid      N=1000 pret   149 ms  ok  temoin=136 favori=56 tri1=168 tri2=168 focus=72 touche-l=72 touche-a=56 retour1=104 retour2=184
+p2 solid      N=100  pret   115 ms  ok  temoin=152 favori=40 tri1=56 tri2=72 focus=56 touche-l=48 touche-a=48 retour1=48 retour2=56
+p2 solid-1    N=1000 pret   136 ms  ok  temoin=152 favori=72 tri1=152 tri2=136 focus=56 touche-l=64 touche-a=56 retour1=104 retour2=168
+p2 solid-1    N=100  pret   108 ms  ok  temoin=136 favori=32 tri1=72 tri2=72 focus=48 touche-l=48 touche-a=32 retour1=48 retour2=56
+p2 react      N=1000 pret   223 ms  ok  temoin=136 favori=88 tri1=200 tri2=184 focus=64 touche-l=80 touche-a=56 retour1=88 retour2=120
+p2 react      N=100  pret   179 ms  ok  temoin=152 favori=48 tri1=56 tri2=64 focus=56 touche-l=56 touche-a=40 retour1=40 retour2=56
+p2 preact     N=1000 pret   152 ms  ok  temoin=152 favori=72 tri1=184 tri2=152 focus=64 touche-l=80 touche-a=56 retour1=88 retour2=128
+p2 preact     N=100  pret    58 ms  ok  temoin=152 favori=48 tri1=64 tri2=56 focus=32 touche-l=48 touche-a=32 retour1=48 retour2=48
+p2 svelte     N=1000 pret   167 ms  ok  temoin=136 favori=64 tri1=152 tri2=248 focus=48 touche-l=64 touche-a=56 retour1=88 retour2=112
+p2 svelte     N=100  pret    73 ms  ok  temoin=152 favori=48 tri1=56 tri2=48 focus=56 touche-l=48 touche-a=32 retour1=40 retour2=56
+p2 vue        N=1000 pret   114 ms  ok  temoin=136 favori=80 tri1=152 tri2=152 focus=48 touche-l=64 touche-a=48 retour1=80 retour2=120
+p2 vue        N=100  pret   118 ms  ok  temoin=152 favori=48 tri1=64 tri2=64 focus=48 touche-l=48 touche-a=32 retour1=32 retour2=48
+p2 vue-vapor  N=1000 pret   155 ms  ok  temoin=136 favori=64 tri1=168 tri2=136 focus=64 touche-l=64 touche-a=56 retour1=80 retour2=120
+p2 vue-vapor  N=100  pret    66 ms  ok  temoin=152 favori=64 tri1=48 tri2=64 focus=64 touche-l=48 touche-a=32 retour1=32 retour2=48
+p2 vanilla    N=1000 pret    67 ms  ok  temoin=136 favori=48 tri1=152 tri2=152 focus=48 touche-l=64 touche-a=56 retour1=80 retour2=88
+p2 vanilla    N=100  pret    45 ms  ok  temoin=136 favori=48 tri1=48 tri2=64 focus=64 touche-l=32 touche-a=40 retour1=48 retour2=48
+p3 alpine-ssr N=100  pret   271 ms  ok  temoin=152 favori=64 focus=48 touche-l=48 touche-a=40 retour1=40 retour2=48
+p3 alpine-ssr N=1000 pret   769 ms  ok  temoin=152 favori=48 focus=64 touche-l=96 touche-a=88 retour1=96 retour2=112
+p3 solid      N=100  pret    68 ms  ok  temoin=152 favori=64 tri1=48 tri2=64 focus=64 touche-l=48 touche-a=32 retour1=32 retour2=48
+p3 solid      N=1000 pret   146 ms  ok  temoin=152 favori=64 tri1=168 tri2=136 focus=48 touche-l=64 touche-a=56 retour1=112 retour2=168
+p3 solid-1    N=100  pret   103 ms  ok  temoin=128 favori=64 tri1=64 tri2=48 focus=48 touche-l=40 touche-a=40 retour1=40 retour2=56
+p3 solid-1    N=1000 pret   136 ms  ok  temoin=136 favori=64 tri1=152 tri2=128 focus=48 touche-l=64 touche-a=40 retour1=96 retour2=168
+p3 react      N=100  pret   176 ms  ok  temoin=136 favori=64 tri1=48 tri2=64 focus=48 touche-l=48 touche-a=40 retour1=40 retour2=56
+p3 react      N=1000 pret   217 ms  ok  temoin=136 favori=96 tri1=200 tri2=168 focus=48 touche-l=80 touche-a=56 retour1=80 retour2=120
+p3 preact     N=100  pret   110 ms  ok  temoin=136 favori=64 tri1=48 tri2=48 focus=64 touche-l=48 touche-a=48 retour1=32 retour2=48
+p3 preact     N=1000 pret   162 ms  ok  temoin=152 favori=64 tri1=184 tri2=152 focus=64 touche-l=80 touche-a=56 retour1=88 retour2=120
+p3 svelte     N=100  pret   119 ms  ok  temoin=128 favori=48 tri1=48 tri2=64 focus=64 touche-l=48 touche-a=32 retour1=32 retour2=48
+p3 svelte     N=1000 pret   165 ms  ok  temoin=136 favori=48 tri1=184 tri2=264 focus=48 touche-l=64 touche-a=48 retour1=88 retour2=112
+p3 vue        N=100  pret   119 ms  ok  temoin=144 favori=48 tri1=48 tri2=64 focus=48 touche-l=48 touche-a=40 retour1=48 retour2=56
+p3 vue        N=1000 pret   162 ms  ok  temoin=128 favori=64 tri1=160 tri2=144 focus=64 touche-l=64 touche-a=48 retour1=80 retour2=120
+p3 vue-vapor  N=100  pret   111 ms  ok  temoin=144 favori=64 tri1=48 tri2=48 focus=64 touche-l=48 touche-a=40 retour1=48 retour2=40
+p3 vue-vapor  N=1000 pret   147 ms  ok  temoin=128 favori=48 tri1=160 tri2=144 focus=48 touche-l=64 touche-a=56 retour1=88 retour2=128
+p3 vanilla    N=100  pret    91 ms  ok  temoin=144 favori=64 tri1=64 tri2=64 focus=48 touche-l=32 touche-a=32 retour1=32 retour2=56
+p3 vanilla    N=1000 pret    66 ms  ok  temoin=144 favori=64 tri1=152 tri2=144 focus=64 touche-l=64 touche-a=56 retour1=72 retour2=104
+p3 alpine     N=100  pret   258 ms  ok  temoin=128 favori=64 tri1=80 tri2=64 focus=48 touche-l=48 touche-a=40 retour1=56 retour2=72
+p3 alpine     N=1000 pret   672 ms  ok  temoin=160 favori=48 tri1=200 tri2=184 focus=64 touche-l=104 touche-a=72 retour1=176 retour2=248
+p4 solid      N=1000 pret   151 ms  ok  temoin=128 favori=48 tri1=160 tri2=144 focus=64 touche-l=64 touche-a=56 retour1=112 retour2=176
+p4 solid      N=100  pret   111 ms  ok  temoin=128 favori=48 tri1=64 tri2=64 focus=48 touche-l=40 touche-a=32 retour1=48 retour2=56
+p4 solid-1    N=1000 pret    94 ms  ok  temoin=128 favori=64 tri1=144 tri2=128 focus=48 touche-l=64 touche-a=56 retour1=112 retour2=184
+p4 solid-1    N=100  pret    57 ms  ok  temoin=128 favori=48 tri1=64 tri2=48 focus=64 touche-l=32 touche-a=32 retour1=40 retour2=56
+p4 react      N=1000 pret   212 ms  ok  temoin=144 favori=96 tri1=176 tri2=184 focus=48 touche-l=80 touche-a=48 retour1=80 retour2=144
+p4 react      N=100  pret   180 ms  ok  temoin=128 favori=48 tri1=64 tri2=64 focus=64 touche-l=48 touche-a=40 retour1=32 retour2=48
+p4 preact     N=1000 pret   155 ms  ok  temoin=144 favori=64 tri1=192 tri2=144 focus=48 touche-l=80 touche-a=56 retour1=96 retour2=128
+p4 preact     N=100  pret   108 ms  ok  temoin=128 favori=48 tri1=64 tri2=48 focus=64 touche-l=40 touche-a=32 retour1=32 retour2=48
+p4 svelte     N=1000 pret   165 ms  ok  temoin=160 favori=48 tri1=160 tri2=264 focus=48 touche-l=72 touche-a=56 retour1=72 retour2=96
+p4 svelte     N=100  pret   121 ms  ok  temoin=128 favori=64 tri1=48 tri2=64 focus=64 touche-l=48 touche-a=40 retour1=40 retour2=56
+p4 vue        N=1000 pret   163 ms  ok  temoin=128 favori=80 tri1=160 tri2=144 focus=48 touche-l=64 touche-a=56 retour1=88 retour2=128
+p4 vue        N=100  pret   121 ms  ok  temoin=144 favori=48 tri1=48 tri2=64 focus=64 touche-l=40 touche-a=32 retour1=32 retour2=48
+p4 vue-vapor  N=1000 pret   152 ms  ok  temoin=144 favori=64 tri1=160 tri2=144 focus=48 touche-l=64 touche-a=56 retour1=72 retour2=120
+p4 vue-vapor  N=100  pret    63 ms  ok  temoin=160 favori=64 tri1=48 tri2=64 focus=48 touche-l=32 touche-a=32 retour1=48 retour2=48
+p4 vanilla    N=1000 pret   115 ms  ok  temoin=144 favori=64 tri1=144 tri2=144 focus=64 touche-l=64 touche-a=48 retour1=64 retour2=96
+p4 vanilla    N=100  pret    47 ms  ok  temoin=144 favori=56 tri1=64 tri2=56 focus=64 touche-l=32 touche-a=40 retour1=40 retour2=40
+p4 alpine     N=1000 pret   666 ms  ok  temoin=144 favori=40 tri1=192 tri2=176 focus=56 touche-l=112 touche-a=72 retour1=168 retour2=272
+p4 alpine     N=100  pret   254 ms  ok  temoin=144 favori=48 tri1=64 tri2=80 focus=56 touche-l=48 touche-a=40 retour1=56 retour2=72
+p4 alpine-ssr N=1000 pret   811 ms  ok  temoin=128 favori=40 focus=40 touche-l=104 touche-a=72 retour1=96 retour2=112
+p4 alpine-ssr N=100  pret   256 ms  ok  temoin=160 favori=64 focus=40 touche-l=48 touche-a=40 retour1=40 retour2=48
+p5 solid-1    N=100  pret   106 ms  ok  temoin=160 favori=56 tri1=64 tri2=56 focus=56 touche-l=32 touche-a=32 retour1=48 retour2=48
+p5 solid-1    N=1000 pret   136 ms  ok  temoin=160 favori=56 tri1=160 tri2=128 focus=40 touche-l=64 touche-a=56 retour1=112 retour2=176
+p5 react      N=100  pret   180 ms  ok  temoin=160 favori=56 tri1=64 tri2=72 focus=56 touche-l=48 touche-a=40 retour1=40 retour2=56
+p5 react      N=1000 pret   215 ms  ok  temoin=144 favori=80 tri1=208 tri2=192 focus=56 touche-l=80 touche-a=56 retour1=88 retour2=128
+p5 preact     N=100  pret    59 ms  ok  temoin=144 favori=56 tri1=56 tri2=56 focus=56 touche-l=48 touche-a=32 retour1=32 retour2=48
+p5 preact     N=1000 pret   155 ms  ok  temoin=144 favori=56 tri1=192 tri2=160 focus=56 touche-l=80 touche-a=56 retour1=88 retour2=120
+p5 svelte     N=100  pret    72 ms  ok  temoin=144 favori=40 tri1=72 tri2=56 focus=40 touche-l=48 touche-a=32 retour1=40 retour2=48
+p5 svelte     N=1000 pret   160 ms  ok  temoin=160 favori=40 tri1=160 tri2=256 focus=40 touche-l=64 touche-a=56 retour1=72 retour2=112
+p5 vue        N=100  pret   118 ms  ok  temoin=144 favori=56 tri1=56 tri2=56 focus=56 touche-l=48 touche-a=32 retour1=32 retour2=48
+p5 vue        N=1000 pret   160 ms  ok  temoin=144 favori=72 tri1=192 tri2=160 focus=40 touche-l=64 touche-a=56 retour1=72 retour2=136
+p5 vue-vapor  N=100  pret    65 ms  ok  temoin=144 favori=56 tri1=72 tri2=56 focus=40 touche-l=32 touche-a=32 retour1=32 retour2=48
+p5 vue-vapor  N=1000 pret   151 ms  ok  temoin=160 favori=56 tri1=160 tri2=144 focus=56 touche-l=64 touche-a=56 retour1=80 retour2=120
+p5 vanilla    N=100  pret    94 ms  ok  temoin=144 favori=40 tri1=40 tri2=72 focus=56 touche-l=40 touche-a=40 retour1=40 retour2=40
+p5 vanilla    N=1000 pret   112 ms  ok  temoin=160 favori=56 tri1=176 tri2=144 focus=40 touche-l=64 touche-a=40 retour1=80 retour2=104
+p5 alpine     N=100  pret   259 ms  ok  temoin=160 favori=40 tri1=72 tri2=72 focus=56 touche-l=48 touche-a=32 retour1=48 retour2=72
+p5 alpine     N=1000 pret   666 ms  ok  temoin=160 favori=40 tri1=208 tri2=208 focus=40 touche-l=120 touche-a=88 retour1=152 retour2=248
+p5 alpine-ssr N=100  pret   254 ms  ok  temoin=136 favori=40 focus=56 touche-l=48 touche-a=40 retour1=40 retour2=48
+p5 alpine-ssr N=1000 pret   801 ms  ok  temoin=160 favori=56 focus=40 touche-l=96 touche-a=88 retour1=96 retour2=112
+p5 solid      N=100  pret   111 ms  ok  temoin=136 favori=40 tri1=72 tri2=72 focus=56 touche-l=48 touche-a=32 retour1=48 retour2=48
+p5 solid      N=1000 pret   151 ms  ok  temoin=160 favori=56 tri1=160 tri2=136 focus=56 touche-l=64 touche-a=56 retour1=112 retour2=184
+p6 react      N=1000 pret   216 ms  ok  temoin=160 favori=72 tri1=176 tri2=176 focus=56 touche-l=80 touche-a=56 retour1=88 retour2=120
+p6 react      N=100  pret   180 ms  ok  temoin=160 favori=72 tri1=72 tri2=72 focus=40 touche-l=48 touche-a=48 retour1=48 retour2=56
+p6 preact     N=1000 pret   155 ms  ok  temoin=144 favori=56 tri1=192 tri2=160 focus=40 touche-l=80 touche-a=56 retour1=96 retour2=128
+p6 preact     N=100  pret   110 ms  ok  temoin=136 favori=56 tri1=72 tri2=56 focus=56 touche-l=32 touche-a=32 retour1=48 retour2=48
+p6 svelte     N=1000 pret   168 ms  ok  temoin=144 favori=56 tri1=168 tri2=272 focus=40 touche-l=64 touche-a=56 retour1=80 retour2=104
+p6 svelte     N=100  pret    69 ms  ok  temoin=136 favori=40 tri1=72 tri2=72 focus=40 touche-l=48 touche-a=48 retour1=48 retour2=56
+p6 vue        N=1000 pret   165 ms  ok  temoin=136 favori=72 tri1=152 tri2=152 focus=56 touche-l=64 touche-a=48 retour1=80 retour2=120
+p6 vue        N=100  pret   121 ms  ok  temoin=152 favori=56 tri1=56 tri2=56 focus=40 touche-l=48 touche-a=40 retour1=40 retour2=48
+p6 vue-vapor  N=1000 pret   150 ms  ok  temoin=160 favori=56 tri1=152 tri2=136 focus=56 touche-l=64 touche-a=56 retour1=72 retour2=136
+p6 vue-vapor  N=100  pret   105 ms  ok  temoin=152 favori=56 tri1=56 tri2=72 focus=56 touche-l=32 touche-a=40 retour1=40 retour2=56
+p6 vanilla    N=1000 pret   112 ms  ok  temoin=152 favori=40 tri1=168 tri2=136 focus=40 touche-l=64 touche-a=48 retour1=64 retour2=96
+p6 vanilla    N=100  pret    91 ms  ok  temoin=136 favori=40 tri1=56 tri2=72 focus=56 touche-l=32 touche-a=32 retour1=32 retour2=48
+p6 alpine     N=1000 pret   677 ms  ok  temoin=136 favori=56 tri1=200 tri2=168 focus=56 touche-l=112 touche-a=72 retour1=168 retour2=256
+p6 alpine     N=100  pret   244 ms  ok  temoin=136 favori=40 tri1=72 tri2=72 focus=40 touche-l=48 touche-a=40 retour1=56 retour2=64
+p6 alpine-ssr N=1000 pret   851 ms  ok  temoin=136 favori=72 focus=56 touche-l=104 touche-a=88 retour1=88 retour2=128
+p6 alpine-ssr N=100  pret   260 ms  ok  temoin=152 favori=40 focus=40 touche-l=48 touche-a=40 retour1=40 retour2=48
+p6 solid      N=1000 pret   147 ms  ok  temoin=152 favori=72 tri1=232 tri2=200 focus=48 touche-l=88 touche-a=48 retour1=112 retour2=192
+p6 solid      N=100  pret    91 ms  ok  temoin=136 favori=64 tri1=48 tri2=64 focus=64 touche-l=40 touche-a=40 retour1=40 retour2=56
+p6 solid-1    N=1000 pret    99 ms  ok  temoin=152 favori=64 tri1=184 tri2=168 focus=64 touche-l=64 touche-a=56 retour1=112 retour2=192
+p6 solid-1    N=100  pret   115 ms  ok  temoin=136 favori=48 tri1=64 tri2=64 focus=64 touche-l=32 touche-a=32 retour1=40 retour2=56
+p7 preact     N=100  pret   117 ms  ok  temoin=152 favori=48 tri1=64 tri2=64 focus=48 touche-l=40 touche-a=40 retour1=40 retour2=56
+p7 preact     N=1000 pret   174 ms  ok  temoin=136 favori=80 tri1=200 tri2=168 focus=48 touche-l=64 touche-a=48 retour1=96 retour2=144
+p7 svelte     N=100  pret   128 ms  ok  temoin=136 favori=64 tri1=64 tri2=48 focus=64 touche-l=48 touche-a=32 retour1=32 retour2=56
+p7 svelte     N=1000 pret   181 ms  ok  temoin=152 favori=64 tri1=200 tri2=280 focus=48 touche-l=96 touche-a=64 retour1=88 retour2=120
+p7 vue        N=100  pret   135 ms  ok  temoin=152 favori=72 tri1=72 tri2=72 focus=72 touche-l=32 touche-a=32 retour1=48 retour2=48
+p7 vue        N=1000 pret   167 ms  ok  temoin=152 favori=72 tri1=152 tri2=168 focus=48 touche-l=80 touche-a=56 retour1=88 retour2=144
+p7 vue-vapor  N=100  pret   120 ms  ok  temoin=152 favori=48 tri1=48 tri2=64 focus=48 touche-l=40 touche-a=40 retour1=40 retour2=48
+p7 vue-vapor  N=1000 pret   164 ms  ok  temoin=136 favori=64 tri1=232 tri2=168 focus=64 touche-l=64 touche-a=48 retour1=88 retour2=120
+p7 vanilla    N=100  pret   100 ms  ok  temoin=136 favori=48 tri1=48 tri2=64 focus=64 touche-l=32 touche-a=32 retour1=32 retour2=48
+p7 vanilla    N=1000 pret   123 ms  ok  temoin=136 favori=64 tri1=184 tri2=152 focus=64 touche-l=64 touche-a=48 retour1=80 retour2=104
+p7 alpine     N=100  pret   271 ms  ok  temoin=152 favori=64 tri1=64 tri2=64 focus=48 touche-l=48 touche-a=40 retour1=56 retour2=72
+p7 alpine     N=1000 pret   696 ms  ok  temoin=168 favori=48 tri1=184 tri2=152 focus=48 touche-l=112 touche-a=80 retour1=160 retour2=256
+p7 alpine-ssr N=100  pret   261 ms  ok  temoin=136 favori=64 focus=48 touche-l=56 touche-a=48 retour1=40 retour2=48
+p7 alpine-ssr N=1000 pret   795 ms  ok  temoin=136 favori=48 focus=64 touche-l=96 touche-a=80 retour1=104 retour2=128
+p7 solid      N=100  pret    67 ms  ok  temoin=136 favori=48 tri1=64 tri2=64 focus=64 touche-l=48 touche-a=40 retour1=48 retour2=56
+p7 solid      N=1000 pret   152 ms  ok  temoin=152 favori=48 tri1=168 tri2=152 focus=64 touche-l=64 touche-a=56 retour1=112 retour2=176
+p7 solid-1    N=100  pret   103 ms  ok  temoin=152 favori=48 tri1=48 tri2=48 focus=64 touche-l=32 touche-a=32 retour1=32 retour2=48
+p7 solid-1    N=1000 pret   136 ms  ok  temoin=184 favori=192 tri1=320 tri2=176 focus=208 touche-l=64 touche-a=56 retour1=96 retour2=168
+p7 react      N=100  pret   185 ms  ok  temoin=192 favori=104 tri1=320 tri2=224 focus=152 touche-l=48 touche-a=40 retour1=40 retour2=48
+p7 react      N=1000 pret   220 ms  ok  temoin=136 favori=80 tri1=200 tri2=168 focus=48 touche-l=80 touche-a=64 retour1=96 retour2=128
+p8 svelte     N=1000 pret   160 ms  ok  temoin=144 favori=64 tri1=184 tri2=248 focus=64 touche-l=64 touche-a=56 retour1=88 retour2=128
+p8 svelte     N=100  pret   119 ms  ok  temoin=128 favori=64 tri1=48 tri2=64 focus=48 touche-l=48 touche-a=32 retour1=48 retour2=48
+p8 vue        N=1000 pret   166 ms  ok  temoin=200 favori=240 tri1=320 tri2=320 focus=192 touche-l=64 touche-a=48 retour1=80 retour2=136
+p8 vue        N=100  pret    72 ms  ok  temoin=192 favori=200 tri1=208 tri2=224 focus=200 touche-l=48 touche-a=48 retour1=40 retour2=56
+p8 vue-vapor  N=1000 pret   146 ms  ok  temoin=128 favori=240 tri1=320 tri2=288 focus=208 touche-l=64 touche-a=56 retour1=80 retour2=104
+p8 vue-vapor  N=100  pret   112 ms  ok  temoin=184 favori=192 tri1=216 tri2=216 focus=208 touche-l=48 touche-a=32 retour1=32 retour2=48
+p8 vanilla    N=1000 pret   111 ms  ok  temoin=176 favori=208 tri1=296 tri2=280 focus=216 touche-l=64 touche-a=56 retour1=72 retour2=104
+p8 vanilla    N=100  pret    46 ms  ok  temoin=184 favori=224 tri1=224 tri2=200 focus=200 touche-l=48 touche-a=32 retour1=40 retour2=40
+p8 alpine     N=1000 pret   666 ms  ok  temoin=144 favori=48 tri1=192 tri2=176 focus=64 touche-l=104 touche-a=80 retour1=176 retour2=240
+p8 alpine     N=100  pret   251 ms  ok  temoin=128 favori=48 tri1=80 tri2=64 focus=48 touche-l=48 touche-a=40 retour1=64 retour2=80
+p8 alpine-ssr N=1000 pret   782 ms  ok  temoin=144 favori=64 focus=64 touche-l=96 touche-a=80 retour1=104 retour2=120
+p8 alpine-ssr N=100  pret   259 ms  ok  temoin=320 favori=224 focus=224 touche-l=48 touche-a=40 retour1=40 retour2=56
+p8 solid      N=1000 pret   152 ms  ok  temoin=200 favori=216 tri1=320 tri2=304 focus=200 touche-l=64 touche-a=56 retour1=104 retour2=176
+p8 solid      N=100  pret   110 ms  ok  temoin=192 favori=168 tri1=216 tri2=208 focus=216 touche-l=32 touche-a=32 retour1=48 retour2=56
+p8 solid-1    N=1000 pret   136 ms  ok  temoin=184 favori=200 tri1=312 tri2=296 focus=200 touche-l=64 touche-a=56 retour1=96 retour2=168
+p8 solid-1    N=100  pret   102 ms  ok  temoin=192 favori=192 tri1=200 tri2=216 focus=200 touche-l=48 touche-a=32 retour1=40 retour2=48
+p8 react      N=1000 pret   237 ms  ok  temoin=192 favori=128 tri1=352 tri2=320 focus=200 touche-l=80 touche-a=56 retour1=80 retour2=120
+p8 react      N=100  pret   174 ms  ok  temoin=184 favori=96 tri1=240 tri2=216 focus=216 touche-l=48 touche-a=32 retour1=48 retour2=48
+p8 preact     N=1000 pret   153 ms  ok  temoin=184 favori=216 tri1=328 tri2=312 focus=216 touche-l=80 touche-a=56 retour1=88 retour2=120
+p8 preact     N=100  pret   108 ms  ok  temoin=184 favori=192 tri1=208 tri2=232 focus=200 touche-l=40 touche-a=32 retour1=48 retour2=48
+p9 vue        N=100  pret   117 ms  ok  temoin=192 favori=200 tri1=216 tri2=216 focus=200 touche-l=48 touche-a=40 retour1=32 retour2=64
+p9 vue        N=1000 pret   164 ms  ok  temoin=200 favori=216 tri1=336 tri2=320 focus=216 touche-l=72 touche-a=48 retour1=88 retour2=112
+p9 vue-vapor  N=100  pret   113 ms  ok  temoin=192 favori=216 tri1=192 tri2=208 focus=168 touche-l=32 touche-a=32 retour1=32 retour2=56
+p9 vue-vapor  N=1000 pret   149 ms  ok  temoin=144 favori=56 tri1=144 tri2=144 focus=48 touche-l=72 touche-a=48 retour1=72 retour2=112
+p9 vanilla    N=100  pret    45 ms  ok  temoin=144 favori=48 tri1=56 tri2=56 focus=48 touche-l=32 touche-a=40 retour1=32 retour2=40
+p9 vanilla    N=1000 pret   116 ms  ok  temoin=144 favori=48 tri1=160 tri2=160 focus=48 touche-l=72 touche-a=48 retour1=64 retour2=96
+p9 alpine     N=100  pret   248 ms  ok  temoin=200 favori=216 tri1=224 tri2=208 focus=216 touche-l=48 touche-a=40 retour1=56 retour2=80
+p9 alpine     N=1000 pret   669 ms  ok  temoin=176 favori=216 tri1=352 tri2=320 focus=272 touche-l=104 touche-a=80 retour1=160 retour2=272
+p9 alpine-ssr N=100  pret   261 ms  ok  temoin=192 favori=216 focus=184 touche-l=48 touche-a=40 retour1=32 retour2=48
+p9 alpine-ssr N=1000 pret   799 ms  ok  temoin=160 favori=184 focus=176 touche-l=112 touche-a=80 retour1=96 retour2=112
+p9 solid      N=100  pret   118 ms  ok  temoin=176 favori=200 tri1=248 tri2=216 focus=192 touche-l=48 touche-a=32 retour1=48 retour2=48
+p9 solid      N=1000 pret   146 ms  ok  temoin=192 favori=216 tri1=328 tri2=288 focus=200 touche-l=64 touche-a=40 retour1=96 retour2=184
+p9 solid-1    N=100  pret    56 ms  ok  temoin=192 favori=232 tri1=216 tri2=216 focus=184 touche-l=40 touche-a=40 retour1=40 retour2=48
+p9 solid-1    N=1000 pret   134 ms  ok  temoin=192 favori=224 tri1=320 tri2=296 focus=232 touche-l=64 touche-a=56 retour1=96 retour2=168
+p9 react      N=100  pret   176 ms  ok  temoin=160 favori=72 tri1=56 tri2=56 focus=56 touche-l=56 touche-a=32 retour1=48 retour2=48
+p9 react      N=1000 pret   213 ms  ok  temoin=160 favori=72 tri1=192 tri2=160 focus=40 touche-l=80 touche-a=56 retour1=88 retour2=120
+p9 preact     N=100  pret    61 ms  ok  temoin=160 favori=56 tri1=56 tri2=56 focus=40 touche-l=40 touche-a=32 retour1=40 retour2=56
+p9 preact     N=1000 pret   153 ms  ok  temoin=160 favori=72 tri1=176 tri2=144 focus=56 touche-l=80 touche-a=48 retour1=88 retour2=136
+p9 svelte     N=100  pret    72 ms  ok  temoin=144 favori=40 tri1=56 tri2=72 focus=40 touche-l=48 touche-a=48 retour1=40 retour2=40
+p9 svelte     N=1000 pret   165 ms  ok  temoin=144 favori=56 tri1=176 tri2=240 focus=40 touche-l=64 touche-a=48 retour1=88 retour2=104
+p10 vue-vapor  N=1000 pret   151 ms  ok  temoin=192 favori=208 tri1=304 tri2=176 focus=216 touche-l=64 touche-a=56 retour1=88 retour2=120
+p10 vue-vapor  N=100  pret   114 ms  ok  temoin=184 favori=216 tri1=208 tri2=184 focus=208 touche-l=32 touche-a=40 retour1=40 retour2=56
+p10 vanilla    N=1000 pret   113 ms  ok  temoin=184 favori=192 tri1=312 tri2=424 focus=208 touche-l=64 touche-a=56 retour1=72 retour2=104
+p10 vanilla    N=100  pret    45 ms  ok  temoin=296 favori=200 tri1=232 tri2=216 focus=216 touche-l=48 touche-a=32 retour1=40 retour2=48
+p10 alpine     N=1000 pret   657 ms  ok  temoin=192 favori=232 tri1=336 tri2=336 focus=208 touche-l=112 touche-a=80 retour1=152 retour2=264
+p10 alpine     N=100  pret   258 ms  ok  temoin=176 favori=224 tri1=208 tri2=208 focus=216 touche-l=48 touche-a=40 retour1=56 retour2=80
+p10 alpine-ssr N=1000 pret   775 ms  ok  temoin=184 favori=216 focus=200 touche-l=104 touche-a=72 retour1=96 retour2=120
+p10 alpine-ssr N=100  pret   240 ms  ok  temoin=184 favori=224 focus=208 touche-l=56 touche-a=40 retour1=32 retour2=48
+p10 solid      N=1000 pret   151 ms  ok  temoin=184 favori=208 tri1=328 tri2=264 focus=216 touche-l=64 touche-a=56 retour1=96 retour2=176
+p10 solid      N=100  pret    68 ms  ok  temoin=184 favori=208 tri1=208 tri2=224 focus=216 touche-l=48 touche-a=32 retour1=48 retour2=56
+p10 solid-1    N=1000 pret    88 ms  ok  temoin=136 favori=56 tri1=160 tri2=152 focus=40 touche-l=64 touche-a=56 retour1=112 retour2=176
+p10 solid-1    N=100  pret   106 ms  ok  temoin=136 favori=56 tri1=56 tri2=72 focus=56 touche-l=32 touche-a=32 retour1=48 retour2=48
+p10 react      N=1000 pret   217 ms  ok  temoin=160 favori=88 tri1=208 tri2=176 focus=72 touche-l=80 touche-a=56 retour1=88 retour2=120
+p10 react      N=100  pret   177 ms  ok  temoin=320 favori=96 tri1=200 tri2=200 focus=216 touche-l=56 touche-a=40 retour1=40 retour2=56
+p10 preact     N=1000 pret   166 ms  ok  temoin=184 favori=240 tri1=344 tri2=328 focus=208 touche-l=72 touche-a=64 retour1=88 retour2=128
+p10 preact     N=100  pret   105 ms  ok  temoin=264 favori=224 tri1=224 tri2=216 focus=208 touche-l=32 touche-a=32 retour1=48 retour2=48
+p10 svelte     N=1000 pret   161 ms  ok  temoin=184 favori=208 tri1=328 tri2=416 focus=208 touche-l=64 touche-a=56 retour1=88 retour2=112
+p10 svelte     N=100  pret    71 ms  ok  temoin=200 favori=208 tri1=200 tri2=216 focus=200 touche-l=48 touche-a=48 retour1=48 retour2=40
+p10 vue        N=1000 pret   158 ms  ok  temoin=200 favori=216 tri1=328 tri2=328 focus=192 touche-l=64 touche-a=48 retour1=80 retour2=104
+p10 vue        N=100  pret   125 ms  ok  temoin=184 favori=208 tri1=224 tri2=192 focus=192 touche-l=48 touche-a=48 retour1=48 retour2=48
+TÉMOINS : brut/serie-2026-11-17T22-31/passages-x9-10p.jsonl
