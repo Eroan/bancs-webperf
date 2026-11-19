@@ -1,6 +1,6 @@
 # Résultats : animations pendant un blocage du thread principal
 
-Série `brut/series-2026-11-19T07-23-23-867Z-p5.json` : Chrome 158.0.8127.37, Playwright 1.65.0, 5 passages × 3 blocages de 800 ms, repos 700 ms, relevé du 2026-11-19. « Bouge » : amplitude ≥ 20 px dans la fenêtre du blocage (bornes réduites de 50 ms de chaque côté).
+Série `brut/series-2026-11-19T07-23-23-867Z-p5.json` : Chrome 158 (158.0.8127.37), boîte de 40 × 40 px en aller-retour sur 200 px en 1000 ms, Playwright 1.65.0, 5 passages × 3 blocages de 800 ms, repos 700 ms, relevé du 2026-11-19. « Bouge » : amplitude ≥ 20 px dans la fenêtre du blocage (bornes réduites de 50 ms de chaque côté).
 
 | Variante | Blocages où la boîte bouge | Images reçues pendant un blocage, médiane [min, max] | Amplitude pendant un blocage (px), médiane [min, max] | Repos où la boîte bouge |
 |---|---|---|---|---|

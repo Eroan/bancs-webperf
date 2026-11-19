@@ -38,8 +38,12 @@ for p in s['passages']:
 
 L = []
 L.append('# Résultats : animations pendant un blocage du thread principal\n')
+import re
+page = open('page/index.html', encoding='utf-8').read()
+dist = abs(int(re.search(r'DIST = (-?\d+)', page).group(1))); duree = int(re.search(r'DUREE = (\d+)', page).group(1))
+majeure = s["chrome"].split('.')[0]
 bloc = "par l'extrait de console `extrait-console.js` (1 000 ms)" if 'extrait' in f else f'de {s["BLOC"]} ms'
-L.append(f'Série `{f}` : Chrome {s["chrome"]}, Playwright {s["playwright"]}, {s["PASSAGES"]} passages × {s["CYCLES"]} blocages '
+L.append(f'Série `{f}` : Chrome {majeure} ({s["chrome"]}), boîte de 40 × 40 px en aller-retour sur {dist} px en {duree} ms, Playwright {s["playwright"]}, {s["PASSAGES"]} passages × {s["CYCLES"]} blocages '
          f'{bloc}, repos {s["REPOS"]} ms, relevé du {s["date"][:10]}. « Bouge » : amplitude ≥ {SEUIL} px dans la fenêtre '
          'du blocage (bornes réduites de 50 ms de chaque côté).\n')
 L.append('| Variante | Blocages où la boîte bouge | Images reçues pendant un blocage, médiane [min, max] | Amplitude pendant un blocage (px), médiane [min, max] | Repos où la boîte bouge |')
