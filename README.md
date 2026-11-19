@@ -17,6 +17,7 @@ qui en tire chaque chiffre.
 | [`dedoublonnage-declarations-css/`](dedoublonnage-declarations-css/) | Dédoublonner les déclarations CSS (UDJO, CSS Dedup) : gain après minification (Lightning CSS, cssnano, csso, clean-css), gzip et Brotli, sûreté de la cascade, règles appariées et tentatives d'appariement, recalcul de style et styles calculés d'une page Bootstrap (Chrome) |
 | [`animations-thread-principal/`](animations-thread-principal/) | Une animation continue-t-elle pendant un blocage du thread principal ? CSS (`transform`, `left`, `@property`), Web Animations API, boucle `requestAnimationFrame`, GSAP 3.15 et Motion 14.14, position relevée image par image (Chrome) |
 | [`minification-html-compression/`](minification-html-compression/) | Minification du HTML (projet Minifier Benchmarks, 127 pages réelles) : gain brut, après gzip 6 et Brotli 5 et 11, octets gagnés par page, éléments et texte perdus (icônes et liens vides retirés), part de `removeEmptyElements` et `removeUnusedCSS` |
+| [`scripts-document-en-flux/`](scripts-document-en-flux/) | Document HTML envoyé en flux : un script `defer`, `async`, `type="module"` ou module `async` s'exécute-t-il avant la suite du document ? Report des scripts async par WebKit tant que la page n'a pas été peinte (Chrome, Firefox, WebKit) |
 
 ## Principes communs
 

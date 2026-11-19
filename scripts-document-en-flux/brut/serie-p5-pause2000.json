@@ -1,0 +1,4514 @@
+{
+ "date": "2026-11-19T17:15:01.297Z",
+ "pause_ms": 2000,
+ "passages": 5,
+ "playwright": "1.65.0",
+ "moteurs": {
+  "chrome": "158.0.8127.37",
+  "firefox": "159.0",
+  "webkit": "27.2"
+ },
+ "mesures": [
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 9,
+   "t_fin": 2003.2999999523163,
+   "t_dcl": 2005.3999999761581,
+   "t_load": 2005.5,
+   "fcp": 36,
+   "ressource": [
+    {
+     "startTime": 8,
+     "responseEnd": 10
+    }
+   ],
+   "serveur_script_ms": 10
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 22,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 8,
+   "t_fin": 2003.8999999761581,
+   "t_dcl": 2006.199999988079,
+   "t_load": 2006.5999999642372,
+   "fcp": 24,
+   "ressource": [
+    {
+     "startTime": 7,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 9
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 41,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2003.300000011921,
+   "t_dcl": 2005.5,
+   "t_load": 2005.8999999761581,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.800000011920929,
+   "t_fin": 2002.699999988079,
+   "t_dcl": 2004.300000011921,
+   "t_load": 2004.6000000238419,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2011,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.899999976158142,
+   "t_fin": 2009.8999999761581,
+   "t_dcl": 2011.8999999761581,
+   "t_load": 2012.199999988079,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 38,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2002.5,
+   "t_dcl": 2004.699999988079,
+   "t_load": 2005.0999999642372,
+   "fcp": 40,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 41,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2004.300000011921,
+   "t_dcl": 2007,
+   "t_load": 2007.3999999761581,
+   "fcp": 44,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 307,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.599999964237213,
+   "t_fin": 2004.0999999642372,
+   "t_dcl": 2006.3999999761581,
+   "t_load": 2006.800000011921,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2004.5,
+   "t_dcl": 2007.0999999642372,
+   "t_load": 2007.5999999642372,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 309,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.599999964237213,
+   "t_fin": 2001.699999988079,
+   "t_dcl": 2003.7999999523163,
+   "t_load": 2004.0999999642372,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 309,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2002.9000000357628,
+   "t_dcl": 2004.6000000238419,
+   "t_load": 2004.800000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 1,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2003.800000011921,
+   "t_dcl": 2006.699999988079,
+   "t_load": 2007,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 39,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2003.699999988079,
+   "t_dcl": 2005.6000000238419,
+   "t_load": 2005.800000011921,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 37,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2003.9000000357628,
+   "t_dcl": 2006,
+   "t_load": 2006.5,
+   "fcp": 44,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.599999964237213,
+   "t_fin": 2004.5999999642372,
+   "t_dcl": 2007.699999988079,
+   "t_load": 2008.0999999642372,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2003.5999999642372,
+   "t_dcl": 2006.199999988079,
+   "t_load": 2006.5999999642372,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 44,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.400000035762787,
+   "t_fin": 2002.699999988079,
+   "t_dcl": 2003.9000000357628,
+   "t_load": 2004,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 44,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.399999976158142,
+   "t_fin": 2002.800000011921,
+   "t_dcl": 2005.199999988079,
+   "t_load": 2005.699999988079,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 309,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2005,
+   "t_dcl": 2006.199999988079,
+   "t_load": 2007,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.599999964237213,
+   "t_fin": 2003.3999999761581,
+   "t_dcl": 2004.199999988079,
+   "t_load": 2004.800000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 307,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.799999952316284,
+   "t_fin": 2003.699999988079,
+   "t_dcl": 2005.8999999761581,
+   "t_load": 2006.2999999523163,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4.699999988079071,
+   "t_fin": 2002.300000011921,
+   "t_dcl": 2002.9000000357628,
+   "t_load": 2003.199999988079,
+   "fcp": 56,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2004.5,
+   "t_dcl": 2006.1000000238419,
+   "t_load": 2006.800000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 2,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2002,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2001.800000011921,
+   "t_dcl": 2002.4000000357628,
+   "t_load": 2002.5,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 40,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.599999964237213,
+   "t_fin": 2004.2999999523163,
+   "t_dcl": 2004.8999999761581,
+   "t_load": 2005.5,
+   "fcp": 56,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.700000047683716,
+   "t_fin": 2002.7000000476837,
+   "t_dcl": 2005.800000011921,
+   "t_load": 2006.2000000476837,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.799999952316284,
+   "t_fin": 2003.5999999642372,
+   "t_dcl": 2006.699999988079,
+   "t_load": 2007.2999999523163,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 41,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2003.800000011921,
+   "t_dcl": 2006.1000000238419,
+   "t_load": 2006.5,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 41,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.800000011920929,
+   "t_fin": 2004.300000011921,
+   "t_dcl": 2006,
+   "t_load": 2006.300000011921,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 309,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2002.699999988079,
+   "t_dcl": 2004.8999999761581,
+   "t_load": 2005.3999999761581,
+   "fcp": 52,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 311,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.799999952316284,
+   "t_fin": 2003,
+   "t_dcl": 2005.5,
+   "t_load": 2006,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 309
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2004,
+   "t_dcl": 2004.699999988079,
+   "t_load": 2005.5,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 310,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2001.9000000357628,
+   "t_dcl": 2003.300000011921,
+   "t_load": 2003.5,
+   "fcp": 44,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2004.699999988079,
+   "t_dcl": 2007.699999988079,
+   "t_load": 2008.199999988079,
+   "fcp": 56,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2002,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.599999964237213,
+   "t_fin": 2001.5999999642372,
+   "t_dcl": 2002.699999988079,
+   "t_load": 2002.8999999761581,
+   "fcp": 44,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 3,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 42,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2003.8999999761581,
+   "t_dcl": 2006.1000000238419,
+   "t_load": 2006.6000000238419,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.599999964237213,
+   "t_fin": 2003.3999999761581,
+   "t_dcl": 2006.300000011921,
+   "t_load": 2006.5999999642372,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.799999952316284,
+   "t_fin": 2004.0999999642372,
+   "t_dcl": 2006.7999999523163,
+   "t_load": 2007.199999988079,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 43,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2002.4000000357628,
+   "t_dcl": 2004.800000011921,
+   "t_load": 2005.300000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 42,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2004.2000000476837,
+   "t_dcl": 2006.1000000238419,
+   "t_load": 2006.4000000357628,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 310,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2003.1000000238419,
+   "t_dcl": 2005.300000011921,
+   "t_load": 2005.800000011921,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 309,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2003.0999999642372,
+   "t_dcl": 2005,
+   "t_load": 2005.2999999523163,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2002.5999999642372,
+   "t_dcl": 2004.7999999523163,
+   "t_load": 2005.199999988079,
+   "fcp": 44,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 309,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.399999976158142,
+   "t_fin": 2003.1000000238419,
+   "t_dcl": 2004.1000000238419,
+   "t_load": 2004.300000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.800000011920929,
+   "t_fin": 2002.5,
+   "t_dcl": 2004.199999988079,
+   "t_load": 2004.3999999761581,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2004,
+   "t_dcl": 2007,
+   "t_load": 2007.3999999761581,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 46,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2003.6000000238419,
+   "t_dcl": 2004.7000000476837,
+   "t_load": 2004.800000011921,
+   "fcp": 52,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 4,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 40,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2004.1000000238419,
+   "t_dcl": 2004.9000000357628,
+   "t_load": 2005.4000000357628,
+   "fcp": 44,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2003.800000011921,
+   "t_dcl": 2006.4000000357628,
+   "t_load": 2006.699999988079,
+   "fcp": 44,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 41,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2002.300000011921,
+   "t_dcl": 2002.8999999761581,
+   "t_load": 2003.199999988079,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 43,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2005,
+   "t_dcl": 2005.699999988079,
+   "t_load": 2006.300000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 310,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2003,
+   "t_dcl": 2003.300000011921,
+   "t_load": 2003.6000000238419,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 309,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2004.300000011921,
+   "t_dcl": 2005.9000000357628,
+   "t_load": 2006.300000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2004.699999988079,
+   "t_dcl": 2005.199999988079,
+   "t_load": 2005.5,
+   "fcp": 56,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.600000023841858,
+   "t_fin": 2004.199999988079,
+   "t_dcl": 2004.699999988079,
+   "t_load": 2005.199999988079,
+   "fcp": 44,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2003.800000011921,
+   "t_dcl": 2006.1000000238419,
+   "t_load": 2006.300000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.5,
+   "t_fin": 2002.1000000238419,
+   "t_dcl": 2004.4000000357628,
+   "t_load": 2004.699999988079,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 38,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4.100000023841858,
+   "t_fin": 2004.199999988079,
+   "t_dcl": 2005.8999999761581,
+   "t_load": 2006.199999988079,
+   "fcp": 52,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 42,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3.700000047683716,
+   "t_fin": 2003.6000000238419,
+   "t_dcl": 2005.4000000357628,
+   "t_load": 2005.800000011921,
+   "fcp": 60,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "chrome",
+   "passage": 5,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3.699999988079071,
+   "t_fin": 2003.1000000238419,
+   "t_dcl": 2006,
+   "t_load": 2006.4000000357628,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 5
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 38,
+   "t_fin": 2007,
+   "t_dcl": 2007,
+   "t_load": 2009,
+   "fcp": 48,
+   "ressource": [
+    {
+     "startTime": 38,
+     "responseEnd": 70
+    }
+   ],
+   "serveur_script_ms": 64
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 9,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 30,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 7,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2008,
+   "fcp": 13,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2004,
+   "fcp": 16,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2008,
+   "fcp": 25,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 6
+    }
+   ],
+   "serveur_script_ms": 4
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 8,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2006,
+   "fcp": 18,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 9,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2002,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 314,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2006,
+   "t_dcl": 2006,
+   "t_load": 2007,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 311
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 312,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 25,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 309
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 313,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2009,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 311
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 318,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 6,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 22,
+   "ressource": [
+    {
+     "startTime": 5,
+     "responseEnd": 313
+    }
+   ],
+   "serveur_script_ms": 9
+  },
+  {
+   "moteur": "firefox",
+   "passage": 1,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2002,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2002,
+   "t_dcl": 2002,
+   "t_load": 2003,
+   "fcp": 17,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 9,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2006,
+   "t_dcl": 2006,
+   "t_load": 2009,
+   "fcp": 21,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 8,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2006,
+   "t_dcl": 2007,
+   "t_load": 2008,
+   "fcp": 19,
+   "ressource": [
+    {
+     "startTime": 5,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 20,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 6
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2004,
+   "fcp": 26,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 7,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 17,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 10,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 7,
+   "t_fin": 2002,
+   "t_dcl": 2002,
+   "t_load": 2004,
+   "fcp": 24,
+   "ressource": [
+    {
+     "startTime": 6,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 319,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 311
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 21,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 314,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 20,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 311
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 315,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2001,
+   "t_dcl": 2001,
+   "t_load": 2002,
+   "fcp": 25,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 309
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 27,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 2,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2006,
+   "t_load": 2009,
+   "fcp": 22,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 9,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2011,
+   "fcp": 20,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2013,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2013,
+   "t_dcl": 2014,
+   "t_load": 2014,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 27,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 10,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2019,
+   "t_dcl": 2019,
+   "t_load": 2020,
+   "fcp": 21,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 10,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 6,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2007,
+   "fcp": 19,
+   "ressource": [
+    {
+     "startTime": 5,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 314,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 27,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 311,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 22,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 312,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2003,
+   "t_dcl": 2003,
+   "t_load": 2003,
+   "fcp": 20,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 309
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 316,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2002,
+   "t_dcl": 2002,
+   "t_load": 2004,
+   "fcp": 28,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 313
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 19,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2002,
+   "t_dcl": 2004,
+   "t_load": 2009,
+   "fcp": 19,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 3,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 7,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2003,
+   "t_dcl": 2003,
+   "t_load": 2004,
+   "fcp": 22,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 20,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2009,
+   "fcp": 20,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 9
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 10,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 19,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 10,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2002,
+   "t_dcl": 2002,
+   "t_load": 2006,
+   "fcp": 24,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 313,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 22,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 311
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 310,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2001,
+   "t_dcl": 2001,
+   "t_load": 2002,
+   "fcp": 24,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 309
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 313,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2006,
+   "fcp": 28,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 312
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 312,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 308
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 14,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 6
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2004,
+   "fcp": 20,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 10
+    }
+   ],
+   "serveur_script_ms": 10
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 8,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2009,
+   "fcp": 15,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 4,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 8,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2001,
+   "t_dcl": 2001,
+   "t_load": 2003,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2003,
+   "t_dcl": 2005,
+   "t_load": 2008,
+   "fcp": 22,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 9
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 8,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2003,
+   "t_dcl": 2003,
+   "t_load": 2006,
+   "fcp": 21,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 7,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2006,
+   "t_dcl": 2006,
+   "t_load": 2010,
+   "fcp": 11,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 313,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2003,
+   "t_dcl": 2003,
+   "t_load": 2004,
+   "fcp": 21,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 310
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 312,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2009,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 309
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 312,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2004,
+   "fcp": 19,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 309
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 314,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2006,
+   "fcp": 22,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 312
+    }
+   ],
+   "serveur_script_ms": 8
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2006,
+   "fcp": 24,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 7
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2009,
+   "fcp": 25,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 7
+    }
+   ],
+   "serveur_script_ms": 6
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 11,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2003,
+   "t_dcl": 2003,
+   "t_load": 2005,
+   "fcp": 24,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 10
+    }
+   ],
+   "serveur_script_ms": 9
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 8,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 5,
+   "t_fin": 2006,
+   "t_dcl": 2006,
+   "t_load": 2008,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 4,
+     "responseEnd": 8
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "firefox",
+   "passage": 5,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 4,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 6
+    }
+   ],
+   "serveur_script_ms": 5
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2009,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 25,
+   "t_fin": 2008,
+   "t_dcl": 2011,
+   "t_load": 2012,
+   "fcp": 133,
+   "ressource": [
+    {
+     "startTime": 25,
+     "responseEnd": 27
+    }
+   ],
+   "serveur_script_ms": 24
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2007,
+   "fcp": 10,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2007,
+   "fcp": 2009,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2007,
+   "t_load": 2007,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 2006,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2008,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2009,
+   "fcp": 9,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2006,
+   "fcp": 2008,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2004,
+   "fcp": 15,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 304
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2007,
+   "fcp": 2006,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 307,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2002,
+   "t_dcl": 2002,
+   "t_load": 2003,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 1,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2002,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2002,
+   "t_dcl": 2002,
+   "t_load": 2003,
+   "fcp": 2004,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 2008,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 9,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2006,
+   "t_load": 2006,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2007,
+   "t_load": 2007,
+   "fcp": 17,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2006,
+   "t_load": 2007,
+   "fcp": 2009,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2006,
+   "t_dcl": 2007,
+   "t_load": 2008,
+   "fcp": 10,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2002,
+   "t_dcl": 2002,
+   "t_load": 2003,
+   "fcp": 2004,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 309,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2006,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2013,
+   "fcp": 2011,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 310,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 12,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 2006,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 2,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2006,
+   "t_load": 2006,
+   "fcp": 24,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 4
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2007,
+   "fcp": 10,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2006,
+   "t_load": 2006,
+   "fcp": 2008,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2007,
+   "fcp": 19,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 2006,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2002,
+   "t_dcl": 2003,
+   "t_load": 2004,
+   "fcp": 12,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2007,
+   "fcp": 2009,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 307,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2004,
+   "fcp": 24,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2004,
+   "fcp": 8,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2005,
+   "t_load": 2005,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2007,
+   "t_load": 2007,
+   "fcp": 16,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 3,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2007,
+   "fcp": 2009,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2006,
+   "t_load": 2006,
+   "fcp": 14,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 4
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2010,
+   "fcp": 2008,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2009,
+   "fcp": 15,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2003,
+   "t_load": 2006,
+   "fcp": 2005,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 308,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2002,
+   "t_dcl": 2003,
+   "t_load": 2003,
+   "fcp": 18,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2009,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 312,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2006,
+   "fcp": 14,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 307
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2006,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2006,
+   "t_load": 2006,
+   "fcp": 13,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2007,
+   "fcp": 2009,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 4,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2004,
+   "t_load": 2006,
+   "fcp": 10,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "module/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2006,
+   "fcp": 22,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "module-async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2012,
+   "fcp": 2009,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "module-async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2003,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2003,
+   "t_load": 2004,
+   "fcp": 14,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2007,
+   "fcp": 2009,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 310,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2006,
+   "t_dcl": 2007,
+   "t_load": 2007,
+   "fcp": 23,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 306
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "module-async-lent/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2005,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "module-async-lent/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 306,
+     "readyState": "loading",
+     "fin": false
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2004,
+   "t_load": 2004,
+   "fcp": 14,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 305
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "defer/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2004,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2003,
+   "t_dcl": 2005,
+   "t_load": 2005,
+   "fcp": 2007,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "defer/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2005,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 2,
+   "t_fin": 2004,
+   "t_dcl": 2005,
+   "t_load": 2005,
+   "fcp": 9,
+   "ressource": [
+    {
+     "startTime": 2,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "async/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2006,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2005,
+   "t_load": 2010,
+   "fcp": 2008,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 3
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "async/longue",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2005,
+   "t_dcl": 2006,
+   "t_load": 2009,
+   "fcp": 17,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  },
+  {
+   "moteur": "webkit",
+   "passage": 5,
+   "variante": "module/courte",
+   "erreurs": [],
+   "exec": [
+    {
+     "t": 2007,
+     "readyState": "interactive",
+     "fin": true
+    }
+   ],
+   "t_coquille": 3,
+   "t_fin": 2006,
+   "t_dcl": 2007,
+   "t_load": 2008,
+   "fcp": 2010,
+   "ressource": [
+    {
+     "startTime": 3,
+     "responseEnd": 3
+    }
+   ],
+   "serveur_script_ms": 2
+  }
+ ],
+ "requetes_scripts": 180
+}

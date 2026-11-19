@@ -1,0 +1,19 @@
+{
+  "name": "banc-scripts-document-en-flux",
+  "version": "1.0.0",
+  "description": "Banc : instant d'exécution d'un script externe (defer, async, module, module async) dans un document HTML envoyé en flux (Chrome, Firefox, WebKit)",
+  "scripts": {
+    "banc": "bash run.sh"
+  },
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eroan/bancs-webperf.git",
+    "directory": "scripts-document-en-flux"
+  },
+  "author": "Eroan Boyer (Agence Web Performance)",
+  "dependencies": {
+    "playwright": "1.65.0"
+  }
+}
