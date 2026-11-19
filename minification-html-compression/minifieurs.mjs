@@ -1,0 +1,152 @@
+// Copie de src/minifiers.js de j9t/minifier-benchmarks, commit a4d68faf702e8ef663a9a74f06debc9ef3297cea (MIT,
+// Copyright 2026 Jens Oliver Meiert), réglages inchangés : seuls ce commentaire et rien d'autre diffèrent.
+// Local minifiers with their benchmark settings, each taking the input (a string, or a buffer
+// if `isBufferInput`) and the site URL, and resolving to the minified output
+
+import { minify as minifyHM } from 'html-minifier';
+import htmlnano from 'htmlnano';
+import { minify as minifySWC } from '@swc/html';
+import minifyHTMLPkg from '@minify-html/node';
+import Minimize from 'minimize';
+
+const { minify: minifyHTML } = minifyHTMLPkg;
+
+// Set by minify’s `init`, as its package loads a native library on import, which only exists
+// for some platforms (and would otherwise keep all minifiers from loading)
+let minifyTdewolff;
+
+export function createMinifiers({ isHtmlOnly, minifierConfig }) {
+  const minimize = new Minimize();
+
+  return {
+    // @swc/html, https://swc.rs/docs/usage/html
+    swchtml: {
+      async minify(data) {
+        const result = await minifySWC(data, {
+          // Use most aggressive settings that keep output correct
+          forceSetHtml5Doctype: true,
+          minifyJs: !isHtmlOnly,
+          minifyCss: !isHtmlOnly,
+          minifyJson: !isHtmlOnly,
+          minifyAdditionalScriptsContent: isHtmlOnly ? [] : [['application/ld+json', 'json']],
+          minifyAdditionalAttributes: isHtmlOnly ? [] : [['style', 'css']],
+          collapseWhitespaces: 'smart', // `all` removes whitespace between inline elements, fusing words
+          removeComments: true,
+          removeEmptyAttributes: true,
+          removeRedundantAttributes: 'all',
+          collapseBooleanAttributes: true,
+          normalizeAttributes: true,
+          removeEmptyMetadataElements: true,
+          minifyConditionalComments: true,
+          quotes: false // `true` keeps (and adds) attribute value quotes
+          // tagOmission: true: @swc/html omits optional tags by default; an explicit `tagOmission: true` keeps void element slashes
+        });
+        return result.code;
+      }
+    },
+
+    // HTML Minifier
+    minifier: {
+      minify(data, site) {
+        // Load config (with caches disabled, as they persist across calls) and add site-specific minifyURLs;
+        // a fresh object per call, as HTML Minifier memoizes options processing per object
+        //
+        // @@ Disable or clear the URL cache, too, once HTML Minifier allows it
+        const config = { ...minifierConfig, minifyURLs: site };
+
+        // HTML-only mode: Disable CSS, JS, JSON, SVG, and other minification
+        if (isHtmlOnly) {
+          config.minifyCSS = false;
+          config.minifyJS = false;
+          config.minifyJSON = false;
+          config.minifySVG = false;
+          config.minifyURLs = false;
+          config.removeUnusedCSS = false;
+        }
+
+        return minifyHM(data, config);
+      }
+    },
+
+    // htmlnano, https://htmlnano.netlify.app/presets
+    htmlnano: {
+      async minify(data, site) {
+        // Always use “max” preset for most aggressive HTML minification
+        const preset = htmlnano.presets.max;
+        const options = isHtmlOnly
+          ? {
+              minifyCss: false,
+              minifyJs: false,
+              minifyJson: false,
+              minifySvg: false,
+              minifyHtmlTemplate: false,
+              removeUnusedCss: false
+            }
+          : {
+              minifyUrls: site
+            };
+        const result = await htmlnano.process(data, options, preset);
+        return result.html;
+      }
+    },
+
+    // minify, https://github.com/tdewolff/minify; always minifies CSS and JavaScript, so
+    // `benchmark.js` only runs it in max mode
+    minify: {
+      async init() {
+        ({ minify: minifyTdewolff } = await import('@tdewolff/minify'));
+      },
+      minify(data) {
+        return minifyTdewolff({
+          data,
+          type: 'text/html',
+          // Keep nothing optional, for most aggressive settings
+          htmlKeepComments: false,
+          htmlKeepConditionalComments: false,
+          htmlKeepDefaultAttrvals: false,
+          htmlKeepDocumentTags: false,
+          htmlKeepEndTags: false,
+          htmlKeepQuotes: false,
+          htmlKeepSpecialComments: false,
+          htmlKeepWhitespace: false
+        });
+      }
+    },
+
+    // minify-html, https://github.com/wilsonzlin/minify-html
+    minifyhtml: {
+      isBufferInput: true,
+      minify(data) {
+        return minifyHTML(data, {
+          keep_closing_tags: false,
+          keep_comments: false,
+          keep_html_and_head_opening_tags: false,
+          keep_input_type_text_attr: false,
+          keep_ssi_comments: false,
+          minify_css: !isHtmlOnly,
+          minify_js: !isHtmlOnly, // Disable if Rust panics get too frequent
+          preserve_brace_template_syntax: false,
+          preserve_chevron_percent_template_syntax: false,
+          remove_bangs: true,
+          remove_processing_instructions: true,
+          // minify-html calls the following four options “possibly” non-compliant
+          // but `allow_noncompliant_unquoted_attribute_values` doesn’t seem to,
+          // which is why it stays on
+          allow_noncompliant_unquoted_attribute_values: true,
+          allow_optimal_entities: false,
+          allow_removing_spaces_between_attributes: false,
+          minify_doctype: false
+        });
+      }
+    },
+
+    // Minimize, https://github.com/Swaagie/minimize
+    minimize: {
+      minify(data) {
+        return new Promise((resolve, reject) => {
+          minimize.parse(data, (err, minified) => err ? reject(err) : resolve(minified));
+        });
+      }
+    }
+  };
+}

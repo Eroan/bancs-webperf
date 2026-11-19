@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@minify-html/node": "^0.18.1",
+    "@swc/html": "^1.16.22",
+    "@tdewolff/minify": "^2.24.8",
+    "entities": "8.1.0",
+    "html-minifier": "^5.2.0",
+    "htmlnano": "^3.6.1",
+    "htmlparser2": "12.0.0",
+    "minimize": "^2.2.0"
+  },
+  "devDependencies": {
+    "cli-table3": "^0.6.5",
+    "lzma": "^2.3.2",
+    "progress": "^2.0.3"
+  },
+  "name": "minifier-benchmarks",
+  "peerDependencies": {
+    "@swc/core": "^1.15.11",
+    "cssnano": "^7.1.2",
+    "postcss": "^8.3.11",
+    "purgecss": "^8.0.0",
+    "relateurl": "^0.2.7",
+    "srcset": "^5.0.1",
+    "svgo": "^4.0.0",
+    "terser": "^5.21.0"
+  },
+  "private": true,
+  "scripts": {
+    "benchmarks:html": "node src/benchmark.js --mode=html",
+    "benchmarks:max": "node src/benchmark.js --mode=max",
+    "benchmarks": "npm run benchmarks:html && npm run benchmarks:max",
+    "test": "node --test"
+  },
+  "type": "module"
+}

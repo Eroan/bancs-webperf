@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Banc animations et thread principal</title>
+<style>
+  html, body { margin: 0; background: #fff; }
+  .boite { position: absolute; top: 30px; left: 260px; width: 40px; height: 40px; background: rgb(255, 0, 0); }
+  /* 1. CSS @keyframes sur transform (témoin positif attendu : continue pendant le blocage) */
+  .css-transform { animation: tr 1000ms linear infinite alternate; }
+  @keyframes tr { to { transform: translateX(-200px); } }
+  /* 2. Recette du billet de Josh W. Comeau : variable dans la cible de l'image clé */
+  .css-var-billet { --bounce-magnitude: 200px; animation: bounce 1000ms linear infinite alternate; }
+  @keyframes bounce { to { transform: translateX(calc(var(--bounce-magnitude) * -1)); } }
+  /* 3. CSS @keyframes sur left (propriété de mise en page) */
+  .css-left { animation: le 1000ms linear infinite alternate; }
+  @keyframes le { to { left: 60px; } }
+  /* 4. CSS : propriété personnalisée animée (@property), appliquée à transform */
+  @property --x { syntax: '<length>'; inherits: false; initial-value: 0px; }
+  .css-property { transform: translateX(var(--x)); animation: px 1000ms linear infinite alternate; }
+  @keyframes px { to { --x: -200px; } }
+</style>
+</head>
+<body>
+<div class="boite" id="b"></div>
+<script src="/vendor/gsap.min.js"></script>
+<script src="/vendor/motion.js"></script>
+<script>
+  // Variante lue dans l'adresse ; la page publie son état dans window.__banc.
+  const v = new URLSearchParams(location.search).get('v');
+  const b = document.getElementById('b');
+  const DUREE = 1000, DIST = -200;
+  window.__banc = { variante: v, demarre: false, blocs: [], erreurs: [] };
+  window.addEventListener('error', (e) => window.__banc.erreurs.push(String(e.message)));
+  function demarrer() {
+    if (v.startsWith('css-')) b.classList.add(v);
+    else if (v === 'waapi-transform') b.animate([{ transform: 'translateX(0)' }, { transform: `translateX(${DIST}px)` }], { duration: DUREE, iterations: Infinity, direction: 'alternate', easing: 'linear' });
+    else if (v === 'raf-transform') {
+      const t0 = performance.now();
+      const pas = (t) => { const p = ((t - t0) % (2 * DUREE)) / DUREE; const k = p <= 1 ? p : 2 - p; b.style.transform = `translateX(${k * DIST}px)`; requestAnimationFrame(pas); };
+      requestAnimationFrame(pas);
+    }
+    else if (v === 'gsap-x') gsap.to(b, { x: DIST, duration: DUREE / 1000, ease: 'none', repeat: -1, yoyo: true });
+    else if (v === 'motion-transform') Motion.animate(b, { transform: ['translateX(0px)', `translateX(${DIST}px)`] }, { duration: DUREE / 1000, ease: 'linear', repeat: Infinity, repeatType: 'reverse' });
+    else if (v === 'motion-x') Motion.animate(b, { x: [0, DIST] }, { duration: DUREE / 1000, ease: 'linear', repeat: Infinity, repeatType: 'reverse' });
+    else throw new Error('variante inconnue : ' + v);
+    window.__banc.demarre = true;
+  }
+  // Blocage : boucle active sur le thread principal, bornes en temps absolu (ms depuis l'époque) pour l'alignement
+  // avec l'horodatage des images de la capture.
+  window.__bloquer = (ms) => {
+    const t0 = performance.timeOrigin + performance.now();
+    while (performance.timeOrigin + performance.now() - t0 < ms) { /* occupé */ }
+    window.__banc.blocs.push([t0, performance.timeOrigin + performance.now()]);
+  };
+  demarrer();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "banc-animations-thread-principal",
+  "version": "1.0.0",
+  "description": "Banc : animations CSS, Web Animations API, boucle rAF, GSAP et Motion pendant un blocage du thread principal (Chrome)",
+  "scripts": {
+    "banc": "bash run.sh"
+  },
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eroan/bancs-webperf.git",
+    "directory": "animations-thread-principal"
+  },
+  "author": "Eroan Boyer (Agence Web Performance)",
+  "dependencies": {
+    "gsap": "3.15.1",
+    "motion": "14.14.0",
+    "playwright": "1.65.0",
+    "pngjs": "7.0.0"
+  }
+}

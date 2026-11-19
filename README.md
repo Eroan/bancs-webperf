@@ -15,6 +15,8 @@ qui en tire chaque chiffre.
 | [`images-de-fond-responsives/`](images-de-fond-responsives/) | Image de fond responsive : `image-set()`, media queries et préchargement, image téléchargée selon le DPR, une ou deux images selon la forme du préchargement, taille naturelle, requêtes de conteneur, propriétés personnalisées (Chrome, Firefox, WebKit) |
 | [`composant-interactif-frameworks/`](composant-interactif-frameworks/) | Composant interactif (liste filtrable, favoris, tri) en Solid 2.0, Solid 1.9, Alpine 3.17 (rendu client et HTML serveur), React 19, Preact 11, Svelte 5, Vue 3.5 et Vapor (RC) : JavaScript livré, chargement, mémoire, durée des interactions (Chrome, processeur calibré) |
 | [`dedoublonnage-declarations-css/`](dedoublonnage-declarations-css/) | Dédoublonner les déclarations CSS (UDJO, CSS Dedup) : gain après minification (Lightning CSS, cssnano, csso, clean-css), gzip et Brotli, sûreté de la cascade, règles appariées et tentatives d'appariement, recalcul de style et styles calculés d'une page Bootstrap (Chrome) |
+| [`animations-thread-principal/`](animations-thread-principal/) | Une animation continue-t-elle pendant un blocage du thread principal ? CSS (`transform`, `left`, `@property`), Web Animations API, boucle `requestAnimationFrame`, GSAP 3.15 et Motion 14.14, position relevée image par image (Chrome) |
+| [`minification-html-compression/`](minification-html-compression/) | Minification du HTML (projet Minifier Benchmarks, 127 pages réelles) : gain brut, après gzip 6 et Brotli 5 et 11, octets gagnés par page, éléments et texte perdus (icônes et liens vides retirés), part de `removeEmptyElements` et `removeUnusedCSS` |
 
 ## Principes communs
 

@@ -1,0 +1,5 @@
+mode	minificateur	fichier	message
+max	minify	007-amnesty-international-australia.html	expected , or ) instead of : in arguments on line 183 and column 47
+max	minify	022-din.html	unterminated string literal in expression on line 9165 and column 66
+max	minify	114-the-spinoff.html	unterminated string literal in expression on line 5 and column 184809
+max	minify	121-vivaldi.html	unexpected = in expression on line 397 and column 688
