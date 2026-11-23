@@ -67,3 +67,16 @@ Croisées avec `delai` ∈ {0, 300, 800} ms et `taille` ∈ {2, 100} Ko.
 
 `brut/serie-<date>/mesures.json`, versions et état de la machine à côté ; `synthese.py`
 imprime chaque chiffre repris dans `RESULTATS.md` (médiane [min, max] sur 10 chargements).
+
+## Séries
+
+- `serie-2026-10-22T14-50`, Chrome 155.0.8059.85 : synthèse dans `RESULTATS-chrome-155.md`
+  (et dans `RESULTATS.md` au commit 952ae98). L'hypothèse ci-dessus s'y vérifie :
+  `responseStart` ne bouge pas sous émulation.
+- `serie-2026-11-23T23-10`, Chrome 158.0.8127.37, même protocole : `RESULTATS.md`. Le
+  résultat change : `responseStart` suit la latence demandée quand le serveur répond plus
+  vite qu'elle, et garde le temps du serveur sinon. Le code l'explique : à partir de
+  l'étiquette 157.0.8103.51 de Chromium, `ThrottlingNetworkTransaction::GetLoadTimingInfo`
+  relève `receive_headers_start` à `send_end` + latence ; le fichier
+  `throttling_network_transaction.cc` est identique aux étiquettes 155.0.8059.85 et
+  156.0.8078.82, et identique aux étiquettes 157.0.8103.51 et 158.0.8127.37.

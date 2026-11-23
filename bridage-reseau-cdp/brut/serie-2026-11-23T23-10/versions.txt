@@ -1,0 +1,8 @@
+ProductName:		macOS
+ProductVersion:		27.2.1
+BuildVersion:		26B131
+Apple M4 Max
+14
+38654705664
+Google Chrome 158.0.8127.37 
+v26.13.0

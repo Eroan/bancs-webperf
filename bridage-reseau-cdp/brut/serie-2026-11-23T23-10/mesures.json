@@ -1,0 +1,7250 @@
+{
+ "chrome": "158.0.8127.37",
+ "playwright": "1.64.1",
+ "passages": 10,
+ "conditions": {
+  "aucun": null,
+  "L40": {
+   "m": "Network.emulateNetworkConditions",
+   "p": {
+    "offline": false,
+    "latency": 40,
+    "downloadThroughput": -1,
+    "uploadThroughput": -1
+   }
+  },
+  "L562": {
+   "m": "Network.emulateNetworkConditions",
+   "p": {
+    "offline": false,
+    "latency": 562.5,
+    "downloadThroughput": -1,
+    "uploadThroughput": -1
+   }
+  },
+  "S4G": {
+   "m": "Network.emulateNetworkConditions",
+   "p": {
+    "offline": false,
+    "latency": 562.5,
+    "downloadThroughput": 188743.68,
+    "uploadThroughput": 86400
+   }
+  },
+  "R562": {
+   "m": "Network.emulateNetworkConditionsByRule",
+   "p": {
+    "matchedNetworkConditions": [
+     {
+      "urlPattern": "",
+      "latency": 562.5,
+      "downloadThroughput": -1,
+      "uploadThroughput": -1
+     }
+    ]
+   }
+  }
+ },
+ "mesures": [
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 1,
+   "requestStart": 0.6,
+   "responseStart": 2.6,
+   "responseEnd": 2.7,
+   "domInteractive": 6,
+   "img": {
+    "requestStart": 4.9,
+    "responseStart": 5.2,
+    "responseEnd": 5.5
+   },
+   "cdp": {
+    "recu": 2.8,
+    "fini": 2.5,
+    "receiveHeadersStart": 2.2,
+    "sendEnd": 0.2
+   },
+   "serveur": {
+    "entetes": 1.8559999999999945
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 2,
+   "requestStart": 0.6,
+   "responseStart": 2.2,
+   "responseEnd": 2.3,
+   "domInteractive": 6.2,
+   "img": {
+    "requestStart": 4.6,
+    "responseStart": 4.9,
+    "responseEnd": 5.3
+   },
+   "cdp": {
+    "recu": 2.2,
+    "fini": 2,
+    "receiveHeadersStart": 1.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.5142909999999574
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 3,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 303.5,
+   "domInteractive": 311.5,
+   "img": {
+    "requestStart": 309.1,
+    "responseStart": 309.9,
+    "responseEnd": 310.6
+   },
+   "cdp": {
+    "recu": 304,
+    "fini": 303.3,
+    "receiveHeadersStart": 302.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.424083
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 4,
+   "requestStart": 0.5,
+   "responseStart": 301.3,
+   "responseEnd": 302.2,
+   "domInteractive": 316.9,
+   "img": {
+    "requestStart": 313.6,
+    "responseStart": 314.1,
+    "responseEnd": 315.2
+   },
+   "cdp": {
+    "recu": 303.1,
+    "fini": 302,
+    "receiveHeadersStart": 300.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.5637079999999
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 5,
+   "requestStart": 0.5,
+   "responseStart": 802.9,
+   "responseEnd": 803,
+   "domInteractive": 806.3,
+   "img": {
+    "requestStart": 805.1,
+    "responseStart": 805.3,
+    "responseEnd": 805.7
+   },
+   "cdp": {
+    "recu": 803.1,
+    "fini": 802.8,
+    "receiveHeadersStart": 802.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.2050840000002
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 6,
+   "requestStart": 0.5,
+   "responseStart": 802.4,
+   "responseEnd": 803.2,
+   "domInteractive": 816.4,
+   "img": {
+    "requestStart": 813.2,
+    "responseStart": 813.8,
+    "responseEnd": 814.7
+   },
+   "cdp": {
+    "recu": 803.9,
+    "fini": 803,
+    "receiveHeadersStart": 802,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.674
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 7,
+   "requestStart": 0.5,
+   "responseStart": 40.5,
+   "responseEnd": 42,
+   "domInteractive": 45.1,
+   "img": {
+    "requestStart": 44.1,
+    "responseStart": 84.2,
+    "responseEnd": 87.4
+   },
+   "cdp": {
+    "recu": 41.9,
+    "fini": 41.8,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3637499999999818
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 8,
+   "requestStart": 0.7,
+   "responseStart": 40.7,
+   "responseEnd": 43.8,
+   "domInteractive": 47.3,
+   "img": {
+    "requestStart": 45.9,
+    "responseStart": 86,
+    "responseEnd": 86.5
+   },
+   "cdp": {
+    "recu": 43.4,
+    "fini": 43.5,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4659999999998945
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 9,
+   "requestStart": 0.4,
+   "responseStart": 302,
+   "responseEnd": 303.4,
+   "domInteractive": 313.8,
+   "img": {
+    "requestStart": 311.5,
+    "responseStart": 351.6,
+    "responseEnd": 353.6
+   },
+   "cdp": {
+    "recu": 304.3,
+    "fini": 303.3,
+    "receiveHeadersStart": 301.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.2840419999998
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 10,
+   "requestStart": 0.4,
+   "responseStart": 303.2,
+   "responseEnd": 304.8,
+   "domInteractive": 316.7,
+   "img": {
+    "requestStart": 313.7,
+    "responseStart": 353.7,
+    "responseEnd": 358
+   },
+   "cdp": {
+    "recu": 305.1,
+    "fini": 304.7,
+    "receiveHeadersStart": 302.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.573042
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 11,
+   "requestStart": 0.6,
+   "responseStart": 803.9,
+   "responseEnd": 804.4,
+   "domInteractive": 811.1,
+   "img": {
+    "requestStart": 809.2,
+    "responseStart": 849.3,
+    "responseEnd": 856.9
+   },
+   "cdp": {
+    "recu": 804.5,
+    "fini": 804.2,
+    "receiveHeadersStart": 803.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.8226250000007
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 12,
+   "requestStart": 0.5,
+   "responseStart": 802.4,
+   "responseEnd": 804.1,
+   "domInteractive": 816.9,
+   "img": {
+    "requestStart": 813.9,
+    "responseStart": 854.1,
+    "responseEnd": 857.4
+   },
+   "cdp": {
+    "recu": 804.4,
+    "fini": 803.9,
+    "receiveHeadersStart": 802,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.6817499999997
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 13,
+   "requestStart": 0.7,
+   "responseStart": 563.1,
+   "responseEnd": 572.8,
+   "domInteractive": 581.2,
+   "img": {
+    "requestStart": 579.4,
+    "responseStart": 1141.9,
+    "responseEnd": 1147.9
+   },
+   "cdp": {
+    "recu": 573.1,
+    "fini": 572.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3531249999996362
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 14,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 569.2,
+   "domInteractive": 581.1,
+   "img": {
+    "requestStart": 578.2,
+    "responseStart": 1140.8,
+    "responseEnd": 1149.1
+   },
+   "cdp": {
+    "recu": 569.2,
+    "fini": 569.1,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.396082999999635
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 15,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 569.4,
+   "domInteractive": 580.1,
+   "img": {
+    "requestStart": 577.7,
+    "responseStart": 1140.3,
+    "responseEnd": 1150.8
+   },
+   "cdp": {
+    "recu": 570.1,
+    "fini": 569.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.41525
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 16,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 571.6,
+   "domInteractive": 579.9,
+   "img": {
+    "requestStart": 577.7,
+    "responseStart": 1140.2,
+    "responseEnd": 1146.7
+   },
+   "cdp": {
+    "recu": 571.3,
+    "fini": 571.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.4978749999991
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 17,
+   "requestStart": 0.5,
+   "responseStart": 801.1,
+   "responseEnd": 801.8,
+   "domInteractive": 809.7,
+   "img": {
+    "requestStart": 807.4,
+    "responseStart": 1370,
+    "responseEnd": 1379.7
+   },
+   "cdp": {
+    "recu": 802.2,
+    "fini": 801.7,
+    "receiveHeadersStart": 800.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.4557079999995
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 18,
+   "requestStart": 0.6,
+   "responseStart": 803.3,
+   "responseEnd": 804.6,
+   "domInteractive": 815.2,
+   "img": {
+    "requestStart": 812.3,
+    "responseStart": 1374.9,
+    "responseEnd": 1384.5
+   },
+   "cdp": {
+    "recu": 804.7,
+    "fini": 804.4,
+    "receiveHeadersStart": 802.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.5070829999986
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 19,
+   "requestStart": 0.6,
+   "responseStart": 563.2,
+   "responseEnd": 579.3,
+   "domInteractive": 583.1,
+   "img": {
+    "requestStart": 580.9,
+    "responseStart": 1143.5,
+    "responseEnd": 1169.8
+   },
+   "cdp": {
+    "recu": 573.1,
+    "fini": 579.1,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3951670000005834
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 20,
+   "requestStart": 0.6,
+   "responseStart": 563.2,
+   "responseEnd": 1115.2,
+   "domInteractive": 1116.2,
+   "img": {
+    "requestStart": 581.5,
+    "responseStart": 1144.1,
+    "responseEnd": 1168
+   },
+   "cdp": {
+    "recu": 573.4,
+    "fini": 1114.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.41516700000102
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 21,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 587.4,
+   "domInteractive": 591.7,
+   "img": {
+    "requestStart": 589.4,
+    "responseStart": 1152,
+    "responseEnd": 1167.9
+   },
+   "cdp": {
+    "recu": 582.8,
+    "fini": 587.2,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.12525000000096
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 22,
+   "requestStart": 0.7,
+   "responseStart": 563.3,
+   "responseEnd": 1114.8,
+   "domInteractive": 1115.5,
+   "img": {
+    "requestStart": 584.6,
+    "responseStart": 1147.1,
+    "responseEnd": 1163.3
+   },
+   "cdp": {
+    "recu": 575.6,
+    "fini": 1114.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.7718330000025
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 23,
+   "requestStart": 0.5,
+   "responseStart": 802.5,
+   "responseEnd": 817.7,
+   "domInteractive": 818.4,
+   "img": {
+    "requestStart": 818.2,
+    "responseStart": 1380.8,
+    "responseEnd": 1399.3
+   },
+   "cdp": {
+    "recu": 811.7,
+    "fini": 817.6,
+    "receiveHeadersStart": 802.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.859375
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 24,
+   "requestStart": 0.4,
+   "responseStart": 803.1,
+   "responseEnd": 1350.3,
+   "domInteractive": 1350.7,
+   "img": {
+    "requestStart": 819,
+    "responseStart": 1381.6,
+    "responseEnd": 1407.7
+   },
+   "cdp": {
+    "recu": 811.6,
+    "fini": 1350.2,
+    "receiveHeadersStart": 802.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.5166669999999
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 25,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 570,
+   "domInteractive": 583.4,
+   "img": {
+    "requestStart": 579.9,
+    "responseStart": 1142.5,
+    "responseEnd": 1145.8
+   },
+   "cdp": {
+    "recu": 570.5,
+    "fini": 569.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3679590000028838
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 26,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 566.2,
+   "domInteractive": 578.3,
+   "img": {
+    "requestStart": 575.2,
+    "responseStart": 1137.9,
+    "responseEnd": 1147.6
+   },
+   "cdp": {
+    "recu": 566.4,
+    "fini": 566,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3827500000006694
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 27,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 567.7,
+   "domInteractive": 574.1,
+   "img": {
+    "requestStart": 572.2,
+    "responseStart": 1134.8,
+    "responseEnd": 1144.8
+   },
+   "cdp": {
+    "recu": 567.7,
+    "fini": 567.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.020916999998
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 28,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 565.1,
+   "domInteractive": 571.7,
+   "img": {
+    "requestStart": 569.2,
+    "responseStart": 1131.8,
+    "responseEnd": 1142.1
+   },
+   "cdp": {
+    "recu": 564.8,
+    "fini": 564.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.57374999999956
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 29,
+   "requestStart": 0.5,
+   "responseStart": 803.3,
+   "responseEnd": 804.7,
+   "domInteractive": 814.1,
+   "img": {
+    "requestStart": 811.8,
+    "responseStart": 1374.4,
+    "responseEnd": 1377.1
+   },
+   "cdp": {
+    "recu": 805.1,
+    "fini": 804.5,
+    "receiveHeadersStart": 802.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.5325000000012
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 30,
+   "requestStart": 0.5,
+   "responseStart": 803.8,
+   "responseEnd": 805.4,
+   "domInteractive": 816.5,
+   "img": {
+    "requestStart": 814,
+    "responseStart": 1376.5,
+    "responseEnd": 1378.6
+   },
+   "cdp": {
+    "recu": 806,
+    "fini": 805.2,
+    "receiveHeadersStart": 803.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 803.1357499999976
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 31,
+   "requestStart": 0.5,
+   "responseStart": 40.5,
+   "responseEnd": 48.5,
+   "domInteractive": 51.4,
+   "img": {
+    "requestStart": 50.3,
+    "responseStart": 90.3,
+    "responseEnd": 93.9
+   },
+   "cdp": {
+    "recu": 48.2,
+    "fini": 48.3,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3763749999998254
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 32,
+   "requestStart": 0.6,
+   "responseStart": 40.6,
+   "responseEnd": 41.9,
+   "domInteractive": 45.1,
+   "img": {
+    "requestStart": 43.8,
+    "responseStart": 83.9,
+    "responseEnd": 87.8
+   },
+   "cdp": {
+    "recu": 41.4,
+    "fini": 41.6,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4724169999972219
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 33,
+   "requestStart": 0.5,
+   "responseStart": 302.9,
+   "responseEnd": 303.3,
+   "domInteractive": 308.5,
+   "img": {
+    "requestStart": 306.7,
+    "responseStart": 346.8,
+    "responseEnd": 350.4
+   },
+   "cdp": {
+    "recu": 303.4,
+    "fini": 303.1,
+    "receiveHeadersStart": 302.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2730840000004
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 34,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 304.6,
+   "domInteractive": 316.7,
+   "img": {
+    "requestStart": 313.9,
+    "responseStart": 353.9,
+    "responseEnd": 357.5
+   },
+   "cdp": {
+    "recu": 305.2,
+    "fini": 304.6,
+    "receiveHeadersStart": 302.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.4194580000003
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 35,
+   "requestStart": 0.4,
+   "responseStart": 803.3,
+   "responseEnd": 804.6,
+   "domInteractive": 815.5,
+   "img": {
+    "requestStart": 813.1,
+    "responseStart": 853.3,
+    "responseEnd": 854.4
+   },
+   "cdp": {
+    "recu": 805.1,
+    "fini": 804.5,
+    "receiveHeadersStart": 802.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.5881249999984
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 36,
+   "requestStart": 0.5,
+   "responseStart": 802.3,
+   "responseEnd": 804.2,
+   "domInteractive": 816.9,
+   "img": {
+    "requestStart": 814.3,
+    "responseStart": 854.3,
+    "responseEnd": 857.7
+   },
+   "cdp": {
+    "recu": 804.3,
+    "fini": 804,
+    "receiveHeadersStart": 801.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.4595839999965
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 37,
+   "requestStart": 0.6,
+   "responseStart": 563.2,
+   "responseEnd": 570,
+   "domInteractive": 585.2,
+   "img": {
+    "requestStart": 582.3,
+    "responseStart": 1144.8,
+    "responseEnd": 1156.4
+   },
+   "cdp": {
+    "recu": 570.9,
+    "fini": 569.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4078749999971478
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 38,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 566.8,
+   "domInteractive": 579.7,
+   "img": {
+    "requestStart": 576.5,
+    "responseStart": 1139.1,
+    "responseEnd": 1150
+   },
+   "cdp": {
+    "recu": 567,
+    "fini": 566.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.351875000000291
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 39,
+   "requestStart": 0.4,
+   "responseStart": 562.9,
+   "responseEnd": 568.5,
+   "domInteractive": 578.2,
+   "img": {
+    "requestStart": 575.6,
+    "responseStart": 1138.2,
+    "responseEnd": 1149.4
+   },
+   "cdp": {
+    "recu": 568.9,
+    "fini": 568.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.39291599999706
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 40,
+   "requestStart": 0.5,
+   "responseStart": 562.9,
+   "responseEnd": 567.8,
+   "domInteractive": 573.5,
+   "img": {
+    "requestStart": 571.3,
+    "responseStart": 1133.9,
+    "responseEnd": 1144.1
+   },
+   "cdp": {
+    "recu": 567.7,
+    "fini": 567.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.55949999999575
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 41,
+   "requestStart": 0.5,
+   "responseStart": 803.4,
+   "responseEnd": 804.7,
+   "domInteractive": 815.6,
+   "img": {
+    "requestStart": 813.1,
+    "responseStart": 1375.6,
+    "responseEnd": 1376.4
+   },
+   "cdp": {
+    "recu": 805.1,
+    "fini": 804.4,
+    "receiveHeadersStart": 803,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.6106250000012
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 42,
+   "requestStart": 0.6,
+   "responseStart": 803,
+   "responseEnd": 803.8,
+   "domInteractive": 812.3,
+   "img": {
+    "requestStart": 809.5,
+    "responseStart": 1372.1,
+    "responseEnd": 1375.3
+   },
+   "cdp": {
+    "recu": 803.7,
+    "fini": 803.5,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.2298749999973
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 43,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 589.4,
+   "domInteractive": 593.8,
+   "img": {
+    "requestStart": 591.3,
+    "responseStart": 1153.9,
+    "responseEnd": 1169.6
+   },
+   "cdp": {
+    "recu": 583.3,
+    "fini": 589.1,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3488749999960419
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 44,
+   "requestStart": 0.5,
+   "responseStart": 562.9,
+   "responseEnd": 1114.6,
+   "domInteractive": 1115.4,
+   "img": {
+    "requestStart": 584.4,
+    "responseStart": 1147,
+    "responseEnd": 1168.2
+   },
+   "cdp": {
+    "recu": 576,
+    "fini": 1114.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3788340000028256
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 45,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 588.3,
+   "domInteractive": 592.5,
+   "img": {
+    "requestStart": 590.3,
+    "responseStart": 1152.8,
+    "responseEnd": 1168.3
+   },
+   "cdp": {
+    "recu": 581.5,
+    "fini": 588,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.7375420000026
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 46,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 1112.1,
+   "domInteractive": 1112.9,
+   "img": {
+    "requestStart": 583.2,
+    "responseStart": 1145.8,
+    "responseEnd": 1170.2
+   },
+   "cdp": {
+    "recu": 573.1,
+    "fini": 1111.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.64050000000134
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 47,
+   "requestStart": 0.4,
+   "responseStart": 802.8,
+   "responseEnd": 818.2,
+   "domInteractive": 825.6,
+   "img": {
+    "requestStart": 823.1,
+    "responseStart": 1385.7,
+    "responseEnd": 1407.7
+   },
+   "cdp": {
+    "recu": 814.1,
+    "fini": 818.1,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.0276250000024
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 48,
+   "requestStart": 0.5,
+   "responseStart": 803.4,
+   "responseEnd": 1350.4,
+   "domInteractive": 1350.7,
+   "img": {
+    "requestStart": 821.9,
+    "responseStart": 1384.5,
+    "responseEnd": 1408.1
+   },
+   "cdp": {
+    "recu": 811.2,
+    "fini": 1350.2,
+    "receiveHeadersStart": 802.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.6431659999944
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 49,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 573.7,
+   "domInteractive": 585.3,
+   "img": {
+    "requestStart": 583,
+    "responseStart": 1145.5,
+    "responseEnd": 1150.1
+   },
+   "cdp": {
+    "recu": 574.6,
+    "fini": 573.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.358833999998751
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 50,
+   "requestStart": 0.4,
+   "responseStart": 562.9,
+   "responseEnd": 569.8,
+   "domInteractive": 582.1,
+   "img": {
+    "requestStart": 579.2,
+    "responseStart": 1141.8,
+    "responseEnd": 1150.3
+   },
+   "cdp": {
+    "recu": 570.1,
+    "fini": 569.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3879999999990105
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 51,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 569.8,
+   "domInteractive": 579.6,
+   "img": {
+    "requestStart": 577.2,
+    "responseStart": 1140,
+    "responseEnd": 1150.3
+   },
+   "cdp": {
+    "recu": 570.2,
+    "fini": 569.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2877080000035
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 52,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 571.9,
+   "domInteractive": 583.9,
+   "img": {
+    "requestStart": 581.1,
+    "responseStart": 1143.7,
+    "responseEnd": 1149.6
+   },
+   "cdp": {
+    "recu": 571.8,
+    "fini": 571.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.36912499999744
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 53,
+   "requestStart": 0.5,
+   "responseStart": 802.7,
+   "responseEnd": 804,
+   "domInteractive": 815.1,
+   "img": {
+    "requestStart": 812.8,
+    "responseStart": 1375.3,
+    "responseEnd": 1379.7
+   },
+   "cdp": {
+    "recu": 805,
+    "fini": 803.8,
+    "receiveHeadersStart": 802.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.0923330000005
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 54,
+   "requestStart": 0.7,
+   "responseStart": 802.4,
+   "responseEnd": 803.6,
+   "domInteractive": 815.2,
+   "img": {
+    "requestStart": 811.1,
+    "responseStart": 1373.7,
+    "responseEnd": 1376.8
+   },
+   "cdp": {
+    "recu": 803.3,
+    "fini": 803.2,
+    "receiveHeadersStart": 801.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.5379169999942
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 55,
+   "requestStart": 0.5,
+   "responseStart": 1.9,
+   "responseEnd": 2,
+   "domInteractive": 5.2,
+   "img": {
+    "requestStart": 4.1,
+    "responseStart": 4.2,
+    "responseEnd": 4.7
+   },
+   "cdp": {
+    "recu": 2,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3534999999974389
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 56,
+   "requestStart": 0.5,
+   "responseStart": 2.1,
+   "responseEnd": 2.2,
+   "domInteractive": 6.1,
+   "img": {
+    "requestStart": 4.7,
+    "responseStart": 4.8,
+    "responseEnd": 5.3
+   },
+   "cdp": {
+    "recu": 2.2,
+    "fini": 2,
+    "receiveHeadersStart": 1.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4715000000069267
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 57,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 303.2,
+   "domInteractive": 308.3,
+   "img": {
+    "requestStart": 306.5,
+    "responseStart": 306.7,
+    "responseEnd": 307.5
+   },
+   "cdp": {
+    "recu": 303.4,
+    "fini": 303.1,
+    "receiveHeadersStart": 302.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.35220899999695
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 58,
+   "requestStart": 0.5,
+   "responseStart": 303,
+   "responseEnd": 303.5,
+   "domInteractive": 315.2,
+   "img": {
+    "requestStart": 311.1,
+    "responseStart": 311.6,
+    "responseEnd": 313.4
+   },
+   "cdp": {
+    "recu": 304.1,
+    "fini": 303.3,
+    "receiveHeadersStart": 302.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.35929199999373
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 59,
+   "requestStart": 0.5,
+   "responseStart": 803.5,
+   "responseEnd": 804.1,
+   "domInteractive": 815.5,
+   "img": {
+    "requestStart": 812.8,
+    "responseStart": 813.3,
+    "responseEnd": 814.5
+   },
+   "cdp": {
+    "recu": 804.8,
+    "fini": 803.9,
+    "receiveHeadersStart": 803,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.7124169999952
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 60,
+   "requestStart": 0.5,
+   "responseStart": 802.7,
+   "responseEnd": 803.6,
+   "domInteractive": 816.2,
+   "img": {
+    "requestStart": 812.9,
+    "responseStart": 813.5,
+    "responseEnd": 814.6
+   },
+   "cdp": {
+    "recu": 804.7,
+    "fini": 803.3,
+    "receiveHeadersStart": 802.2,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.835917000004
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 61,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 569.3,
+   "domInteractive": 580.1,
+   "img": {
+    "requestStart": 577.6,
+    "responseStart": 1140.2,
+    "responseEnd": 1143.7
+   },
+   "cdp": {
+    "recu": 569.5,
+    "fini": 569.1,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3638329999957932
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 62,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 569.8,
+   "domInteractive": 580.3,
+   "img": {
+    "requestStart": 577.6,
+    "responseStart": 1140.2,
+    "responseEnd": 1145.8
+   },
+   "cdp": {
+    "recu": 570.2,
+    "fini": 569.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.381083000000217
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 63,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 568.8,
+   "domInteractive": 579.9,
+   "img": {
+    "requestStart": 576.8,
+    "responseStart": 1139.4,
+    "responseEnd": 1145.2
+   },
+   "cdp": {
+    "recu": 569.1,
+    "fini": 568.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.7262499999997
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 64,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 570.8,
+   "domInteractive": 582.3,
+   "img": {
+    "requestStart": 578.8,
+    "responseStart": 1141.4,
+    "responseEnd": 1146.5
+   },
+   "cdp": {
+    "recu": 571.1,
+    "fini": 570.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.58608300000196
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 65,
+   "requestStart": 0.6,
+   "responseStart": 803.2,
+   "responseEnd": 803.6,
+   "domInteractive": 809.6,
+   "img": {
+    "requestStart": 807.5,
+    "responseStart": 1370.1,
+    "responseEnd": 1379.9
+   },
+   "cdp": {
+    "recu": 803.6,
+    "fini": 803.4,
+    "receiveHeadersStart": 802.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.4885419999991
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 66,
+   "requestStart": 0.4,
+   "responseStart": 802.8,
+   "responseEnd": 804.7,
+   "domInteractive": 814.1,
+   "img": {
+    "requestStart": 812.7,
+    "responseStart": 1375.3,
+    "responseEnd": 1380.4
+   },
+   "cdp": {
+    "recu": 804.7,
+    "fini": 804.6,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.1545419999893
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 67,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 579.7,
+   "domInteractive": 582.6,
+   "img": {
+    "requestStart": 582.3,
+    "responseStart": 1144.8,
+    "responseEnd": 1161.4
+   },
+   "cdp": {
+    "recu": 572.2,
+    "fini": 579.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3497500000084983
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 68,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 1113.7,
+   "domInteractive": 1114.5,
+   "img": {
+    "requestStart": 580.1,
+    "responseStart": 1142.7,
+    "responseEnd": 1162.9
+   },
+   "cdp": {
+    "recu": 574.1,
+    "fini": 1113.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3762910000077682
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 69,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 581.6,
+   "domInteractive": 585.9,
+   "img": {
+    "requestStart": 583.6,
+    "responseStart": 1146.2,
+    "responseEnd": 1171.2
+   },
+   "cdp": {
+    "recu": 574,
+    "fini": 581.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.6699579999986
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 70,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 1114.4,
+   "domInteractive": 1115.4,
+   "img": {
+    "requestStart": 584.2,
+    "responseStart": 1146.8,
+    "responseEnd": 1170.5
+   },
+   "cdp": {
+    "recu": 574.5,
+    "fini": 1114.1,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.205958999999
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 71,
+   "requestStart": 0.5,
+   "responseStart": 802.3,
+   "responseEnd": 819.6,
+   "domInteractive": 820.3,
+   "img": {
+    "requestStart": 820.2,
+    "responseStart": 1382.7,
+    "responseEnd": 1407.8
+   },
+   "cdp": {
+    "recu": 811,
+    "fini": 819.4,
+    "receiveHeadersStart": 801.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.604124999998
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 72,
+   "requestStart": 0.8,
+   "responseStart": 802.9,
+   "responseEnd": 1352.1,
+   "domInteractive": 1353,
+   "img": {
+    "requestStart": 822,
+    "responseStart": 1384.5,
+    "responseEnd": 1399.3
+   },
+   "cdp": {
+    "recu": 813.8,
+    "fini": 1352,
+    "receiveHeadersStart": 802.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.7924590000039
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 73,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 566.7,
+   "domInteractive": 577.8,
+   "img": {
+    "requestStart": 575.4,
+    "responseStart": 1137.9,
+    "responseEnd": 1143.2
+   },
+   "cdp": {
+    "recu": 567.3,
+    "fini": 566.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.353000000002794
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 74,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 565.2,
+   "domInteractive": 575.6,
+   "img": {
+    "requestStart": 572.8,
+    "responseStart": 1135.4,
+    "responseEnd": 1141.2
+   },
+   "cdp": {
+    "recu": 564.9,
+    "fini": 565,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3678329999966081
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 75,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 571.5,
+   "domInteractive": 581.1,
+   "img": {
+    "requestStart": 579.2,
+    "responseStart": 1141.7,
+    "responseEnd": 1149.7
+   },
+   "cdp": {
+    "recu": 572,
+    "fini": 571.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.51208299999416
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 76,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 567.7,
+   "domInteractive": 574.6,
+   "img": {
+    "requestStart": 572.2,
+    "responseStart": 1134.8,
+    "responseEnd": 1145
+   },
+   "cdp": {
+    "recu": 567.5,
+    "fini": 567.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.3699590000033
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 77,
+   "requestStart": 0.4,
+   "responseStart": 803.1,
+   "responseEnd": 804.4,
+   "domInteractive": 814.7,
+   "img": {
+    "requestStart": 812.2,
+    "responseStart": 1374.8,
+    "responseEnd": 1377.8
+   },
+   "cdp": {
+    "recu": 805.2,
+    "fini": 804.3,
+    "receiveHeadersStart": 802.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.4119999999966
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 78,
+   "requestStart": 0.5,
+   "responseStart": 801.8,
+   "responseEnd": 803.7,
+   "domInteractive": 815.4,
+   "img": {
+    "requestStart": 812.4,
+    "responseStart": 1375,
+    "responseEnd": 1380.3
+   },
+   "cdp": {
+    "recu": 803.7,
+    "fini": 803.5,
+    "receiveHeadersStart": 801.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.010208000007
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 79,
+   "requestStart": 0.5,
+   "responseStart": 2.2,
+   "responseEnd": 2.2,
+   "domInteractive": 6,
+   "img": {
+    "requestStart": 5.1,
+    "responseStart": 5.4,
+    "responseEnd": 5.6
+   },
+   "cdp": {
+    "recu": 2.5,
+    "fini": 2.1,
+    "receiveHeadersStart": 1.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4162080000096466
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 80,
+   "requestStart": 0.5,
+   "responseStart": 2.1,
+   "responseEnd": 2.2,
+   "domInteractive": 6,
+   "img": {
+    "requestStart": 4.5,
+    "responseStart": 4.7,
+    "responseEnd": 5.2
+   },
+   "cdp": {
+    "recu": 2.2,
+    "fini": 2,
+    "receiveHeadersStart": 1.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.452625000005355
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 81,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 303.7,
+   "domInteractive": 315.7,
+   "img": {
+    "requestStart": 313.1,
+    "responseStart": 313.6,
+    "responseEnd": 314.6
+   },
+   "cdp": {
+    "recu": 304.8,
+    "fini": 303.6,
+    "receiveHeadersStart": 302.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.3978749999951
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 82,
+   "requestStart": 0.5,
+   "responseStart": 302.9,
+   "responseEnd": 303.2,
+   "domInteractive": 309.2,
+   "img": {
+    "requestStart": 307,
+    "responseStart": 307.3,
+    "responseEnd": 308
+   },
+   "cdp": {
+    "recu": 303.3,
+    "fini": 303,
+    "receiveHeadersStart": 302.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.27966699999524
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 83,
+   "requestStart": 0.5,
+   "responseStart": 803.5,
+   "responseEnd": 804.1,
+   "domInteractive": 814.9,
+   "img": {
+    "requestStart": 812.4,
+    "responseStart": 812.9,
+    "responseEnd": 813.8
+   },
+   "cdp": {
+    "recu": 805,
+    "fini": 803.9,
+    "receiveHeadersStart": 803,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.673959000007
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 84,
+   "requestStart": 0.6,
+   "responseStart": 802.9,
+   "responseEnd": 803.6,
+   "domInteractive": 816,
+   "img": {
+    "requestStart": 812.7,
+    "responseStart": 813.2,
+    "responseEnd": 814.3
+   },
+   "cdp": {
+    "recu": 804.7,
+    "fini": 803.4,
+    "receiveHeadersStart": 802.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.119583000007
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 85,
+   "requestStart": 0.5,
+   "responseStart": 40.6,
+   "responseEnd": 41.4,
+   "domInteractive": 44.5,
+   "img": {
+    "requestStart": 43.4,
+    "responseStart": 83.3,
+    "responseEnd": 85
+   },
+   "cdp": {
+    "recu": 41.1,
+    "fini": 41.2,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3800829999963753
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 86,
+   "requestStart": 0.5,
+   "responseStart": 40.5,
+   "responseEnd": 48.3,
+   "domInteractive": 51.9,
+   "img": {
+    "requestStart": 50.5,
+    "responseStart": 90.5,
+    "responseEnd": 91.7
+   },
+   "cdp": {
+    "recu": 48.1,
+    "fini": 48.1,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.357125000009546
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 87,
+   "requestStart": 0.5,
+   "responseStart": 301.7,
+   "responseEnd": 303.3,
+   "domInteractive": 313.7,
+   "img": {
+    "requestStart": 311,
+    "responseStart": 351.1,
+    "responseEnd": 361
+   },
+   "cdp": {
+    "recu": 303.5,
+    "fini": 303.1,
+    "receiveHeadersStart": 301.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.9622079999972
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 88,
+   "requestStart": 0.4,
+   "responseStart": 302.3,
+   "responseEnd": 303.6,
+   "domInteractive": 315.4,
+   "img": {
+    "requestStart": 312.5,
+    "responseStart": 352.6,
+    "responseEnd": 358.3
+   },
+   "cdp": {
+    "recu": 304.2,
+    "fini": 303.5,
+    "receiveHeadersStart": 301.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.8453329999902
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 89,
+   "requestStart": 0.5,
+   "responseStart": 803.3,
+   "responseEnd": 804.1,
+   "domInteractive": 816.5,
+   "img": {
+    "requestStart": 813.7,
+    "responseStart": 853.7,
+    "responseEnd": 859.2
+   },
+   "cdp": {
+    "recu": 804.5,
+    "fini": 803.9,
+    "receiveHeadersStart": 802.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.622166000001
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 90,
+   "requestStart": 0.5,
+   "responseStart": 802.2,
+   "responseEnd": 804.1,
+   "domInteractive": 816.5,
+   "img": {
+    "requestStart": 813.8,
+    "responseStart": 853.9,
+    "responseEnd": 855.8
+   },
+   "cdp": {
+    "recu": 804.6,
+    "fini": 803.8,
+    "receiveHeadersStart": 801.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.4163750000007
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 91,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 580.9,
+   "domInteractive": 583.9,
+   "img": {
+    "requestStart": 583.5,
+    "responseStart": 1146.1,
+    "responseEnd": 1162.6
+   },
+   "cdp": {
+    "recu": 573.2,
+    "fini": 580.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3589580000116257
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 92,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 1112.6,
+   "domInteractive": 1114.3,
+   "img": {
+    "requestStart": 582.6,
+    "responseStart": 1145.1,
+    "responseEnd": 1161.3
+   },
+   "cdp": {
+    "recu": 573.2,
+    "fini": 1112.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3820420000120066
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 93,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 581.8,
+   "domInteractive": 582.7,
+   "img": {
+    "requestStart": 582.4,
+    "responseStart": 1145,
+    "responseEnd": 1160
+   },
+   "cdp": {
+    "recu": 571.3,
+    "fini": 581.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.8839999999909
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 94,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 1122,
+   "domInteractive": 1126.5,
+   "img": {
+    "requestStart": 595,
+    "responseStart": 1157.6,
+    "responseEnd": 1176.4
+   },
+   "cdp": {
+    "recu": 584,
+    "fini": 1121.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.38766600000963
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 95,
+   "requestStart": 0.4,
+   "responseStart": 803,
+   "responseEnd": 818.5,
+   "domInteractive": 826,
+   "img": {
+    "requestStart": 822.8,
+    "responseStart": 1385.4,
+    "responseEnd": 1407.6
+   },
+   "cdp": {
+    "recu": 813.3,
+    "fini": 818.3,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.2469589999964
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 96,
+   "requestStart": 0.5,
+   "responseStart": 802.1,
+   "responseEnd": 1351.1,
+   "domInteractive": 1351.3,
+   "img": {
+    "requestStart": 821.3,
+    "responseStart": 1383.8,
+    "responseEnd": 1406.4
+   },
+   "cdp": {
+    "recu": 811.8,
+    "fini": 1350.9,
+    "receiveHeadersStart": 801.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.3147080000053
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 97,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 574.1,
+   "domInteractive": 587,
+   "img": {
+    "requestStart": 584.4,
+    "responseStart": 1147,
+    "responseEnd": 1154.1
+   },
+   "cdp": {
+    "recu": 574.7,
+    "fini": 573.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3580829999991693
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 98,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 564.7,
+   "domInteractive": 576.3,
+   "img": {
+    "requestStart": 572.8,
+    "responseStart": 1135.3,
+    "responseEnd": 1146.3
+   },
+   "cdp": {
+    "recu": 564.6,
+    "fini": 564.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.380541999998968
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 99,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 568.4,
+   "domInteractive": 572.9,
+   "img": {
+    "requestStart": 571.4,
+    "responseStart": 1133.9,
+    "responseEnd": 1141.1
+   },
+   "cdp": {
+    "recu": 568.3,
+    "fini": 568.2,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.8217080000031
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 100,
+   "requestStart": 0.7,
+   "responseStart": 563.1,
+   "responseEnd": 571.7,
+   "domInteractive": 596.3,
+   "img": {
+    "requestStart": 594.3,
+    "responseStart": 1156.9,
+    "responseEnd": 1162.8
+   },
+   "cdp": {
+    "recu": 587.4,
+    "fini": 571.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.67808300000615
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 101,
+   "requestStart": 0.5,
+   "responseStart": 802.4,
+   "responseEnd": 803.6,
+   "domInteractive": 815.3,
+   "img": {
+    "requestStart": 813,
+    "responseStart": 1375.6,
+    "responseEnd": 1379.4
+   },
+   "cdp": {
+    "recu": 804.2,
+    "fini": 803.5,
+    "receiveHeadersStart": 802,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.7505830000009
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 102,
+   "requestStart": 0.5,
+   "responseStart": 803.4,
+   "responseEnd": 805.1,
+   "domInteractive": 817,
+   "img": {
+    "requestStart": 814,
+    "responseStart": 1376.6,
+    "responseEnd": 1379.3
+   },
+   "cdp": {
+    "recu": 805.5,
+    "fini": 804.9,
+    "receiveHeadersStart": 802.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.6089999999967
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 103,
+   "requestStart": 0.5,
+   "responseStart": 1.9,
+   "responseEnd": 2.1,
+   "domInteractive": 5.4,
+   "img": {
+    "requestStart": 4.3,
+    "responseStart": 4.4,
+    "responseEnd": 4.9
+   },
+   "cdp": {
+    "recu": 2.1,
+    "fini": 2,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3549170000042068
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 104,
+   "requestStart": 0.6,
+   "responseStart": 2.2,
+   "responseEnd": 2.2,
+   "domInteractive": 6,
+   "img": {
+    "requestStart": 4.5,
+    "responseStart": 4.5,
+    "responseEnd": 5.2
+   },
+   "cdp": {
+    "recu": 2.2,
+    "fini": 2.1,
+    "receiveHeadersStart": 1.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.5009580000041751
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 105,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 303.8,
+   "domInteractive": 315.7,
+   "img": {
+    "requestStart": 312.9,
+    "responseStart": 313.4,
+    "responseEnd": 314.5
+   },
+   "cdp": {
+    "recu": 304.9,
+    "fini": 303.6,
+    "receiveHeadersStart": 302.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.38970800000243
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 106,
+   "requestStart": 0.5,
+   "responseStart": 303,
+   "responseEnd": 303.9,
+   "domInteractive": 315.6,
+   "img": {
+    "requestStart": 312.3,
+    "responseStart": 312.7,
+    "responseEnd": 313.8
+   },
+   "cdp": {
+    "recu": 304.6,
+    "fini": 303.6,
+    "receiveHeadersStart": 302.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.23150000000896
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 107,
+   "requestStart": 0.4,
+   "responseStart": 803,
+   "responseEnd": 803.8,
+   "domInteractive": 815,
+   "img": {
+    "requestStart": 812.5,
+    "responseStart": 812.9,
+    "responseEnd": 813.8
+   },
+   "cdp": {
+    "recu": 804.8,
+    "fini": 803.6,
+    "receiveHeadersStart": 802.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.3687910000008
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 108,
+   "requestStart": 0.5,
+   "responseStart": 801.9,
+   "responseEnd": 802.5,
+   "domInteractive": 814.2,
+   "img": {
+    "requestStart": 811.1,
+    "responseStart": 811.6,
+    "responseEnd": 812.6
+   },
+   "cdp": {
+    "recu": 803.1,
+    "fini": 802.3,
+    "receiveHeadersStart": 801.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.348582999999
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 109,
+   "requestStart": 0.6,
+   "responseStart": 40.5,
+   "responseEnd": 41,
+   "domInteractive": 44.3,
+   "img": {
+    "requestStart": 43.2,
+    "responseStart": 83.3,
+    "responseEnd": 84.6
+   },
+   "cdp": {
+    "recu": 40.9,
+    "fini": 40.8,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3610000000044238
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 110,
+   "requestStart": 0.4,
+   "responseStart": 40.5,
+   "responseEnd": 46.8,
+   "domInteractive": 50.4,
+   "img": {
+    "requestStart": 49.1,
+    "responseStart": 89.1,
+    "responseEnd": 89.8
+   },
+   "cdp": {
+    "recu": 46.7,
+    "fini": 46.7,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3844170000083977
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 111,
+   "requestStart": 0.5,
+   "responseStart": 303.2,
+   "responseEnd": 304.7,
+   "domInteractive": 315.6,
+   "img": {
+    "requestStart": 313.3,
+    "responseStart": 353.3,
+    "responseEnd": 354.9
+   },
+   "cdp": {
+    "recu": 305.2,
+    "fini": 304.5,
+    "receiveHeadersStart": 302.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.4388329999929
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 112,
+   "requestStart": 0.4,
+   "responseStart": 301.9,
+   "responseEnd": 303.6,
+   "domInteractive": 313.6,
+   "img": {
+    "requestStart": 310.8,
+    "responseStart": 350.9,
+    "responseEnd": 352.1
+   },
+   "cdp": {
+    "recu": 304.1,
+    "fini": 303.5,
+    "receiveHeadersStart": 301.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.18416699999943
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 113,
+   "requestStart": 0.5,
+   "responseStart": 803.2,
+   "responseEnd": 804.5,
+   "domInteractive": 815,
+   "img": {
+    "requestStart": 812.5,
+    "responseStart": 852.6,
+    "responseEnd": 854.9
+   },
+   "cdp": {
+    "recu": 804.9,
+    "fini": 804.3,
+    "receiveHeadersStart": 802.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.4225829999923
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 114,
+   "requestStart": 0.5,
+   "responseStart": 802.9,
+   "responseEnd": 803.7,
+   "domInteractive": 808.9,
+   "img": {
+    "requestStart": 807.1,
+    "responseStart": 847.1,
+    "responseEnd": 851.2
+   },
+   "cdp": {
+    "recu": 803.7,
+    "fini": 803.5,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.2017080000078
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 115,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 572,
+   "domInteractive": 584.3,
+   "img": {
+    "requestStart": 582,
+    "responseStart": 1144.5,
+    "responseEnd": 1148.5
+   },
+   "cdp": {
+    "recu": 573.1,
+    "fini": 571.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.358542000001762
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 116,
+   "requestStart": 0.5,
+   "responseStart": 562.9,
+   "responseEnd": 566.2,
+   "domInteractive": 577.6,
+   "img": {
+    "requestStart": 574.9,
+    "responseStart": 1137.4,
+    "responseEnd": 1139
+   },
+   "cdp": {
+    "recu": 566.2,
+    "fini": 566,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3632079999952111
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 117,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 565.7,
+   "domInteractive": 578.3,
+   "img": {
+    "requestStart": 575.9,
+    "responseStart": 1138.5,
+    "responseEnd": 1141.8
+   },
+   "cdp": {
+    "recu": 565.8,
+    "fini": 565.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.0762919999979
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 118,
+   "requestStart": 0.6,
+   "responseStart": 563.2,
+   "responseEnd": 572.6,
+   "domInteractive": 577.1,
+   "img": {
+    "requestStart": 575.4,
+    "responseStart": 1138,
+    "responseEnd": 1148.7
+   },
+   "cdp": {
+    "recu": 572.4,
+    "fini": 572.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2378749999916
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 119,
+   "requestStart": 0.6,
+   "responseStart": 802.8,
+   "responseEnd": 804.1,
+   "domInteractive": 814.8,
+   "img": {
+    "requestStart": 812.4,
+    "responseStart": 1375,
+    "responseEnd": 1378.1
+   },
+   "cdp": {
+    "recu": 804.4,
+    "fini": 803.9,
+    "receiveHeadersStart": 802.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.0513749999955
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 120,
+   "requestStart": 0.5,
+   "responseStart": 803.5,
+   "responseEnd": 805,
+   "domInteractive": 814.4,
+   "img": {
+    "requestStart": 812.9,
+    "responseStart": 1375.4,
+    "responseEnd": 1382.1
+   },
+   "cdp": {
+    "recu": 805.4,
+    "fini": 804.8,
+    "receiveHeadersStart": 803,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.707957999999
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 121,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 567.9,
+   "domInteractive": 578.1,
+   "img": {
+    "requestStart": 576,
+    "responseStart": 1138.6,
+    "responseEnd": 1148.8
+   },
+   "cdp": {
+    "recu": 568.4,
+    "fini": 567.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3676669999986188
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 122,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 566.8,
+   "domInteractive": 572.9,
+   "img": {
+    "requestStart": 570.7,
+    "responseStart": 1133.2,
+    "responseEnd": 1143.6
+   },
+   "cdp": {
+    "recu": 566.6,
+    "fini": 566.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3735000000015134
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 123,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 565.9,
+   "domInteractive": 571,
+   "img": {
+    "requestStart": 569.3,
+    "responseStart": 1131.9,
+    "responseEnd": 1141.5
+   },
+   "cdp": {
+    "recu": 565.9,
+    "fini": 565.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.38666699999885
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 124,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 573.6,
+   "domInteractive": 587.1,
+   "img": {
+    "requestStart": 584.2,
+    "responseStart": 1146.8,
+    "responseEnd": 1155.5
+   },
+   "cdp": {
+    "recu": 573.5,
+    "fini": 573.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.38012499999604
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 125,
+   "requestStart": 0.5,
+   "responseStart": 801.9,
+   "responseEnd": 803.2,
+   "domInteractive": 813.7,
+   "img": {
+    "requestStart": 811.8,
+    "responseStart": 1374.4,
+    "responseEnd": 1381.3
+   },
+   "cdp": {
+    "recu": 803.6,
+    "fini": 802.9,
+    "receiveHeadersStart": 801.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.1258749999979
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 126,
+   "requestStart": 0.6,
+   "responseStart": 803.2,
+   "responseEnd": 804.8,
+   "domInteractive": 816.7,
+   "img": {
+    "requestStart": 813.9,
+    "responseStart": 1376.5,
+    "responseEnd": 1386.5
+   },
+   "cdp": {
+    "recu": 805.8,
+    "fini": 804.6,
+    "receiveHeadersStart": 802.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.51383299999
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 127,
+   "requestStart": 0.6,
+   "responseStart": 2,
+   "responseEnd": 2.1,
+   "domInteractive": 5.4,
+   "img": {
+    "requestStart": 4.6,
+    "responseStart": 4.7,
+    "responseEnd": 5
+   },
+   "cdp": {
+    "recu": 2.1,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.360291999997571
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 128,
+   "requestStart": 0.5,
+   "responseStart": 2.1,
+   "responseEnd": 2.2,
+   "domInteractive": 5.8,
+   "img": {
+    "requestStart": 4.4,
+    "responseStart": 4.5,
+    "responseEnd": 5.1
+   },
+   "cdp": {
+    "recu": 2.2,
+    "fini": 2,
+    "receiveHeadersStart": 1.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.481415999995079
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 129,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 303.7,
+   "domInteractive": 314.6,
+   "img": {
+    "requestStart": 312.2,
+    "responseStart": 312.8,
+    "responseEnd": 313.7
+   },
+   "cdp": {
+    "recu": 305,
+    "fini": 303.6,
+    "receiveHeadersStart": 302.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.41999999999825
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 130,
+   "requestStart": 0.6,
+   "responseStart": 303.2,
+   "responseEnd": 304,
+   "domInteractive": 316.5,
+   "img": {
+    "requestStart": 313.6,
+    "responseStart": 313.9,
+    "responseEnd": 314.9
+   },
+   "cdp": {
+    "recu": 304.8,
+    "fini": 303.7,
+    "receiveHeadersStart": 302.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.37629200000083
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 131,
+   "requestStart": 0.5,
+   "responseStart": 801.8,
+   "responseEnd": 802.6,
+   "domInteractive": 814.2,
+   "img": {
+    "requestStart": 811.4,
+    "responseStart": 811.9,
+    "responseEnd": 813
+   },
+   "cdp": {
+    "recu": 803.6,
+    "fini": 802.4,
+    "receiveHeadersStart": 801.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.0235000000102
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 132,
+   "requestStart": 0.5,
+   "responseStart": 802.8,
+   "responseEnd": 803.7,
+   "domInteractive": 817.7,
+   "img": {
+    "requestStart": 814.9,
+    "responseStart": 815.4,
+    "responseEnd": 816.2
+   },
+   "cdp": {
+    "recu": 805,
+    "fini": 803.5,
+    "receiveHeadersStart": 802.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.0486660000024
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 133,
+   "requestStart": 0.6,
+   "responseStart": 40.6,
+   "responseEnd": 47.9,
+   "domInteractive": 50.8,
+   "img": {
+    "requestStart": 49.7,
+    "responseStart": 89.7,
+    "responseEnd": 90.6
+   },
+   "cdp": {
+    "recu": 47.7,
+    "fini": 47.6,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3393329999962589
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 134,
+   "requestStart": 0.5,
+   "responseStart": 40.6,
+   "responseEnd": 50.7,
+   "domInteractive": 54.1,
+   "img": {
+    "requestStart": 52.8,
+    "responseStart": 92.8,
+    "responseEnd": 93.4
+   },
+   "cdp": {
+    "recu": 50.4,
+    "fini": 50.5,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 0.10841699999582488
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 135,
+   "requestStart": 0.5,
+   "responseStart": 301.8,
+   "responseEnd": 303,
+   "domInteractive": 313.5,
+   "img": {
+    "requestStart": 310.5,
+    "responseStart": 350.5,
+    "responseEnd": 351.8
+   },
+   "cdp": {
+    "recu": 303.4,
+    "fini": 302.8,
+    "receiveHeadersStart": 301.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.1016249999957
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 136,
+   "requestStart": 0.5,
+   "responseStart": 303.3,
+   "responseEnd": 304.8,
+   "domInteractive": 316.4,
+   "img": {
+    "requestStart": 313.7,
+    "responseStart": 353.7,
+    "responseEnd": 358
+   },
+   "cdp": {
+    "recu": 305.3,
+    "fini": 304.6,
+    "receiveHeadersStart": 302.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.5204999999987
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 137,
+   "requestStart": 0.5,
+   "responseStart": 801.6,
+   "responseEnd": 803,
+   "domInteractive": 813.9,
+   "img": {
+    "requestStart": 811.4,
+    "responseStart": 851.4,
+    "responseEnd": 853.1
+   },
+   "cdp": {
+    "recu": 803.2,
+    "fini": 802.8,
+    "receiveHeadersStart": 801.2,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.825582999998
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 138,
+   "requestStart": 0.5,
+   "responseStart": 803.7,
+   "responseEnd": 804.1,
+   "domInteractive": 810.2,
+   "img": {
+    "requestStart": 808.3,
+    "responseStart": 848.4,
+    "responseEnd": 851.5
+   },
+   "cdp": {
+    "recu": 804.1,
+    "fini": 803.9,
+    "receiveHeadersStart": 803.2,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.8945419999945
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 139,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 565.6,
+   "domInteractive": 575.8,
+   "img": {
+    "requestStart": 573.6,
+    "responseStart": 1136.1,
+    "responseEnd": 1139
+   },
+   "cdp": {
+    "recu": 565.8,
+    "fini": 565.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 0.06129199999850243
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 140,
+   "requestStart": 0.5,
+   "responseStart": 562.9,
+   "responseEnd": 565.9,
+   "domInteractive": 577.5,
+   "img": {
+    "requestStart": 574.4,
+    "responseStart": 1137,
+    "responseEnd": 1144.7
+   },
+   "cdp": {
+    "recu": 565.8,
+    "fini": 565.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3635840000060853
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 141,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 571.5,
+   "domInteractive": 581.8,
+   "img": {
+    "requestStart": 579.4,
+    "responseStart": 1142,
+    "responseEnd": 1153.2
+   },
+   "cdp": {
+    "recu": 571.8,
+    "fini": 571.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2467909999832
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 142,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 565.9,
+   "domInteractive": 578.5,
+   "img": {
+    "requestStart": 575.5,
+    "responseStart": 1138.2,
+    "responseEnd": 1142.4
+   },
+   "cdp": {
+    "recu": 565.9,
+    "fini": 565.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.26049999997485
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 143,
+   "requestStart": 0.5,
+   "responseStart": 802.5,
+   "responseEnd": 803.7,
+   "domInteractive": 813.3,
+   "img": {
+    "requestStart": 812.3,
+    "responseStart": 1374.8,
+    "responseEnd": 1380
+   },
+   "cdp": {
+    "recu": 804.4,
+    "fini": 803.5,
+    "receiveHeadersStart": 802,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.7367500000109
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 144,
+   "requestStart": 1,
+   "responseStart": 802.6,
+   "responseEnd": 803.2,
+   "domInteractive": 810.9,
+   "img": {
+    "requestStart": 809,
+    "responseStart": 1371.6,
+    "responseEnd": 1373.6
+   },
+   "cdp": {
+    "recu": 803.3,
+    "fini": 803,
+    "receiveHeadersStart": 801.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.4629160000186
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 145,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 579.8,
+   "domInteractive": 582.8,
+   "img": {
+    "requestStart": 581,
+    "responseStart": 1143.5,
+    "responseEnd": 1161.1
+   },
+   "cdp": {
+    "recu": 574.2,
+    "fini": 579.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3406670000113081
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 146,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 1114,
+   "domInteractive": 1114.2,
+   "img": {
+    "requestStart": 583.8,
+    "responseStart": 1146.3,
+    "responseEnd": 1161.9
+   },
+   "cdp": {
+    "recu": 572.4,
+    "fini": 1113.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3665000000037253
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 147,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 587.8,
+   "domInteractive": 594.9,
+   "img": {
+    "requestStart": 592.5,
+    "responseStart": 1155,
+    "responseEnd": 1168.9
+   },
+   "cdp": {
+    "recu": 583.3,
+    "fini": 587.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2680839999812
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 148,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 1112.4,
+   "domInteractive": 1112.7,
+   "img": {
+    "requestStart": 583,
+    "responseStart": 1145.6,
+    "responseEnd": 1161.3
+   },
+   "cdp": {
+    "recu": 573.6,
+    "fini": 1112.2,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.5084999999963
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 149,
+   "requestStart": 0.4,
+   "responseStart": 800.9,
+   "responseEnd": 810.6,
+   "domInteractive": 811.5,
+   "img": {
+    "requestStart": 811.2,
+    "responseStart": 1373.8,
+    "responseEnd": 1392.4
+   },
+   "cdp": {
+    "recu": 802.5,
+    "fini": 810.4,
+    "receiveHeadersStart": 800.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.1889999999839
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 150,
+   "requestStart": 0.5,
+   "responseStart": 801.5,
+   "responseEnd": 1343.6,
+   "domInteractive": 1344.4,
+   "img": {
+    "requestStart": 813.8,
+    "responseStart": 1376.3,
+    "responseEnd": 1391.4
+   },
+   "cdp": {
+    "recu": 803.2,
+    "fini": 1343.4,
+    "receiveHeadersStart": 801.2,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.8399579999968
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 151,
+   "requestStart": 0.4,
+   "responseStart": 1.9,
+   "responseEnd": 2,
+   "domInteractive": 5.2,
+   "img": {
+    "requestStart": 4.1,
+    "responseStart": 4.2,
+    "responseEnd": 4.7
+   },
+   "cdp": {
+    "recu": 2.1,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3997500000114087
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 152,
+   "requestStart": 0.5,
+   "responseStart": 2.1,
+   "responseEnd": 2.2,
+   "domInteractive": 5.9,
+   "img": {
+    "requestStart": 4.5,
+    "responseStart": 4.6,
+    "responseEnd": 5.2
+   },
+   "cdp": {
+    "recu": 2.2,
+    "fini": 2,
+    "receiveHeadersStart": 1.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4789159999927506
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 153,
+   "requestStart": 0.5,
+   "responseStart": 302,
+   "responseEnd": 302.7,
+   "domInteractive": 316,
+   "img": {
+    "requestStart": 312.6,
+    "responseStart": 312.9,
+    "responseEnd": 314.4
+   },
+   "cdp": {
+    "recu": 303.7,
+    "fini": 302.5,
+    "receiveHeadersStart": 301.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.2538340000028
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 154,
+   "requestStart": 0.5,
+   "responseStart": 303,
+   "responseEnd": 303.3,
+   "domInteractive": 310.8,
+   "img": {
+    "requestStart": 308,
+    "responseStart": 308.3,
+    "responseEnd": 309.3
+   },
+   "cdp": {
+    "recu": 303.5,
+    "fini": 303.1,
+    "receiveHeadersStart": 302.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.31495800000266
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 155,
+   "requestStart": 0.4,
+   "responseStart": 803.6,
+   "responseEnd": 804.4,
+   "domInteractive": 816.2,
+   "img": {
+    "requestStart": 813.8,
+    "responseStart": 814.4,
+    "responseEnd": 815.2
+   },
+   "cdp": {
+    "recu": 807.1,
+    "fini": 804.3,
+    "receiveHeadersStart": 803.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.9089999999851
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 156,
+   "requestStart": 0.5,
+   "responseStart": 801.5,
+   "responseEnd": 802,
+   "domInteractive": 814.7,
+   "img": {
+    "requestStart": 811.4,
+    "responseStart": 811.9,
+    "responseEnd": 812.9
+   },
+   "cdp": {
+    "recu": 802.6,
+    "fini": 801.8,
+    "receiveHeadersStart": 801,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.7821660000191
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 157,
+   "requestStart": 0.6,
+   "responseStart": 40.6,
+   "responseEnd": 42.2,
+   "domInteractive": 45.2,
+   "img": {
+    "requestStart": 44.1,
+    "responseStart": 84.2,
+    "responseEnd": 90
+   },
+   "cdp": {
+    "recu": 42,
+    "fini": 42,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3584170000103768
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 158,
+   "requestStart": 0.6,
+   "responseStart": 40.7,
+   "responseEnd": 48.7,
+   "domInteractive": 52.1,
+   "img": {
+    "requestStart": 50.7,
+    "responseStart": 90.7,
+    "responseEnd": 95.1
+   },
+   "cdp": {
+    "recu": 48.4,
+    "fini": 48.5,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3673750000016298
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 159,
+   "requestStart": 0.6,
+   "responseStart": 303,
+   "responseEnd": 303.4,
+   "domInteractive": 309.4,
+   "img": {
+    "requestStart": 307.5,
+    "responseStart": 347.6,
+    "responseEnd": 349.5
+   },
+   "cdp": {
+    "recu": 303.5,
+    "fini": 303.2,
+    "receiveHeadersStart": 302.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.23858299999847
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 160,
+   "requestStart": 0.5,
+   "responseStart": 303,
+   "responseEnd": 303.4,
+   "domInteractive": 309,
+   "img": {
+    "requestStart": 307,
+    "responseStart": 346.9,
+    "responseEnd": 350.3
+   },
+   "cdp": {
+    "recu": 303.4,
+    "fini": 303.2,
+    "receiveHeadersStart": 302.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.34491600000183
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 161,
+   "requestStart": 0.5,
+   "responseStart": 803.3,
+   "responseEnd": 804.5,
+   "domInteractive": 815,
+   "img": {
+    "requestStart": 812.8,
+    "responseStart": 852.9,
+    "responseEnd": 856.7
+   },
+   "cdp": {
+    "recu": 805.1,
+    "fini": 804.3,
+    "receiveHeadersStart": 802.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.4965000000084
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 162,
+   "requestStart": 0.6,
+   "responseStart": 803,
+   "responseEnd": 804.7,
+   "domInteractive": 816.9,
+   "img": {
+    "requestStart": 814.1,
+    "responseStart": 854.1,
+    "responseEnd": 855.2
+   },
+   "cdp": {
+    "recu": 805.1,
+    "fini": 804.4,
+    "receiveHeadersStart": 802.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.08924999999
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 163,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 573.8,
+   "domInteractive": 584.7,
+   "img": {
+    "requestStart": 582.2,
+    "responseStart": 1144.8,
+    "responseEnd": 1149.3
+   },
+   "cdp": {
+    "recu": 574.2,
+    "fini": 573.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3525829999998678
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 164,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 573.2,
+   "domInteractive": 581.9,
+   "img": {
+    "requestStart": 579.1,
+    "responseStart": 1141.7,
+    "responseEnd": 1147.5
+   },
+   "cdp": {
+    "recu": 573.3,
+    "fini": 573,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3526660000206903
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 165,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 572.6,
+   "domInteractive": 578.9,
+   "img": {
+    "requestStart": 576.9,
+    "responseStart": 1139.5,
+    "responseEnd": 1145.6
+   },
+   "cdp": {
+    "recu": 572.6,
+    "fini": 572.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.64454100001603
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 166,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 568.6,
+   "domInteractive": 581.7,
+   "img": {
+    "requestStart": 579.4,
+    "responseStart": 1141.9,
+    "responseEnd": 1151.9
+   },
+   "cdp": {
+    "recu": 569,
+    "fini": 568.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2430410000088
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 167,
+   "requestStart": 0.4,
+   "responseStart": 803,
+   "responseEnd": 803.4,
+   "domInteractive": 814.2,
+   "img": {
+    "requestStart": 812.3,
+    "responseStart": 1374.9,
+    "responseEnd": 1384.6
+   },
+   "cdp": {
+    "recu": 806.3,
+    "fini": 803.3,
+    "receiveHeadersStart": 802.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.6580000000249
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 168,
+   "requestStart": 0.5,
+   "responseStart": 802.6,
+   "responseEnd": 804.3,
+   "domInteractive": 815.4,
+   "img": {
+    "requestStart": 812.5,
+    "responseStart": 1375,
+    "responseEnd": 1382.3
+   },
+   "cdp": {
+    "recu": 804.3,
+    "fini": 804.1,
+    "receiveHeadersStart": 802.2,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.8187500000058
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 169,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 579.9,
+   "domInteractive": 580.7,
+   "img": {
+    "requestStart": 580.4,
+    "responseStart": 1143,
+    "responseEnd": 1171.5
+   },
+   "cdp": {
+    "recu": 572.8,
+    "fini": 579.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3441670000029262
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 170,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 1114,
+   "domInteractive": 1114.9,
+   "img": {
+    "requestStart": 582.5,
+    "responseStart": 1145.2,
+    "responseEnd": 1161.3
+   },
+   "cdp": {
+    "recu": 574,
+    "fini": 1113.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3844580000150017
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 171,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 579.5,
+   "domInteractive": 580.4,
+   "img": {
+    "requestStart": 580.2,
+    "responseStart": 1142.7,
+    "responseEnd": 1162.5
+   },
+   "cdp": {
+    "recu": 574.3,
+    "fini": 579.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.7140420000069
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 172,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 1115.3,
+   "domInteractive": 1116.2,
+   "img": {
+    "requestStart": 584.2,
+    "responseStart": 1146.7,
+    "responseEnd": 1161.7
+   },
+   "cdp": {
+    "recu": 573.5,
+    "fini": 1115.1,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.06025000000955
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 173,
+   "requestStart": 0.5,
+   "responseStart": 803.7,
+   "responseEnd": 818.5,
+   "domInteractive": 825.9,
+   "img": {
+    "requestStart": 823.6,
+    "responseStart": 1386.2,
+    "responseEnd": 1407.7
+   },
+   "cdp": {
+    "recu": 813.2,
+    "fini": 818.3,
+    "receiveHeadersStart": 803.2,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.9329579999903
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 174,
+   "requestStart": 0.5,
+   "responseStart": 803.4,
+   "responseEnd": 1350.9,
+   "domInteractive": 1351.8,
+   "img": {
+    "requestStart": 820.1,
+    "responseStart": 1382.6,
+    "responseEnd": 1396.9
+   },
+   "cdp": {
+    "recu": 810.3,
+    "fini": 1350.8,
+    "receiveHeadersStart": 803,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.6414999999979
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 175,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 572.2,
+   "domInteractive": 583.7,
+   "img": {
+    "requestStart": 581.5,
+    "responseStart": 1144.1,
+    "responseEnd": 1144.8
+   },
+   "cdp": {
+    "recu": 573.4,
+    "fini": 572,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3457080000080168
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 176,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 564.4,
+   "domInteractive": 569.9,
+   "img": {
+    "requestStart": 567.8,
+    "responseStart": 1130.4,
+    "responseEnd": 1134.3
+   },
+   "cdp": {
+    "recu": 564.2,
+    "fini": 564.2,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.468542000016896
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 177,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 574.1,
+   "domInteractive": 584.8,
+   "img": {
+    "requestStart": 582.6,
+    "responseStart": 1145.1,
+    "responseEnd": 1150.8
+   },
+   "cdp": {
+    "recu": 574.6,
+    "fini": 573.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.6939999999886
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 178,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 567.1,
+   "domInteractive": 578.9,
+   "img": {
+    "requestStart": 576,
+    "responseStart": 1138.6,
+    "responseEnd": 1143
+   },
+   "cdp": {
+    "recu": 567.1,
+    "fini": 567,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.483791000006
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 179,
+   "requestStart": 0.5,
+   "responseStart": 804.8,
+   "responseEnd": 806.5,
+   "domInteractive": 816.3,
+   "img": {
+    "requestStart": 814.1,
+    "responseStart": 1376.7,
+    "responseEnd": 1383.5
+   },
+   "cdp": {
+    "recu": 808.1,
+    "fini": 806.3,
+    "receiveHeadersStart": 804.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 804.0732919999864
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 180,
+   "requestStart": 0.4,
+   "responseStart": 803.2,
+   "responseEnd": 804.8,
+   "domInteractive": 813.4,
+   "img": {
+    "requestStart": 810.7,
+    "responseStart": 1373.2,
+    "responseEnd": 1380.3
+   },
+   "cdp": {
+    "recu": 804.8,
+    "fini": 804.7,
+    "receiveHeadersStart": 802.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.5731660000165
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 181,
+   "requestStart": 0.5,
+   "responseStart": 40.5,
+   "responseEnd": 50.6,
+   "domInteractive": 53.7,
+   "img": {
+    "requestStart": 52.7,
+    "responseStart": 92.7,
+    "responseEnd": 93.7
+   },
+   "cdp": {
+    "recu": 50.5,
+    "fini": 50.4,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3392500000190921
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 182,
+   "requestStart": 0.7,
+   "responseStart": 40.6,
+   "responseEnd": 44.1,
+   "domInteractive": 47.6,
+   "img": {
+    "requestStart": 46.2,
+    "responseStart": 86.2,
+    "responseEnd": 86.7
+   },
+   "cdp": {
+    "recu": 43.6,
+    "fini": 43.8,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.385707999987062
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 183,
+   "requestStart": 0.5,
+   "responseStart": 302.9,
+   "responseEnd": 303.2,
+   "domInteractive": 307,
+   "img": {
+    "requestStart": 306,
+    "responseStart": 346,
+    "responseEnd": 349.2
+   },
+   "cdp": {
+    "recu": 303.2,
+    "fini": 303,
+    "receiveHeadersStart": 302.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.18437500001164
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 184,
+   "requestStart": 0.6,
+   "responseStart": 303.2,
+   "responseEnd": 303.8,
+   "domInteractive": 309.9,
+   "img": {
+    "requestStart": 308,
+    "responseStart": 348.1,
+    "responseEnd": 351.5
+   },
+   "cdp": {
+    "recu": 303.7,
+    "fini": 303.5,
+    "receiveHeadersStart": 302.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.449249999976
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 185,
+   "requestStart": 0.7,
+   "responseStart": 803.1,
+   "responseEnd": 804,
+   "domInteractive": 815.4,
+   "img": {
+    "requestStart": 812.7,
+    "responseStart": 852.8,
+    "responseEnd": 855.4
+   },
+   "cdp": {
+    "recu": 804.5,
+    "fini": 803.8,
+    "receiveHeadersStart": 802.6,
+    "sendEnd": 0.2
+   },
+   "serveur": {
+    "entetes": 802.2517090000038
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 186,
+   "requestStart": 0.6,
+   "responseStart": 801.6,
+   "responseEnd": 803.6,
+   "domInteractive": 814.9,
+   "img": {
+    "requestStart": 812,
+    "responseStart": 852.1,
+    "responseEnd": 860.7
+   },
+   "cdp": {
+    "recu": 803.6,
+    "fini": 803.3,
+    "receiveHeadersStart": 801,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.7079169999924
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 187,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 572.3,
+   "domInteractive": 581.1,
+   "img": {
+    "requestStart": 578.9,
+    "responseStart": 1141.4,
+    "responseEnd": 1143.9
+   },
+   "cdp": {
+    "recu": 572.3,
+    "fini": 572.1,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3607090000004973
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 188,
+   "requestStart": 0.6,
+   "responseStart": 563,
+   "responseEnd": 569.8,
+   "domInteractive": 574.8,
+   "img": {
+    "requestStart": 573.2,
+    "responseStart": 1135.7,
+    "responseEnd": 1145.4
+   },
+   "cdp": {
+    "recu": 569.7,
+    "fini": 569.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3783330000005662
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 189,
+   "requestStart": 0.4,
+   "responseStart": 562.9,
+   "responseEnd": 571.4,
+   "domInteractive": 584.6,
+   "img": {
+    "requestStart": 581,
+    "responseStart": 1143.7,
+    "responseEnd": 1147.4
+   },
+   "cdp": {
+    "recu": 571.7,
+    "fini": 571.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 303.07804099997156
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 190,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 568.7,
+   "domInteractive": 579.3,
+   "img": {
+    "requestStart": 576.5,
+    "responseStart": 1139.1,
+    "responseEnd": 1143.1
+   },
+   "cdp": {
+    "recu": 568.6,
+    "fini": 568.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.9039580000099
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 191,
+   "requestStart": 0.5,
+   "responseStart": 802.9,
+   "responseEnd": 804.3,
+   "domInteractive": 816.5,
+   "img": {
+    "requestStart": 814.2,
+    "responseStart": 1376.8,
+    "responseEnd": 1385.5
+   },
+   "cdp": {
+    "recu": 805.1,
+    "fini": 804.1,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.1546249999956
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 192,
+   "requestStart": 0.6,
+   "responseStart": 803,
+   "responseEnd": 803.5,
+   "domInteractive": 809.3,
+   "img": {
+    "requestStart": 807.2,
+    "responseStart": 1369.7,
+    "responseEnd": 1374
+   },
+   "cdp": {
+    "recu": 803.3,
+    "fini": 803.2,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.306459000014
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 193,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 588.7,
+   "domInteractive": 591.7,
+   "img": {
+    "requestStart": 591.1,
+    "responseStart": 1153.7,
+    "responseEnd": 1169.4
+   },
+   "cdp": {
+    "recu": 581.1,
+    "fini": 588.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.338000000017928
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 194,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 1112.5,
+   "domInteractive": 1113.4,
+   "img": {
+    "requestStart": 583.2,
+    "responseStart": 1145.8,
+    "responseEnd": 1167.7
+   },
+   "cdp": {
+    "recu": 573.8,
+    "fini": 1112.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 0.08600000001024455
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 195,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 581.5,
+   "domInteractive": 582.3,
+   "img": {
+    "requestStart": 582.1,
+    "responseStart": 1144.6,
+    "responseEnd": 1162.1
+   },
+   "cdp": {
+    "recu": 573.3,
+    "fini": 581.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.3122089999961
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 196,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 1114.5,
+   "domInteractive": 1114.7,
+   "img": {
+    "requestStart": 583.1,
+    "responseStart": 1145.7,
+    "responseEnd": 1160.3
+   },
+   "cdp": {
+    "recu": 571.7,
+    "fini": 1114.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.53712500000256
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 197,
+   "requestStart": 0.4,
+   "responseStart": 802.6,
+   "responseEnd": 818,
+   "domInteractive": 819,
+   "img": {
+    "requestStart": 818.7,
+    "responseStart": 1381.3,
+    "responseEnd": 1399.5
+   },
+   "cdp": {
+    "recu": 810.6,
+    "fini": 817.9,
+    "receiveHeadersStart": 802.2,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.8934580000059
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 198,
+   "requestStart": 0.5,
+   "responseStart": 803.4,
+   "responseEnd": 1353.4,
+   "domInteractive": 1354.3,
+   "img": {
+    "requestStart": 825,
+    "responseStart": 1387.5,
+    "responseEnd": 1406.5
+   },
+   "cdp": {
+    "recu": 814.4,
+    "fini": 1353.1,
+    "receiveHeadersStart": 802.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.6397920000018
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 199,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 566.5,
+   "domInteractive": 577.6,
+   "img": {
+    "requestStart": 575.2,
+    "responseStart": 1137.8,
+    "responseEnd": 1142.1
+   },
+   "cdp": {
+    "recu": 567.1,
+    "fini": 566.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.345999999990454
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 200,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 567.1,
+   "domInteractive": 579.6,
+   "img": {
+    "requestStart": 576.6,
+    "responseStart": 1139,
+    "responseEnd": 1144.1
+   },
+   "cdp": {
+    "recu": 566.8,
+    "fini": 566.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 0.17783299999427982
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 201,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 573.6,
+   "domInteractive": 581.3,
+   "img": {
+    "requestStart": 579,
+    "responseStart": 1141.6,
+    "responseEnd": 1148
+   },
+   "cdp": {
+    "recu": 573.9,
+    "fini": 573.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.5101250000007
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 202,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 564.6,
+   "domInteractive": 573.4,
+   "img": {
+    "requestStart": 570.8,
+    "responseStart": 1133.3,
+    "responseEnd": 1141.3
+   },
+   "cdp": {
+    "recu": 564.8,
+    "fini": 564.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.24133299998357
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 203,
+   "requestStart": 0.4,
+   "responseStart": 844,
+   "responseEnd": 846.4,
+   "domInteractive": 851.1,
+   "img": {
+    "requestStart": 849.7,
+    "responseStart": 1412.2,
+    "responseEnd": 1413.3
+   },
+   "cdp": {
+    "recu": 846.1,
+    "fini": 846.3,
+    "receiveHeadersStart": 843.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 843.059500000003
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 204,
+   "requestStart": 0.5,
+   "responseStart": 802.5,
+   "responseEnd": 804.5,
+   "domInteractive": 815.8,
+   "img": {
+    "requestStart": 812.9,
+    "responseStart": 1375.5,
+    "responseEnd": 1385
+   },
+   "cdp": {
+    "recu": 804.3,
+    "fini": 804.3,
+    "receiveHeadersStart": 802,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.7049170000246
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 205,
+   "requestStart": 0.6,
+   "responseStart": 2.1,
+   "responseEnd": 2.2,
+   "domInteractive": 5.9,
+   "img": {
+    "requestStart": 4.8,
+    "responseStart": 4.9,
+    "responseEnd": 5.4
+   },
+   "cdp": {
+    "recu": 2.7,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3687919999938458
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 206,
+   "requestStart": 0.5,
+   "responseStart": 1.9,
+   "responseEnd": 2,
+   "domInteractive": 5.9,
+   "img": {
+    "requestStart": 4.3,
+    "responseStart": 4.5,
+    "responseEnd": 5
+   },
+   "cdp": {
+    "recu": 2,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.353040999994846
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 207,
+   "requestStart": 0.3,
+   "responseStart": 302.8,
+   "responseEnd": 302.9,
+   "domInteractive": 308.2,
+   "img": {
+    "requestStart": 306.3,
+    "responseStart": 306.6,
+    "responseEnd": 307.4
+   },
+   "cdp": {
+    "recu": 303.3,
+    "fini": 302.9,
+    "receiveHeadersStart": 302.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.20583300001454
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 208,
+   "requestStart": 0.6,
+   "responseStart": 301.6,
+   "responseEnd": 302.4,
+   "domInteractive": 315,
+   "img": {
+    "requestStart": 311.9,
+    "responseStart": 312.3,
+    "responseEnd": 313.3
+   },
+   "cdp": {
+    "recu": 303.1,
+    "fini": 302.2,
+    "receiveHeadersStart": 301.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.78250000000116
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 209,
+   "requestStart": 0.5,
+   "responseStart": 802.7,
+   "responseEnd": 803.3,
+   "domInteractive": 815,
+   "img": {
+    "requestStart": 812.3,
+    "responseStart": 812.7,
+    "responseEnd": 813.9
+   },
+   "cdp": {
+    "recu": 804,
+    "fini": 803.2,
+    "receiveHeadersStart": 802.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.0525830000115
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 210,
+   "requestStart": 0.4,
+   "responseStart": 803.4,
+   "responseEnd": 804.2,
+   "domInteractive": 816.8,
+   "img": {
+    "requestStart": 812.6,
+    "responseStart": 813,
+    "responseEnd": 814.6
+   },
+   "cdp": {
+    "recu": 805.2,
+    "fini": 804,
+    "receiveHeadersStart": 803,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.6569169999857
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 211,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 574.1,
+   "domInteractive": 585.8,
+   "img": {
+    "requestStart": 583.5,
+    "responseStart": 1146.1,
+    "responseEnd": 1149.7
+   },
+   "cdp": {
+    "recu": 574.5,
+    "fini": 573.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3437919999996666
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 212,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 570.7,
+   "domInteractive": 577.9,
+   "img": {
+    "requestStart": 575.5,
+    "responseStart": 1138,
+    "responseEnd": 1144.8
+   },
+   "cdp": {
+    "recu": 570.5,
+    "fini": 570.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3598329999949783
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 213,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 571.3,
+   "domInteractive": 576.7,
+   "img": {
+    "requestStart": 575.1,
+    "responseStart": 1137.7,
+    "responseEnd": 1142.8
+   },
+   "cdp": {
+    "recu": 571.2,
+    "fini": 571.1,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.21595800001523
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 214,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 565,
+   "domInteractive": 578.6,
+   "img": {
+    "requestStart": 575.7,
+    "responseStart": 1138.3,
+    "responseEnd": 1147.2
+   },
+   "cdp": {
+    "recu": 565.2,
+    "fini": 564.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.34741699998267
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 215,
+   "requestStart": 0.6,
+   "responseStart": 802.9,
+   "responseEnd": 803.4,
+   "domInteractive": 809.7,
+   "img": {
+    "requestStart": 807.8,
+    "responseStart": 1370.3,
+    "responseEnd": 1379.5
+   },
+   "cdp": {
+    "recu": 803.5,
+    "fini": 803.2,
+    "receiveHeadersStart": 802.4,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.2004999999772
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 216,
+   "requestStart": 0.4,
+   "responseStart": 803.4,
+   "responseEnd": 805,
+   "domInteractive": 815.6,
+   "img": {
+    "requestStart": 812.5,
+    "responseStart": 1375.1,
+    "responseEnd": 1385
+   },
+   "cdp": {
+    "recu": 804.9,
+    "fini": 804.8,
+    "receiveHeadersStart": 803.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.8049170000013
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 217,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 581.6,
+   "domInteractive": 582.3,
+   "img": {
+    "requestStart": 582,
+    "responseStart": 1144.6,
+    "responseEnd": 1160.3
+   },
+   "cdp": {
+    "recu": 573.2,
+    "fini": 581.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.357125000009546
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 218,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 1112.5,
+   "domInteractive": 1112.7,
+   "img": {
+    "requestStart": 580.9,
+    "responseStart": 1143.4,
+    "responseEnd": 1160.1
+   },
+   "cdp": {
+    "recu": 573.2,
+    "fini": 1112.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3652500000025611
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 219,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 580.9,
+   "domInteractive": 585.7,
+   "img": {
+    "requestStart": 583.3,
+    "responseStart": 1145.9,
+    "responseEnd": 1161.4
+   },
+   "cdp": {
+    "recu": 574,
+    "fini": 580.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.3331659999967
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 220,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 1121.3,
+   "domInteractive": 1121.6,
+   "img": {
+    "requestStart": 591,
+    "responseStart": 1153.6,
+    "responseEnd": 1169
+   },
+   "cdp": {
+    "recu": 582.6,
+    "fini": 1121,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2573750000156
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 221,
+   "requestStart": 0.5,
+   "responseStart": 803,
+   "responseEnd": 817.6,
+   "domInteractive": 818.5,
+   "img": {
+    "requestStart": 818.3,
+    "responseStart": 1380.8,
+    "responseEnd": 1407.5
+   },
+   "cdp": {
+    "recu": 812,
+    "fini": 817.4,
+    "receiveHeadersStart": 802.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.3313340000168
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 222,
+   "requestStart": 0.5,
+   "responseStart": 802.3,
+   "responseEnd": 1350.8,
+   "domInteractive": 1351.2,
+   "img": {
+    "requestStart": 822.7,
+    "responseStart": 1385.3,
+    "responseEnd": 1398.9
+   },
+   "cdp": {
+    "recu": 811.3,
+    "fini": 1350.6,
+    "receiveHeadersStart": 801.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.5115830000141
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 223,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 568.6,
+   "domInteractive": 577.7,
+   "img": {
+    "requestStart": 575.4,
+    "responseStart": 1137.9,
+    "responseEnd": 1145.9
+   },
+   "cdp": {
+    "recu": 568.5,
+    "fini": 568.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3319590000028256
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 224,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 566.5,
+   "domInteractive": 574.7,
+   "img": {
+    "requestStart": 572.3,
+    "responseStart": 1134.8,
+    "responseEnd": 1143.4
+   },
+   "cdp": {
+    "recu": 566.7,
+    "fini": 566.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4735419999924488
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 225,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 569.3,
+   "domInteractive": 580.2,
+   "img": {
+    "requestStart": 577.8,
+    "responseStart": 1140.4,
+    "responseEnd": 1151.3
+   },
+   "cdp": {
+    "recu": 569.5,
+    "fini": 569,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.3715000000084
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 226,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 566.6,
+   "domInteractive": 578.6,
+   "img": {
+    "requestStart": 575.9,
+    "responseStart": 1138.5,
+    "responseEnd": 1145.4
+   },
+   "cdp": {
+    "recu": 566.5,
+    "fini": 566.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.361459000007
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 227,
+   "requestStart": 0.6,
+   "responseStart": 802.7,
+   "responseEnd": 804.5,
+   "domInteractive": 815.9,
+   "img": {
+    "requestStart": 813.5,
+    "responseStart": 1376.2,
+    "responseEnd": 1378.7
+   },
+   "cdp": {
+    "recu": 805.1,
+    "fini": 804.2,
+    "receiveHeadersStart": 802.2,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.8764580000134
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 228,
+   "requestStart": 0.5,
+   "responseStart": 802,
+   "responseEnd": 802.7,
+   "domInteractive": 810.4,
+   "img": {
+    "requestStart": 807.8,
+    "responseStart": 1370.4,
+    "responseEnd": 1381.3
+   },
+   "cdp": {
+    "recu": 802.8,
+    "fini": 802.5,
+    "receiveHeadersStart": 801.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.3827499999898
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 229,
+   "requestStart": 0.5,
+   "responseStart": 2,
+   "responseEnd": 2.1,
+   "domInteractive": 5.3,
+   "img": {
+    "requestStart": 4.2,
+    "responseStart": 4.3,
+    "responseEnd": 4.8
+   },
+   "cdp": {
+    "recu": 2.1,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3526659999915864
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 230,
+   "requestStart": 0.5,
+   "responseStart": 1.9,
+   "responseEnd": 1.9,
+   "domInteractive": 5.6,
+   "img": {
+    "requestStart": 4.2,
+    "responseStart": 4.3,
+    "responseEnd": 4.9
+   },
+   "cdp": {
+    "recu": 2,
+    "fini": 1.8,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3533750000060536
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 231,
+   "requestStart": 0.4,
+   "responseStart": 302.1,
+   "responseEnd": 302.4,
+   "domInteractive": 309.5,
+   "img": {
+    "requestStart": 307,
+    "responseStart": 307.4,
+    "responseEnd": 308.5
+   },
+   "cdp": {
+    "recu": 302.9,
+    "fini": 302.3,
+    "receiveHeadersStart": 301.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.58291699999245
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 232,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 303.6,
+   "domInteractive": 312.1,
+   "img": {
+    "requestStart": 309.3,
+    "responseStart": 309.6,
+    "responseEnd": 310.5
+   },
+   "cdp": {
+    "recu": 304,
+    "fini": 303.4,
+    "receiveHeadersStart": 302.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.4722499999916
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 233,
+   "requestStart": 0.5,
+   "responseStart": 802,
+   "responseEnd": 802.6,
+   "domInteractive": 811.4,
+   "img": {
+    "requestStart": 808.9,
+    "responseStart": 809.3,
+    "responseEnd": 810.4
+   },
+   "cdp": {
+    "recu": 803.3,
+    "fini": 802.4,
+    "receiveHeadersStart": 801.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.2228750000068
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 234,
+   "requestStart": 0.5,
+   "responseStart": 802.9,
+   "responseEnd": 803.3,
+   "domInteractive": 812.4,
+   "img": {
+    "requestStart": 809.3,
+    "responseStart": 809.7,
+    "responseEnd": 810.8
+   },
+   "cdp": {
+    "recu": 803.7,
+    "fini": 803.1,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.1789580000041
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 235,
+   "requestStart": 0.5,
+   "responseStart": 40.5,
+   "responseEnd": 43.2,
+   "domInteractive": 46.4,
+   "img": {
+    "requestStart": 45.4,
+    "responseStart": 85.4,
+    "responseEnd": 95.7
+   },
+   "cdp": {
+    "recu": 43.1,
+    "fini": 43,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3405420000199229
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 236,
+   "requestStart": 0.5,
+   "responseStart": 40.5,
+   "responseEnd": 42.4,
+   "domInteractive": 46,
+   "img": {
+    "requestStart": 44.6,
+    "responseStart": 84.7,
+    "responseEnd": 86.6
+   },
+   "cdp": {
+    "recu": 42.2,
+    "fini": 42.2,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3782920000085142
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 237,
+   "requestStart": 0.5,
+   "responseStart": 303.3,
+   "responseEnd": 304.9,
+   "domInteractive": 315.2,
+   "img": {
+    "requestStart": 312.6,
+    "responseStart": 352.7,
+    "responseEnd": 361.4
+   },
+   "cdp": {
+    "recu": 305,
+    "fini": 304.6,
+    "receiveHeadersStart": 302.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.58083300001454
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 238,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 304.9,
+   "domInteractive": 315.5,
+   "img": {
+    "requestStart": 312.6,
+    "responseStart": 352.7,
+    "responseEnd": 357.1
+   },
+   "cdp": {
+    "recu": 304.7,
+    "fini": 304.7,
+    "receiveHeadersStart": 302.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.3660840000084
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 239,
+   "requestStart": 0.5,
+   "responseStart": 803.4,
+   "responseEnd": 804.6,
+   "domInteractive": 813.6,
+   "img": {
+    "requestStart": 811.1,
+    "responseStart": 851.2,
+    "responseEnd": 853.7
+   },
+   "cdp": {
+    "recu": 805,
+    "fini": 804.4,
+    "receiveHeadersStart": 803,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.8721659999865
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 240,
+   "requestStart": 0.5,
+   "responseStart": 803.4,
+   "responseEnd": 805,
+   "domInteractive": 816.4,
+   "img": {
+    "requestStart": 813.4,
+    "responseStart": 853.5,
+    "responseEnd": 856.2
+   },
+   "cdp": {
+    "recu": 805.2,
+    "fini": 804.8,
+    "receiveHeadersStart": 803,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.7796249999956
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 241,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 579.8,
+   "domInteractive": 580.8,
+   "img": {
+    "requestStart": 580.5,
+    "responseStart": 1143.1,
+    "responseEnd": 1163.1
+   },
+   "cdp": {
+    "recu": 572.9,
+    "fini": 579.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.355375000013737
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 242,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 1113.5,
+   "domInteractive": 1114.3,
+   "img": {
+    "requestStart": 583.4,
+    "responseStart": 1145.9,
+    "responseEnd": 1170
+   },
+   "cdp": {
+    "recu": 574.2,
+    "fini": 1113.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3546250000072177
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 243,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 582.8,
+   "domInteractive": 583.8,
+   "img": {
+    "requestStart": 583.5,
+    "responseStart": 1146,
+    "responseEnd": 1169.3
+   },
+   "cdp": {
+    "recu": 572.4,
+    "fini": 582.6,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.7671660000051
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 244,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 1120.1,
+   "domInteractive": 1120.4,
+   "img": {
+    "requestStart": 591.7,
+    "responseStart": 1154.2,
+    "responseEnd": 1178.9
+   },
+   "cdp": {
+    "recu": 583.4,
+    "fini": 1119.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.236917000002
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 245,
+   "requestStart": 0.5,
+   "responseStart": 802.7,
+   "responseEnd": 818.7,
+   "domInteractive": 823.2,
+   "img": {
+    "requestStart": 820.7,
+    "responseStart": 1383.3,
+    "responseEnd": 1401.1
+   },
+   "cdp": {
+    "recu": 811.5,
+    "fini": 818.5,
+    "receiveHeadersStart": 802.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.9881670000032
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 246,
+   "requestStart": 0.5,
+   "responseStart": 803.1,
+   "responseEnd": 1350.9,
+   "domInteractive": 1351.1,
+   "img": {
+    "requestStart": 823.1,
+    "responseStart": 1385.7,
+    "responseEnd": 1399.7
+   },
+   "cdp": {
+    "recu": 814.3,
+    "fini": 1350.7,
+    "receiveHeadersStart": 802.7,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.3541670000122
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 247,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 572.7,
+   "domInteractive": 582.6,
+   "img": {
+    "requestStart": 580.2,
+    "responseStart": 1142.8,
+    "responseEnd": 1152.9
+   },
+   "cdp": {
+    "recu": 573.1,
+    "fini": 572.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3379169999971054
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 248,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 570.6,
+   "domInteractive": 582.5,
+   "img": {
+    "requestStart": 579,
+    "responseStart": 1141.7,
+    "responseEnd": 1146.9
+   },
+   "cdp": {
+    "recu": 570.9,
+    "fini": 570.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4707499999785796
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 249,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 572.5,
+   "domInteractive": 584.9,
+   "img": {
+    "requestStart": 582,
+    "responseStart": 1144.5,
+    "responseEnd": 1152.1
+   },
+   "cdp": {
+    "recu": 572.9,
+    "fini": 572.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.6966670000111
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 250,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 568.1,
+   "domInteractive": 578,
+   "img": {
+    "requestStart": 576.6,
+    "responseStart": 1139.2,
+    "responseEnd": 1142.4
+   },
+   "cdp": {
+    "recu": 568,
+    "fini": 567.9,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.02987499997835
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 251,
+   "requestStart": 0.6,
+   "responseStart": 803.4,
+   "responseEnd": 804.6,
+   "domInteractive": 816.3,
+   "img": {
+    "requestStart": 813.9,
+    "responseStart": 1376.5,
+    "responseEnd": 1382.6
+   },
+   "cdp": {
+    "recu": 805.4,
+    "fini": 804.4,
+    "receiveHeadersStart": 802.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.5818340000114
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 252,
+   "requestStart": 0.5,
+   "responseStart": 801.2,
+   "responseEnd": 802.6,
+   "domInteractive": 812.5,
+   "img": {
+    "requestStart": 809.7,
+    "responseStart": 1372.2,
+    "responseEnd": 1375.7
+   },
+   "cdp": {
+    "recu": 802.6,
+    "fini": 802.4,
+    "receiveHeadersStart": 800.8,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.524665999983
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 253,
+   "requestStart": 0.5,
+   "responseStart": 1.9,
+   "responseEnd": 2.1,
+   "domInteractive": 5.3,
+   "img": {
+    "requestStart": 4.2,
+    "responseStart": 4.3,
+    "responseEnd": 4.8
+   },
+   "cdp": {
+    "recu": 2.1,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.363707999989856
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 254,
+   "requestStart": 0.5,
+   "responseStart": 2,
+   "responseEnd": 2.1,
+   "domInteractive": 5.7,
+   "img": {
+    "requestStart": 4.2,
+    "responseStart": 4.4,
+    "responseEnd": 4.9
+   },
+   "cdp": {
+    "recu": 2,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3638340000179596
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 255,
+   "requestStart": 0.4,
+   "responseStart": 302.4,
+   "responseEnd": 303.1,
+   "domInteractive": 315.5,
+   "img": {
+    "requestStart": 312.7,
+    "responseStart": 313.1,
+    "responseEnd": 314.3
+   },
+   "cdp": {
+    "recu": 305.2,
+    "fini": 302.9,
+    "receiveHeadersStart": 302,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.6612920000043
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 256,
+   "requestStart": 0.5,
+   "responseStart": 301,
+   "responseEnd": 301.2,
+   "domInteractive": 305.2,
+   "img": {
+    "requestStart": 303.8,
+    "responseStart": 304,
+    "responseEnd": 304.4
+   },
+   "cdp": {
+    "recu": 301.2,
+    "fini": 301,
+    "receiveHeadersStart": 300.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.3982089999772
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 257,
+   "requestStart": 0.6,
+   "responseStart": 802.9,
+   "responseEnd": 803.4,
+   "domInteractive": 812.7,
+   "img": {
+    "requestStart": 809.9,
+    "responseStart": 810.3,
+    "responseEnd": 811.4
+   },
+   "cdp": {
+    "recu": 804.2,
+    "fini": 803.2,
+    "receiveHeadersStart": 802.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.287834000017
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 258,
+   "requestStart": 0.5,
+   "responseStart": 801.1,
+   "responseEnd": 802.1,
+   "domInteractive": 816,
+   "img": {
+    "requestStart": 812.6,
+    "responseStart": 813.1,
+    "responseEnd": 814.2
+   },
+   "cdp": {
+    "recu": 803.1,
+    "fini": 801.9,
+    "receiveHeadersStart": 800.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.3260840000003
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 259,
+   "requestStart": 0.5,
+   "responseStart": 40.4,
+   "responseEnd": 42.6,
+   "domInteractive": 45.9,
+   "img": {
+    "requestStart": 44.9,
+    "responseStart": 84.8,
+    "responseEnd": 85.6
+   },
+   "cdp": {
+    "recu": 42.6,
+    "fini": 42.4,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3405420000199229
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 260,
+   "requestStart": 0.5,
+   "responseStart": 40.5,
+   "responseEnd": 43.5,
+   "domInteractive": 47,
+   "img": {
+    "requestStart": 45.6,
+    "responseStart": 85.7,
+    "responseEnd": 86.4
+   },
+   "cdp": {
+    "recu": 43.2,
+    "fini": 43.3,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3517080000019632
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 261,
+   "requestStart": 0.5,
+   "responseStart": 303.1,
+   "responseEnd": 304.3,
+   "domInteractive": 315.1,
+   "img": {
+    "requestStart": 312.7,
+    "responseStart": 352.8,
+    "responseEnd": 363.2
+   },
+   "cdp": {
+    "recu": 304.8,
+    "fini": 304.1,
+    "receiveHeadersStart": 302.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.3502499999886
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 262,
+   "requestStart": 0.5,
+   "responseStart": 302.8,
+   "responseEnd": 303.2,
+   "domInteractive": 308.6,
+   "img": {
+    "requestStart": 306.5,
+    "responseStart": 346.5,
+    "responseEnd": 348.8
+   },
+   "cdp": {
+    "recu": 303.3,
+    "fini": 303.1,
+    "receiveHeadersStart": 302.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2305000000051
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 263,
+   "requestStart": 0.5,
+   "responseStart": 803.9,
+   "responseEnd": 805.4,
+   "domInteractive": 816.7,
+   "img": {
+    "requestStart": 814.4,
+    "responseStart": 854.4,
+    "responseEnd": 857
+   },
+   "cdp": {
+    "recu": 806.6,
+    "fini": 805.2,
+    "receiveHeadersStart": 803.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 803.2707919999957
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 264,
+   "requestStart": 0.5,
+   "responseStart": 802,
+   "responseEnd": 803.6,
+   "domInteractive": 814.5,
+   "img": {
+    "requestStart": 811.1,
+    "responseStart": 851.1,
+    "responseEnd": 854.8
+   },
+   "cdp": {
+    "recu": 803.6,
+    "fini": 803.5,
+    "receiveHeadersStart": 801.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.2258750000037
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 265,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 572.2,
+   "domInteractive": 582.5,
+   "img": {
+    "requestStart": 580.4,
+    "responseStart": 1142.9,
+    "responseEnd": 1145.8
+   },
+   "cdp": {
+    "recu": 573,
+    "fini": 572,
+    "receiveHeadersStart": 562.7,
+    "sendEnd": 0.2
+   },
+   "serveur": {
+    "entetes": 1.3492090000072494
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 266,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 571,
+   "domInteractive": 576.6,
+   "img": {
+    "requestStart": 574.9,
+    "responseStart": 1137.4,
+    "responseEnd": 1143.4
+   },
+   "cdp": {
+    "recu": 570.7,
+    "fini": 570.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3648750000284053
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 267,
+   "requestStart": 0.4,
+   "responseStart": 562.9,
+   "responseEnd": 573.2,
+   "domInteractive": 585.7,
+   "img": {
+    "requestStart": 583.1,
+    "responseStart": 1145.8,
+    "responseEnd": 1147.5
+   },
+   "cdp": {
+    "recu": 574.2,
+    "fini": 573,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.52812500001164
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 268,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 568.6,
+   "domInteractive": 572.8,
+   "img": {
+    "requestStart": 571.2,
+    "responseStart": 1133.8,
+    "responseEnd": 1145.1
+   },
+   "cdp": {
+    "recu": 568.5,
+    "fini": 568.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.9965000000084
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 269,
+   "requestStart": 0.5,
+   "responseStart": 803,
+   "responseEnd": 803.5,
+   "domInteractive": 810.4,
+   "img": {
+    "requestStart": 808,
+    "responseStart": 1370.5,
+    "responseEnd": 1373.3
+   },
+   "cdp": {
+    "recu": 803.7,
+    "fini": 803.3,
+    "receiveHeadersStart": 802.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.4594590000343
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 270,
+   "requestStart": 0.6,
+   "responseStart": 802.6,
+   "responseEnd": 804.6,
+   "domInteractive": 816.7,
+   "img": {
+    "requestStart": 813.6,
+    "responseStart": 1376.2,
+    "responseEnd": 1379.8
+   },
+   "cdp": {
+    "recu": 804.6,
+    "fini": 804.3,
+    "receiveHeadersStart": 802.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.7878339999588
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 271,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 568.1,
+   "domInteractive": 579.2,
+   "img": {
+    "requestStart": 576.7,
+    "responseStart": 1139.3,
+    "responseEnd": 1145.3
+   },
+   "cdp": {
+    "recu": 568.6,
+    "fini": 567.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3335410000290722
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 272,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 567.7,
+   "domInteractive": 578.9,
+   "img": {
+    "requestStart": 575.9,
+    "responseStart": 1138.5,
+    "responseEnd": 1147.7
+   },
+   "cdp": {
+    "recu": 567.4,
+    "fini": 567.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4208750000107102
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 273,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 568.7,
+   "domInteractive": 580.3,
+   "img": {
+    "requestStart": 577.4,
+    "responseStart": 1139.9,
+    "responseEnd": 1146.3
+   },
+   "cdp": {
+    "recu": 569,
+    "fini": 568.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.5027500000433
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 274,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 568.5,
+   "domInteractive": 580.8,
+   "img": {
+    "requestStart": 578.2,
+    "responseStart": 1140.8,
+    "responseEnd": 1151.6
+   },
+   "cdp": {
+    "recu": 568.9,
+    "fini": 568.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 300.7813749999623
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 275,
+   "requestStart": 0.5,
+   "responseStart": 803.6,
+   "responseEnd": 804.5,
+   "domInteractive": 816.1,
+   "img": {
+    "requestStart": 813.7,
+    "responseStart": 1376.2,
+    "responseEnd": 1381
+   },
+   "cdp": {
+    "recu": 804.8,
+    "fini": 804.2,
+    "receiveHeadersStart": 803.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.8762080000015
+   }
+  },
+  {
+   "code": "R562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 276,
+   "requestStart": 0.5,
+   "responseStart": 802.3,
+   "responseEnd": 802.7,
+   "domInteractive": 806.8,
+   "img": {
+    "requestStart": 805.3,
+    "responseStart": 1367.9,
+    "responseEnd": 1370.2
+   },
+   "cdp": {
+    "recu": 802.6,
+    "fini": 802.4,
+    "receiveHeadersStart": 801.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.7347910000244
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 2048,
+   "id": 277,
+   "requestStart": 0.5,
+   "responseStart": 2,
+   "responseEnd": 2.1,
+   "domInteractive": 5.6,
+   "img": {
+    "requestStart": 4.3,
+    "responseStart": 4.6,
+    "responseEnd": 5
+   },
+   "cdp": {
+    "recu": 2.1,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3437920000287704
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 0,
+   "taille": 102400,
+   "id": 278,
+   "requestStart": 0.6,
+   "responseStart": 1.9,
+   "responseEnd": 2.1,
+   "domInteractive": 5.9,
+   "img": {
+    "requestStart": 4.4,
+    "responseStart": 4.6,
+    "responseEnd": 5.1
+   },
+   "cdp": {
+    "recu": 2.1,
+    "fini": 1.9,
+    "receiveHeadersStart": 1.5,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.354083999991417
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 2048,
+   "id": 279,
+   "requestStart": 0.5,
+   "responseStart": 300.5,
+   "responseEnd": 301,
+   "domInteractive": 312.4,
+   "img": {
+    "requestStart": 309.2,
+    "responseStart": 309.7,
+    "responseEnd": 311.1
+   },
+   "cdp": {
+    "recu": 301.6,
+    "fini": 300.8,
+    "receiveHeadersStart": 300.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 299.9097920000204
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 300,
+   "taille": 102400,
+   "id": 280,
+   "requestStart": 0.4,
+   "responseStart": 302.9,
+   "responseEnd": 303.2,
+   "domInteractive": 308.3,
+   "img": {
+    "requestStart": 306.3,
+    "responseStart": 306.6,
+    "responseEnd": 307.3
+   },
+   "cdp": {
+    "recu": 303.3,
+    "fini": 303,
+    "receiveHeadersStart": 302.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.39166699995985
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 2048,
+   "id": 281,
+   "requestStart": 1.1,
+   "responseStart": 803.1,
+   "responseEnd": 803.5,
+   "domInteractive": 814.8,
+   "img": {
+    "requestStart": 811.9,
+    "responseStart": 812.4,
+    "responseEnd": 813.6
+   },
+   "cdp": {
+    "recu": 804.2,
+    "fini": 803.3,
+    "receiveHeadersStart": 802.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 801.8330410000053
+   }
+  },
+  {
+   "code": "aucun",
+   "delai": 800,
+   "taille": 102400,
+   "id": 282,
+   "requestStart": 0.4,
+   "responseStart": 801.3,
+   "responseEnd": 801.9,
+   "domInteractive": 813.8,
+   "img": {
+    "requestStart": 810.2,
+    "responseStart": 810.6,
+    "responseEnd": 812
+   },
+   "cdp": {
+    "recu": 802.4,
+    "fini": 801.7,
+    "receiveHeadersStart": 800.9,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.7062919999589
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 2048,
+   "id": 283,
+   "requestStart": 0.5,
+   "responseStart": 40.5,
+   "responseEnd": 44.1,
+   "domInteractive": 47,
+   "img": {
+    "requestStart": 46,
+    "responseStart": 86,
+    "responseEnd": 87.8
+   },
+   "cdp": {
+    "recu": 44,
+    "fini": 43.9,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3706660000025295
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 0,
+   "taille": 102400,
+   "id": 284,
+   "requestStart": 0.5,
+   "responseStart": 40.6,
+   "responseEnd": 47.3,
+   "domInteractive": 51,
+   "img": {
+    "requestStart": 49.7,
+    "responseStart": 89.7,
+    "responseEnd": 91.2
+   },
+   "cdp": {
+    "recu": 47.1,
+    "fini": 47,
+    "receiveHeadersStart": 40.1,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.371166999975685
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 2048,
+   "id": 285,
+   "requestStart": 0.5,
+   "responseStart": 303,
+   "responseEnd": 304.2,
+   "domInteractive": 313.4,
+   "img": {
+    "requestStart": 311.3,
+    "responseStart": 351.3,
+    "responseEnd": 354.6
+   },
+   "cdp": {
+    "recu": 304.7,
+    "fini": 304,
+    "receiveHeadersStart": 302.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.32783299998846
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 300,
+   "taille": 102400,
+   "id": 286,
+   "requestStart": 0.5,
+   "responseStart": 302.1,
+   "responseEnd": 302.7,
+   "domInteractive": 309.8,
+   "img": {
+    "requestStart": 307.6,
+    "responseStart": 347.6,
+    "responseEnd": 354.8
+   },
+   "cdp": {
+    "recu": 302.7,
+    "fini": 302.5,
+    "receiveHeadersStart": 301.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.3867919999757
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 2048,
+   "id": 287,
+   "requestStart": 0.6,
+   "responseStart": 802.8,
+   "responseEnd": 803.6,
+   "domInteractive": 814.7,
+   "img": {
+    "requestStart": 811.6,
+    "responseStart": 851.7,
+    "responseEnd": 861.7
+   },
+   "cdp": {
+    "recu": 803.8,
+    "fini": 803.4,
+    "receiveHeadersStart": 802.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.1184999999823
+   }
+  },
+  {
+   "code": "L40",
+   "delai": 800,
+   "taille": 102400,
+   "id": 288,
+   "requestStart": 0.5,
+   "responseStart": 802.7,
+   "responseEnd": 803.7,
+   "domInteractive": 814.8,
+   "img": {
+    "requestStart": 811.8,
+    "responseStart": 851.9,
+    "responseEnd": 855.8
+   },
+   "cdp": {
+    "recu": 803.7,
+    "fini": 803.6,
+    "receiveHeadersStart": 802.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.0337090000394
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 2048,
+   "id": 289,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 565.7,
+   "domInteractive": 576,
+   "img": {
+    "requestStart": 572.8,
+    "responseStart": 1135.4,
+    "responseEnd": 1144.4
+   },
+   "cdp": {
+    "recu": 565.7,
+    "fini": 565.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.338458999991417
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 0,
+   "taille": 102400,
+   "id": 290,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 565,
+   "domInteractive": 570.4,
+   "img": {
+    "requestStart": 568.5,
+    "responseStart": 1131.2,
+    "responseEnd": 1132.9
+   },
+   "cdp": {
+    "recu": 564.8,
+    "fini": 564.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.352707999991253
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 2048,
+   "id": 291,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 572.4,
+   "domInteractive": 583.8,
+   "img": {
+    "requestStart": 580.7,
+    "responseStart": 1143.2,
+    "responseEnd": 1145.5
+   },
+   "cdp": {
+    "recu": 572.7,
+    "fini": 572.2,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.2093749999767
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 300,
+   "taille": 102400,
+   "id": 292,
+   "requestStart": 0.5,
+   "responseStart": 563.1,
+   "responseEnd": 569.7,
+   "domInteractive": 581,
+   "img": {
+    "requestStart": 577.3,
+    "responseStart": 1139.8,
+    "responseEnd": 1144.8
+   },
+   "cdp": {
+    "recu": 569.5,
+    "fini": 569.5,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.7445000000298
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 2048,
+   "id": 293,
+   "requestStart": 0.6,
+   "responseStart": 803.1,
+   "responseEnd": 803.9,
+   "domInteractive": 812.8,
+   "img": {
+    "requestStart": 810.6,
+    "responseStart": 1373.2,
+    "responseEnd": 1381.3
+   },
+   "cdp": {
+    "recu": 804.2,
+    "fini": 803.7,
+    "receiveHeadersStart": 802.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.3439580000122
+   }
+  },
+  {
+   "code": "L562",
+   "delai": 800,
+   "taille": 102400,
+   "id": 294,
+   "requestStart": 0.6,
+   "responseStart": 801.5,
+   "responseEnd": 802.1,
+   "domInteractive": 808.3,
+   "img": {
+    "requestStart": 806.2,
+    "responseStart": 1368.7,
+    "responseEnd": 1377.5
+   },
+   "cdp": {
+    "recu": 801.9,
+    "fini": 801.8,
+    "receiveHeadersStart": 801,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 800.7415000000037
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 2048,
+   "id": 295,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 580.1,
+   "domInteractive": 587.7,
+   "img": {
+    "requestStart": 585.3,
+    "responseStart": 1147.8,
+    "responseEnd": 1169.5
+   },
+   "cdp": {
+    "recu": 573.6,
+    "fini": 579.8,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.3470000000088476
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 0,
+   "taille": 102400,
+   "id": 296,
+   "requestStart": 0.5,
+   "responseStart": 563,
+   "responseEnd": 1113.9,
+   "domInteractive": 1114.7,
+   "img": {
+    "requestStart": 580.5,
+    "responseStart": 1143,
+    "responseEnd": 1160.9
+   },
+   "cdp": {
+    "recu": 573.1,
+    "fini": 1113.7,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 1.4677080000401475
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 2048,
+   "id": 297,
+   "requestStart": 0.4,
+   "responseStart": 563,
+   "responseEnd": 580.6,
+   "domInteractive": 587.9,
+   "img": {
+    "requestStart": 585.2,
+    "responseStart": 1147.8,
+    "responseEnd": 1170.2
+   },
+   "cdp": {
+    "recu": 577,
+    "fini": 580.4,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 301.54745800001547
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 300,
+   "taille": 102400,
+   "id": 298,
+   "requestStart": 0.6,
+   "responseStart": 563.1,
+   "responseEnd": 1113.6,
+   "domInteractive": 1115,
+   "img": {
+    "requestStart": 585.5,
+    "responseStart": 1148,
+    "responseEnd": 1169.2
+   },
+   "cdp": {
+    "recu": 576.4,
+    "fini": 1113.3,
+    "receiveHeadersStart": 562.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 302.5879169999971
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 2048,
+   "id": 299,
+   "requestStart": 0.5,
+   "responseStart": 802.8,
+   "responseEnd": 818.2,
+   "domInteractive": 819,
+   "img": {
+    "requestStart": 818.7,
+    "responseStart": 1381.3,
+    "responseEnd": 1399.4
+   },
+   "cdp": {
+    "recu": 812,
+    "fini": 818,
+    "receiveHeadersStart": 802.3,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.1306660000118
+   }
+  },
+  {
+   "code": "S4G",
+   "delai": 800,
+   "taille": 102400,
+   "id": 300,
+   "requestStart": 0.6,
+   "responseStart": 803.1,
+   "responseEnd": 1352.4,
+   "domInteractive": 1352.7,
+   "img": {
+    "requestStart": 820.6,
+    "responseStart": 1383.2,
+    "responseEnd": 1406.7
+   },
+   "cdp": {
+    "recu": 812.1,
+    "fini": 1352.1,
+    "receiveHeadersStart": 802.6,
+    "sendEnd": 0.1
+   },
+   "serveur": {
+    "entetes": 802.3659170000465
+   }
+  }
+ ]
+}
